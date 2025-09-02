@@ -1,10 +1,10 @@
-echo "➕ Add tất cả file thay đổi..."
+echo "--➕ Add tất cả file thay đổi..."
 git add .
 
-echo "📝 Commit..."
+echo "--📝 Commit..."
 git commit -m "u"
 
-echo "📤 Push lên remote..."
+echo "--📤 Push lên remote..."
 git push
 
-echo "✅ Hoàn tất!"
+echo "--✅ Hoàn tất!"

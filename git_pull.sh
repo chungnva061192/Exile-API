@@ -7,7 +7,4 @@ set -e  # Nếu có lệnh nào lỗi thì dừng ngay
 echo "--⬇️  Pull lần 1..."
 git pull
 
-echo "--⬇️  Pull lần 2..."
-git pull
-
 echo "✅ Hoàn tất!"

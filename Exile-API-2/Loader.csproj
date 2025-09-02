@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Loader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>netcoreapp8.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+	<None Include="Base\**">
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+    <Reference Include="Serilog">
+      <HintPath>..\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Locator">
+      <HintPath>..\Microsoft.Build.Locator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

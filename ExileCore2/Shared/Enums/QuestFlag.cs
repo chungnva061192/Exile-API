@@ -1,0 +1,10293 @@
+﻿using System;
+
+namespace ExileCore2.Shared.Enums
+{
+	// Token: 0x02000159 RID: 345
+	public enum QuestFlag
+	{
+		// Token: 0x04006941 RID: 26945
+		A1Q1KilledHillock,
+		// Token: 0x04006942 RID: 26946
+		Act4HoodedMentorSummonedSolitaryConfinement,
+		// Token: 0x04006943 RID: 26947
+		PrisonerWeaponPartAcquired,
+		// Token: 0x04006944 RID: 26948
+		Act4ThreeWeaponPiecesAcquiredSeen,
+		// Token: 0x04006945 RID: 26949
+		G4CaptainSpearPiecesAcquiredSeen,
+		// Token: 0x04006946 RID: 26950
+		A1Q2KilledBrutus,
+		// Token: 0x04006947 RID: 26951
+		IsleOfKinSulphiteSpireActivated,
+		// Token: 0x04006948 RID: 26952
+		IsleOfKinDelveRoomGlyphRead,
+		// Token: 0x04006949 RID: 26953
+		TreasureDeedHeldBefore,
+		// Token: 0x0400694A RID: 26954
+		A1Q3KilledSeaWitch,
+		// Token: 0x0400694B RID: 26955
+		VolcanicWarrensRattlecageLandmarkComplete,
+		// Token: 0x0400694C RID: 26956
+		CompletedSkillGemTutorial,
+		// Token: 0x0400694D RID: 26957
+		Act4MapFragment1Held,
+		// Token: 0x0400694E RID: 26958
+		Act4MapFragment1Used,
+		// Token: 0x0400694F RID: 26959
+		Act4MapFragment2Held,
+		// Token: 0x04006950 RID: 26960
+		Act4MapFragment2Used,
+		// Token: 0x04006951 RID: 26961
+		Act4MapFragment3Held,
+		// Token: 0x04006952 RID: 26962
+		Act4MapFragment3Used,
+		// Token: 0x04006953 RID: 26963
+		Act4MapFragment4Held,
+		// Token: 0x04006954 RID: 26964
+		Act4MapFragment4Used,
+		// Token: 0x04006955 RID: 26965
+		Act4TreasureMapShovelHeld,
+		// Token: 0x04006956 RID: 26966
+		Act4TreasureMapShovelUsed,
+		// Token: 0x04006957 RID: 26967
+		CompletedLifeFlaskTutorial,
+		// Token: 0x04006958 RID: 26968
+		EnterMapMineshaft,
+		// Token: 0x04006959 RID: 26969
+		EnterMapTowerMesa,
+		// Token: 0x0400695A RID: 26970
+		EnterMapTowerSinkingSpire,
+		// Token: 0x0400695B RID: 26971
+		Act4MapFragment1Seen,
+		// Token: 0x0400695C RID: 26972
+		Act4MapFragment2Seen,
+		// Token: 0x0400695D RID: 26973
+		Act4MapFragment3Seen,
+		// Token: 0x0400695E RID: 26974
+		Act4MapFragment4Seen,
+		// Token: 0x0400695F RID: 26975
+		Act4TreasureMapsTurnedIn1,
+		// Token: 0x04006960 RID: 26976
+		Act4TreasureMapsTurnedIn2,
+		// Token: 0x04006961 RID: 26977
+		Act4TreasureMapsTurnedIn3,
+		// Token: 0x04006962 RID: 26978
+		Act4TreasureMapsTurnedIn4,
+		// Token: 0x04006963 RID: 26979
+		EnterMapTowerAlpineRidge,
+		// Token: 0x04006964 RID: 26980
+		EnterMapTowerBluff,
+		// Token: 0x04006965 RID: 26981
+		EnterUniqueMapUntainted,
+		// Token: 0x04006966 RID: 26982
+		EnterUniqueMapVaults,
+		// Token: 0x04006967 RID: 26983
+		EnterUniqueMapAzmeriBossRush,
+		// Token: 0x04006968 RID: 26984
+		UniqueMapPirateIslandFindTreasure,
+		// Token: 0x04006969 RID: 26985
+		EnterUniqueMapLakeOfKalandra,
+		// Token: 0x0400696A RID: 26986
+		UberDoryaniSeen,
+		// Token: 0x0400696B RID: 26987
+		A1Q5NessaCongratulated,
+		// Token: 0x0400696C RID: 26988
+		UberJamanraSeen,
+		// Token: 0x0400696D RID: 26989
+		UberCountSeen,
+		// Token: 0x0400696E RID: 26990
+		EnterReliquary,
+		// Token: 0x0400696F RID: 26991
+		EnteredHideout,
+		// Token: 0x04006970 RID: 26992
+		A1Q6KilledFairgraves,
+		// Token: 0x04006971 RID: 26993
+		JamanraSiteSeen,
+		// Token: 0x04006972 RID: 26994
+		WaterGoddessSeenGlyph,
+		// Token: 0x04006973 RID: 26995
+		WaterGoddessSeenWithoutSeeingGlyph,
+		// Token: 0x04006974 RID: 26996
+		WaterGoddessBurnedSeenGlyph,
+		// Token: 0x04006975 RID: 26997
+		WaterGoddessBurnedWithoutSeeingGlyph,
+		// Token: 0x04006976 RID: 26998
+		BreachstoneBreachStarted,
+		// Token: 0x04006977 RID: 26999
+		BreachstoneAreaEntered,
+		// Token: 0x04006978 RID: 27000
+		AfterBanditFight,
+		// Token: 0x04006979 RID: 27001
+		SimulacrumAreaEntered,
+		// Token: 0x0400697A RID: 27002
+		SimulacrumDeliriumStarted,
+		// Token: 0x0400697B RID: 27003
+		BanditAfterFightTalk,
+		// Token: 0x0400697C RID: 27004
+		EndGameAvailable,
+		// Token: 0x0400697D RID: 27005
+		EndGameEnabled,
+		// Token: 0x0400697E RID: 27006
+		HeistHubAvailable,
+		// Token: 0x0400697F RID: 27007
+		DristanMet,
+		// Token: 0x04006980 RID: 27008
+		FirstWispFound,
+		// Token: 0x04006981 RID: 27009
+		FirstSacredWispFound,
+		// Token: 0x04006982 RID: 27010
+		AfterFirstSacredWispDefeated,
+		// Token: 0x04006983 RID: 27011
+		BreachQuestFirstBreachCompletedSeen,
+		// Token: 0x04006984 RID: 27012
+		BreachstoneHeldBefore,
+		// Token: 0x04006985 RID: 27013
+		RitualAreaEntered,
+		// Token: 0x04006986 RID: 27014
+		BreachQuestBreachstoneBossDefeatedSeen,
+		// Token: 0x04006987 RID: 27015
+		DeliriumQuestFirstDeliriumCompletedSeen,
+		// Token: 0x04006988 RID: 27016
+		SimulacrumHeldBefore,
+		// Token: 0x04006989 RID: 27017
+		NEVERSET,
+		// Token: 0x0400698A RID: 27018
+		SimulacrumDeliriumCompleted,
+		// Token: 0x0400698B RID: 27019
+		EnterMapLostTowersAudio,
+		// Token: 0x0400698C RID: 27020
+		LogbookAreaEntered,
+		// Token: 0x0400698D RID: 27021
+		ExpeditionOlrothSeen,
+		// Token: 0x0400698E RID: 27022
+		LogbookHeldBefore,
+		// Token: 0x0400698F RID: 27023
+		LogbookHeldBeforeWithoutQuest,
+		// Token: 0x04006990 RID: 27024
+		ExpeditionQuestFirstExpeditionCompletedSeen,
+		// Token: 0x04006991 RID: 27025
+		OlrothSubareaEntered,
+		// Token: 0x04006992 RID: 27026
+		ExpeditionOlrothSeenWithoutDannigGossip,
+		// Token: 0x04006993 RID: 27027
+		ExpeditionOlrothDefeatedWithoutDannigGossip,
+		// Token: 0x04006994 RID: 27028
+		RitualAltarSeenEndgame,
+		// Token: 0x04006995 RID: 27029
+		FindFirstRitualNotKnownEndgame,
+		// Token: 0x04006996 RID: 27030
+		CompleteFirstRitualEndgame,
+		// Token: 0x04006997 RID: 27031
+		CompleteFirstRitualEndgameNotKnown,
+		// Token: 0x04006998 RID: 27032
+		RitualQuestFirstRitualCompletedSeen,
+		// Token: 0x04006999 RID: 27033
+		AudienceWithTheKingHeldBefore,
+		// Token: 0x0400699A RID: 27034
+		DiedInAzmeriForest,
+		// Token: 0x0400699B RID: 27035
+		AudienceWithTheKingBossDefeated,
+		// Token: 0x0400699C RID: 27036
+		CompletedItemComparisonTutorial,
+		// Token: 0x0400699D RID: 27037
+		AudienceWithTheKingBossDefeatedWithoutCampaignKill,
+		// Token: 0x0400699E RID: 27038
+		EnterUniqueMapWildwood,
+		// Token: 0x0400699F RID: 27039
+		DefeatEssenceMonster,
+		// Token: 0x040069A0 RID: 27040
+		ExpeditionCleared,
+		// Token: 0x040069A1 RID: 27041
+		HaveAtlasSkillBookUnique1,
+		// Token: 0x040069A2 RID: 27042
+		HaveAtlasSkillBookUnique2,
+		// Token: 0x040069A3 RID: 27043
+		HaveAtlasSkillBookUnique3,
+		// Token: 0x040069A4 RID: 27044
+		HaveAtlasSkillBookUnique4,
+		// Token: 0x040069A5 RID: 27045
+		HaveAtlasSkillBookUnique5,
+		// Token: 0x040069A6 RID: 27046
+		EndgameCorruptedMapEntered,
+		// Token: 0x040069A7 RID: 27047
+		DannigEGWhyWeAreHereContinuedSeen,
+		// Token: 0x040069A8 RID: 27048
+		DannigEGOnLogbooks,
+		// Token: 0x040069A9 RID: 27049
+		LogbookAreaEnteredBefore,
+		// Token: 0x040069AA RID: 27050
+		ExpeditionOlrothKilledPlayer,
+		// Token: 0x040069AB RID: 27051
+		ExpeditionOlrothKilledPlayerSeen,
+		// Token: 0x040069AC RID: 27052
+		DannigEGLogbookFoundSeen,
+		// Token: 0x040069AD RID: 27053
+		EnteredCorruptedNexus,
+		// Token: 0x040069AE RID: 27054
+		CorruptedNexusBossSeen,
+		// Token: 0x040069AF RID: 27055
+		LimitedRespawnMode,
+		// Token: 0x040069B0 RID: 27056
+		CastawayCaptainSeen,
+		// Token: 0x040069B1 RID: 27057
+		CompletedWaypointTutorial,
+		// Token: 0x040069B2 RID: 27058
+		EnteredTowerMap,
+		// Token: 0x040069B3 RID: 27059
+		PrecusorBeaconSeen,
+		// Token: 0x040069B4 RID: 27060
+		EndgameHellscapeDemonBossDoryaniTime,
+		// Token: 0x040069B5 RID: 27061
+		EndgameHellscapeFleshBossDoryaniTime,
+		// Token: 0x040069B6 RID: 27062
+		EndgameHellscapePaleBossDoryaniTime,
+		// Token: 0x040069B7 RID: 27063
+		CorruptionNexusBossSpawned,
+		// Token: 0x040069B8 RID: 27064
+		G2_2LandmarkChestUncutSkillGemPickedUp,
+		// Token: 0x040069B9 RID: 27065
+		G2_4_1KabalaSkillGemPickedUp,
+		// Token: 0x040069BA RID: 27066
+		G3_3SilverfistSkillGemPickedUp,
+		// Token: 0x040069BB RID: 27067
+		G3_14ViperSkillGemPickedUp,
+		// Token: 0x040069BC RID: 27068
+		G1_11HuntingGroundsSkillGemPickedUp,
+		// Token: 0x040069BD RID: 27069
+		TimeBossStandInHourglass,
+		// Token: 0x040069BE RID: 27070
+		TimeBossCollectHourglass,
+		// Token: 0x040069BF RID: 27071
+		SmallSoulCoreHeld5,
+		// Token: 0x040069C0 RID: 27072
+		SmallSoulCoreUsed5,
+		// Token: 0x040069C1 RID: 27073
+		MediumSoulCoreHeld3,
+		// Token: 0x040069C2 RID: 27074
+		MediumSoulCoreUsed3,
+		// Token: 0x040069C3 RID: 27075
+		RuneBlankQuestHeld,
+		// Token: 0x040069C4 RID: 27076
+		RuneBlankQuestUsed,
+		// Token: 0x040069C5 RID: 27077
+		RenlyBlankRuneQuestSeen,
+		// Token: 0x040069C6 RID: 27078
+		OghamVillageArtificerOrbPickedUp,
+		// Token: 0x040069C7 RID: 27079
+		MawdunQuarryArtificerOrbPickedUp,
+		// Token: 0x040069C8 RID: 27080
+		DesharArtificerOrbPickedUp,
+		// Token: 0x040069C9 RID: 27081
+		CrazySnakeLadyArtificersOrbRewardSeen,
+		// Token: 0x040069CA RID: 27082
+		CrazySnakeLadyArtificersOrbRewardTaken,
+		// Token: 0x040069CB RID: 27083
+		RaidTheTreasureVaultArtificersOrbRewardSeen,
+		// Token: 0x040069CC RID: 27084
+		RaidTheTreasureVaultArtificersOrbRewardTaken,
+		// Token: 0x040069CD RID: 27085
+		MudBurrowerArtificersOrbQuestRewardSeen,
+		// Token: 0x040069CE RID: 27086
+		MudBurrowerArtificersOrbQuestRewardTaken,
+		// Token: 0x040069CF RID: 27087
+		TitanGrottoRunePickedUp,
+		// Token: 0x040069D0 RID: 27088
+		SanctumBossDefeatedSessionFlag,
+		// Token: 0x040069D1 RID: 27089
+		UNUSED138,
+		// Token: 0x040069D2 RID: 27090
+		UNUSED139,
+		// Token: 0x040069D3 RID: 27091
+		UNUSED140,
+		// Token: 0x040069D4 RID: 27092
+		UNUSED141,
+		// Token: 0x040069D5 RID: 27093
+		UNUSED142,
+		// Token: 0x040069D6 RID: 27094
+		UNUSED143,
+		// Token: 0x040069D7 RID: 27095
+		UNUSED144,
+		// Token: 0x040069D8 RID: 27096
+		UNUSED145,
+		// Token: 0x040069D9 RID: 27097
+		UNUSED146,
+		// Token: 0x040069DA RID: 27098
+		UNUSED147,
+		// Token: 0x040069DB RID: 27099
+		UNUSED148,
+		// Token: 0x040069DC RID: 27100
+		UNUSED149,
+		// Token: 0x040069DD RID: 27101
+		UNUSED150,
+		// Token: 0x040069DE RID: 27102
+		UNUSED151,
+		// Token: 0x040069DF RID: 27103
+		UNUSED152,
+		// Token: 0x040069E0 RID: 27104
+		UNUSED153,
+		// Token: 0x040069E1 RID: 27105
+		UNUSED154,
+		// Token: 0x040069E2 RID: 27106
+		UNUSED155,
+		// Token: 0x040069E3 RID: 27107
+		UNUSED156,
+		// Token: 0x040069E4 RID: 27108
+		UNUSED157,
+		// Token: 0x040069E5 RID: 27109
+		UNUSED158,
+		// Token: 0x040069E6 RID: 27110
+		UNUSED159,
+		// Token: 0x040069E7 RID: 27111
+		UNUSED160,
+		// Token: 0x040069E8 RID: 27112
+		UNUSED161,
+		// Token: 0x040069E9 RID: 27113
+		UNUSED162,
+		// Token: 0x040069EA RID: 27114
+		UNUSED163,
+		// Token: 0x040069EB RID: 27115
+		UNUSED164,
+		// Token: 0x040069EC RID: 27116
+		UNUSED165,
+		// Token: 0x040069ED RID: 27117
+		UNUSED166,
+		// Token: 0x040069EE RID: 27118
+		UNUSED167,
+		// Token: 0x040069EF RID: 27119
+		UNUSED168,
+		// Token: 0x040069F0 RID: 27120
+		UNUSED169,
+		// Token: 0x040069F1 RID: 27121
+		UNUSED170,
+		// Token: 0x040069F2 RID: 27122
+		UNUSED171,
+		// Token: 0x040069F3 RID: 27123
+		UNUSED172,
+		// Token: 0x040069F4 RID: 27124
+		UNUSED173,
+		// Token: 0x040069F5 RID: 27125
+		UNUSED174,
+		// Token: 0x040069F6 RID: 27126
+		UNUSED175,
+		// Token: 0x040069F7 RID: 27127
+		UNUSED176,
+		// Token: 0x040069F8 RID: 27128
+		UNUSED177,
+		// Token: 0x040069F9 RID: 27129
+		UNUSED178,
+		// Token: 0x040069FA RID: 27130
+		KilledAtziri,
+		// Token: 0x040069FB RID: 27131
+		UNUSED180,
+		// Token: 0x040069FC RID: 27132
+		UNUSED181,
+		// Token: 0x040069FD RID: 27133
+		UNUSED182,
+		// Token: 0x040069FE RID: 27134
+		UNUSED183,
+		// Token: 0x040069FF RID: 27135
+		UNUSED184,
+		// Token: 0x04006A00 RID: 27136
+		UNUSED185,
+		// Token: 0x04006A01 RID: 27137
+		UNUSED186,
+		// Token: 0x04006A02 RID: 27138
+		UNUSED187,
+		// Token: 0x04006A03 RID: 27139
+		UNUSED188,
+		// Token: 0x04006A04 RID: 27140
+		UNUSED189,
+		// Token: 0x04006A05 RID: 27141
+		UNUSED190,
+		// Token: 0x04006A06 RID: 27142
+		UNUSED191,
+		// Token: 0x04006A07 RID: 27143
+		UNUSED192,
+		// Token: 0x04006A08 RID: 27144
+		UNUSED193,
+		// Token: 0x04006A09 RID: 27145
+		UNUSED194,
+		// Token: 0x04006A0A RID: 27146
+		UNUSED195,
+		// Token: 0x04006A0B RID: 27147
+		UNUSED196,
+		// Token: 0x04006A0C RID: 27148
+		UNUSED197,
+		// Token: 0x04006A0D RID: 27149
+		UNUSED198,
+		// Token: 0x04006A0E RID: 27150
+		UNUSED199,
+		// Token: 0x04006A0F RID: 27151
+		UNUSED200,
+		// Token: 0x04006A10 RID: 27152
+		UNUSED201,
+		// Token: 0x04006A11 RID: 27153
+		UNUSED202,
+		// Token: 0x04006A12 RID: 27154
+		UNUSED203,
+		// Token: 0x04006A13 RID: 27155
+		UNUSED204,
+		// Token: 0x04006A14 RID: 27156
+		UNUSED205,
+		// Token: 0x04006A15 RID: 27157
+		UNUSED206,
+		// Token: 0x04006A16 RID: 27158
+		UNUSED207,
+		// Token: 0x04006A17 RID: 27159
+		UNUSED208,
+		// Token: 0x04006A18 RID: 27160
+		UNUSED209,
+		// Token: 0x04006A19 RID: 27161
+		UNUSED210,
+		// Token: 0x04006A1A RID: 27162
+		UNUSED211,
+		// Token: 0x04006A1B RID: 27163
+		UNUSED212,
+		// Token: 0x04006A1C RID: 27164
+		CompletedSupportGemTutorial,
+		// Token: 0x04006A1D RID: 27165
+		CompletedManaFlaskTutorial,
+		// Token: 0x04006A1E RID: 27166
+		UNUSED213,
+		// Token: 0x04006A1F RID: 27167
+		UNUSED214,
+		// Token: 0x04006A20 RID: 27168
+		UNUSED215,
+		// Token: 0x04006A21 RID: 27169
+		UNUSED216,
+		// Token: 0x04006A22 RID: 27170
+		UNUSED217,
+		// Token: 0x04006A23 RID: 27171
+		UNUSED218,
+		// Token: 0x04006A24 RID: 27172
+		UNUSED219,
+		// Token: 0x04006A25 RID: 27173
+		UNUSED220,
+		// Token: 0x04006A26 RID: 27174
+		UNUSED221,
+		// Token: 0x04006A27 RID: 27175
+		UNUSED222,
+		// Token: 0x04006A28 RID: 27176
+		UNUSED223,
+		// Token: 0x04006A29 RID: 27177
+		UNUSED224,
+		// Token: 0x04006A2A RID: 27178
+		UNUSED225,
+		// Token: 0x04006A2B RID: 27179
+		UNUSED226,
+		// Token: 0x04006A2C RID: 27180
+		UNUSED227,
+		// Token: 0x04006A2D RID: 27181
+		UNUSED228,
+		// Token: 0x04006A2E RID: 27182
+		UNUSED229,
+		// Token: 0x04006A2F RID: 27183
+		UNUSED230,
+		// Token: 0x04006A30 RID: 27184
+		UNUSED231,
+		// Token: 0x04006A31 RID: 27185
+		UNUSED232,
+		// Token: 0x04006A32 RID: 27186
+		UNUSED233,
+		// Token: 0x04006A33 RID: 27187
+		UNUSED234,
+		// Token: 0x04006A34 RID: 27188
+		UNUSED235,
+		// Token: 0x04006A35 RID: 27189
+		UNUSED236,
+		// Token: 0x04006A36 RID: 27190
+		UNUSED237,
+		// Token: 0x04006A37 RID: 27191
+		UNUSED238,
+		// Token: 0x04006A38 RID: 27192
+		UNUSED239,
+		// Token: 0x04006A39 RID: 27193
+		UNUSED240,
+		// Token: 0x04006A3A RID: 27194
+		UNUSED241,
+		// Token: 0x04006A3B RID: 27195
+		UNUSED242,
+		// Token: 0x04006A3C RID: 27196
+		UNUSED243,
+		// Token: 0x04006A3D RID: 27197
+		UNUSED244,
+		// Token: 0x04006A3E RID: 27198
+		UNUSED245,
+		// Token: 0x04006A3F RID: 27199
+		UNUSED246,
+		// Token: 0x04006A40 RID: 27200
+		UNUSED247,
+		// Token: 0x04006A41 RID: 27201
+		UNUSED248,
+		// Token: 0x04006A42 RID: 27202
+		UNUSED249,
+		// Token: 0x04006A43 RID: 27203
+		UNUSED250,
+		// Token: 0x04006A44 RID: 27204
+		UNUSED251,
+		// Token: 0x04006A45 RID: 27205
+		UNUSED252,
+		// Token: 0x04006A46 RID: 27206
+		UNUSED253,
+		// Token: 0x04006A47 RID: 27207
+		UNUSED254,
+		// Token: 0x04006A48 RID: 27208
+		UNUSED255,
+		// Token: 0x04006A49 RID: 27209
+		UNUSED256,
+		// Token: 0x04006A4A RID: 27210
+		UNUSED257,
+		// Token: 0x04006A4B RID: 27211
+		UNUSED258,
+		// Token: 0x04006A4C RID: 27212
+		UNUSED259,
+		// Token: 0x04006A4D RID: 27213
+		UNUSED260,
+		// Token: 0x04006A4E RID: 27214
+		UNUSED261,
+		// Token: 0x04006A4F RID: 27215
+		UNUSED262,
+		// Token: 0x04006A50 RID: 27216
+		UNUSED263,
+		// Token: 0x04006A51 RID: 27217
+		UNUSED264,
+		// Token: 0x04006A52 RID: 27218
+		UNUSED265,
+		// Token: 0x04006A53 RID: 27219
+		UNUSED266,
+		// Token: 0x04006A54 RID: 27220
+		UNUSED267,
+		// Token: 0x04006A55 RID: 27221
+		UNUSED268,
+		// Token: 0x04006A56 RID: 27222
+		UNUSED269,
+		// Token: 0x04006A57 RID: 27223
+		UNUSED270,
+		// Token: 0x04006A58 RID: 27224
+		UNUSED271,
+		// Token: 0x04006A59 RID: 27225
+		UNUSED272,
+		// Token: 0x04006A5A RID: 27226
+		CompletedPassivePointTutorial,
+		// Token: 0x04006A5B RID: 27227
+		UNUSED273,
+		// Token: 0x04006A5C RID: 27228
+		UNUSED274,
+		// Token: 0x04006A5D RID: 27229
+		UNUSED275,
+		// Token: 0x04006A5E RID: 27230
+		UNUSED276,
+		// Token: 0x04006A5F RID: 27231
+		UNUSED277,
+		// Token: 0x04006A60 RID: 27232
+		UNUSED278,
+		// Token: 0x04006A61 RID: 27233
+		UNUSED279,
+		// Token: 0x04006A62 RID: 27234
+		UNUSED280,
+		// Token: 0x04006A63 RID: 27235
+		UNUSED281,
+		// Token: 0x04006A64 RID: 27236
+		UNUSED282,
+		// Token: 0x04006A65 RID: 27237
+		UNUSED283,
+		// Token: 0x04006A66 RID: 27238
+		UNUSED284,
+		// Token: 0x04006A67 RID: 27239
+		UNUSED285,
+		// Token: 0x04006A68 RID: 27240
+		UNUSED286,
+		// Token: 0x04006A69 RID: 27241
+		UNUSED287,
+		// Token: 0x04006A6A RID: 27242
+		UNUSED288,
+		// Token: 0x04006A6B RID: 27243
+		UNUSED289,
+		// Token: 0x04006A6C RID: 27244
+		UNUSED290,
+		// Token: 0x04006A6D RID: 27245
+		UNUSED291,
+		// Token: 0x04006A6E RID: 27246
+		UNUSED292,
+		// Token: 0x04006A6F RID: 27247
+		UNUSED293,
+		// Token: 0x04006A70 RID: 27248
+		UNUSED294,
+		// Token: 0x04006A71 RID: 27249
+		UNUSED295,
+		// Token: 0x04006A72 RID: 27250
+		UNUSED296,
+		// Token: 0x04006A73 RID: 27251
+		UNUSED297,
+		// Token: 0x04006A74 RID: 27252
+		UNUSED298,
+		// Token: 0x04006A75 RID: 27253
+		UNUSED299,
+		// Token: 0x04006A76 RID: 27254
+		UNUSED300,
+		// Token: 0x04006A77 RID: 27255
+		UNUSED301,
+		// Token: 0x04006A78 RID: 27256
+		UNUSED302,
+		// Token: 0x04006A79 RID: 27257
+		UNUSED303,
+		// Token: 0x04006A7A RID: 27258
+		UNUSED304,
+		// Token: 0x04006A7B RID: 27259
+		UNUSED305,
+		// Token: 0x04006A7C RID: 27260
+		UNUSED306,
+		// Token: 0x04006A7D RID: 27261
+		UNUSED307,
+		// Token: 0x04006A7E RID: 27262
+		UNUSED308,
+		// Token: 0x04006A7F RID: 27263
+		UNUSED309,
+		// Token: 0x04006A80 RID: 27264
+		UNUSED310,
+		// Token: 0x04006A81 RID: 27265
+		UNUSED311,
+		// Token: 0x04006A82 RID: 27266
+		UNUSED312,
+		// Token: 0x04006A83 RID: 27267
+		UNUSED313,
+		// Token: 0x04006A84 RID: 27268
+		UNUSED314,
+		// Token: 0x04006A85 RID: 27269
+		UNUSED315,
+		// Token: 0x04006A86 RID: 27270
+		UNUSED316,
+		// Token: 0x04006A87 RID: 27271
+		UNUSED317,
+		// Token: 0x04006A88 RID: 27272
+		UNUSED318,
+		// Token: 0x04006A89 RID: 27273
+		UNUSED319,
+		// Token: 0x04006A8A RID: 27274
+		UNUSED320,
+		// Token: 0x04006A8B RID: 27275
+		UNUSED321,
+		// Token: 0x04006A8C RID: 27276
+		UNUSED322,
+		// Token: 0x04006A8D RID: 27277
+		UNUSED323,
+		// Token: 0x04006A8E RID: 27278
+		UNUSED324,
+		// Token: 0x04006A8F RID: 27279
+		UNUSED325,
+		// Token: 0x04006A90 RID: 27280
+		UNUSED326,
+		// Token: 0x04006A91 RID: 27281
+		UNUSED327,
+		// Token: 0x04006A92 RID: 27282
+		UNUSED328,
+		// Token: 0x04006A93 RID: 27283
+		UNUSED329,
+		// Token: 0x04006A94 RID: 27284
+		UNUSED330,
+		// Token: 0x04006A95 RID: 27285
+		UNUSED331,
+		// Token: 0x04006A96 RID: 27286
+		UNUSED332,
+		// Token: 0x04006A97 RID: 27287
+		UNUSED333,
+		// Token: 0x04006A98 RID: 27288
+		UNUSED334,
+		// Token: 0x04006A99 RID: 27289
+		UNUSED335,
+		// Token: 0x04006A9A RID: 27290
+		UNUSED336,
+		// Token: 0x04006A9B RID: 27291
+		UNUSED337,
+		// Token: 0x04006A9C RID: 27292
+		UNUSED338,
+		// Token: 0x04006A9D RID: 27293
+		UNUSED339,
+		// Token: 0x04006A9E RID: 27294
+		UNUSED340,
+		// Token: 0x04006A9F RID: 27295
+		UNUSED341,
+		// Token: 0x04006AA0 RID: 27296
+		UNUSED342,
+		// Token: 0x04006AA1 RID: 27297
+		UNUSED343,
+		// Token: 0x04006AA2 RID: 27298
+		UNUSED344,
+		// Token: 0x04006AA3 RID: 27299
+		UNUSED345,
+		// Token: 0x04006AA4 RID: 27300
+		UNUSED346,
+		// Token: 0x04006AA5 RID: 27301
+		UNUSED347,
+		// Token: 0x04006AA6 RID: 27302
+		UNUSED348,
+		// Token: 0x04006AA7 RID: 27303
+		UNUSED349,
+		// Token: 0x04006AA8 RID: 27304
+		UNUSED350,
+		// Token: 0x04006AA9 RID: 27305
+		UNUSED351,
+		// Token: 0x04006AAA RID: 27306
+		UNUSED352,
+		// Token: 0x04006AAB RID: 27307
+		UNUSED353,
+		// Token: 0x04006AAC RID: 27308
+		HaveOniGoroshi,
+		// Token: 0x04006AAD RID: 27309
+		UNUSED354,
+		// Token: 0x04006AAE RID: 27310
+		UNUSED355,
+		// Token: 0x04006AAF RID: 27311
+		UNUSED356,
+		// Token: 0x04006AB0 RID: 27312
+		UNUSED357,
+		// Token: 0x04006AB1 RID: 27313
+		CompletedAllTutorials,
+		// Token: 0x04006AB2 RID: 27314
+		CompletedSecondPassiveTutorial,
+		// Token: 0x04006AB3 RID: 27315
+		CompletedIdentificationTutorial,
+		// Token: 0x04006AB4 RID: 27316
+		CompletedGemLevelUpTutorial,
+		// Token: 0x04006AB5 RID: 27317
+		UNUSED358,
+		// Token: 0x04006AB6 RID: 27318
+		UNUSED359,
+		// Token: 0x04006AB7 RID: 27319
+		UNUSED360,
+		// Token: 0x04006AB8 RID: 27320
+		UNUSED361,
+		// Token: 0x04006AB9 RID: 27321
+		UNUSED362,
+		// Token: 0x04006ABA RID: 27322
+		HaveAtlasPass,
+		// Token: 0x04006ABB RID: 27323
+		CompletedNonTrivialRecipe,
+		// Token: 0x04006ABC RID: 27324
+		MapPortal1Open,
+		// Token: 0x04006ABD RID: 27325
+		MapPortal2Open,
+		// Token: 0x04006ABE RID: 27326
+		MapPortal3Open,
+		// Token: 0x04006ABF RID: 27327
+		MapPortal4Open,
+		// Token: 0x04006AC0 RID: 27328
+		MapPortal5Open,
+		// Token: 0x04006AC1 RID: 27329
+		MapPortal6Open,
+		// Token: 0x04006AC2 RID: 27330
+		UnlockedLillyGemShop,
+		// Token: 0x04006AC3 RID: 27331
+		UNUSED369,
+		// Token: 0x04006AC4 RID: 27332
+		UNUSED370,
+		// Token: 0x04006AC5 RID: 27333
+		UNUSED371,
+		// Token: 0x04006AC6 RID: 27334
+		UNUSED372,
+		// Token: 0x04006AC7 RID: 27335
+		UNUSED373,
+		// Token: 0x04006AC8 RID: 27336
+		UNUSED374,
+		// Token: 0x04006AC9 RID: 27337
+		UNUSED375,
+		// Token: 0x04006ACA RID: 27338
+		UNUSED376,
+		// Token: 0x04006ACB RID: 27339
+		UNUSED377,
+		// Token: 0x04006ACC RID: 27340
+		UNUSED378,
+		// Token: 0x04006ACD RID: 27341
+		UNUSED379,
+		// Token: 0x04006ACE RID: 27342
+		UNUSED380,
+		// Token: 0x04006ACF RID: 27343
+		UNUSED381,
+		// Token: 0x04006AD0 RID: 27344
+		UNUSED382,
+		// Token: 0x04006AD1 RID: 27345
+		UNUSED383,
+		// Token: 0x04006AD2 RID: 27346
+		UNUSED384,
+		// Token: 0x04006AD3 RID: 27347
+		UNUSED385,
+		// Token: 0x04006AD4 RID: 27348
+		UNUSED386,
+		// Token: 0x04006AD5 RID: 27349
+		UNUSED387,
+		// Token: 0x04006AD6 RID: 27350
+		UNUSED388,
+		// Token: 0x04006AD7 RID: 27351
+		UNUSED389,
+		// Token: 0x04006AD8 RID: 27352
+		UNUSED390,
+		// Token: 0x04006AD9 RID: 27353
+		UNUSED391,
+		// Token: 0x04006ADA RID: 27354
+		UNUSED392,
+		// Token: 0x04006ADB RID: 27355
+		UNUSED393,
+		// Token: 0x04006ADC RID: 27356
+		UNUSED394,
+		// Token: 0x04006ADD RID: 27357
+		UNUSED395,
+		// Token: 0x04006ADE RID: 27358
+		UNUSED396,
+		// Token: 0x04006ADF RID: 27359
+		UNUSED397,
+		// Token: 0x04006AE0 RID: 27360
+		UNUSED398,
+		// Token: 0x04006AE1 RID: 27361
+		UNUSED399,
+		// Token: 0x04006AE2 RID: 27362
+		UNUSED400,
+		// Token: 0x04006AE3 RID: 27363
+		KilledBiteZombie,
+		// Token: 0x04006AE4 RID: 27364
+		UNUSED401,
+		// Token: 0x04006AE5 RID: 27365
+		UNUSED402,
+		// Token: 0x04006AE6 RID: 27366
+		UNUSED403,
+		// Token: 0x04006AE7 RID: 27367
+		UNUSED404,
+		// Token: 0x04006AE8 RID: 27368
+		UNUSED405,
+		// Token: 0x04006AE9 RID: 27369
+		UNUSED406,
+		// Token: 0x04006AEA RID: 27370
+		UNUSED407,
+		// Token: 0x04006AEB RID: 27371
+		UNUSED408,
+		// Token: 0x04006AEC RID: 27372
+		UNUSED409,
+		// Token: 0x04006AED RID: 27373
+		UNUSED410,
+		// Token: 0x04006AEE RID: 27374
+		UNUSED411,
+		// Token: 0x04006AEF RID: 27375
+		UNUSED412,
+		// Token: 0x04006AF0 RID: 27376
+		UNUSED413,
+		// Token: 0x04006AF1 RID: 27377
+		CompletedStashTutorial,
+		// Token: 0x04006AF2 RID: 27378
+		CompletedOverlapMapTutorial,
+		// Token: 0x04006AF3 RID: 27379
+		UNUSED414,
+		// Token: 0x04006AF4 RID: 27380
+		UNUSED415,
+		// Token: 0x04006AF5 RID: 27381
+		UNUSED416,
+		// Token: 0x04006AF6 RID: 27382
+		UNUSED417,
+		// Token: 0x04006AF7 RID: 27383
+		UNUSED418,
+		// Token: 0x04006AF8 RID: 27384
+		UNUSED419,
+		// Token: 0x04006AF9 RID: 27385
+		UNUSED420,
+		// Token: 0x04006AFA RID: 27386
+		UNUSED421,
+		// Token: 0x04006AFB RID: 27387
+		UNUSED422,
+		// Token: 0x04006AFC RID: 27388
+		UNUSED423,
+		// Token: 0x04006AFD RID: 27389
+		UNUSED424,
+		// Token: 0x04006AFE RID: 27390
+		UNUSED425,
+		// Token: 0x04006AFF RID: 27391
+		UNUSED426,
+		// Token: 0x04006B00 RID: 27392
+		UNUSED427,
+		// Token: 0x04006B01 RID: 27393
+		UNUSED428,
+		// Token: 0x04006B02 RID: 27394
+		UNUSED429,
+		// Token: 0x04006B03 RID: 27395
+		UNUSED430,
+		// Token: 0x04006B04 RID: 27396
+		UNUSED431,
+		// Token: 0x04006B05 RID: 27397
+		UNUSED432,
+		// Token: 0x04006B06 RID: 27398
+		UNUSED433,
+		// Token: 0x04006B07 RID: 27399
+		UNUSED434,
+		// Token: 0x04006B08 RID: 27400
+		UNUSED435,
+		// Token: 0x04006B09 RID: 27401
+		UNUSED436,
+		// Token: 0x04006B0A RID: 27402
+		UNUSED437,
+		// Token: 0x04006B0B RID: 27403
+		UNUSED438,
+		// Token: 0x04006B0C RID: 27404
+		UNUSED439,
+		// Token: 0x04006B0D RID: 27405
+		UNUSED440,
+		// Token: 0x04006B0E RID: 27406
+		UNUSED441,
+		// Token: 0x04006B0F RID: 27407
+		UNUSED442,
+		// Token: 0x04006B10 RID: 27408
+		UNUSED443,
+		// Token: 0x04006B11 RID: 27409
+		UNUSED444,
+		// Token: 0x04006B12 RID: 27410
+		UNUSED445,
+		// Token: 0x04006B13 RID: 27411
+		UNUSED446,
+		// Token: 0x04006B14 RID: 27412
+		UNUSED447,
+		// Token: 0x04006B15 RID: 27413
+		UNUSED448,
+		// Token: 0x04006B16 RID: 27414
+		UNUSED449,
+		// Token: 0x04006B17 RID: 27415
+		UNUSED450,
+		// Token: 0x04006B18 RID: 27416
+		UNUSED451,
+		// Token: 0x04006B19 RID: 27417
+		UNUSED452,
+		// Token: 0x04006B1A RID: 27418
+		UNUSED453,
+		// Token: 0x04006B1B RID: 27419
+		UNUSED454,
+		// Token: 0x04006B1C RID: 27420
+		UNUSED455,
+		// Token: 0x04006B1D RID: 27421
+		UNUSED456,
+		// Token: 0x04006B1E RID: 27422
+		UNUSED457,
+		// Token: 0x04006B1F RID: 27423
+		UNUSED458,
+		// Token: 0x04006B20 RID: 27424
+		UNUSED459,
+		// Token: 0x04006B21 RID: 27425
+		AbyssEncountered,
+		// Token: 0x04006B22 RID: 27426
+		UNUSED460,
+		// Token: 0x04006B23 RID: 27427
+		UNUSED461,
+		// Token: 0x04006B24 RID: 27428
+		UNUSED462,
+		// Token: 0x04006B25 RID: 27429
+		UNUSED463,
+		// Token: 0x04006B26 RID: 27430
+		UNUSED464,
+		// Token: 0x04006B27 RID: 27431
+		UNUSED465,
+		// Token: 0x04006B28 RID: 27432
+		UNUSED466,
+		// Token: 0x04006B29 RID: 27433
+		UNUSED467,
+		// Token: 0x04006B2A RID: 27434
+		UNUSED468,
+		// Token: 0x04006B2B RID: 27435
+		UNUSED469,
+		// Token: 0x04006B2C RID: 27436
+		UNUSED470,
+		// Token: 0x04006B2D RID: 27437
+		UNUSED471,
+		// Token: 0x04006B2E RID: 27438
+		UNUSED472,
+		// Token: 0x04006B2F RID: 27439
+		UNUSED473,
+		// Token: 0x04006B30 RID: 27440
+		UNUSED474,
+		// Token: 0x04006B31 RID: 27441
+		UNUSED475,
+		// Token: 0x04006B32 RID: 27442
+		UNUSED476,
+		// Token: 0x04006B33 RID: 27443
+		UNUSED477,
+		// Token: 0x04006B34 RID: 27444
+		UNUSED478,
+		// Token: 0x04006B35 RID: 27445
+		UNUSED479,
+		// Token: 0x04006B36 RID: 27446
+		UNUSED480,
+		// Token: 0x04006B37 RID: 27447
+		UNUSED481,
+		// Token: 0x04006B38 RID: 27448
+		UNUSED482,
+		// Token: 0x04006B39 RID: 27449
+		UNUSED483,
+		// Token: 0x04006B3A RID: 27450
+		UNUSED484,
+		// Token: 0x04006B3B RID: 27451
+		UNUSED485,
+		// Token: 0x04006B3C RID: 27452
+		UNUSED486,
+		// Token: 0x04006B3D RID: 27453
+		UNUSED487,
+		// Token: 0x04006B3E RID: 27454
+		UNUSED488,
+		// Token: 0x04006B3F RID: 27455
+		UNUSED489,
+		// Token: 0x04006B40 RID: 27456
+		UNUSED490,
+		// Token: 0x04006B41 RID: 27457
+		UNUSED491,
+		// Token: 0x04006B42 RID: 27458
+		UNUSED492,
+		// Token: 0x04006B43 RID: 27459
+		UNUSED493,
+		// Token: 0x04006B44 RID: 27460
+		UNUSED494,
+		// Token: 0x04006B45 RID: 27461
+		UNUSED495,
+		// Token: 0x04006B46 RID: 27462
+		UNUSED496,
+		// Token: 0x04006B47 RID: 27463
+		UNUSED497,
+		// Token: 0x04006B48 RID: 27464
+		UNUSED498,
+		// Token: 0x04006B49 RID: 27465
+		UNUSED499,
+		// Token: 0x04006B4A RID: 27466
+		UNUSED500,
+		// Token: 0x04006B4B RID: 27467
+		UNUSED501,
+		// Token: 0x04006B4C RID: 27468
+		UNUSED502,
+		// Token: 0x04006B4D RID: 27469
+		UNUSED503,
+		// Token: 0x04006B4E RID: 27470
+		UNUSED504,
+		// Token: 0x04006B4F RID: 27471
+		UNUSED505,
+		// Token: 0x04006B50 RID: 27472
+		BetrayalOwner,
+		// Token: 0x04006B51 RID: 27473
+		UNUSED506,
+		// Token: 0x04006B52 RID: 27474
+		UNUSED507,
+		// Token: 0x04006B53 RID: 27475
+		UNUSED508,
+		// Token: 0x04006B54 RID: 27476
+		UNUSED509,
+		// Token: 0x04006B55 RID: 27477
+		ScionUnlocked,
+		// Token: 0x04006B56 RID: 27478
+		UNUSED510,
+		// Token: 0x04006B57 RID: 27479
+		WashedUp,
+		// Token: 0x04006B58 RID: 27480
+		UNUSED511,
+		// Token: 0x04006B59 RID: 27481
+		UNUSED512,
+		// Token: 0x04006B5A RID: 27482
+		UNUSED513,
+		// Token: 0x04006B5B RID: 27483
+		UNUSED514,
+		// Token: 0x04006B5C RID: 27484
+		UNUSED515,
+		// Token: 0x04006B5D RID: 27485
+		UNUSED516,
+		// Token: 0x04006B5E RID: 27486
+		UNUSED517,
+		// Token: 0x04006B5F RID: 27487
+		UNUSED518,
+		// Token: 0x04006B60 RID: 27488
+		UNUSED519,
+		// Token: 0x04006B61 RID: 27489
+		UNUSED520,
+		// Token: 0x04006B62 RID: 27490
+		UNUSED521,
+		// Token: 0x04006B63 RID: 27491
+		UNUSED522,
+		// Token: 0x04006B64 RID: 27492
+		UNUSED523,
+		// Token: 0x04006B65 RID: 27493
+		UNUSED524,
+		// Token: 0x04006B66 RID: 27494
+		UNUSED525,
+		// Token: 0x04006B67 RID: 27495
+		UNUSED526,
+		// Token: 0x04006B68 RID: 27496
+		UNUSED527,
+		// Token: 0x04006B69 RID: 27497
+		UNUSED528,
+		// Token: 0x04006B6A RID: 27498
+		UNUSED529,
+		// Token: 0x04006B6B RID: 27499
+		UNUSED530,
+		// Token: 0x04006B6C RID: 27500
+		UNUSED531,
+		// Token: 0x04006B6D RID: 27501
+		UNUSED532,
+		// Token: 0x04006B6E RID: 27502
+		UNUSED533,
+		// Token: 0x04006B6F RID: 27503
+		UNUSED534,
+		// Token: 0x04006B70 RID: 27504
+		AudioEventKilledBiteZombie,
+		// Token: 0x04006B71 RID: 27505
+		UNUSED535,
+		// Token: 0x04006B72 RID: 27506
+		UNUSED536,
+		// Token: 0x04006B73 RID: 27507
+		UNUSED537,
+		// Token: 0x04006B74 RID: 27508
+		UNUSED538,
+		// Token: 0x04006B75 RID: 27509
+		UNUSED539,
+		// Token: 0x04006B76 RID: 27510
+		UNUSED540,
+		// Token: 0x04006B77 RID: 27511
+		UNUSED541,
+		// Token: 0x04006B78 RID: 27512
+		UNUSED542,
+		// Token: 0x04006B79 RID: 27513
+		UNUSED543,
+		// Token: 0x04006B7A RID: 27514
+		UNUSED544,
+		// Token: 0x04006B7B RID: 27515
+		UNUSED545,
+		// Token: 0x04006B7C RID: 27516
+		UNUSED546,
+		// Token: 0x04006B7D RID: 27517
+		JunMissionReceived,
+		// Token: 0x04006B7E RID: 27518
+		JunMissionSuppressAlerts,
+		// Token: 0x04006B7F RID: 27519
+		JunMissionSeenAllEncounters,
+		// Token: 0x04006B80 RID: 27520
+		JunMissionFinishedAllEncounters,
+		// Token: 0x04006B81 RID: 27521
+		JunMissionSeenFort,
+		// Token: 0x04006B82 RID: 27522
+		JunMissionSeenLab,
+		// Token: 0x04006B83 RID: 27523
+		JunMissionSeenCart,
+		// Token: 0x04006B84 RID: 27524
+		JunMissionSeenGank,
+		// Token: 0x04006B85 RID: 27525
+		JunMissionCompletedFort,
+		// Token: 0x04006B86 RID: 27526
+		JunMissionCompletedLab,
+		// Token: 0x04006B87 RID: 27527
+		JunMissionCompletedCart,
+		// Token: 0x04006B88 RID: 27528
+		JunMissionCompletedGank,
+		// Token: 0x04006B89 RID: 27529
+		JunMissionAbandonedFort,
+		// Token: 0x04006B8A RID: 27530
+		JunMissionAbandonedLab,
+		// Token: 0x04006B8B RID: 27531
+		JunMissionAbandonedCart,
+		// Token: 0x04006B8C RID: 27532
+		JunMissionAbandonedGank,
+		// Token: 0x04006B8D RID: 27533
+		UNUSED548,
+		// Token: 0x04006B8E RID: 27534
+		UNUSED549,
+		// Token: 0x04006B8F RID: 27535
+		UNUSED550,
+		// Token: 0x04006B90 RID: 27536
+		AlvaKilledFirstArchitect,
+		// Token: 0x04006B91 RID: 27537
+		UNUSED551,
+		// Token: 0x04006B92 RID: 27538
+		UNUSED552,
+		// Token: 0x04006B93 RID: 27539
+		UNUSED553,
+		// Token: 0x04006B94 RID: 27540
+		UNUSED554,
+		// Token: 0x04006B95 RID: 27541
+		UNUSED555,
+		// Token: 0x04006B96 RID: 27542
+		UNUSED556,
+		// Token: 0x04006B97 RID: 27543
+		UNUSED557,
+		// Token: 0x04006B98 RID: 27544
+		UNUSED558,
+		// Token: 0x04006B99 RID: 27545
+		UNUSED559,
+		// Token: 0x04006B9A RID: 27546
+		UNUSED560,
+		// Token: 0x04006B9B RID: 27547
+		UNUSED561,
+		// Token: 0x04006B9C RID: 27548
+		UNUSED562,
+		// Token: 0x04006B9D RID: 27549
+		UNUSED563,
+		// Token: 0x04006B9E RID: 27550
+		UNUSED564,
+		// Token: 0x04006B9F RID: 27551
+		UNUSED565,
+		// Token: 0x04006BA0 RID: 27552
+		UNUSED566,
+		// Token: 0x04006BA1 RID: 27553
+		UNUSED567,
+		// Token: 0x04006BA2 RID: 27554
+		UNUSED568,
+		// Token: 0x04006BA3 RID: 27555
+		UNUSED569,
+		// Token: 0x04006BA4 RID: 27556
+		UNUSED570,
+		// Token: 0x04006BA5 RID: 27557
+		UNUSED571,
+		// Token: 0x04006BA6 RID: 27558
+		UNUSED572,
+		// Token: 0x04006BA7 RID: 27559
+		UNUSED573,
+		// Token: 0x04006BA8 RID: 27560
+		UNUSED574,
+		// Token: 0x04006BA9 RID: 27561
+		UNUSED575,
+		// Token: 0x04006BAA RID: 27562
+		UNUSED576,
+		// Token: 0x04006BAB RID: 27563
+		UNUSED577,
+		// Token: 0x04006BAC RID: 27564
+		UNUSED578,
+		// Token: 0x04006BAD RID: 27565
+		UNUSED579,
+		// Token: 0x04006BAE RID: 27566
+		UNUSED580,
+		// Token: 0x04006BAF RID: 27567
+		UNUSED581,
+		// Token: 0x04006BB0 RID: 27568
+		UNUSED582,
+		// Token: 0x04006BB1 RID: 27569
+		UNUSED583,
+		// Token: 0x04006BB2 RID: 27570
+		UNUSED584,
+		// Token: 0x04006BB3 RID: 27571
+		UNUSED585,
+		// Token: 0x04006BB4 RID: 27572
+		UNUSED586,
+		// Token: 0x04006BB5 RID: 27573
+		UNUSED587,
+		// Token: 0x04006BB6 RID: 27574
+		UNUSED588,
+		// Token: 0x04006BB7 RID: 27575
+		UNUSED589,
+		// Token: 0x04006BB8 RID: 27576
+		UNUSED590,
+		// Token: 0x04006BB9 RID: 27577
+		UNUSED591,
+		// Token: 0x04006BBA RID: 27578
+		UNUSED592,
+		// Token: 0x04006BBB RID: 27579
+		UNUSED593,
+		// Token: 0x04006BBC RID: 27580
+		UNUSED594,
+		// Token: 0x04006BBD RID: 27581
+		UNUSED595,
+		// Token: 0x04006BBE RID: 27582
+		UNUSED596,
+		// Token: 0x04006BBF RID: 27583
+		UNUSED597,
+		// Token: 0x04006BC0 RID: 27584
+		UNUSED598,
+		// Token: 0x04006BC1 RID: 27585
+		UNUSED599,
+		// Token: 0x04006BC2 RID: 27586
+		UNUSED600,
+		// Token: 0x04006BC3 RID: 27587
+		AchievementRareEachSlot,
+		// Token: 0x04006BC4 RID: 27588
+		AchievementEquipUnique,
+		// Token: 0x04006BC5 RID: 27589
+		AchievementCheckWaypoints,
+		// Token: 0x04006BC6 RID: 27590
+		UNUSED601,
+		// Token: 0x04006BC7 RID: 27591
+		UNUSED602,
+		// Token: 0x04006BC8 RID: 27592
+		UNUSED603,
+		// Token: 0x04006BC9 RID: 27593
+		UNUSED604,
+		// Token: 0x04006BCA RID: 27594
+		UNUSED605,
+		// Token: 0x04006BCB RID: 27595
+		AchievementHave9Zombies,
+		// Token: 0x04006BCC RID: 27596
+		AchievementHave3Totems,
+		// Token: 0x04006BCD RID: 27597
+		AlvaFirstIncursionComplete,
+		// Token: 0x04006BCE RID: 27598
+		UNUSED606,
+		// Token: 0x04006BCF RID: 27599
+		UNUSED607,
+		// Token: 0x04006BD0 RID: 27600
+		UNUSED608,
+		// Token: 0x04006BD1 RID: 27601
+		UNUSED609,
+		// Token: 0x04006BD2 RID: 27602
+		UNUSED610,
+		// Token: 0x04006BD3 RID: 27603
+		UNUSED611,
+		// Token: 0x04006BD4 RID: 27604
+		UNUSED612,
+		// Token: 0x04006BD5 RID: 27605
+		AchievementPublicParty,
+		// Token: 0x04006BD6 RID: 27606
+		UNUSED613,
+		// Token: 0x04006BD7 RID: 27607
+		AchievementHave60Minions,
+		// Token: 0x04006BD8 RID: 27608
+		UNUSED614,
+		// Token: 0x04006BD9 RID: 27609
+		UNUSED615,
+		// Token: 0x04006BDA RID: 27610
+		UNUSED616,
+		// Token: 0x04006BDB RID: 27611
+		UNUSED617,
+		// Token: 0x04006BDC RID: 27612
+		UNUSED618,
+		// Token: 0x04006BDD RID: 27613
+		UNUSED619,
+		// Token: 0x04006BDE RID: 27614
+		UNUSED620,
+		// Token: 0x04006BDF RID: 27615
+		UNUSED621,
+		// Token: 0x04006BE0 RID: 27616
+		UNUSED622,
+		// Token: 0x04006BE1 RID: 27617
+		UNUSED623,
+		// Token: 0x04006BE2 RID: 27618
+		UNUSED624,
+		// Token: 0x04006BE3 RID: 27619
+		UNUSED625,
+		// Token: 0x04006BE4 RID: 27620
+		UNUSED626,
+		// Token: 0x04006BE5 RID: 27621
+		UNUSED627,
+		// Token: 0x04006BE6 RID: 27622
+		UNUSED628,
+		// Token: 0x04006BE7 RID: 27623
+		UNUSED629,
+		// Token: 0x04006BE8 RID: 27624
+		UNUSED630,
+		// Token: 0x04006BE9 RID: 27625
+		UNUSED631,
+		// Token: 0x04006BEA RID: 27626
+		UNUSED632,
+		// Token: 0x04006BEB RID: 27627
+		UNUSED633,
+		// Token: 0x04006BEC RID: 27628
+		UNUSED634,
+		// Token: 0x04006BED RID: 27629
+		UNUSED635,
+		// Token: 0x04006BEE RID: 27630
+		UNUSED636,
+		// Token: 0x04006BEF RID: 27631
+		UNUSED637,
+		// Token: 0x04006BF0 RID: 27632
+		UNUSED638,
+		// Token: 0x04006BF1 RID: 27633
+		UNUSED639,
+		// Token: 0x04006BF2 RID: 27634
+		UNUSED640,
+		// Token: 0x04006BF3 RID: 27635
+		UNUSED641,
+		// Token: 0x04006BF4 RID: 27636
+		UNUSED642,
+		// Token: 0x04006BF5 RID: 27637
+		UNUSED643,
+		// Token: 0x04006BF6 RID: 27638
+		UNUSED644,
+		// Token: 0x04006BF7 RID: 27639
+		UNUSED645,
+		// Token: 0x04006BF8 RID: 27640
+		UNUSED646,
+		// Token: 0x04006BF9 RID: 27641
+		UNUSED647,
+		// Token: 0x04006BFA RID: 27642
+		UNUSED648,
+		// Token: 0x04006BFB RID: 27643
+		UNUSED649,
+		// Token: 0x04006BFC RID: 27644
+		UNUSED650,
+		// Token: 0x04006BFD RID: 27645
+		UNUSED651,
+		// Token: 0x04006BFE RID: 27646
+		UNUSED652,
+		// Token: 0x04006BFF RID: 27647
+		UNUSED653,
+		// Token: 0x04006C00 RID: 27648
+		UNUSED654,
+		// Token: 0x04006C01 RID: 27649
+		UNUSED655,
+		// Token: 0x04006C02 RID: 27650
+		UNUSED656,
+		// Token: 0x04006C03 RID: 27651
+		UNUSED657,
+		// Token: 0x04006C04 RID: 27652
+		UNUSED658,
+		// Token: 0x04006C05 RID: 27653
+		UNUSED659,
+		// Token: 0x04006C06 RID: 27654
+		UNUSED660,
+		// Token: 0x04006C07 RID: 27655
+		MapMissionMapOpened,
+		// Token: 0x04006C08 RID: 27656
+		MapMissionComplete,
+		// Token: 0x04006C09 RID: 27657
+		MapMissionRewarded,
+		// Token: 0x04006C0A RID: 27658
+		RecheckedCraftingAchievements,
+		// Token: 0x04006C0B RID: 27659
+		TutorialPanelHideArticlePopups,
+		// Token: 0x04006C0C RID: 27660
+		MapMissionChatRewarded,
+		// Token: 0x04006C0D RID: 27661
+		MapMissionFailed,
+		// Token: 0x04006C0E RID: 27662
+		MapMissionProgressed,
+		// Token: 0x04006C0F RID: 27663
+		ThisIsMyHideout,
+		// Token: 0x04006C10 RID: 27664
+		HideoutJukeboxEnabled,
+		// Token: 0x04006C11 RID: 27665
+		IsPVPOnlyCharacter,
+		// Token: 0x04006C12 RID: 27666
+		UNUSED664,
+		// Token: 0x04006C13 RID: 27667
+		UNUSED665,
+		// Token: 0x04006C14 RID: 27668
+		UNUSED666,
+		// Token: 0x04006C15 RID: 27669
+		UNUSED667,
+		// Token: 0x04006C16 RID: 27670
+		UNUSED668,
+		// Token: 0x04006C17 RID: 27671
+		UNUSED669,
+		// Token: 0x04006C18 RID: 27672
+		UNUSED670,
+		// Token: 0x04006C19 RID: 27673
+		UNUSED671,
+		// Token: 0x04006C1A RID: 27674
+		UNUSED672,
+		// Token: 0x04006C1B RID: 27675
+		UNUSED673,
+		// Token: 0x04006C1C RID: 27676
+		UNUSED674,
+		// Token: 0x04006C1D RID: 27677
+		UNUSED675,
+		// Token: 0x04006C1E RID: 27678
+		UNUSED676,
+		// Token: 0x04006C1F RID: 27679
+		UNUSED677,
+		// Token: 0x04006C20 RID: 27680
+		UNUSED678,
+		// Token: 0x04006C21 RID: 27681
+		UNUSED679,
+		// Token: 0x04006C22 RID: 27682
+		UNUSED680,
+		// Token: 0x04006C23 RID: 27683
+		UNUSED681,
+		// Token: 0x04006C24 RID: 27684
+		UNUSED682,
+		// Token: 0x04006C25 RID: 27685
+		UNUSED683,
+		// Token: 0x04006C26 RID: 27686
+		UNUSED684,
+		// Token: 0x04006C27 RID: 27687
+		UNUSED685,
+		// Token: 0x04006C28 RID: 27688
+		UNUSED686,
+		// Token: 0x04006C29 RID: 27689
+		UNUSED687,
+		// Token: 0x04006C2A RID: 27690
+		UNUSED688,
+		// Token: 0x04006C2B RID: 27691
+		UNUSED689,
+		// Token: 0x04006C2C RID: 27692
+		UNUSED690,
+		// Token: 0x04006C2D RID: 27693
+		UNUSED691,
+		// Token: 0x04006C2E RID: 27694
+		UNUSED692,
+		// Token: 0x04006C2F RID: 27695
+		UNUSED693,
+		// Token: 0x04006C30 RID: 27696
+		UNUSED694,
+		// Token: 0x04006C31 RID: 27697
+		UNUSED695,
+		// Token: 0x04006C32 RID: 27698
+		UNUSED696,
+		// Token: 0x04006C33 RID: 27699
+		UNUSED697,
+		// Token: 0x04006C34 RID: 27700
+		UNUSED698,
+		// Token: 0x04006C35 RID: 27701
+		UNUSED699,
+		// Token: 0x04006C36 RID: 27702
+		UNUSED700,
+		// Token: 0x04006C37 RID: 27703
+		UNUSED701,
+		// Token: 0x04006C38 RID: 27704
+		UNUSED702,
+		// Token: 0x04006C39 RID: 27705
+		UNUSED703,
+		// Token: 0x04006C3A RID: 27706
+		UNUSED704,
+		// Token: 0x04006C3B RID: 27707
+		UNUSED705,
+		// Token: 0x04006C3C RID: 27708
+		UNUSED706,
+		// Token: 0x04006C3D RID: 27709
+		UNUSED707,
+		// Token: 0x04006C3E RID: 27710
+		UNUSED708,
+		// Token: 0x04006C3F RID: 27711
+		UNUSED709,
+		// Token: 0x04006C40 RID: 27712
+		UNUSED710,
+		// Token: 0x04006C41 RID: 27713
+		UNUSED711,
+		// Token: 0x04006C42 RID: 27714
+		UNUSED712,
+		// Token: 0x04006C43 RID: 27715
+		UNUSED713,
+		// Token: 0x04006C44 RID: 27716
+		UNUSED714,
+		// Token: 0x04006C45 RID: 27717
+		UNUSED715,
+		// Token: 0x04006C46 RID: 27718
+		UNUSED716,
+		// Token: 0x04006C47 RID: 27719
+		UNUSED717,
+		// Token: 0x04006C48 RID: 27720
+		UNUSED718,
+		// Token: 0x04006C49 RID: 27721
+		UNUSED719,
+		// Token: 0x04006C4A RID: 27722
+		UNUSED720,
+		// Token: 0x04006C4B RID: 27723
+		UNUSED721,
+		// Token: 0x04006C4C RID: 27724
+		UNUSED722,
+		// Token: 0x04006C4D RID: 27725
+		UNUSED723,
+		// Token: 0x04006C4E RID: 27726
+		UNUSED724,
+		// Token: 0x04006C4F RID: 27727
+		UNUSED725,
+		// Token: 0x04006C50 RID: 27728
+		UNUSED726,
+		// Token: 0x04006C51 RID: 27729
+		UNUSED727,
+		// Token: 0x04006C52 RID: 27730
+		UNUSED728,
+		// Token: 0x04006C53 RID: 27731
+		UNUSED729,
+		// Token: 0x04006C54 RID: 27732
+		UNUSED730,
+		// Token: 0x04006C55 RID: 27733
+		UNUSED731,
+		// Token: 0x04006C56 RID: 27734
+		UNUSED732,
+		// Token: 0x04006C57 RID: 27735
+		UNUSED733,
+		// Token: 0x04006C58 RID: 27736
+		UNUSED734,
+		// Token: 0x04006C59 RID: 27737
+		UNUSED735,
+		// Token: 0x04006C5A RID: 27738
+		UNUSED736,
+		// Token: 0x04006C5B RID: 27739
+		UNUSED737,
+		// Token: 0x04006C5C RID: 27740
+		UNUSED738,
+		// Token: 0x04006C5D RID: 27741
+		UNUSED739,
+		// Token: 0x04006C5E RID: 27742
+		UNUSED740,
+		// Token: 0x04006C5F RID: 27743
+		UNUSED741,
+		// Token: 0x04006C60 RID: 27744
+		UNUSED742,
+		// Token: 0x04006C61 RID: 27745
+		UNUSED743,
+		// Token: 0x04006C62 RID: 27746
+		UNUSED744,
+		// Token: 0x04006C63 RID: 27747
+		UNUSED745,
+		// Token: 0x04006C64 RID: 27748
+		UNUSED746,
+		// Token: 0x04006C65 RID: 27749
+		UNUSED747,
+		// Token: 0x04006C66 RID: 27750
+		UNUSED748,
+		// Token: 0x04006C67 RID: 27751
+		UNUSED749,
+		// Token: 0x04006C68 RID: 27752
+		UNUSED750,
+		// Token: 0x04006C69 RID: 27753
+		UNUSED751,
+		// Token: 0x04006C6A RID: 27754
+		UNUSED752,
+		// Token: 0x04006C6B RID: 27755
+		UNUSED753,
+		// Token: 0x04006C6C RID: 27756
+		UNUSED754,
+		// Token: 0x04006C6D RID: 27757
+		UNUSED755,
+		// Token: 0x04006C6E RID: 27758
+		UNUSED756,
+		// Token: 0x04006C6F RID: 27759
+		UNUSED757,
+		// Token: 0x04006C70 RID: 27760
+		UNUSED758,
+		// Token: 0x04006C71 RID: 27761
+		UNUSED759,
+		// Token: 0x04006C72 RID: 27762
+		UNUSED760,
+		// Token: 0x04006C73 RID: 27763
+		UNUSED761,
+		// Token: 0x04006C74 RID: 27764
+		UNUSED762,
+		// Token: 0x04006C75 RID: 27765
+		UNUSED763,
+		// Token: 0x04006C76 RID: 27766
+		UNUSED764,
+		// Token: 0x04006C77 RID: 27767
+		UNUSED765,
+		// Token: 0x04006C78 RID: 27768
+		MissionMusicOverride,
+		// Token: 0x04006C79 RID: 27769
+		UNUSED766,
+		// Token: 0x04006C7A RID: 27770
+		UNUSED767,
+		// Token: 0x04006C7B RID: 27771
+		UNUSED768,
+		// Token: 0x04006C7C RID: 27772
+		UNUSED769,
+		// Token: 0x04006C7D RID: 27773
+		UNUSED770,
+		// Token: 0x04006C7E RID: 27774
+		UNUSED771,
+		// Token: 0x04006C7F RID: 27775
+		UNUSED772,
+		// Token: 0x04006C80 RID: 27776
+		UNUSED773,
+		// Token: 0x04006C81 RID: 27777
+		UNUSED774,
+		// Token: 0x04006C82 RID: 27778
+		UNUSED775,
+		// Token: 0x04006C83 RID: 27779
+		UNUSED776,
+		// Token: 0x04006C84 RID: 27780
+		UNUSED777,
+		// Token: 0x04006C85 RID: 27781
+		UNUSED778,
+		// Token: 0x04006C86 RID: 27782
+		UNUSED779,
+		// Token: 0x04006C87 RID: 27783
+		UNUSED780,
+		// Token: 0x04006C88 RID: 27784
+		UNUSED781,
+		// Token: 0x04006C89 RID: 27785
+		UNUSED782,
+		// Token: 0x04006C8A RID: 27786
+		UNUSED783,
+		// Token: 0x04006C8B RID: 27787
+		UNUSED784,
+		// Token: 0x04006C8C RID: 27788
+		UNUSED785,
+		// Token: 0x04006C8D RID: 27789
+		UNUSED786,
+		// Token: 0x04006C8E RID: 27790
+		UNUSED787,
+		// Token: 0x04006C8F RID: 27791
+		UNUSED788,
+		// Token: 0x04006C90 RID: 27792
+		UNUSED789,
+		// Token: 0x04006C91 RID: 27793
+		UNUSED790,
+		// Token: 0x04006C92 RID: 27794
+		UNUSED791,
+		// Token: 0x04006C93 RID: 27795
+		UNUSED792,
+		// Token: 0x04006C94 RID: 27796
+		UNUSED793,
+		// Token: 0x04006C95 RID: 27797
+		UNUSED794,
+		// Token: 0x04006C96 RID: 27798
+		UNUSED795,
+		// Token: 0x04006C97 RID: 27799
+		UNUSED796,
+		// Token: 0x04006C98 RID: 27800
+		UNUSED797,
+		// Token: 0x04006C99 RID: 27801
+		UNUSED798,
+		// Token: 0x04006C9A RID: 27802
+		UNUSED799,
+		// Token: 0x04006C9B RID: 27803
+		UNUSED800,
+		// Token: 0x04006C9C RID: 27804
+		UNUSED801,
+		// Token: 0x04006C9D RID: 27805
+		UNUSED802,
+		// Token: 0x04006C9E RID: 27806
+		UNUSED803,
+		// Token: 0x04006C9F RID: 27807
+		UNUSED804,
+		// Token: 0x04006CA0 RID: 27808
+		UNUSED805,
+		// Token: 0x04006CA1 RID: 27809
+		UNUSED806,
+		// Token: 0x04006CA2 RID: 27810
+		UNUSED807,
+		// Token: 0x04006CA3 RID: 27811
+		UNUSED808,
+		// Token: 0x04006CA4 RID: 27812
+		UNUSED809,
+		// Token: 0x04006CA5 RID: 27813
+		UNUSED810,
+		// Token: 0x04006CA6 RID: 27814
+		UNUSED811,
+		// Token: 0x04006CA7 RID: 27815
+		UNUSED812,
+		// Token: 0x04006CA8 RID: 27816
+		UNUSED813,
+		// Token: 0x04006CA9 RID: 27817
+		UNUSED814,
+		// Token: 0x04006CAA RID: 27818
+		UNUSED815,
+		// Token: 0x04006CAB RID: 27819
+		UNUSED816,
+		// Token: 0x04006CAC RID: 27820
+		UNUSED817,
+		// Token: 0x04006CAD RID: 27821
+		UNUSED818,
+		// Token: 0x04006CAE RID: 27822
+		UNUSED819,
+		// Token: 0x04006CAF RID: 27823
+		UNUSED820,
+		// Token: 0x04006CB0 RID: 27824
+		UNUSED821,
+		// Token: 0x04006CB1 RID: 27825
+		UNUSED822,
+		// Token: 0x04006CB2 RID: 27826
+		UNUSED823,
+		// Token: 0x04006CB3 RID: 27827
+		UNUSED824,
+		// Token: 0x04006CB4 RID: 27828
+		UNUSED825,
+		// Token: 0x04006CB5 RID: 27829
+		UNUSED826,
+		// Token: 0x04006CB6 RID: 27830
+		UNUSED827,
+		// Token: 0x04006CB7 RID: 27831
+		UNUSED828,
+		// Token: 0x04006CB8 RID: 27832
+		UNUSED829,
+		// Token: 0x04006CB9 RID: 27833
+		UNUSED830,
+		// Token: 0x04006CBA RID: 27834
+		UNUSED831,
+		// Token: 0x04006CBB RID: 27835
+		UNUSED832,
+		// Token: 0x04006CBC RID: 27836
+		UNUSED833,
+		// Token: 0x04006CBD RID: 27837
+		UNUSED834,
+		// Token: 0x04006CBE RID: 27838
+		CadiroOnFamily,
+		// Token: 0x04006CBF RID: 27839
+		CompletedAttackInPlaceTutorial,
+		// Token: 0x04006CC0 RID: 27840
+		CadiroOnManor,
+		// Token: 0x04006CC1 RID: 27841
+		UNUSED836,
+		// Token: 0x04006CC2 RID: 27842
+		UNUSED837,
+		// Token: 0x04006CC3 RID: 27843
+		UNUSED838,
+		// Token: 0x04006CC4 RID: 27844
+		UNUSED839,
+		// Token: 0x04006CC5 RID: 27845
+		UNUSED840,
+		// Token: 0x04006CC6 RID: 27846
+		UNUSED841,
+		// Token: 0x04006CC7 RID: 27847
+		UNUSED842,
+		// Token: 0x04006CC8 RID: 27848
+		UNUSED843,
+		// Token: 0x04006CC9 RID: 27849
+		UNUSED844,
+		// Token: 0x04006CCA RID: 27850
+		UNUSED845,
+		// Token: 0x04006CCB RID: 27851
+		UNUSED846,
+		// Token: 0x04006CCC RID: 27852
+		UNUSED847,
+		// Token: 0x04006CCD RID: 27853
+		UNUSED848,
+		// Token: 0x04006CCE RID: 27854
+		UNUSED849,
+		// Token: 0x04006CCF RID: 27855
+		CadiroOnCoins,
+		// Token: 0x04006CD0 RID: 27856
+		UNUSED850,
+		// Token: 0x04006CD1 RID: 27857
+		CadiroOnChitus,
+		// Token: 0x04006CD2 RID: 27858
+		UNUSED851,
+		// Token: 0x04006CD3 RID: 27859
+		UNUSED852,
+		// Token: 0x04006CD4 RID: 27860
+		UNUSED853,
+		// Token: 0x04006CD5 RID: 27861
+		UNUSED854,
+		// Token: 0x04006CD6 RID: 27862
+		UNUSED855,
+		// Token: 0x04006CD7 RID: 27863
+		UNUSED856,
+		// Token: 0x04006CD8 RID: 27864
+		UNUSED857,
+		// Token: 0x04006CD9 RID: 27865
+		UNUSED858,
+		// Token: 0x04006CDA RID: 27866
+		UNUSED859,
+		// Token: 0x04006CDB RID: 27867
+		UNUSED860,
+		// Token: 0x04006CDC RID: 27868
+		UNUSED861,
+		// Token: 0x04006CDD RID: 27869
+		UNUSED862,
+		// Token: 0x04006CDE RID: 27870
+		UNUSED863,
+		// Token: 0x04006CDF RID: 27871
+		UNUSED864,
+		// Token: 0x04006CE0 RID: 27872
+		UNUSED865,
+		// Token: 0x04006CE1 RID: 27873
+		UNUSED866,
+		// Token: 0x04006CE2 RID: 27874
+		UNUSED867,
+		// Token: 0x04006CE3 RID: 27875
+		UNUSED868,
+		// Token: 0x04006CE4 RID: 27876
+		UNUSED869,
+		// Token: 0x04006CE5 RID: 27877
+		UNUSED870,
+		// Token: 0x04006CE6 RID: 27878
+		UNUSED871,
+		// Token: 0x04006CE7 RID: 27879
+		CadiroIntroduction,
+		// Token: 0x04006CE8 RID: 27880
+		CadiroOnCataclysm,
+		// Token: 0x04006CE9 RID: 27881
+		CadiroOnProspero,
+		// Token: 0x04006CEA RID: 27882
+		CadiroOnIzaro,
+		// Token: 0x04006CEB RID: 27883
+		UNUSED872,
+		// Token: 0x04006CEC RID: 27884
+		CadiroOfferSeen,
+		// Token: 0x04006CED RID: 27885
+		UNUSED873,
+		// Token: 0x04006CEE RID: 27886
+		UNUSED874,
+		// Token: 0x04006CEF RID: 27887
+		UNUSED875,
+		// Token: 0x04006CF0 RID: 27888
+		UNUSED876,
+		// Token: 0x04006CF1 RID: 27889
+		UNUSED877,
+		// Token: 0x04006CF2 RID: 27890
+		UNUSED878,
+		// Token: 0x04006CF3 RID: 27891
+		CadiroOfferAccepted,
+		// Token: 0x04006CF4 RID: 27892
+		JewellerTutorialSeen,
+		// Token: 0x04006CF5 RID: 27893
+		JewellerTutorialTaken,
+		// Token: 0x04006CF6 RID: 27894
+		JewellerTutorialClue,
+		// Token: 0x04006CF7 RID: 27895
+		FusingTutorialSeen,
+		// Token: 0x04006CF8 RID: 27896
+		FusingTutorialTaken,
+		// Token: 0x04006CF9 RID: 27897
+		FusingTutorialClue,
+		// Token: 0x04006CFA RID: 27898
+		FinishedPaleCourt,
+		// Token: 0x04006CFB RID: 27899
+		HaveTangleKey1,
+		// Token: 0x04006CFC RID: 27900
+		HaveTangleKey2,
+		// Token: 0x04006CFD RID: 27901
+		HaveCleansingFireKey1,
+		// Token: 0x04006CFE RID: 27902
+		HaveCleansingFireKey2,
+		// Token: 0x04006CFF RID: 27903
+		PickUpTangleKey,
+		// Token: 0x04006D00 RID: 27904
+		PickUpCleansingFireKey,
+		// Token: 0x04006D01 RID: 27905
+		UNUSED879,
+		// Token: 0x04006D02 RID: 27906
+		AlvaShowTimeLoop,
+		// Token: 0x04006D03 RID: 27907
+		AlvaReadTimeLoop,
+		// Token: 0x04006D04 RID: 27908
+		AlvaArrivedTemple,
+		// Token: 0x04006D05 RID: 27909
+		DelveOwner,
+		// Token: 0x04006D06 RID: 27910
+		DelveInProgress,
+		// Token: 0x04006D07 RID: 27911
+		UNUSED880,
+		// Token: 0x04006D08 RID: 27912
+		UNUSED881,
+		// Token: 0x04006D09 RID: 27913
+		UNUSED882,
+		// Token: 0x04006D0A RID: 27914
+		UNUSED883,
+		// Token: 0x04006D0B RID: 27915
+		UNUSED884,
+		// Token: 0x04006D0C RID: 27916
+		UNUSED885,
+		// Token: 0x04006D0D RID: 27917
+		UNUSED886,
+		// Token: 0x04006D0E RID: 27918
+		DroppedMapQuestItem,
+		// Token: 0x04006D0F RID: 27919
+		MapMissionSuppressAlerts,
+		// Token: 0x04006D10 RID: 27920
+		UNUSED888,
+		// Token: 0x04006D11 RID: 27921
+		UNUSED889,
+		// Token: 0x04006D12 RID: 27922
+		UNUSED890,
+		// Token: 0x04006D13 RID: 27923
+		KilledAtziri2,
+		// Token: 0x04006D14 RID: 27924
+		ShaperDefeated,
+		// Token: 0x04006D15 RID: 27925
+		ElderDefeated,
+		// Token: 0x04006D16 RID: 27926
+		UberElderDefeated,
+		// Token: 0x04006D17 RID: 27927
+		SirusDefeatedLadderCondition,
+		// Token: 0x04006D18 RID: 27928
+		UNUSED893,
+		// Token: 0x04006D19 RID: 27929
+		UNUSED894,
+		// Token: 0x04006D1A RID: 27930
+		UNUSED895,
+		// Token: 0x04006D1B RID: 27931
+		UNUSED896,
+		// Token: 0x04006D1C RID: 27932
+		TanglePortalsOpen,
+		// Token: 0x04006D1D RID: 27933
+		CleansingFirePortalsOpen,
+		// Token: 0x04006D1E RID: 27934
+		EnteredMaps,
+		// Token: 0x04006D1F RID: 27935
+		HardMode,
+		// Token: 0x04006D20 RID: 27936
+		SeenExpeditionNPC,
+		// Token: 0x04006D21 RID: 27937
+		ExpeditionTutorialQuest,
+		// Token: 0x04006D22 RID: 27938
+		CastawayCaptainDefeated,
+		// Token: 0x04006D23 RID: 27939
+		CastawayExplosiveTriggered,
+		// Token: 0x04006D24 RID: 27940
+		CastawayEntered,
+		// Token: 0x04006D25 RID: 27941
+		CastawayShipNearby,
+		// Token: 0x04006D26 RID: 27942
+		CastawaySoulsFound,
+		// Token: 0x04006D27 RID: 27943
+		CastawayExplosiveFound,
+		// Token: 0x04006D28 RID: 27944
+		UNUSED905,
+		// Token: 0x04006D29 RID: 27945
+		UNUSED906,
+		// Token: 0x04006D2A RID: 27946
+		UNUSED907,
+		// Token: 0x04006D2B RID: 27947
+		UNUSED908,
+		// Token: 0x04006D2C RID: 27948
+		UNUSED909,
+		// Token: 0x04006D2D RID: 27949
+		UNUSED910,
+		// Token: 0x04006D2E RID: 27950
+		UNUSED911,
+		// Token: 0x04006D2F RID: 27951
+		UNUSED912,
+		// Token: 0x04006D30 RID: 27952
+		UNUSED913,
+		// Token: 0x04006D31 RID: 27953
+		UNUSED914,
+		// Token: 0x04006D32 RID: 27954
+		UNUSED915,
+		// Token: 0x04006D33 RID: 27955
+		UNUSED916,
+		// Token: 0x04006D34 RID: 27956
+		UNUSED917,
+		// Token: 0x04006D35 RID: 27957
+		UNUSED918,
+		// Token: 0x04006D36 RID: 27958
+		UNUSED919,
+		// Token: 0x04006D37 RID: 27959
+		UNUSED920,
+		// Token: 0x04006D38 RID: 27960
+		UNUSED921,
+		// Token: 0x04006D39 RID: 27961
+		UNUSED922,
+		// Token: 0x04006D3A RID: 27962
+		UNUSED923,
+		// Token: 0x04006D3B RID: 27963
+		UNUSED924,
+		// Token: 0x04006D3C RID: 27964
+		UNUSED925,
+		// Token: 0x04006D3D RID: 27965
+		UNUSED926,
+		// Token: 0x04006D3E RID: 27966
+		UNUSED927,
+		// Token: 0x04006D3F RID: 27967
+		UNUSED928,
+		// Token: 0x04006D40 RID: 27968
+		UNUSED929,
+		// Token: 0x04006D41 RID: 27969
+		UNUSED930,
+		// Token: 0x04006D42 RID: 27970
+		UNUSED931,
+		// Token: 0x04006D43 RID: 27971
+		UNUSED932,
+		// Token: 0x04006D44 RID: 27972
+		UNUSED933,
+		// Token: 0x04006D45 RID: 27973
+		UNUSED934,
+		// Token: 0x04006D46 RID: 27974
+		UNUSED935,
+		// Token: 0x04006D47 RID: 27975
+		UNUSED936,
+		// Token: 0x04006D48 RID: 27976
+		UNUSED937,
+		// Token: 0x04006D49 RID: 27977
+		UNUSED938,
+		// Token: 0x04006D4A RID: 27978
+		UNUSED939,
+		// Token: 0x04006D4B RID: 27979
+		UNUSED940,
+		// Token: 0x04006D4C RID: 27980
+		UNUSED941,
+		// Token: 0x04006D4D RID: 27981
+		UNUSED942,
+		// Token: 0x04006D4E RID: 27982
+		UNUSED943,
+		// Token: 0x04006D4F RID: 27983
+		UNUSED944,
+		// Token: 0x04006D50 RID: 27984
+		UNUSED945,
+		// Token: 0x04006D51 RID: 27985
+		UNUSED946,
+		// Token: 0x04006D52 RID: 27986
+		UNUSED947,
+		// Token: 0x04006D53 RID: 27987
+		UNUSED948,
+		// Token: 0x04006D54 RID: 27988
+		UNUSED949,
+		// Token: 0x04006D55 RID: 27989
+		UNUSED950,
+		// Token: 0x04006D56 RID: 27990
+		UNUSED951,
+		// Token: 0x04006D57 RID: 27991
+		UNUSED952,
+		// Token: 0x04006D58 RID: 27992
+		UNUSED953,
+		// Token: 0x04006D59 RID: 27993
+		UNUSED954,
+		// Token: 0x04006D5A RID: 27994
+		UNUSED955,
+		// Token: 0x04006D5B RID: 27995
+		UNUSED956,
+		// Token: 0x04006D5C RID: 27996
+		UNUSED957,
+		// Token: 0x04006D5D RID: 27997
+		UNUSED958,
+		// Token: 0x04006D5E RID: 27998
+		UNUSED959,
+		// Token: 0x04006D5F RID: 27999
+		UNUSED960,
+		// Token: 0x04006D60 RID: 28000
+		UNUSED961,
+		// Token: 0x04006D61 RID: 28001
+		UNUSED962,
+		// Token: 0x04006D62 RID: 28002
+		UNUSED963,
+		// Token: 0x04006D63 RID: 28003
+		UNUSED964,
+		// Token: 0x04006D64 RID: 28004
+		UNUSED965,
+		// Token: 0x04006D65 RID: 28005
+		UNUSED966,
+		// Token: 0x04006D66 RID: 28006
+		UNUSED967,
+		// Token: 0x04006D67 RID: 28007
+		UNUSED968,
+		// Token: 0x04006D68 RID: 28008
+		UNUSED969,
+		// Token: 0x04006D69 RID: 28009
+		UNUSED970,
+		// Token: 0x04006D6A RID: 28010
+		UNUSED971,
+		// Token: 0x04006D6B RID: 28011
+		UNUSED972,
+		// Token: 0x04006D6C RID: 28012
+		UNUSED973,
+		// Token: 0x04006D6D RID: 28013
+		UNUSED974,
+		// Token: 0x04006D6E RID: 28014
+		UNUSED975,
+		// Token: 0x04006D6F RID: 28015
+		UNUSED976,
+		// Token: 0x04006D70 RID: 28016
+		UNUSED977,
+		// Token: 0x04006D71 RID: 28017
+		UNUSED978,
+		// Token: 0x04006D72 RID: 28018
+		UNUSED979,
+		// Token: 0x04006D73 RID: 28019
+		UNUSED980,
+		// Token: 0x04006D74 RID: 28020
+		UNUSED981,
+		// Token: 0x04006D75 RID: 28021
+		UNUSED982,
+		// Token: 0x04006D76 RID: 28022
+		UNUSED983,
+		// Token: 0x04006D77 RID: 28023
+		UNUSED984,
+		// Token: 0x04006D78 RID: 28024
+		UNUSED985,
+		// Token: 0x04006D79 RID: 28025
+		UNUSED986,
+		// Token: 0x04006D7A RID: 28026
+		UNUSED987,
+		// Token: 0x04006D7B RID: 28027
+		UNUSED988,
+		// Token: 0x04006D7C RID: 28028
+		UNUSED989,
+		// Token: 0x04006D7D RID: 28029
+		UNUSED990,
+		// Token: 0x04006D7E RID: 28030
+		UNUSED991,
+		// Token: 0x04006D7F RID: 28031
+		UNUSED992,
+		// Token: 0x04006D80 RID: 28032
+		UNUSED993,
+		// Token: 0x04006D81 RID: 28033
+		UNUSED994,
+		// Token: 0x04006D82 RID: 28034
+		UNUSED995,
+		// Token: 0x04006D83 RID: 28035
+		UNUSED996,
+		// Token: 0x04006D84 RID: 28036
+		UNUSED997,
+		// Token: 0x04006D85 RID: 28037
+		UNUSED998,
+		// Token: 0x04006D86 RID: 28038
+		UNUSED999,
+		// Token: 0x04006D87 RID: 28039
+		UNUSED1000,
+		// Token: 0x04006D88 RID: 28040
+		UNUSED1001,
+		// Token: 0x04006D89 RID: 28041
+		UNUSED1002,
+		// Token: 0x04006D8A RID: 28042
+		UNUSED1003,
+		// Token: 0x04006D8B RID: 28043
+		UNUSED1004,
+		// Token: 0x04006D8C RID: 28044
+		UNUSED1005,
+		// Token: 0x04006D8D RID: 28045
+		UNUSED1006,
+		// Token: 0x04006D8E RID: 28046
+		UNUSED1007,
+		// Token: 0x04006D8F RID: 28047
+		UNUSED1008,
+		// Token: 0x04006D90 RID: 28048
+		UNUSED1009,
+		// Token: 0x04006D91 RID: 28049
+		UNUSED1010,
+		// Token: 0x04006D92 RID: 28050
+		UNUSED1011,
+		// Token: 0x04006D93 RID: 28051
+		UNUSED1012,
+		// Token: 0x04006D94 RID: 28052
+		UNUSED1013,
+		// Token: 0x04006D95 RID: 28053
+		UNUSED1014,
+		// Token: 0x04006D96 RID: 28054
+		UNUSED1015,
+		// Token: 0x04006D97 RID: 28055
+		UNUSED1016,
+		// Token: 0x04006D98 RID: 28056
+		UNUSED1017,
+		// Token: 0x04006D99 RID: 28057
+		UNUSED1018,
+		// Token: 0x04006D9A RID: 28058
+		UNUSED1019,
+		// Token: 0x04006D9B RID: 28059
+		UNUSED1020,
+		// Token: 0x04006D9C RID: 28060
+		UNUSED1021,
+		// Token: 0x04006D9D RID: 28061
+		UNUSED1022,
+		// Token: 0x04006D9E RID: 28062
+		UNUSED1023,
+		// Token: 0x04006D9F RID: 28063
+		UNUSED1024,
+		// Token: 0x04006DA0 RID: 28064
+		UNUSED1025,
+		// Token: 0x04006DA1 RID: 28065
+		UNUSED1026,
+		// Token: 0x04006DA2 RID: 28066
+		UNUSED1027,
+		// Token: 0x04006DA3 RID: 28067
+		UNUSED1028,
+		// Token: 0x04006DA4 RID: 28068
+		UNUSED1029,
+		// Token: 0x04006DA5 RID: 28069
+		UNUSED1030,
+		// Token: 0x04006DA6 RID: 28070
+		UNUSED1031,
+		// Token: 0x04006DA7 RID: 28071
+		UNUSED1032,
+		// Token: 0x04006DA8 RID: 28072
+		UNUSED1033,
+		// Token: 0x04006DA9 RID: 28073
+		UNUSED1034,
+		// Token: 0x04006DAA RID: 28074
+		UNUSED1035,
+		// Token: 0x04006DAB RID: 28075
+		UNUSED1036,
+		// Token: 0x04006DAC RID: 28076
+		UNUSED1037,
+		// Token: 0x04006DAD RID: 28077
+		UNUSED1038,
+		// Token: 0x04006DAE RID: 28078
+		UNUSED1039,
+		// Token: 0x04006DAF RID: 28079
+		UNUSED1040,
+		// Token: 0x04006DB0 RID: 28080
+		UNUSED1041,
+		// Token: 0x04006DB1 RID: 28081
+		UNUSED1042,
+		// Token: 0x04006DB2 RID: 28082
+		UNUSED1043,
+		// Token: 0x04006DB3 RID: 28083
+		UNUSED1044,
+		// Token: 0x04006DB4 RID: 28084
+		UNUSED1045,
+		// Token: 0x04006DB5 RID: 28085
+		UNUSED1046,
+		// Token: 0x04006DB6 RID: 28086
+		UNUSED1047,
+		// Token: 0x04006DB7 RID: 28087
+		UNUSED1048,
+		// Token: 0x04006DB8 RID: 28088
+		UNUSED1049,
+		// Token: 0x04006DB9 RID: 28089
+		UNUSED1050,
+		// Token: 0x04006DBA RID: 28090
+		UNUSED1051,
+		// Token: 0x04006DBB RID: 28091
+		UNUSED1052,
+		// Token: 0x04006DBC RID: 28092
+		UNUSED1053,
+		// Token: 0x04006DBD RID: 28093
+		UNUSED1054,
+		// Token: 0x04006DBE RID: 28094
+		UNUSED1055,
+		// Token: 0x04006DBF RID: 28095
+		UNUSED1056,
+		// Token: 0x04006DC0 RID: 28096
+		UNUSED1057,
+		// Token: 0x04006DC1 RID: 28097
+		UNUSED1058,
+		// Token: 0x04006DC2 RID: 28098
+		UNUSED1059,
+		// Token: 0x04006DC3 RID: 28099
+		UNUSED1060,
+		// Token: 0x04006DC4 RID: 28100
+		UNUSED1061,
+		// Token: 0x04006DC5 RID: 28101
+		UNUSED1062,
+		// Token: 0x04006DC6 RID: 28102
+		UNUSED1063,
+		// Token: 0x04006DC7 RID: 28103
+		UNUSED1064,
+		// Token: 0x04006DC8 RID: 28104
+		UNUSED1065,
+		// Token: 0x04006DC9 RID: 28105
+		UNUSED1066,
+		// Token: 0x04006DCA RID: 28106
+		UNUSED1067,
+		// Token: 0x04006DCB RID: 28107
+		UNUSED1068,
+		// Token: 0x04006DCC RID: 28108
+		UNUSED1069,
+		// Token: 0x04006DCD RID: 28109
+		UNUSED1070,
+		// Token: 0x04006DCE RID: 28110
+		UNUSED1071,
+		// Token: 0x04006DCF RID: 28111
+		UNUSED1072,
+		// Token: 0x04006DD0 RID: 28112
+		UNUSED1073,
+		// Token: 0x04006DD1 RID: 28113
+		UNUSED1074,
+		// Token: 0x04006DD2 RID: 28114
+		UNUSED1075,
+		// Token: 0x04006DD3 RID: 28115
+		UNUSED1076,
+		// Token: 0x04006DD4 RID: 28116
+		UNUSED1077,
+		// Token: 0x04006DD5 RID: 28117
+		UNUSED1078,
+		// Token: 0x04006DD6 RID: 28118
+		UNUSED1079,
+		// Token: 0x04006DD7 RID: 28119
+		UNUSED1080,
+		// Token: 0x04006DD8 RID: 28120
+		UNUSED1081,
+		// Token: 0x04006DD9 RID: 28121
+		UNUSED1082,
+		// Token: 0x04006DDA RID: 28122
+		UNUSED1083,
+		// Token: 0x04006DDB RID: 28123
+		UNUSED1084,
+		// Token: 0x04006DDC RID: 28124
+		UNUSED1085,
+		// Token: 0x04006DDD RID: 28125
+		UNUSED1086,
+		// Token: 0x04006DDE RID: 28126
+		UNUSED1087,
+		// Token: 0x04006DDF RID: 28127
+		UNUSED1088,
+		// Token: 0x04006DE0 RID: 28128
+		UNUSED1089,
+		// Token: 0x04006DE1 RID: 28129
+		UNUSED1090,
+		// Token: 0x04006DE2 RID: 28130
+		UNUSED1091,
+		// Token: 0x04006DE3 RID: 28131
+		UNUSED1092,
+		// Token: 0x04006DE4 RID: 28132
+		UNUSED1093,
+		// Token: 0x04006DE5 RID: 28133
+		UNUSED1094,
+		// Token: 0x04006DE6 RID: 28134
+		UNUSED1095,
+		// Token: 0x04006DE7 RID: 28135
+		UNUSED1096,
+		// Token: 0x04006DE8 RID: 28136
+		UNUSED1097,
+		// Token: 0x04006DE9 RID: 28137
+		UNUSED1098,
+		// Token: 0x04006DEA RID: 28138
+		UNUSED1099,
+		// Token: 0x04006DEB RID: 28139
+		UNUSED1100,
+		// Token: 0x04006DEC RID: 28140
+		UNUSED1101,
+		// Token: 0x04006DED RID: 28141
+		UNUSED1102,
+		// Token: 0x04006DEE RID: 28142
+		UNUSED1103,
+		// Token: 0x04006DEF RID: 28143
+		UNUSED1104,
+		// Token: 0x04006DF0 RID: 28144
+		UNUSED1105,
+		// Token: 0x04006DF1 RID: 28145
+		UNUSED1106,
+		// Token: 0x04006DF2 RID: 28146
+		UNUSED1107,
+		// Token: 0x04006DF3 RID: 28147
+		UNUSED1108,
+		// Token: 0x04006DF4 RID: 28148
+		UNUSED1109,
+		// Token: 0x04006DF5 RID: 28149
+		UNUSED1110,
+		// Token: 0x04006DF6 RID: 28150
+		UNUSED1111,
+		// Token: 0x04006DF7 RID: 28151
+		UNUSED1112,
+		// Token: 0x04006DF8 RID: 28152
+		UNUSED1113,
+		// Token: 0x04006DF9 RID: 28153
+		UNUSED1114,
+		// Token: 0x04006DFA RID: 28154
+		UNUSED1115,
+		// Token: 0x04006DFB RID: 28155
+		UNUSED1116,
+		// Token: 0x04006DFC RID: 28156
+		UNUSED1117,
+		// Token: 0x04006DFD RID: 28157
+		UNUSED1118,
+		// Token: 0x04006DFE RID: 28158
+		UNUSED1119,
+		// Token: 0x04006DFF RID: 28159
+		UNUSED1120,
+		// Token: 0x04006E00 RID: 28160
+		UNUSED1121,
+		// Token: 0x04006E01 RID: 28161
+		UNUSED1122,
+		// Token: 0x04006E02 RID: 28162
+		UNUSED1123,
+		// Token: 0x04006E03 RID: 28163
+		UNUSED1124,
+		// Token: 0x04006E04 RID: 28164
+		UNUSED1125,
+		// Token: 0x04006E05 RID: 28165
+		UNUSED1126,
+		// Token: 0x04006E06 RID: 28166
+		UNUSED1127,
+		// Token: 0x04006E07 RID: 28167
+		UNUSED1128,
+		// Token: 0x04006E08 RID: 28168
+		UNUSED1129,
+		// Token: 0x04006E09 RID: 28169
+		UNUSED1130,
+		// Token: 0x04006E0A RID: 28170
+		UNUSED1131,
+		// Token: 0x04006E0B RID: 28171
+		UNUSED1132,
+		// Token: 0x04006E0C RID: 28172
+		UNUSED1133,
+		// Token: 0x04006E0D RID: 28173
+		UNUSED1134,
+		// Token: 0x04006E0E RID: 28174
+		UNUSED1135,
+		// Token: 0x04006E0F RID: 28175
+		UNUSED1136,
+		// Token: 0x04006E10 RID: 28176
+		UNUSED1137,
+		// Token: 0x04006E11 RID: 28177
+		UNUSED1138,
+		// Token: 0x04006E12 RID: 28178
+		UNUSED1139,
+		// Token: 0x04006E13 RID: 28179
+		UNUSED1140,
+		// Token: 0x04006E14 RID: 28180
+		UNUSED1141,
+		// Token: 0x04006E15 RID: 28181
+		UNUSED1142,
+		// Token: 0x04006E16 RID: 28182
+		UNUSED1143,
+		// Token: 0x04006E17 RID: 28183
+		UNUSED1144,
+		// Token: 0x04006E18 RID: 28184
+		UNUSED1145,
+		// Token: 0x04006E19 RID: 28185
+		UNUSED1146,
+		// Token: 0x04006E1A RID: 28186
+		UNUSED1147,
+		// Token: 0x04006E1B RID: 28187
+		UNUSED1148,
+		// Token: 0x04006E1C RID: 28188
+		UNUSED1149,
+		// Token: 0x04006E1D RID: 28189
+		UNUSED1150,
+		// Token: 0x04006E1E RID: 28190
+		UNUSED1151,
+		// Token: 0x04006E1F RID: 28191
+		UNUSED1152,
+		// Token: 0x04006E20 RID: 28192
+		UNUSED1153,
+		// Token: 0x04006E21 RID: 28193
+		UNUSED1154,
+		// Token: 0x04006E22 RID: 28194
+		UNUSED1155,
+		// Token: 0x04006E23 RID: 28195
+		UNUSED1156,
+		// Token: 0x04006E24 RID: 28196
+		UNUSED1157,
+		// Token: 0x04006E25 RID: 28197
+		UNUSED1158,
+		// Token: 0x04006E26 RID: 28198
+		UNUSED1159,
+		// Token: 0x04006E27 RID: 28199
+		UNUSED1160,
+		// Token: 0x04006E28 RID: 28200
+		UNUSED1161,
+		// Token: 0x04006E29 RID: 28201
+		UNUSED1162,
+		// Token: 0x04006E2A RID: 28202
+		UNUSED1163,
+		// Token: 0x04006E2B RID: 28203
+		UNUSED1164,
+		// Token: 0x04006E2C RID: 28204
+		UNUSED1165,
+		// Token: 0x04006E2D RID: 28205
+		UNUSED1166,
+		// Token: 0x04006E2E RID: 28206
+		UNUSED1167,
+		// Token: 0x04006E2F RID: 28207
+		UNUSED1168,
+		// Token: 0x04006E30 RID: 28208
+		UNUSED1169,
+		// Token: 0x04006E31 RID: 28209
+		UNUSED1170,
+		// Token: 0x04006E32 RID: 28210
+		UNUSED1171,
+		// Token: 0x04006E33 RID: 28211
+		UNUSED1172,
+		// Token: 0x04006E34 RID: 28212
+		UNUSED1173,
+		// Token: 0x04006E35 RID: 28213
+		UNUSED1174,
+		// Token: 0x04006E36 RID: 28214
+		UNUSED1175,
+		// Token: 0x04006E37 RID: 28215
+		UNUSED1176,
+		// Token: 0x04006E38 RID: 28216
+		UNUSED1177,
+		// Token: 0x04006E39 RID: 28217
+		UNUSED1178,
+		// Token: 0x04006E3A RID: 28218
+		UNUSED1179,
+		// Token: 0x04006E3B RID: 28219
+		UNUSED1180,
+		// Token: 0x04006E3C RID: 28220
+		UNUSED1181,
+		// Token: 0x04006E3D RID: 28221
+		UNUSED1182,
+		// Token: 0x04006E3E RID: 28222
+		UNUSED1183,
+		// Token: 0x04006E3F RID: 28223
+		UNUSED1184,
+		// Token: 0x04006E40 RID: 28224
+		UNUSED1185,
+		// Token: 0x04006E41 RID: 28225
+		UNUSED1186,
+		// Token: 0x04006E42 RID: 28226
+		UNUSED1187,
+		// Token: 0x04006E43 RID: 28227
+		UNUSED1188,
+		// Token: 0x04006E44 RID: 28228
+		UNUSED1189,
+		// Token: 0x04006E45 RID: 28229
+		UNUSED1190,
+		// Token: 0x04006E46 RID: 28230
+		UNUSED1191,
+		// Token: 0x04006E47 RID: 28231
+		UNUSED1192,
+		// Token: 0x04006E48 RID: 28232
+		UNUSED1193,
+		// Token: 0x04006E49 RID: 28233
+		UNUSED1194,
+		// Token: 0x04006E4A RID: 28234
+		UNUSED1195,
+		// Token: 0x04006E4B RID: 28235
+		UNUSED1196,
+		// Token: 0x04006E4C RID: 28236
+		UNUSED1197,
+		// Token: 0x04006E4D RID: 28237
+		UNUSED1198,
+		// Token: 0x04006E4E RID: 28238
+		UNUSED1199,
+		// Token: 0x04006E4F RID: 28239
+		UNUSED1200,
+		// Token: 0x04006E50 RID: 28240
+		UNUSED1201,
+		// Token: 0x04006E51 RID: 28241
+		UNUSED1202,
+		// Token: 0x04006E52 RID: 28242
+		UNUSED1203,
+		// Token: 0x04006E53 RID: 28243
+		UNUSED1204,
+		// Token: 0x04006E54 RID: 28244
+		UNUSED1205,
+		// Token: 0x04006E55 RID: 28245
+		UNUSED1206,
+		// Token: 0x04006E56 RID: 28246
+		UNUSED1207,
+		// Token: 0x04006E57 RID: 28247
+		UNUSED1208,
+		// Token: 0x04006E58 RID: 28248
+		UNUSED1209,
+		// Token: 0x04006E59 RID: 28249
+		UNUSED1210,
+		// Token: 0x04006E5A RID: 28250
+		UNUSED1211,
+		// Token: 0x04006E5B RID: 28251
+		UNUSED1212,
+		// Token: 0x04006E5C RID: 28252
+		UNUSED1213,
+		// Token: 0x04006E5D RID: 28253
+		UNUSED1214,
+		// Token: 0x04006E5E RID: 28254
+		UNUSED1215,
+		// Token: 0x04006E5F RID: 28255
+		UNUSED1216,
+		// Token: 0x04006E60 RID: 28256
+		UNUSED1217,
+		// Token: 0x04006E61 RID: 28257
+		UNUSED1218,
+		// Token: 0x04006E62 RID: 28258
+		UNUSED1219,
+		// Token: 0x04006E63 RID: 28259
+		UNUSED1220,
+		// Token: 0x04006E64 RID: 28260
+		UNUSED1221,
+		// Token: 0x04006E65 RID: 28261
+		UNUSED1222,
+		// Token: 0x04006E66 RID: 28262
+		UNUSED1223,
+		// Token: 0x04006E67 RID: 28263
+		UNUSED1224,
+		// Token: 0x04006E68 RID: 28264
+		UNUSED1225,
+		// Token: 0x04006E69 RID: 28265
+		UNUSED1226,
+		// Token: 0x04006E6A RID: 28266
+		UNUSED1227,
+		// Token: 0x04006E6B RID: 28267
+		UNUSED1228,
+		// Token: 0x04006E6C RID: 28268
+		UNUSED1229,
+		// Token: 0x04006E6D RID: 28269
+		UNUSED1230,
+		// Token: 0x04006E6E RID: 28270
+		UNUSED1231,
+		// Token: 0x04006E6F RID: 28271
+		UNUSED1232,
+		// Token: 0x04006E70 RID: 28272
+		UNUSED1233,
+		// Token: 0x04006E71 RID: 28273
+		UNUSED1234,
+		// Token: 0x04006E72 RID: 28274
+		UNUSED1235,
+		// Token: 0x04006E73 RID: 28275
+		UNUSED1236,
+		// Token: 0x04006E74 RID: 28276
+		UNUSED1237,
+		// Token: 0x04006E75 RID: 28277
+		UNUSED1238,
+		// Token: 0x04006E76 RID: 28278
+		UNUSED1239,
+		// Token: 0x04006E77 RID: 28279
+		UNUSED1240,
+		// Token: 0x04006E78 RID: 28280
+		UNUSED1241,
+		// Token: 0x04006E79 RID: 28281
+		UNUSED1242,
+		// Token: 0x04006E7A RID: 28282
+		UNUSED1243,
+		// Token: 0x04006E7B RID: 28283
+		UNUSED1244,
+		// Token: 0x04006E7C RID: 28284
+		UNUSED1245,
+		// Token: 0x04006E7D RID: 28285
+		UNUSED1246,
+		// Token: 0x04006E7E RID: 28286
+		UNUSED1247,
+		// Token: 0x04006E7F RID: 28287
+		UNUSED1248,
+		// Token: 0x04006E80 RID: 28288
+		UNUSED1249,
+		// Token: 0x04006E81 RID: 28289
+		UNUSED1250,
+		// Token: 0x04006E82 RID: 28290
+		UNUSED1251,
+		// Token: 0x04006E83 RID: 28291
+		UNUSED1252,
+		// Token: 0x04006E84 RID: 28292
+		UNUSED1253,
+		// Token: 0x04006E85 RID: 28293
+		UNUSED1254,
+		// Token: 0x04006E86 RID: 28294
+		UNUSED1255,
+		// Token: 0x04006E87 RID: 28295
+		UNUSED1256,
+		// Token: 0x04006E88 RID: 28296
+		UNUSED1257,
+		// Token: 0x04006E89 RID: 28297
+		UNUSED1258,
+		// Token: 0x04006E8A RID: 28298
+		UNUSED1259,
+		// Token: 0x04006E8B RID: 28299
+		UNUSED1260,
+		// Token: 0x04006E8C RID: 28300
+		UNUSED1261,
+		// Token: 0x04006E8D RID: 28301
+		UNUSED1262,
+		// Token: 0x04006E8E RID: 28302
+		UNUSED1263,
+		// Token: 0x04006E8F RID: 28303
+		UNUSED1264,
+		// Token: 0x04006E90 RID: 28304
+		UNUSED1265,
+		// Token: 0x04006E91 RID: 28305
+		UNUSED1266,
+		// Token: 0x04006E92 RID: 28306
+		UNUSED1267,
+		// Token: 0x04006E93 RID: 28307
+		UNUSED1268,
+		// Token: 0x04006E94 RID: 28308
+		UNUSED1269,
+		// Token: 0x04006E95 RID: 28309
+		UNUSED1270,
+		// Token: 0x04006E96 RID: 28310
+		UNUSED1271,
+		// Token: 0x04006E97 RID: 28311
+		UNUSED1272,
+		// Token: 0x04006E98 RID: 28312
+		UNUSED1273,
+		// Token: 0x04006E99 RID: 28313
+		UNUSED1274,
+		// Token: 0x04006E9A RID: 28314
+		UNUSED1275,
+		// Token: 0x04006E9B RID: 28315
+		UNUSED1276,
+		// Token: 0x04006E9C RID: 28316
+		UNUSED1277,
+		// Token: 0x04006E9D RID: 28317
+		UNUSED1278,
+		// Token: 0x04006E9E RID: 28318
+		UNUSED1279,
+		// Token: 0x04006E9F RID: 28319
+		UNUSED1280,
+		// Token: 0x04006EA0 RID: 28320
+		UNUSED1281,
+		// Token: 0x04006EA1 RID: 28321
+		UNUSED1282,
+		// Token: 0x04006EA2 RID: 28322
+		UNUSED1283,
+		// Token: 0x04006EA3 RID: 28323
+		UNUSED1284,
+		// Token: 0x04006EA4 RID: 28324
+		UNUSED1285,
+		// Token: 0x04006EA5 RID: 28325
+		UNUSED1286,
+		// Token: 0x04006EA6 RID: 28326
+		UNUSED1287,
+		// Token: 0x04006EA7 RID: 28327
+		UNUSED1288,
+		// Token: 0x04006EA8 RID: 28328
+		UNUSED1289,
+		// Token: 0x04006EA9 RID: 28329
+		UNUSED1290,
+		// Token: 0x04006EAA RID: 28330
+		UNUSED1291,
+		// Token: 0x04006EAB RID: 28331
+		UNUSED1292,
+		// Token: 0x04006EAC RID: 28332
+		UNUSED1293,
+		// Token: 0x04006EAD RID: 28333
+		UNUSED1294,
+		// Token: 0x04006EAE RID: 28334
+		UNUSED1295,
+		// Token: 0x04006EAF RID: 28335
+		UNUSED1296,
+		// Token: 0x04006EB0 RID: 28336
+		UNUSED1297,
+		// Token: 0x04006EB1 RID: 28337
+		UNUSED1298,
+		// Token: 0x04006EB2 RID: 28338
+		UNUSED1299,
+		// Token: 0x04006EB3 RID: 28339
+		UNUSED1300,
+		// Token: 0x04006EB4 RID: 28340
+		UNUSED1301,
+		// Token: 0x04006EB5 RID: 28341
+		UNUSED1302,
+		// Token: 0x04006EB6 RID: 28342
+		UNUSED1303,
+		// Token: 0x04006EB7 RID: 28343
+		UNUSED1304,
+		// Token: 0x04006EB8 RID: 28344
+		UNUSED1305,
+		// Token: 0x04006EB9 RID: 28345
+		UNUSED1306,
+		// Token: 0x04006EBA RID: 28346
+		UNUSED1307,
+		// Token: 0x04006EBB RID: 28347
+		UNUSED1308,
+		// Token: 0x04006EBC RID: 28348
+		UNUSED1309,
+		// Token: 0x04006EBD RID: 28349
+		UNUSED1310,
+		// Token: 0x04006EBE RID: 28350
+		UNUSED1311,
+		// Token: 0x04006EBF RID: 28351
+		UNUSED1312,
+		// Token: 0x04006EC0 RID: 28352
+		UNUSED1313,
+		// Token: 0x04006EC1 RID: 28353
+		UNUSED1314,
+		// Token: 0x04006EC2 RID: 28354
+		UNUSED1315,
+		// Token: 0x04006EC3 RID: 28355
+		UNUSED1316,
+		// Token: 0x04006EC4 RID: 28356
+		UNUSED1317,
+		// Token: 0x04006EC5 RID: 28357
+		UNUSED1318,
+		// Token: 0x04006EC6 RID: 28358
+		UNUSED1319,
+		// Token: 0x04006EC7 RID: 28359
+		UNUSED1320,
+		// Token: 0x04006EC8 RID: 28360
+		UNUSED1321,
+		// Token: 0x04006EC9 RID: 28361
+		UNUSED1322,
+		// Token: 0x04006ECA RID: 28362
+		UNUSED1323,
+		// Token: 0x04006ECB RID: 28363
+		UNUSED1324,
+		// Token: 0x04006ECC RID: 28364
+		UNUSED1325,
+		// Token: 0x04006ECD RID: 28365
+		UNUSED1326,
+		// Token: 0x04006ECE RID: 28366
+		UNUSED1327,
+		// Token: 0x04006ECF RID: 28367
+		UNUSED1328,
+		// Token: 0x04006ED0 RID: 28368
+		UNUSED1329,
+		// Token: 0x04006ED1 RID: 28369
+		UNUSED1330,
+		// Token: 0x04006ED2 RID: 28370
+		UNUSED1331,
+		// Token: 0x04006ED3 RID: 28371
+		UNUSED1332,
+		// Token: 0x04006ED4 RID: 28372
+		UNUSED1333,
+		// Token: 0x04006ED5 RID: 28373
+		UNUSED1334,
+		// Token: 0x04006ED6 RID: 28374
+		UNUSED1335,
+		// Token: 0x04006ED7 RID: 28375
+		UNUSED1336,
+		// Token: 0x04006ED8 RID: 28376
+		UNUSED1337,
+		// Token: 0x04006ED9 RID: 28377
+		UNUSED1338,
+		// Token: 0x04006EDA RID: 28378
+		UNUSED1339,
+		// Token: 0x04006EDB RID: 28379
+		UNUSED1340,
+		// Token: 0x04006EDC RID: 28380
+		UNUSED1341,
+		// Token: 0x04006EDD RID: 28381
+		UNUSED1342,
+		// Token: 0x04006EDE RID: 28382
+		UNUSED1343,
+		// Token: 0x04006EDF RID: 28383
+		UNUSED1344,
+		// Token: 0x04006EE0 RID: 28384
+		UNUSED1345,
+		// Token: 0x04006EE1 RID: 28385
+		UNUSED1346,
+		// Token: 0x04006EE2 RID: 28386
+		UNUSED1347,
+		// Token: 0x04006EE3 RID: 28387
+		UNUSED1348,
+		// Token: 0x04006EE4 RID: 28388
+		UNUSED1349,
+		// Token: 0x04006EE5 RID: 28389
+		UNUSED1350,
+		// Token: 0x04006EE6 RID: 28390
+		UNUSED1351,
+		// Token: 0x04006EE7 RID: 28391
+		UNUSED1352,
+		// Token: 0x04006EE8 RID: 28392
+		UNUSED1353,
+		// Token: 0x04006EE9 RID: 28393
+		UNUSED1354,
+		// Token: 0x04006EEA RID: 28394
+		UNUSED1355,
+		// Token: 0x04006EEB RID: 28395
+		UNUSED1356,
+		// Token: 0x04006EEC RID: 28396
+		UNUSED1357,
+		// Token: 0x04006EED RID: 28397
+		UNUSED1358,
+		// Token: 0x04006EEE RID: 28398
+		UNUSED1359,
+		// Token: 0x04006EEF RID: 28399
+		UNUSED1360,
+		// Token: 0x04006EF0 RID: 28400
+		UNUSED1361,
+		// Token: 0x04006EF1 RID: 28401
+		UNUSED1362,
+		// Token: 0x04006EF2 RID: 28402
+		UNUSED1363,
+		// Token: 0x04006EF3 RID: 28403
+		UNUSED1364,
+		// Token: 0x04006EF4 RID: 28404
+		UNUSED1365,
+		// Token: 0x04006EF5 RID: 28405
+		UNUSED1366,
+		// Token: 0x04006EF6 RID: 28406
+		UNUSED1367,
+		// Token: 0x04006EF7 RID: 28407
+		UNUSED1368,
+		// Token: 0x04006EF8 RID: 28408
+		UNUSED1369,
+		// Token: 0x04006EF9 RID: 28409
+		UNUSED1370,
+		// Token: 0x04006EFA RID: 28410
+		UNUSED1371,
+		// Token: 0x04006EFB RID: 28411
+		UNUSED1372,
+		// Token: 0x04006EFC RID: 28412
+		UNUSED1373,
+		// Token: 0x04006EFD RID: 28413
+		UNUSED1374,
+		// Token: 0x04006EFE RID: 28414
+		UNUSED1375,
+		// Token: 0x04006EFF RID: 28415
+		UNUSED1376,
+		// Token: 0x04006F00 RID: 28416
+		UNUSED1377,
+		// Token: 0x04006F01 RID: 28417
+		UNUSED1378,
+		// Token: 0x04006F02 RID: 28418
+		UNUSED1379,
+		// Token: 0x04006F03 RID: 28419
+		UNUSED1380,
+		// Token: 0x04006F04 RID: 28420
+		UNUSED1381,
+		// Token: 0x04006F05 RID: 28421
+		UNUSED1382,
+		// Token: 0x04006F06 RID: 28422
+		UNUSED1383,
+		// Token: 0x04006F07 RID: 28423
+		UNUSED1384,
+		// Token: 0x04006F08 RID: 28424
+		UNUSED1385,
+		// Token: 0x04006F09 RID: 28425
+		UNUSED1386,
+		// Token: 0x04006F0A RID: 28426
+		UNUSED1387,
+		// Token: 0x04006F0B RID: 28427
+		UNUSED1388,
+		// Token: 0x04006F0C RID: 28428
+		UNUSED1389,
+		// Token: 0x04006F0D RID: 28429
+		UNUSED1390,
+		// Token: 0x04006F0E RID: 28430
+		UNUSED1391,
+		// Token: 0x04006F0F RID: 28431
+		UNUSED1392,
+		// Token: 0x04006F10 RID: 28432
+		UNUSED1393,
+		// Token: 0x04006F11 RID: 28433
+		UNUSED1394,
+		// Token: 0x04006F12 RID: 28434
+		UNUSED1395,
+		// Token: 0x04006F13 RID: 28435
+		UNUSED1396,
+		// Token: 0x04006F14 RID: 28436
+		UNUSED1397,
+		// Token: 0x04006F15 RID: 28437
+		UNUSED1398,
+		// Token: 0x04006F16 RID: 28438
+		UNUSED1399,
+		// Token: 0x04006F17 RID: 28439
+		UNUSED1400,
+		// Token: 0x04006F18 RID: 28440
+		UNUSED1401,
+		// Token: 0x04006F19 RID: 28441
+		UNUSED1402,
+		// Token: 0x04006F1A RID: 28442
+		UNUSED1403,
+		// Token: 0x04006F1B RID: 28443
+		UNUSED1404,
+		// Token: 0x04006F1C RID: 28444
+		UNUSED1405,
+		// Token: 0x04006F1D RID: 28445
+		UNUSED1406,
+		// Token: 0x04006F1E RID: 28446
+		UNUSED1407,
+		// Token: 0x04006F1F RID: 28447
+		UNUSED1408,
+		// Token: 0x04006F20 RID: 28448
+		UNUSED1409,
+		// Token: 0x04006F21 RID: 28449
+		UNUSED1410,
+		// Token: 0x04006F22 RID: 28450
+		UNUSED1411,
+		// Token: 0x04006F23 RID: 28451
+		UNUSED1412,
+		// Token: 0x04006F24 RID: 28452
+		UNUSED1413,
+		// Token: 0x04006F25 RID: 28453
+		UNUSED1414,
+		// Token: 0x04006F26 RID: 28454
+		UNUSED1415,
+		// Token: 0x04006F27 RID: 28455
+		UNUSED1416,
+		// Token: 0x04006F28 RID: 28456
+		UNUSED1417,
+		// Token: 0x04006F29 RID: 28457
+		UNUSED1418,
+		// Token: 0x04006F2A RID: 28458
+		UNUSED1419,
+		// Token: 0x04006F2B RID: 28459
+		SentinelSeenChest,
+		// Token: 0x04006F2C RID: 28460
+		SentinelOpenedChest,
+		// Token: 0x04006F2D RID: 28461
+		SentinelEquippedSentinel,
+		// Token: 0x04006F2E RID: 28462
+		SentinelUsedController,
+		// Token: 0x04006F2F RID: 28463
+		SentinelTutorialComplete,
+		// Token: 0x04006F30 RID: 28464
+		SentinelHaveController,
+		// Token: 0x04006F31 RID: 28465
+		ApproachedMTXPortalSinceLogin,
+		// Token: 0x04006F32 RID: 28466
+		ApproachedMTXPortalSinceDeath,
+		// Token: 0x04006F33 RID: 28467
+		EndlessDelveRaceComplete,
+		// Token: 0x04006F34 RID: 28468
+		HoodedOneA2Revealed,
+		// Token: 0x04006F35 RID: 28469
+		RisuRevealedTraitorsPassage,
+		// Token: 0x04006F36 RID: 28470
+		AsalaClosedGatesChatSeen,
+		// Token: 0x04006F37 RID: 28471
+		ZarkaRankStatusGossipSeen,
+		// Token: 0x04006F38 RID: 28472
+		ZarkaHornQuestGiven,
+		// Token: 0x04006F39 RID: 28473
+		ZarkaHornGossipSeen,
+		// Token: 0x04006F3A RID: 28474
+		UNUSED1420,
+		// Token: 0x04006F3B RID: 28475
+		UNUSED1421,
+		// Token: 0x04006F3C RID: 28476
+		UNUSED1422,
+		// Token: 0x04006F3D RID: 28477
+		UNUSED1423,
+		// Token: 0x04006F3E RID: 28478
+		UNUSED1424,
+		// Token: 0x04006F3F RID: 28479
+		UNUSED1425,
+		// Token: 0x04006F40 RID: 28480
+		UNUSED1426,
+		// Token: 0x04006F41 RID: 28481
+		UNUSED1427,
+		// Token: 0x04006F42 RID: 28482
+		UNUSED1428,
+		// Token: 0x04006F43 RID: 28483
+		UNUSED1429,
+		// Token: 0x04006F44 RID: 28484
+		UNUSED1430,
+		// Token: 0x04006F45 RID: 28485
+		UNUSED1431,
+		// Token: 0x04006F46 RID: 28486
+		UNUSED1432,
+		// Token: 0x04006F47 RID: 28487
+		UNUSED1433,
+		// Token: 0x04006F48 RID: 28488
+		UNUSED1434,
+		// Token: 0x04006F49 RID: 28489
+		UNUSED1435,
+		// Token: 0x04006F4A RID: 28490
+		UNUSED1436,
+		// Token: 0x04006F4B RID: 28491
+		UNUSED1437,
+		// Token: 0x04006F4C RID: 28492
+		UNUSED1438,
+		// Token: 0x04006F4D RID: 28493
+		UNUSED1439,
+		// Token: 0x04006F4E RID: 28494
+		UNUSED1440,
+		// Token: 0x04006F4F RID: 28495
+		UNUSED1441,
+		// Token: 0x04006F50 RID: 28496
+		UNUSED1442,
+		// Token: 0x04006F51 RID: 28497
+		UNUSED1443,
+		// Token: 0x04006F52 RID: 28498
+		UNUSED1444,
+		// Token: 0x04006F53 RID: 28499
+		UNUSED1445,
+		// Token: 0x04006F54 RID: 28500
+		UNUSED1446,
+		// Token: 0x04006F55 RID: 28501
+		UNUSED1447,
+		// Token: 0x04006F56 RID: 28502
+		UNUSED1448,
+		// Token: 0x04006F57 RID: 28503
+		UNUSED1449,
+		// Token: 0x04006F58 RID: 28504
+		UNUSED1450,
+		// Token: 0x04006F59 RID: 28505
+		UNUSED1451,
+		// Token: 0x04006F5A RID: 28506
+		UNUSED1452,
+		// Token: 0x04006F5B RID: 28507
+		UNUSED1453,
+		// Token: 0x04006F5C RID: 28508
+		UNUSED1454,
+		// Token: 0x04006F5D RID: 28509
+		UNUSED1455,
+		// Token: 0x04006F5E RID: 28510
+		UNUSED1456,
+		// Token: 0x04006F5F RID: 28511
+		UNUSED1457,
+		// Token: 0x04006F60 RID: 28512
+		UNUSED1458,
+		// Token: 0x04006F61 RID: 28513
+		UNUSED1459,
+		// Token: 0x04006F62 RID: 28514
+		UNUSED1460,
+		// Token: 0x04006F63 RID: 28515
+		UNUSED1461,
+		// Token: 0x04006F64 RID: 28516
+		UNUSED1462,
+		// Token: 0x04006F65 RID: 28517
+		UNUSED1463,
+		// Token: 0x04006F66 RID: 28518
+		UNUSED1464,
+		// Token: 0x04006F67 RID: 28519
+		UNUSED1465,
+		// Token: 0x04006F68 RID: 28520
+		UNUSED1466,
+		// Token: 0x04006F69 RID: 28521
+		UNUSED1467,
+		// Token: 0x04006F6A RID: 28522
+		UNUSED1468,
+		// Token: 0x04006F6B RID: 28523
+		UNUSED1469,
+		// Token: 0x04006F6C RID: 28524
+		UNUSED1470,
+		// Token: 0x04006F6D RID: 28525
+		UNUSED1471,
+		// Token: 0x04006F6E RID: 28526
+		UNUSED1472,
+		// Token: 0x04006F6F RID: 28527
+		UNUSED1473,
+		// Token: 0x04006F70 RID: 28528
+		UNUSED1474,
+		// Token: 0x04006F71 RID: 28529
+		UNUSED1475,
+		// Token: 0x04006F72 RID: 28530
+		UNUSED1476,
+		// Token: 0x04006F73 RID: 28531
+		UNUSED1477,
+		// Token: 0x04006F74 RID: 28532
+		UNUSED1478,
+		// Token: 0x04006F75 RID: 28533
+		UNUSED1479,
+		// Token: 0x04006F76 RID: 28534
+		UNUSED1480,
+		// Token: 0x04006F77 RID: 28535
+		UNUSED1481,
+		// Token: 0x04006F78 RID: 28536
+		UNUSED1482,
+		// Token: 0x04006F79 RID: 28537
+		UNUSED1483,
+		// Token: 0x04006F7A RID: 28538
+		UNUSED1484,
+		// Token: 0x04006F7B RID: 28539
+		UNUSED1485,
+		// Token: 0x04006F7C RID: 28540
+		UNUSED1486,
+		// Token: 0x04006F7D RID: 28541
+		UNUSED1487,
+		// Token: 0x04006F7E RID: 28542
+		UNUSED1488,
+		// Token: 0x04006F7F RID: 28543
+		UNUSED1489,
+		// Token: 0x04006F80 RID: 28544
+		UNUSED1490,
+		// Token: 0x04006F81 RID: 28545
+		UNUSED1491,
+		// Token: 0x04006F82 RID: 28546
+		UNUSED1492,
+		// Token: 0x04006F83 RID: 28547
+		UNUSED1493,
+		// Token: 0x04006F84 RID: 28548
+		UNUSED1494,
+		// Token: 0x04006F85 RID: 28549
+		UNUSED1495,
+		// Token: 0x04006F86 RID: 28550
+		UNUSED1496,
+		// Token: 0x04006F87 RID: 28551
+		UNUSED1497,
+		// Token: 0x04006F88 RID: 28552
+		UNUSED1498,
+		// Token: 0x04006F89 RID: 28553
+		UNUSED1499,
+		// Token: 0x04006F8A RID: 28554
+		UNUSED1500,
+		// Token: 0x04006F8B RID: 28555
+		UNUSED1501,
+		// Token: 0x04006F8C RID: 28556
+		UNUSED1502,
+		// Token: 0x04006F8D RID: 28557
+		UNUSED1503,
+		// Token: 0x04006F8E RID: 28558
+		UNUSED1504,
+		// Token: 0x04006F8F RID: 28559
+		UNUSED1505,
+		// Token: 0x04006F90 RID: 28560
+		UNUSED1506,
+		// Token: 0x04006F91 RID: 28561
+		UNUSED1507,
+		// Token: 0x04006F92 RID: 28562
+		UNUSED1508,
+		// Token: 0x04006F93 RID: 28563
+		UNUSED1509,
+		// Token: 0x04006F94 RID: 28564
+		UNUSED1510,
+		// Token: 0x04006F95 RID: 28565
+		UNUSED1511,
+		// Token: 0x04006F96 RID: 28566
+		UNUSED1512,
+		// Token: 0x04006F97 RID: 28567
+		UNUSED1513,
+		// Token: 0x04006F98 RID: 28568
+		UNUSED1514,
+		// Token: 0x04006F99 RID: 28569
+		UNUSED1515,
+		// Token: 0x04006F9A RID: 28570
+		UNUSED1516,
+		// Token: 0x04006F9B RID: 28571
+		UNUSED1517,
+		// Token: 0x04006F9C RID: 28572
+		UNUSED1518,
+		// Token: 0x04006F9D RID: 28573
+		UNUSED1519,
+		// Token: 0x04006F9E RID: 28574
+		UNUSED1520,
+		// Token: 0x04006F9F RID: 28575
+		UNUSED1521,
+		// Token: 0x04006FA0 RID: 28576
+		UNUSED1522,
+		// Token: 0x04006FA1 RID: 28577
+		UNUSED1523,
+		// Token: 0x04006FA2 RID: 28578
+		UNUSED1524,
+		// Token: 0x04006FA3 RID: 28579
+		UNUSED1525,
+		// Token: 0x04006FA4 RID: 28580
+		UNUSED1526,
+		// Token: 0x04006FA5 RID: 28581
+		UNUSED1527,
+		// Token: 0x04006FA6 RID: 28582
+		UNUSED1528,
+		// Token: 0x04006FA7 RID: 28583
+		UNUSED1529,
+		// Token: 0x04006FA8 RID: 28584
+		UNUSED1530,
+		// Token: 0x04006FA9 RID: 28585
+		UNUSED1531,
+		// Token: 0x04006FAA RID: 28586
+		UNUSED1532,
+		// Token: 0x04006FAB RID: 28587
+		UNUSED1533,
+		// Token: 0x04006FAC RID: 28588
+		UNUSED1534,
+		// Token: 0x04006FAD RID: 28589
+		UNUSED1535,
+		// Token: 0x04006FAE RID: 28590
+		UNUSED1536,
+		// Token: 0x04006FAF RID: 28591
+		UNUSED1537,
+		// Token: 0x04006FB0 RID: 28592
+		UNUSED1538,
+		// Token: 0x04006FB1 RID: 28593
+		UNUSED1539,
+		// Token: 0x04006FB2 RID: 28594
+		UNUSED1540,
+		// Token: 0x04006FB3 RID: 28595
+		UNUSED1541,
+		// Token: 0x04006FB4 RID: 28596
+		UNUSED1542,
+		// Token: 0x04006FB5 RID: 28597
+		UNUSED1543,
+		// Token: 0x04006FB6 RID: 28598
+		UNUSED1544,
+		// Token: 0x04006FB7 RID: 28599
+		UNUSED1545,
+		// Token: 0x04006FB8 RID: 28600
+		UNUSED1546,
+		// Token: 0x04006FB9 RID: 28601
+		UNUSED1547,
+		// Token: 0x04006FBA RID: 28602
+		UNUSED1548,
+		// Token: 0x04006FBB RID: 28603
+		UNUSED1549,
+		// Token: 0x04006FBC RID: 28604
+		UNUSED1550,
+		// Token: 0x04006FBD RID: 28605
+		UNUSED1551,
+		// Token: 0x04006FBE RID: 28606
+		UNUSED1552,
+		// Token: 0x04006FBF RID: 28607
+		UNUSED1553,
+		// Token: 0x04006FC0 RID: 28608
+		UNUSED1554,
+		// Token: 0x04006FC1 RID: 28609
+		UNUSED1555,
+		// Token: 0x04006FC2 RID: 28610
+		UNUSED1556,
+		// Token: 0x04006FC3 RID: 28611
+		UNUSED1557,
+		// Token: 0x04006FC4 RID: 28612
+		UNUSED1558,
+		// Token: 0x04006FC5 RID: 28613
+		UNUSED1559,
+		// Token: 0x04006FC6 RID: 28614
+		UNUSED1560,
+		// Token: 0x04006FC7 RID: 28615
+		UNUSED1561,
+		// Token: 0x04006FC8 RID: 28616
+		UNUSED1562,
+		// Token: 0x04006FC9 RID: 28617
+		UNUSED1563,
+		// Token: 0x04006FCA RID: 28618
+		UNUSED1564,
+		// Token: 0x04006FCB RID: 28619
+		UNUSED1565,
+		// Token: 0x04006FCC RID: 28620
+		UNUSED1566,
+		// Token: 0x04006FCD RID: 28621
+		UNUSED1567,
+		// Token: 0x04006FCE RID: 28622
+		UNUSED1568,
+		// Token: 0x04006FCF RID: 28623
+		UNUSED1569,
+		// Token: 0x04006FD0 RID: 28624
+		UNUSED1570,
+		// Token: 0x04006FD1 RID: 28625
+		UNUSED1571,
+		// Token: 0x04006FD2 RID: 28626
+		UNUSED1572,
+		// Token: 0x04006FD3 RID: 28627
+		UNUSED1573,
+		// Token: 0x04006FD4 RID: 28628
+		UNUSED1574,
+		// Token: 0x04006FD5 RID: 28629
+		UNUSED1575,
+		// Token: 0x04006FD6 RID: 28630
+		UNUSED1576,
+		// Token: 0x04006FD7 RID: 28631
+		UNUSED1577,
+		// Token: 0x04006FD8 RID: 28632
+		UsedMapDevice,
+		// Token: 0x04006FD9 RID: 28633
+		UNUSED1578,
+		// Token: 0x04006FDA RID: 28634
+		UNUSED1579,
+		// Token: 0x04006FDB RID: 28635
+		UNUSED1580,
+		// Token: 0x04006FDC RID: 28636
+		UNUSED1581,
+		// Token: 0x04006FDD RID: 28637
+		UNUSED1582,
+		// Token: 0x04006FDE RID: 28638
+		UNUSED1583,
+		// Token: 0x04006FDF RID: 28639
+		UNUSED1584,
+		// Token: 0x04006FE0 RID: 28640
+		UNUSED1585,
+		// Token: 0x04006FE1 RID: 28641
+		UNUSED1586,
+		// Token: 0x04006FE2 RID: 28642
+		UNUSED1587,
+		// Token: 0x04006FE3 RID: 28643
+		UNUSED1588,
+		// Token: 0x04006FE4 RID: 28644
+		UNUSED1589,
+		// Token: 0x04006FE5 RID: 28645
+		UNUSED1590,
+		// Token: 0x04006FE6 RID: 28646
+		UNUSED1591,
+		// Token: 0x04006FE7 RID: 28647
+		UNUSED1592,
+		// Token: 0x04006FE8 RID: 28648
+		UNUSED1593,
+		// Token: 0x04006FE9 RID: 28649
+		UNUSED1594,
+		// Token: 0x04006FEA RID: 28650
+		UNUSED1595,
+		// Token: 0x04006FEB RID: 28651
+		UNUSED1596,
+		// Token: 0x04006FEC RID: 28652
+		UNUSED1597,
+		// Token: 0x04006FED RID: 28653
+		UNUSED1598,
+		// Token: 0x04006FEE RID: 28654
+		UNUSED1599,
+		// Token: 0x04006FEF RID: 28655
+		UNUSED1600,
+		// Token: 0x04006FF0 RID: 28656
+		UNUSED1601,
+		// Token: 0x04006FF1 RID: 28657
+		UNUSED1602,
+		// Token: 0x04006FF2 RID: 28658
+		UNUSED1603,
+		// Token: 0x04006FF3 RID: 28659
+		UNUSED1604,
+		// Token: 0x04006FF4 RID: 28660
+		UNUSED1605,
+		// Token: 0x04006FF5 RID: 28661
+		UNUSED1606,
+		// Token: 0x04006FF6 RID: 28662
+		UNUSED1607,
+		// Token: 0x04006FF7 RID: 28663
+		UNUSED1608,
+		// Token: 0x04006FF8 RID: 28664
+		ArticleReadSkillGemBasics,
+		// Token: 0x04006FF9 RID: 28665
+		ArticleReadSupportGemRequirements,
+		// Token: 0x04006FFA RID: 28666
+		ArticleReadPassiveTree,
+		// Token: 0x04006FFB RID: 28667
+		ArticleReadRarities,
+		// Token: 0x04006FFC RID: 28668
+		ArticleReadStatsAndMods1,
+		// Token: 0x04006FFD RID: 28669
+		ArticleReadStatsAndMods2,
+		// Token: 0x04006FFE RID: 28670
+		ArticleReadStash,
+		// Token: 0x04006FFF RID: 28671
+		ArticleReadFlasks,
+		// Token: 0x04007000 RID: 28672
+		ArticleReadNavigation,
+		// Token: 0x04007001 RID: 28673
+		ArticleReadStatusAilments,
+		// Token: 0x04007002 RID: 28674
+		ArticleReadSocialPanel,
+		// Token: 0x04007003 RID: 28675
+		MapDeviceOpening,
+		// Token: 0x04007004 RID: 28676
+		ArticleReadCraftingAndCurrency,
+		// Token: 0x04007005 RID: 28677
+		ArticleReadHelpfulTips,
+		// Token: 0x04007006 RID: 28678
+		ArticleReadAurasAndHeralds,
+		// Token: 0x04007007 RID: 28679
+		ArticleReadJewels,
+		// Token: 0x04007008 RID: 28680
+		ArticleReadForsakenMasters,
+		// Token: 0x04007009 RID: 28681
+		ArticleReadHideouts,
+		// Token: 0x0400700A RID: 28682
+		ArticleReadVendorRecipes,
+		// Token: 0x0400700B RID: 28683
+		ArticleReadTheLabyrinth,
+		// Token: 0x0400700C RID: 28684
+		ArticleReadAscendancies,
+		// Token: 0x0400700D RID: 28685
+		ArticleReadParentLeaguesAndSSF,
+		// Token: 0x0400700E RID: 28686
+		ArticleReadChallengeLeagues,
+		// Token: 0x0400700F RID: 28687
+		ArticleReadDivinationCards,
+		// Token: 0x04007010 RID: 28688
+		ArticleReadMicrotransactions,
+		// Token: 0x04007011 RID: 28689
+		ArticleReadPantheon,
+		// Token: 0x04007012 RID: 28690
+		ArticleReadMapping,
+		// Token: 0x04007013 RID: 28691
+		ArticleReadPvP,
+		// Token: 0x04007014 RID: 28692
+		ArticleReadCurses,
+		// Token: 0x04007015 RID: 28693
+		ArticleReadWarcries,
+		// Token: 0x04007016 RID: 28694
+		ArticleReadMinions,
+		// Token: 0x04007017 RID: 28695
+		ArticleReadTrapsAndMines,
+		// Token: 0x04007018 RID: 28696
+		ArticleReadHarbinger,
+		// Token: 0x04007019 RID: 28697
+		ArticleReadNextLeague,
+		// Token: 0x0400701A RID: 28698
+		ArticleReadDamageTypesAndConversion,
+		// Token: 0x0400701B RID: 28699
+		ArticleReadDefenses,
+		// Token: 0x0400701C RID: 28700
+		ArticleReadCorruption,
+		// Token: 0x0400701D RID: 28701
+		ArticleReadStrongboxes,
+		// Token: 0x0400701E RID: 28702
+		ArticleReadOtherCombatMechanics,
+		// Token: 0x0400701F RID: 28703
+		ArticleReadBuffsAndDebuffs,
+		// Token: 0x04007020 RID: 28704
+		ArticleReadGlossary,
+		// Token: 0x04007021 RID: 28705
+		ArticleReadCustomerSupport,
+		// Token: 0x04007022 RID: 28706
+		ArticleReadHelpPanel,
+		// Token: 0x04007023 RID: 28707
+		UNUSED1609,
+		// Token: 0x04007024 RID: 28708
+		UNUSED1610,
+		// Token: 0x04007025 RID: 28709
+		UNUSED1611,
+		// Token: 0x04007026 RID: 28710
+		UNUSED1612,
+		// Token: 0x04007027 RID: 28711
+		UNUSED1613,
+		// Token: 0x04007028 RID: 28712
+		UNUSED1614,
+		// Token: 0x04007029 RID: 28713
+		UNUSED1615,
+		// Token: 0x0400702A RID: 28714
+		UNUSED1616,
+		// Token: 0x0400702B RID: 28715
+		UNUSED1617,
+		// Token: 0x0400702C RID: 28716
+		WaypointUnlocked,
+		// Token: 0x0400702D RID: 28717
+		ReceivedAilmentBuff,
+		// Token: 0x0400702E RID: 28718
+		ReceivedCurseBuff,
+		// Token: 0x0400702F RID: 28719
+		PickedUpNonScrollCurrency,
+		// Token: 0x04007030 RID: 28720
+		PickedUpAuraOrHeraldGem,
+		// Token: 0x04007031 RID: 28721
+		PickedUpJewel,
+		// Token: 0x04007032 RID: 28722
+		PickedUpDivinationCard,
+		// Token: 0x04007033 RID: 28723
+		PickedUpWarcryGem,
+		// Token: 0x04007034 RID: 28724
+		PickedUpMinionGem,
+		// Token: 0x04007035 RID: 28725
+		PickedUpTrapMineGem,
+		// Token: 0x04007036 RID: 28726
+		PickedUpTotemGem,
+		// Token: 0x04007037 RID: 28727
+		PickedUpVaalOrb,
+		// Token: 0x04007038 RID: 28728
+		PickedUpMapItem,
+		// Token: 0x04007039 RID: 28729
+		OpenedShopOrCosmeticsTab,
+		// Token: 0x0400703A RID: 28730
+		StrongboxEncountered,
+		// Token: 0x0400703B RID: 28731
+		HarbingerEncountered,
+		// Token: 0x0400703C RID: 28732
+		ZarokhFirstTauntHeard,
+		// Token: 0x0400703D RID: 28733
+		ZarokhSecondTauntHeard,
+		// Token: 0x0400703E RID: 28734
+		ZarokhThirdTauntHeard,
+		// Token: 0x0400703F RID: 28735
+		ZarokhFourthTauntHeard,
+		// Token: 0x04007040 RID: 28736
+		UNUSED1622,
+		// Token: 0x04007041 RID: 28737
+		UNUSED1623,
+		// Token: 0x04007042 RID: 28738
+		UNUSED1624,
+		// Token: 0x04007043 RID: 28739
+		UNUSED1625,
+		// Token: 0x04007044 RID: 28740
+		UNUSED1626,
+		// Token: 0x04007045 RID: 28741
+		UNUSED1627,
+		// Token: 0x04007046 RID: 28742
+		UNUSED1628,
+		// Token: 0x04007047 RID: 28743
+		UNUSED1629,
+		// Token: 0x04007048 RID: 28744
+		UNUSED1630,
+		// Token: 0x04007049 RID: 28745
+		UNUSED1631,
+		// Token: 0x0400704A RID: 28746
+		UNUSED1632,
+		// Token: 0x0400704B RID: 28747
+		UNUSED1633,
+		// Token: 0x0400704C RID: 28748
+		UNUSED1634,
+		// Token: 0x0400704D RID: 28749
+		UNUSED1635,
+		// Token: 0x0400704E RID: 28750
+		UNUSED1636,
+		// Token: 0x0400704F RID: 28751
+		UNUSED1637,
+		// Token: 0x04007050 RID: 28752
+		UNUSED1638,
+		// Token: 0x04007051 RID: 28753
+		UNUSED1639,
+		// Token: 0x04007052 RID: 28754
+		UNUSED1640,
+		// Token: 0x04007053 RID: 28755
+		UNUSED1641,
+		// Token: 0x04007054 RID: 28756
+		UNUSED1642,
+		// Token: 0x04007055 RID: 28757
+		UNUSED1643,
+		// Token: 0x04007056 RID: 28758
+		UNUSED1644,
+		// Token: 0x04007057 RID: 28759
+		UNUSED1645,
+		// Token: 0x04007058 RID: 28760
+		UNUSED1646,
+		// Token: 0x04007059 RID: 28761
+		UNUSED1647,
+		// Token: 0x0400705A RID: 28762
+		UNUSED1648,
+		// Token: 0x0400705B RID: 28763
+		UNUSED1649,
+		// Token: 0x0400705C RID: 28764
+		UNUSED1650,
+		// Token: 0x0400705D RID: 28765
+		UNUSED1651,
+		// Token: 0x0400705E RID: 28766
+		UNUSED1652,
+		// Token: 0x0400705F RID: 28767
+		UNUSED1653,
+		// Token: 0x04007060 RID: 28768
+		UNUSED1654,
+		// Token: 0x04007061 RID: 28769
+		UNUSED1655,
+		// Token: 0x04007062 RID: 28770
+		UNUSED1656,
+		// Token: 0x04007063 RID: 28771
+		UNUSED1657,
+		// Token: 0x04007064 RID: 28772
+		UNUSED1658,
+		// Token: 0x04007065 RID: 28773
+		UNUSED1659,
+		// Token: 0x04007066 RID: 28774
+		UNUSED1660,
+		// Token: 0x04007067 RID: 28775
+		UNUSED1661,
+		// Token: 0x04007068 RID: 28776
+		UNUSED1662,
+		// Token: 0x04007069 RID: 28777
+		UNUSED1663,
+		// Token: 0x0400706A RID: 28778
+		UNUSED1664,
+		// Token: 0x0400706B RID: 28779
+		UNUSED1665,
+		// Token: 0x0400706C RID: 28780
+		UNUSED1666,
+		// Token: 0x0400706D RID: 28781
+		UNUSED1667,
+		// Token: 0x0400706E RID: 28782
+		UNUSED1668,
+		// Token: 0x0400706F RID: 28783
+		UNUSED1669,
+		// Token: 0x04007070 RID: 28784
+		UNUSED1670,
+		// Token: 0x04007071 RID: 28785
+		UNUSED1671,
+		// Token: 0x04007072 RID: 28786
+		UNUSED1672,
+		// Token: 0x04007073 RID: 28787
+		UNUSED1673,
+		// Token: 0x04007074 RID: 28788
+		UNUSED1674,
+		// Token: 0x04007075 RID: 28789
+		UNUSED1675,
+		// Token: 0x04007076 RID: 28790
+		UNUSED1676,
+		// Token: 0x04007077 RID: 28791
+		UNUSED1677,
+		// Token: 0x04007078 RID: 28792
+		UNUSED1678,
+		// Token: 0x04007079 RID: 28793
+		UNUSED1679,
+		// Token: 0x0400707A RID: 28794
+		UNUSED1680,
+		// Token: 0x0400707B RID: 28795
+		UNUSED1681,
+		// Token: 0x0400707C RID: 28796
+		UNUSED1682,
+		// Token: 0x0400707D RID: 28797
+		UNUSED1683,
+		// Token: 0x0400707E RID: 28798
+		UNUSED1684,
+		// Token: 0x0400707F RID: 28799
+		UNUSED1685,
+		// Token: 0x04007080 RID: 28800
+		UNUSED1686,
+		// Token: 0x04007081 RID: 28801
+		UNUSED1687,
+		// Token: 0x04007082 RID: 28802
+		UNUSED1688,
+		// Token: 0x04007083 RID: 28803
+		UNUSED1689,
+		// Token: 0x04007084 RID: 28804
+		UNUSED1690,
+		// Token: 0x04007085 RID: 28805
+		UNUSED1691,
+		// Token: 0x04007086 RID: 28806
+		UNUSED1692,
+		// Token: 0x04007087 RID: 28807
+		CompletedPortalScrollTutorial,
+		// Token: 0x04007088 RID: 28808
+		CompletedReturnToCoastTutorial,
+		// Token: 0x04007089 RID: 28809
+		UNUSED1693,
+		// Token: 0x0400708A RID: 28810
+		UNUSED1694,
+		// Token: 0x0400708B RID: 28811
+		UNUSED1695,
+		// Token: 0x0400708C RID: 28812
+		UNUSED1696,
+		// Token: 0x0400708D RID: 28813
+		UNUSED1697,
+		// Token: 0x0400708E RID: 28814
+		PickUpMavenAlteration,
+		// Token: 0x0400708F RID: 28815
+		HaveCleansingFireMapDeviceAlteration,
+		// Token: 0x04007090 RID: 28816
+		HaveTangleMapDeviceAlteration,
+		// Token: 0x04007091 RID: 28817
+		UNUSED1698,
+		// Token: 0x04007092 RID: 28818
+		UNUSED1699,
+		// Token: 0x04007093 RID: 28819
+		UNUSED1700,
+		// Token: 0x04007094 RID: 28820
+		UNUSED1701,
+		// Token: 0x04007095 RID: 28821
+		UNUSED1702,
+		// Token: 0x04007096 RID: 28822
+		UNUSED1703,
+		// Token: 0x04007097 RID: 28823
+		UNUSED1704,
+		// Token: 0x04007098 RID: 28824
+		ArticleReadAbyss,
+		// Token: 0x04007099 RID: 28825
+		CompletedWatchstoneTutorial,
+		// Token: 0x0400709A RID: 28826
+		AfflictionFirstMapDialogue,
+		// Token: 0x0400709B RID: 28827
+		AfflictionSecondMapDialogue,
+		// Token: 0x0400709C RID: 28828
+		TencentBrutusHandIn,
+		// Token: 0x0400709D RID: 28829
+		TencentTutorialNPCBuildAdviceSeen,
+		// Token: 0x0400709E RID: 28830
+		TencentTutorialNPCResistAdviceSeen,
+		// Token: 0x0400709F RID: 28831
+		TencentTutorialNPCOtherNPCSeen,
+		// Token: 0x040070A0 RID: 28832
+		PickUpCleansingFireMapDeviceAlteration,
+		// Token: 0x040070A1 RID: 28833
+		PickUpTangleMapDeviceAlteration,
+		// Token: 0x040070A2 RID: 28834
+		HeistMissionInArea,
+		// Token: 0x040070A3 RID: 28835
+		HeistMissionFailed,
+		// Token: 0x040070A4 RID: 28836
+		HeistMissionEnteredWing,
+		// Token: 0x040070A5 RID: 28837
+		HeistMissionReachedObjective,
+		// Token: 0x040070A6 RID: 28838
+		HeistMissionAlarm,
+		// Token: 0x040070A7 RID: 28839
+		HeistMissionLockdown,
+		// Token: 0x040070A8 RID: 28840
+		HeistMissionComplete,
+		// Token: 0x040070A9 RID: 28841
+		HeistMissionPortalOpen,
+		// Token: 0x040070AA RID: 28842
+		InMyHarvestGarden,
+		// Token: 0x040070AB RID: 28843
+		SirusDefeated,
+		// Token: 0x040070AC RID: 28844
+		ChangedAscendancy,
+		// Token: 0x040070AD RID: 28845
+		UNUSED1706,
+		// Token: 0x040070AE RID: 28846
+		InTangleArena,
+		// Token: 0x040070AF RID: 28847
+		InCleansingFireArena,
+		// Token: 0x040070B0 RID: 28848
+		ZarkaA2AllComponentsGatheredSeen,
+		// Token: 0x040070B1 RID: 28849
+		UNUSED1707,
+		// Token: 0x040070B2 RID: 28850
+		UNUSED1708,
+		// Token: 0x040070B3 RID: 28851
+		UNUSED1709,
+		// Token: 0x040070B4 RID: 28852
+		UNUSED1710,
+		// Token: 0x040070B5 RID: 28853
+		UNUSED1711,
+		// Token: 0x040070B6 RID: 28854
+		UNUSED1712,
+		// Token: 0x040070B7 RID: 28855
+		UNUSED1713,
+		// Token: 0x040070B8 RID: 28856
+		JunMissionCongrats,
+		// Token: 0x040070B9 RID: 28857
+		UNUSED1714,
+		// Token: 0x040070BA RID: 28858
+		JunMissionFailedLab,
+		// Token: 0x040070BB RID: 28859
+		JunMissionFailedCart,
+		// Token: 0x040070BC RID: 28860
+		JunMissionFailedGank,
+		// Token: 0x040070BD RID: 28861
+		JunMissionEnteredLab,
+		// Token: 0x040070BE RID: 28862
+		JunMissionFailedAll,
+		// Token: 0x040070BF RID: 28863
+		JunMissionDefeatedFort,
+		// Token: 0x040070C0 RID: 28864
+		JunMissionDefeatedLab,
+		// Token: 0x040070C1 RID: 28865
+		JunMissionDefeatedCart,
+		// Token: 0x040070C2 RID: 28866
+		JunMissionDefeatedGank,
+		// Token: 0x040070C3 RID: 28867
+		JunMissionSafehouseEntered,
+		// Token: 0x040070C4 RID: 28868
+		JunMissionSafehouseBoss,
+		// Token: 0x040070C5 RID: 28869
+		JunMissionSafehouseDefeated,
+		// Token: 0x040070C6 RID: 28870
+		JunMissionSafehouseCompleted,
+		// Token: 0x040070C7 RID: 28871
+		JunMissionCatarinaEntered,
+		// Token: 0x040070C8 RID: 28872
+		JunMissionCatarinaSeen1,
+		// Token: 0x040070C9 RID: 28873
+		JunMissionCatarinaDefeated1,
+		// Token: 0x040070CA RID: 28874
+		JunMissionCatarinaDefeated2,
+		// Token: 0x040070CB RID: 28875
+		JunMissionCatarinaCompleted,
+		// Token: 0x040070CC RID: 28876
+		UNUSED1715,
+		// Token: 0x040070CD RID: 28877
+		JunOnChoices,
+		// Token: 0x040070CE RID: 28878
+		BetrayalChoicesReady,
+		// Token: 0x040070CF RID: 28879
+		JunOnBetrayalBoard,
+		// Token: 0x040070D0 RID: 28880
+		AllowSpecialPortals,
+		// Token: 0x040070D1 RID: 28881
+		AlvaTempleUnreachable,
+		// Token: 0x040070D2 RID: 28882
+		EinharMissionSeen,
+		// Token: 0x040070D3 RID: 28883
+		TouchedEssenceMonolith,
+		// Token: 0x040070D4 RID: 28884
+		ArticleReadEssences,
+		// Token: 0x040070D5 RID: 28885
+		ArticleReadBestiary,
+		// Token: 0x040070D6 RID: 28886
+		NikoMissionReceived,
+		// Token: 0x040070D7 RID: 28887
+		NikoMissionComplete,
+		// Token: 0x040070D8 RID: 28888
+		NikoMissionFailed,
+		// Token: 0x040070D9 RID: 28889
+		NikoMissionSuppressAlerts,
+		// Token: 0x040070DA RID: 28890
+		AlvaMissionReceived,
+		// Token: 0x040070DB RID: 28891
+		AlvaMissionComplete,
+		// Token: 0x040070DC RID: 28892
+		AlvaMissionFailed,
+		// Token: 0x040070DD RID: 28893
+		AlvaMissionSuppressAlerts,
+		// Token: 0x040070DE RID: 28894
+		AlvaMissionProgressed,
+		// Token: 0x040070DF RID: 28895
+		EinharMissionReceived,
+		// Token: 0x040070E0 RID: 28896
+		EinharMissionComplete,
+		// Token: 0x040070E1 RID: 28897
+		EinharMissionFailed,
+		// Token: 0x040070E2 RID: 28898
+		EinharMissionSuppressAlerts,
+		// Token: 0x040070E3 RID: 28899
+		IncursionOwner,
+		// Token: 0x040070E4 RID: 28900
+		IncursionStarted,
+		// Token: 0x040070E5 RID: 28901
+		IncursionFinished,
+		// Token: 0x040070E6 RID: 28902
+		IncursionSeenTemple,
+		// Token: 0x040070E7 RID: 28903
+		IncursionCongratulated,
+		// Token: 0x040070E8 RID: 28904
+		IncursionTempleReady,
+		// Token: 0x040070E9 RID: 28905
+		JunMissionCatarinaSeen2,
+		// Token: 0x040070EA RID: 28906
+		JunMissionSafehouseRewardsUnlocked,
+		// Token: 0x040070EB RID: 28907
+		AlvaTutorialMissionReceived,
+		// Token: 0x040070EC RID: 28908
+		AlvaTutorialIncursionFound,
+		// Token: 0x040070ED RID: 28909
+		EnteredDelveMine,
+		// Token: 0x040070EE RID: 28910
+		DelvePathComplete,
+		// Token: 0x040070EF RID: 28911
+		DelveEncounterStarted,
+		// Token: 0x040070F0 RID: 28912
+		UNUSED1716,
+		// Token: 0x040070F1 RID: 28913
+		UNUSED1717,
+		// Token: 0x040070F2 RID: 28914
+		UNUSED1718,
+		// Token: 0x040070F3 RID: 28915
+		UNUSED1719,
+		// Token: 0x040070F4 RID: 28916
+		UNUSED1720,
+		// Token: 0x040070F5 RID: 28917
+		ManorSeenCountBelow,
+		// Token: 0x040070F6 RID: 28918
+		NikoLightRadiusTooLow,
+		// Token: 0x040070F7 RID: 28919
+		NikoDarknessResistTooLow,
+		// Token: 0x040070F8 RID: 28920
+		UNUSED1721,
+		// Token: 0x040070F9 RID: 28921
+		UNUSED1722,
+		// Token: 0x040070FA RID: 28922
+		UNUSED1723,
+		// Token: 0x040070FB RID: 28923
+		JunMissionFortRetreated,
+		// Token: 0x040070FC RID: 28924
+		JunMissionCartRetreated,
+		// Token: 0x040070FD RID: 28925
+		JunMissionLabRetreated,
+		// Token: 0x040070FE RID: 28926
+		JunMissionGankRetreated,
+		// Token: 0x040070FF RID: 28927
+		JunMissionSafehouseAbandoned,
+		// Token: 0x04007100 RID: 28928
+		UNUSED1724,
+		// Token: 0x04007101 RID: 28929
+		UNUSED1725,
+		// Token: 0x04007102 RID: 28930
+		UNUSED1726,
+		// Token: 0x04007103 RID: 28931
+		UNUSED1727,
+		// Token: 0x04007104 RID: 28932
+		UNUSED1728,
+		// Token: 0x04007105 RID: 28933
+		FinnOnCountGossipSeen,
+		// Token: 0x04007106 RID: 28934
+		UNUSED1729,
+		// Token: 0x04007107 RID: 28935
+		JunOnSyndicateLeader,
+		// Token: 0x04007108 RID: 28936
+		UNUSED1731,
+		// Token: 0x04007109 RID: 28937
+		UNUSED1732,
+		// Token: 0x0400710A RID: 28938
+		UNUSED1733,
+		// Token: 0x0400710B RID: 28939
+		UNUSED1734,
+		// Token: 0x0400710C RID: 28940
+		UNUSED1735,
+		// Token: 0x0400710D RID: 28941
+		UNUSED1736,
+		// Token: 0x0400710E RID: 28942
+		TangleDefeatMapBoss,
+		// Token: 0x0400710F RID: 28943
+		CleansingFireDefeatMapBoss,
+		// Token: 0x04007110 RID: 28944
+		UNUSED1737,
+		// Token: 0x04007111 RID: 28945
+		UNUSED1738,
+		// Token: 0x04007112 RID: 28946
+		UNUSED1739,
+		// Token: 0x04007113 RID: 28947
+		UNUSED1740,
+		// Token: 0x04007114 RID: 28948
+		JunOnSafehouse,
+		// Token: 0x04007115 RID: 28949
+		UNUSED1741,
+		// Token: 0x04007116 RID: 28950
+		UNUSED1742,
+		// Token: 0x04007117 RID: 28951
+		UNUSED1743,
+		// Token: 0x04007118 RID: 28952
+		WaitingForPortals,
+		// Token: 0x04007119 RID: 28953
+		HaveSkillBookElder,
+		// Token: 0x0400711A RID: 28954
+		HaveSkillBookMaven,
+		// Token: 0x0400711B RID: 28955
+		HaveSkillBookTangle,
+		// Token: 0x0400711C RID: 28956
+		HaveSkillBookCleansingFire,
+		// Token: 0x0400711D RID: 28957
+		MapComplete,
+		// Token: 0x0400711E RID: 28958
+		HaveSkillBookInfiniteHunger,
+		// Token: 0x0400711F RID: 28959
+		HaveSkillBookBlackStar,
+		// Token: 0x04007120 RID: 28960
+		CleansingMiniBossDefeated,
+		// Token: 0x04007121 RID: 28961
+		ConsumeMiniBossDefeated,
+		// Token: 0x04007122 RID: 28962
+		BetrayalEncounterFailed,
+		// Token: 0x04007123 RID: 28963
+		BetrayalEncounterStarted,
+		// Token: 0x04007124 RID: 28964
+		BetrayalEncounterComplete,
+		// Token: 0x04007125 RID: 28965
+		MapMissionReceived,
+		// Token: 0x04007126 RID: 28966
+		IsMapOwner,
+		// Token: 0x04007127 RID: 28967
+		MapMissionMetNPC,
+		// Token: 0x04007128 RID: 28968
+		MapMissionSeenOption,
+		// Token: 0x04007129 RID: 28969
+		ArticleReadDelve,
+		// Token: 0x0400712A RID: 28970
+		NikoLightRadiusTooLowSeen,
+		// Token: 0x0400712B RID: 28971
+		NikoDarknessResistTooLowSeen,
+		// Token: 0x0400712C RID: 28972
+		CompletedDelveBindingTutorial,
+		// Token: 0x0400712D RID: 28973
+		NikoHaveEnoughAzurite,
+		// Token: 0x0400712E RID: 28974
+		NikoHaveEnoughSulphite,
+		// Token: 0x0400712F RID: 28975
+		NikoCrawlerInstructions,
+		// Token: 0x04007130 RID: 28976
+		HideoutUnlocked,
+		// Token: 0x04007131 RID: 28977
+		StoneOfWisdomComplete,
+		// Token: 0x04007132 RID: 28978
+		StoneOfAgilityComplete,
+		// Token: 0x04007133 RID: 28979
+		StoneOfPowerComplete,
+		// Token: 0x04007134 RID: 28980
+		NikoSulphiteIsFull,
+		// Token: 0x04007135 RID: 28981
+		NikoSulphiteIsFullSeen,
+		// Token: 0x04007136 RID: 28982
+		HideoutFound,
+		// Token: 0x04007137 RID: 28983
+		HaveThisHideout,
+		// Token: 0x04007138 RID: 28984
+		HideoutMissionReceived,
+		// Token: 0x04007139 RID: 28985
+		HideoutCleared,
+		// Token: 0x0400713A RID: 28986
+		HideoutCongratulated,
+		// Token: 0x0400713B RID: 28987
+		BlightQuestReceived,
+		// Token: 0x0400713C RID: 28988
+		BlightEncounterComplete,
+		// Token: 0x0400713D RID: 28989
+		BlightEncounterFailed,
+		// Token: 0x0400713E RID: 28990
+		BlightEncounterStarted,
+		// Token: 0x0400713F RID: 28991
+		BlightTowerBuilt,
+		// Token: 0x04007140 RID: 28992
+		BlightEncounterSuccess,
+		// Token: 0x04007141 RID: 28993
+		BlightBuilderIntroduction,
+		// Token: 0x04007142 RID: 28994
+		BlightBuilderOnExile,
+		// Token: 0x04007143 RID: 28995
+		BlightBuilderOnReplacement,
+		// Token: 0x04007144 RID: 28996
+		BlightBuilderOnDevices,
+		// Token: 0x04007145 RID: 28997
+		BlightBuilderOnFungi,
+		// Token: 0x04007146 RID: 28998
+		BlightBuilderOnTemplars,
+		// Token: 0x04007147 RID: 28999
+		BlightBuilderOnInfectedMaps,
+		// Token: 0x04007148 RID: 29000
+		BlightCompletedInfectedMap,
+		// Token: 0x04007149 RID: 29001
+		CassiaOnPietyAndDominus,
+		// Token: 0x0400714A RID: 29002
+		CassiaOnInnocence,
+		// Token: 0x0400714B RID: 29003
+		CassiaOnTheBlightHeart,
+		// Token: 0x0400714C RID: 29004
+		CassiaOnAnointingOils,
+		// Token: 0x0400714D RID: 29005
+		HaveOwnedOil,
+		// Token: 0x0400714E RID: 29006
+		HaveUnlockedBlightEndgame,
+		// Token: 0x0400714F RID: 29007
+		BlightQuestComplete,
+		// Token: 0x04007150 RID: 29008
+		BlightTutorialEncounter,
+		// Token: 0x04007151 RID: 29009
+		TaneOctaviusOnExile,
+		// Token: 0x04007152 RID: 29010
+		TaneOctaviusOnCatalysts,
+		// Token: 0x04007153 RID: 29011
+		TaneOctaviusOnTanesGoals,
+		// Token: 0x04007154 RID: 29012
+		TaneOctaviusOnTanesVision,
+		// Token: 0x04007155 RID: 29013
+		TaneOctaviusOnPiety,
+		// Token: 0x04007156 RID: 29014
+		FinnTheHoodedOneTwoGossipSeen,
+		// Token: 0x04007157 RID: 29015
+		TaneOctaviusOnTukohama,
+		// Token: 0x04007158 RID: 29016
+		TaneOctaviusOnGreaterAmbitions,
+		// Token: 0x04007159 RID: 29017
+		TaneOctaviusOnLab,
+		// Token: 0x0400715A RID: 29018
+		MetamorphosisLabAllItemisedPartsAquiredSeen,
+		// Token: 0x0400715B RID: 29019
+		MetamorphosisLabMonsterDefeatedSeen,
+		// Token: 0x0400715C RID: 29020
+		TaneOnOriathDestructionSeen,
+		// Token: 0x0400715D RID: 29021
+		SynthesisFragmentEntered,
+		// Token: 0x0400715E RID: 29022
+		SynthesisQuestComplete1,
+		// Token: 0x0400715F RID: 29023
+		SynthesisHubUnlocked,
+		// Token: 0x04007160 RID: 29024
+		SynthesisMapUnlocked,
+		// Token: 0x04007161 RID: 29025
+		SynthesisPlanningUnlocked,
+		// Token: 0x04007162 RID: 29026
+		SynthesisFragmentPlaced,
+		// Token: 0x04007163 RID: 29027
+		SynthesisQuestComplete2,
+		// Token: 0x04007164 RID: 29028
+		SynthesisQuestComplete2Read,
+		// Token: 0x04007165 RID: 29029
+		SynthesisQuestComplete3,
+		// Token: 0x04007166 RID: 29030
+		NonResearchJobInProgress,
+		// Token: 0x04007167 RID: 29031
+		SynthesisQuestReceived3,
+		// Token: 0x04007168 RID: 29032
+		SynthesisFragmentFinished,
+		// Token: 0x04007169 RID: 29033
+		SynthesisFragmentReported,
+		// Token: 0x0400716A RID: 29034
+		CompletedSynthesisChangeover,
+		// Token: 0x0400716B RID: 29035
+		VenariusIntroduction,
+		// Token: 0x0400716C RID: 29036
+		SynthesisFragmentSuccessful,
+		// Token: 0x0400716D RID: 29037
+		SynthesisHubReady,
+		// Token: 0x0400716E RID: 29038
+		SynthesisSeenPartialCompletion,
+		// Token: 0x0400716F RID: 29039
+		SynthesisHaveCompletedAFragment,
+		// Token: 0x04007170 RID: 29040
+		VenariusOnMemories,
+		// Token: 0x04007171 RID: 29041
+		VenariusOnPast1,
+		// Token: 0x04007172 RID: 29042
+		VenariusOnPast2,
+		// Token: 0x04007173 RID: 29043
+		VenariusOnPast3,
+		// Token: 0x04007174 RID: 29044
+		VenariusOnPast4,
+		// Token: 0x04007175 RID: 29045
+		VenariusOnBridges,
+		// Token: 0x04007176 RID: 29046
+		VenariusOnItemSynth,
+		// Token: 0x04007177 RID: 29047
+		ZanaSynthOnCavas,
+		// Token: 0x04007178 RID: 29048
+		ZanaSynthAfterCavasEvent,
+		// Token: 0x04007179 RID: 29049
+		TencentTutorialA1Q2BRewardSeen,
+		// Token: 0x0400717A RID: 29050
+		TencentTutorialA1Q2BRewardTaken,
+		// Token: 0x0400717B RID: 29051
+		TencentTutorialA1Q6TencentbRewardSeen,
+		// Token: 0x0400717C RID: 29052
+		TencentTutorialA1Q6TencentbRewardTaken,
+		// Token: 0x0400717D RID: 29053
+		TencentTutorialA1Q3BTencentRewardSeen,
+		// Token: 0x0400717E RID: 29054
+		TencentTutorialA1Q3BTencentRewardTaken,
+		// Token: 0x0400717F RID: 29055
+		TencentTutorialA1Q7TencentbRewardSeen,
+		// Token: 0x04007180 RID: 29056
+		TencentTutorialA1Q7TencentbRewardTaken,
+		// Token: 0x04007181 RID: 29057
+		TencentTutorialA2Q6BTencentRewardSeen,
+		// Token: 0x04007182 RID: 29058
+		TencentTutorialA2Q6BTencentRewardTaken,
+		// Token: 0x04007183 RID: 29059
+		TencentTutorialA2Q5BTencentRewardSeen,
+		// Token: 0x04007184 RID: 29060
+		TencentTutorialA2Q5BTencentRewardTaken,
+		// Token: 0x04007185 RID: 29061
+		TencentTutorialA2Q9TencentRewardSeen,
+		// Token: 0x04007186 RID: 29062
+		TencentTutorialA2Q9TencentRewardTaken,
+		// Token: 0x04007187 RID: 29063
+		TencentTutorialA3Q1TencentRewardSeen,
+		// Token: 0x04007188 RID: 29064
+		TencentTutorialA3Q1TencentRewardTaken,
+		// Token: 0x04007189 RID: 29065
+		TencentTutorialA3Q11BTencentRewardSeen,
+		// Token: 0x0400718A RID: 29066
+		TencentTutorialA3Q11BTencentRewardTaken,
+		// Token: 0x0400718B RID: 29067
+		TencentTutorialA3Q8BTencentRewardSeen,
+		// Token: 0x0400718C RID: 29068
+		TencentTutorialA3Q8BTencentRewardTaken,
+		// Token: 0x0400718D RID: 29069
+		TencentTutorialA3Q12BTencentRewardSeen,
+		// Token: 0x0400718E RID: 29070
+		TencentTutorialA3Q12BTencentRewardTaken,
+		// Token: 0x0400718F RID: 29071
+		TencentTutorialA4Q2TencentbRewardSeen,
+		// Token: 0x04007190 RID: 29072
+		TencentTutorialA4Q2TencentbRewardTaken,
+		// Token: 0x04007191 RID: 29073
+		TencentTutorialA4Q1TencentbRewardSeen,
+		// Token: 0x04007192 RID: 29074
+		TencentTutorialA4Q1TencentbRewardTaken,
+		// Token: 0x04007193 RID: 29075
+		TencentTutorialA4Q6TencentbRewardSeen,
+		// Token: 0x04007194 RID: 29076
+		TencentTutorialA4Q6TencentbRewardTaken,
+		// Token: 0x04007195 RID: 29077
+		TencentTutorialA5Q4TencentRewardSeen,
+		// Token: 0x04007196 RID: 29078
+		TencentTutorialA5Q4TencentRewardTaken,
+		// Token: 0x04007197 RID: 29079
+		TencentTutorialA5Q1ATencentRewardSeen,
+		// Token: 0x04007198 RID: 29080
+		TencentTutorialA5Q1ATencentRewardTaken,
+		// Token: 0x04007199 RID: 29081
+		TencentTutorialA6Q2TencentRewardSeen,
+		// Token: 0x0400719A RID: 29082
+		TencentTutorialA6Q2TencentRewardTaken,
+		// Token: 0x0400719B RID: 29083
+		TencentTutorialA7Q2TencentRewardSeen,
+		// Token: 0x0400719C RID: 29084
+		TencentTutorialA7Q2TencentRewardTaken,
+		// Token: 0x0400719D RID: 29085
+		TencentTutorialA8Q1TencentRewardSeen,
+		// Token: 0x0400719E RID: 29086
+		TencentTutorialA8Q1TencentRewardTaken,
+		// Token: 0x0400719F RID: 29087
+		TencentTutorialA10Q1TencentRewardSeen,
+		// Token: 0x040071A0 RID: 29088
+		TencentTutorialA10Q1TencentRewardTaken,
+		// Token: 0x040071A1 RID: 29089
+		TencentTutorialA10Q3TencentRewardSeen,
+		// Token: 0x040071A2 RID: 29090
+		TencentTutorialA10Q3TencentRewardTaken,
+		// Token: 0x040071A3 RID: 29091
+		ArticleReadVeiledItems,
+		// Token: 0x040071A4 RID: 29092
+		ArticleReadAtlasObjectives,
+		// Token: 0x040071A5 RID: 29093
+		A1Q4QuestReward2Seen,
+		// Token: 0x040071A6 RID: 29094
+		A1Q4QuestReward2Taken,
+		// Token: 0x040071A7 RID: 29095
+		TaneOctaviusEncountered,
+		// Token: 0x040071A8 RID: 29096
+		GrantAtlasUpgrade1,
+		// Token: 0x040071A9 RID: 29097
+		CadiroOnNiko,
+		// Token: 0x040071AA RID: 29098
+		CadiroOnAlva,
+		// Token: 0x040071AB RID: 29099
+		CadiroOnEinhar,
+		// Token: 0x040071AC RID: 29100
+		CadiroOnTane,
+		// Token: 0x040071AD RID: 29101
+		GrantAtlasUpgrade2,
+		// Token: 0x040071AE RID: 29102
+		GrantAtlasUpgrade3,
+		// Token: 0x040071AF RID: 29103
+		GrantAtlasUpgrade4,
+		// Token: 0x040071B0 RID: 29104
+		CadiroOnJun,
+		// Token: 0x040071B1 RID: 29105
+		CadiroOnZana,
+		// Token: 0x040071B2 RID: 29106
+		SanctumIntroNewHaveQuestTexts,
+		// Token: 0x040071B3 RID: 29107
+		SanctumIntroNewHaveNonQuestTexts,
+		// Token: 0x040071B4 RID: 29108
+		UltimatumQuestKeyHeld,
+		// Token: 0x040071B5 RID: 29109
+		UltimatumOpened,
+		// Token: 0x040071B6 RID: 29110
+		SanctumQuestKeyAudioHeard,
+		// Token: 0x040071B7 RID: 29111
+		UtlimatumKeyPickedUp,
+		// Token: 0x040071B8 RID: 29112
+		UltimatumRewardsClaimable,
+		// Token: 0x040071B9 RID: 29113
+		UltimatumRewardsTaken,
+		// Token: 0x040071BA RID: 29114
+		EndgameBloodPriestFemaleMet,
+		// Token: 0x040071BB RID: 29115
+		EndgameVaalTimeScientistMet,
+		// Token: 0x040071BC RID: 29116
+		FirstBreachSeen,
+		// Token: 0x040071BD RID: 29117
+		FirstBreachCompleted,
+		// Token: 0x040071BE RID: 29118
+		BreachBossSeen,
+		// Token: 0x040071BF RID: 29119
+		BreachBossKilled,
+		// Token: 0x040071C0 RID: 29120
+		BreachItemFirstPickedUp,
+		// Token: 0x040071C1 RID: 29121
+		FirstDeliriumSeen,
+		// Token: 0x040071C2 RID: 29122
+		FirstDeliriumOpened,
+		// Token: 0x040071C3 RID: 29123
+		OmniphobiaKilled,
+		// Token: 0x040071C4 RID: 29124
+		KosisKilled,
+		// Token: 0x040071C5 RID: 29125
+		TujenAct4Met,
+		// Token: 0x040071C6 RID: 29126
+		RogAct4Met,
+		// Token: 0x040071C7 RID: 29127
+		DannigAct4Met,
+		// Token: 0x040071C8 RID: 29128
+		HarvestOshabiDefeated,
+		// Token: 0x040071C9 RID: 29129
+		HarvestOshabiFight,
+		// Token: 0x040071CA RID: 29130
+		EndgameMonolithDoorOpened,
+		// Token: 0x040071CB RID: 29131
+		ExpeditionFirstExplosivePlaced,
+		// Token: 0x040071CC RID: 29132
+		HaveHeistTutorialContract,
+		// Token: 0x040071CD RID: 29133
+		HeistTrinketSlotUnlocked,
+		// Token: 0x040071CE RID: 29134
+		UsedHeistCoin,
+		// Token: 0x040071CF RID: 29135
+		HeistQuestActiveTutorial,
+		// Token: 0x040071D0 RID: 29136
+		HeistQuestActiveKarst1,
+		// Token: 0x040071D1 RID: 29137
+		HeistQuestActiveKarst2,
+		// Token: 0x040071D2 RID: 29138
+		HeistQuestActiveKarst3,
+		// Token: 0x040071D3 RID: 29139
+		HeistQuestActiveTibbs1,
+		// Token: 0x040071D4 RID: 29140
+		HeistQuestActiveTibbs2,
+		// Token: 0x040071D5 RID: 29141
+		HeistQuestActiveHuck1,
+		// Token: 0x040071D6 RID: 29142
+		HeistQuestActiveHuck2,
+		// Token: 0x040071D7 RID: 29143
+		HeistQuestActiveVinderi1,
+		// Token: 0x040071D8 RID: 29144
+		HeistQuestActiveVinderi2,
+		// Token: 0x040071D9 RID: 29145
+		HeistQuestActiveGianna1,
+		// Token: 0x040071DA RID: 29146
+		HeistQuestActiveGianna2,
+		// Token: 0x040071DB RID: 29147
+		HeistQuestActiveTullina1,
+		// Token: 0x040071DC RID: 29148
+		HeistQuestActiveTullina2,
+		// Token: 0x040071DD RID: 29149
+		HeistQuestActiveNiles1,
+		// Token: 0x040071DE RID: 29150
+		HeistQuestActiveNiles2,
+		// Token: 0x040071DF RID: 29151
+		HeistQuestActiveNenet1,
+		// Token: 0x040071E0 RID: 29152
+		HeistQuestActiveNenet2,
+		// Token: 0x040071E1 RID: 29153
+		HeistQuestActiveIsla1,
+		// Token: 0x040071E2 RID: 29154
+		HeistQuestActiveIsla2,
+		// Token: 0x040071E3 RID: 29155
+		HeistQuestActiveIsla3,
+		// Token: 0x040071E4 RID: 29156
+		HeistQuestActiveAdiyah1,
+		// Token: 0x040071E5 RID: 29157
+		HeistQuestActiveAdiyah2,
+		// Token: 0x040071E6 RID: 29158
+		HeistQuestActiveAdiyah3,
+		// Token: 0x040071E7 RID: 29159
+		HeistQuestActiveWhakano1,
+		// Token: 0x040071E8 RID: 29160
+		HeistQuestActiveWhakano2,
+		// Token: 0x040071E9 RID: 29161
+		HeistQuestActiveWhakano3,
+		// Token: 0x040071EA RID: 29162
+		HeistQuestActiveFaustus1,
+		// Token: 0x040071EB RID: 29163
+		HeistQuestActiveFaustus2,
+		// Token: 0x040071EC RID: 29164
+		HeistQuestActiveFaustus3,
+		// Token: 0x040071ED RID: 29165
+		HeistQuestActiveKurai1,
+		// Token: 0x040071EE RID: 29166
+		HeistQuestActiveKurai2,
+		// Token: 0x040071EF RID: 29167
+		HeistQuestActiveKurai3,
+		// Token: 0x040071F0 RID: 29168
+		HeistQuestActiveKurai4,
+		// Token: 0x040071F1 RID: 29169
+		HaveHeistContractQuestKarst1,
+		// Token: 0x040071F2 RID: 29170
+		HaveHeistContractQuestKarst2,
+		// Token: 0x040071F3 RID: 29171
+		HaveHeistContractQuestKarst3,
+		// Token: 0x040071F4 RID: 29172
+		HaveHeistContractQuestTibbs1,
+		// Token: 0x040071F5 RID: 29173
+		HaveHeistContractQuestTibbs2,
+		// Token: 0x040071F6 RID: 29174
+		HaveHeistContractQuestHuck1,
+		// Token: 0x040071F7 RID: 29175
+		HaveHeistContractQuestHuck2,
+		// Token: 0x040071F8 RID: 29176
+		HaveHeistContractQuestVinderi1,
+		// Token: 0x040071F9 RID: 29177
+		HaveHeistContractQuestVinderi2,
+		// Token: 0x040071FA RID: 29178
+		HaveHeistContractQuestGianna1,
+		// Token: 0x040071FB RID: 29179
+		HaveHeistContractQuestGianna2,
+		// Token: 0x040071FC RID: 29180
+		HaveHeistContractQuestTullina1,
+		// Token: 0x040071FD RID: 29181
+		HaveHeistContractQuestTullina2,
+		// Token: 0x040071FE RID: 29182
+		HaveHeistContractQuestNiles1,
+		// Token: 0x040071FF RID: 29183
+		HaveHeistContractQuestNiles2,
+		// Token: 0x04007200 RID: 29184
+		HaveHeistContractQuestNenet1,
+		// Token: 0x04007201 RID: 29185
+		HaveHeistContractQuestNenet2,
+		// Token: 0x04007202 RID: 29186
+		HaveHeistContractQuestIsla1,
+		// Token: 0x04007203 RID: 29187
+		HaveHeistContractQuestIsla2,
+		// Token: 0x04007204 RID: 29188
+		HaveHeistContractQuestIsla3,
+		// Token: 0x04007205 RID: 29189
+		HaveHeistContractQuestAdiyah1,
+		// Token: 0x04007206 RID: 29190
+		HaveHeistContractQuestAdiyah2,
+		// Token: 0x04007207 RID: 29191
+		HaveHeistContractQuestAdiyah3,
+		// Token: 0x04007208 RID: 29192
+		HaveHeistContractQuestWhakano1,
+		// Token: 0x04007209 RID: 29193
+		HaveHeistContractQuestWhakano2,
+		// Token: 0x0400720A RID: 29194
+		HaveHeistContractQuestWhakano3,
+		// Token: 0x0400720B RID: 29195
+		HaveHeistContractQuestFaustus1,
+		// Token: 0x0400720C RID: 29196
+		HaveHeistContractQuestFaustus2,
+		// Token: 0x0400720D RID: 29197
+		HaveHeistContractQuestFaustus3,
+		// Token: 0x0400720E RID: 29198
+		HaveHeistContractQuestKurai1,
+		// Token: 0x0400720F RID: 29199
+		HaveHeistContractQuestKurai2,
+		// Token: 0x04007210 RID: 29200
+		HaveHeistContractQuestKurai3,
+		// Token: 0x04007211 RID: 29201
+		HaveHeistContractQuestKurai4,
+		// Token: 0x04007212 RID: 29202
+		HeistHaveObjectiveKarst1,
+		// Token: 0x04007213 RID: 29203
+		HeistHaveObjectiveKarst2,
+		// Token: 0x04007214 RID: 29204
+		HeistHaveObjectiveKarst3,
+		// Token: 0x04007215 RID: 29205
+		HeistHaveObjectiveTibbs1,
+		// Token: 0x04007216 RID: 29206
+		HeistHaveObjectiveTibbs2,
+		// Token: 0x04007217 RID: 29207
+		HeistHaveObjectiveHuck1,
+		// Token: 0x04007218 RID: 29208
+		HeistHaveObjectiveHuck2,
+		// Token: 0x04007219 RID: 29209
+		HeistHaveObjectiveVinderi1,
+		// Token: 0x0400721A RID: 29210
+		HeistHaveObjectiveVinderi2,
+		// Token: 0x0400721B RID: 29211
+		HeistHaveObjectiveGianna1,
+		// Token: 0x0400721C RID: 29212
+		HeistHaveObjectiveGianna2,
+		// Token: 0x0400721D RID: 29213
+		HeistHaveObjectiveTullina1,
+		// Token: 0x0400721E RID: 29214
+		HeistHaveObjectiveTullina2,
+		// Token: 0x0400721F RID: 29215
+		HeistHaveObjectiveNiles1,
+		// Token: 0x04007220 RID: 29216
+		HeistHaveObjectiveNiles2,
+		// Token: 0x04007221 RID: 29217
+		HeistHaveObjectiveNenet1,
+		// Token: 0x04007222 RID: 29218
+		IsBossHeist,
+		// Token: 0x04007223 RID: 29219
+		HeistHaveObjectiveIsla1,
+		// Token: 0x04007224 RID: 29220
+		HeistHaveObjectiveIsla2,
+		// Token: 0x04007225 RID: 29221
+		GrandHeistComplete,
+		// Token: 0x04007226 RID: 29222
+		HeistHaveObjectiveAdiyah1,
+		// Token: 0x04007227 RID: 29223
+		HeistHaveObjectiveAdiyah2,
+		// Token: 0x04007228 RID: 29224
+		InMapArea,
+		// Token: 0x04007229 RID: 29225
+		HeistHaveObjectiveWhakano1,
+		// Token: 0x0400722A RID: 29226
+		HeistHaveObjectiveWhakano2,
+		// Token: 0x0400722B RID: 29227
+		SeenMavenBoss,
+		// Token: 0x0400722C RID: 29228
+		HeistHaveObjectiveFaustus1,
+		// Token: 0x0400722D RID: 29229
+		HeistHaveObjectiveFaustus2,
+		// Token: 0x0400722E RID: 29230
+		HaveMavenMapDeviceAlteration,
+		// Token: 0x0400722F RID: 29231
+		HeistHaveObjectiveKurai1,
+		// Token: 0x04007230 RID: 29232
+		HeistDarnawPapersPlanted,
+		// Token: 0x04007231 RID: 29233
+		HeistMissionAcquiredObjective,
+		// Token: 0x04007232 RID: 29234
+		HeistMissionSeenBoss,
+		// Token: 0x04007233 RID: 29235
+		HeistHaveObjectiveFaustus1B,
+		// Token: 0x04007234 RID: 29236
+		EndlessDelvePassiveRewards1,
+		// Token: 0x04007235 RID: 29237
+		EndlessDelvePassiveRewards2,
+		// Token: 0x04007236 RID: 29238
+		EndlessDelvePassiveRewards3,
+		// Token: 0x04007237 RID: 29239
+		EndlessDelvePassiveRewards4,
+		// Token: 0x04007238 RID: 29240
+		EndlessDelvePassiveRewards5,
+		// Token: 0x04007239 RID: 29241
+		EndlessDelvePassiveRewards6,
+		// Token: 0x0400723A RID: 29242
+		EndlessDelvePassiveRewards7,
+		// Token: 0x0400723B RID: 29243
+		HaveMavenMapVoid1,
+		// Token: 0x0400723C RID: 29244
+		HaveMavenMapVoid2,
+		// Token: 0x0400723D RID: 29245
+		HaveMavenMapVoid3,
+		// Token: 0x0400723E RID: 29246
+		HaveMavenMapVoid4,
+		// Token: 0x0400723F RID: 29247
+		HaveMavenMapAtlas1,
+		// Token: 0x04007240 RID: 29248
+		HaveMavenMapAtlas2,
+		// Token: 0x04007241 RID: 29249
+		HaveMavenMapAtlas3,
+		// Token: 0x04007242 RID: 29250
+		HaveMavenMapAtlas4,
+		// Token: 0x04007243 RID: 29251
+		HelenaOnKitavaDefeat317Seen,
+		// Token: 0x04007244 RID: 29252
+		HelenaOnOriathsCurseSeen,
+		// Token: 0x04007245 RID: 29253
+		HelenaOnSirusSeen,
+		// Token: 0x04007246 RID: 29254
+		HelenaOnCitizenVanguardSeen,
+		// Token: 0x04007247 RID: 29255
+		HelenaOnMapDeviceSeen,
+		// Token: 0x04007248 RID: 29256
+		HelenaOnZanaCaeseriusSeen,
+		// Token: 0x04007249 RID: 29257
+		HelenaOnVenariusSeen,
+		// Token: 0x0400724A RID: 29258
+		HelenaOnTheElderSeen,
+		// Token: 0x0400724B RID: 29259
+		HelenaOnTheFirstWarSeen,
+		// Token: 0x0400724C RID: 29260
+		HelenaOnTheConquerorsSeen,
+		// Token: 0x0400724D RID: 29261
+		HelenaOnThesePeopleSeen,
+		// Token: 0x0400724E RID: 29262
+		HelenaOnNewRoleSeen,
+		// Token: 0x0400724F RID: 29263
+		KiracOnTheMapDeviceSeen,
+		// Token: 0x04007250 RID: 29264
+		KiracOnZanaCaeseriusSeen,
+		// Token: 0x04007251 RID: 29265
+		KiracOnTheElderSeen,
+		// Token: 0x04007252 RID: 29266
+		KiracOnTheElderslayersSeen,
+		// Token: 0x04007253 RID: 29267
+		KiracOnTangleLureSeen,
+		// Token: 0x04007254 RID: 29268
+		KiracOnCleansingFireLureSeen,
+		// Token: 0x04007255 RID: 29269
+		KiracOnCleansingFireKey1Seen,
+		// Token: 0x04007256 RID: 29270
+		KiracOnCleansingFireKey2Seen,
+		// Token: 0x04007257 RID: 29271
+		KiracOnTangleKey1Seen,
+		// Token: 0x04007258 RID: 29272
+		KiracOnTangleKey2Seen,
+		// Token: 0x04007259 RID: 29273
+		ExpeditionFirstClear,
+		// Token: 0x0400725A RID: 29274
+		FindPinnacleBossGateNoKeys,
+		// Token: 0x0400725B RID: 29275
+		EnterFinalPinnacleFight,
+		// Token: 0x0400725C RID: 29276
+		FinalPinnacleBossKilled,
+		// Token: 0x0400725D RID: 29277
+		EnterMapSpiderWoods,
+		// Token: 0x0400725E RID: 29278
+		EnterMapBackwash,
+		// Token: 0x0400725F RID: 29279
+		AtlasMavenVoidTemp,
+		// Token: 0x04007260 RID: 29280
+		AtlasMavenTemp,
+		// Token: 0x04007261 RID: 29281
+		EnterMapBurialBog,
+		// Token: 0x04007262 RID: 29282
+		EnterMapInferno,
+		// Token: 0x04007263 RID: 29283
+		EnterMapCrimsonShores,
+		// Token: 0x04007264 RID: 29284
+		EnterMapSavanna,
+		// Token: 0x04007265 RID: 29285
+		EnterMapWetlands,
+		// Token: 0x04007266 RID: 29286
+		EnterMapRustbowl,
+		// Token: 0x04007267 RID: 29287
+		EnterMapBloomingField,
+		// Token: 0x04007268 RID: 29288
+		MavenPortalsOpen,
+		// Token: 0x04007269 RID: 29289
+		MavenMapDropped,
+		// Token: 0x0400726A RID: 29290
+		InMavenHubArea,
+		// Token: 0x0400726B RID: 29291
+		MavenFightStarted,
+		// Token: 0x0400726C RID: 29292
+		MavenFightComplete,
+		// Token: 0x0400726D RID: 29293
+		EndlessDelvePassiveRewardsStart,
+		// Token: 0x0400726E RID: 29294
+		HaveMavenMapVoid5,
+		// Token: 0x0400726F RID: 29295
+		HaveMavenMapAtlas5,
+		// Token: 0x04007270 RID: 29296
+		HaveMavenMapVoid6,
+		// Token: 0x04007271 RID: 29297
+		IsInParty,
+		// Token: 0x04007272 RID: 29298
+		IsPartyLeader,
+		// Token: 0x04007273 RID: 29299
+		HarvestOshabiTransform,
+		// Token: 0x04007274 RID: 29300
+		EnterMapFortress,
+		// Token: 0x04007275 RID: 29301
+		EnterMapPenitentiary,
+		// Token: 0x04007276 RID: 29302
+		EnterMapLostTowers,
+		// Token: 0x04007277 RID: 29303
+		MavenEnragedDefeated,
+		// Token: 0x04007278 RID: 29304
+		RitualFound,
+		// Token: 0x04007279 RID: 29305
+		RitualRewardsSeen,
+		// Token: 0x0400727A RID: 29306
+		RitualFightComplete,
+		// Token: 0x0400727B RID: 29307
+		RitualFightInProgress3,
+		// Token: 0x0400727C RID: 29308
+		RitualFightInProgress2,
+		// Token: 0x0400727D RID: 29309
+		RitualFightInProgress1,
+		// Token: 0x0400727E RID: 29310
+		RitualCompleteAll,
+		// Token: 0x0400727F RID: 29311
+		MavenFirstMapBossCapture,
+		// Token: 0x04007280 RID: 29312
+		MavenFirstInvitation,
+		// Token: 0x04007281 RID: 29313
+		MavenFirstVoidBossCapture,
+		// Token: 0x04007282 RID: 29314
+		DisableAreaTransitions,
+		// Token: 0x04007283 RID: 29315
+		HarvestTutorialSeedsHarvested,
+		// Token: 0x04007284 RID: 29316
+		HarvestTutorialOshabiIntroduced,
+		// Token: 0x04007285 RID: 29317
+		HarvestTutorialEnteredSacredGrove,
+		// Token: 0x04007286 RID: 29318
+		HarvestTutorialPortalSeen,
+		// Token: 0x04007287 RID: 29319
+		TrialmasterTutorialSeen,
+		// Token: 0x04007288 RID: 29320
+		TrialmasterTutorialSpokenTo,
+		// Token: 0x04007289 RID: 29321
+		TrialmasterTutorialActivateTrial,
+		// Token: 0x0400728A RID: 29322
+		TrialmasterTutorialWonRoundOne,
+		// Token: 0x0400728B RID: 29323
+		TrialmasterTutorialActivateTrialTwo,
+		// Token: 0x0400728C RID: 29324
+		TrialmasterTutorialWonRoundTwo,
+		// Token: 0x0400728D RID: 29325
+		TrialmasterTutorialActivateTrialThree,
+		// Token: 0x0400728E RID: 29326
+		TrialmasterTutorialFailed,
+		// Token: 0x0400728F RID: 29327
+		TrialmasterDefeatedInCombat,
+		// Token: 0x04007290 RID: 29328
+		VisitedDoryaniMachinarium,
+		// Token: 0x04007291 RID: 29329
+		KilledMatriarchOriathSquare,
+		// Token: 0x04007292 RID: 29330
+		A5Q4SeenInnocence,
+		// Token: 0x04007293 RID: 29331
+		KilledCatoTorchedCourts,
+		// Token: 0x04007294 RID: 29332
+		A5ApproachLilly,
+		// Token: 0x04007295 RID: 29333
+		MetSinA6,
+		// Token: 0x04007296 RID: 29334
+		ReadLeatherboundLogbook,
+		// Token: 0x04007297 RID: 29335
+		MetSinBrineKing,
+		// Token: 0x04007298 RID: 29336
+		A7ApproachEramir,
+		// Token: 0x04007299 RID: 29337
+		MetSinRalakesh,
+		// Token: 0x0400729A RID: 29338
+		MetSinTukohama,
+		// Token: 0x0400729B RID: 29339
+		MetSinGruthkul,
+		// Token: 0x0400729C RID: 29340
+		Visited7_12_2,
+		// Token: 0x0400729D RID: 29341
+		MetSinArakaali,
+		// Token: 0x0400729E RID: 29342
+		MetSinYugul,
+		// Token: 0x0400729F RID: 29343
+		MetSinSolarisLunaris,
+		// Token: 0x040072A0 RID: 29344
+		MetSinShakari,
+		// Token: 0x040072A1 RID: 29345
+		MetSinGarukhan,
+		// Token: 0x040072A2 RID: 29346
+		MetEpilogueSinInnocence,
+		// Token: 0x040072A3 RID: 29347
+		ExpeditionTutorialPrimed,
+		// Token: 0x040072A4 RID: 29348
+		ExpeditionTutorialDetonated,
+		// Token: 0x040072A5 RID: 29349
+		ExpeditionEncounterComplete,
+		// Token: 0x040072A6 RID: 29350
+		MetGwennen,
+		// Token: 0x040072A7 RID: 29351
+		MetTujen,
+		// Token: 0x040072A8 RID: 29352
+		MetRog,
+		// Token: 0x040072A9 RID: 29353
+		MetDannig,
+		// Token: 0x040072AA RID: 29354
+		ExpeditionTutorialCongrats,
+		// Token: 0x040072AB RID: 29355
+		DannigIntroductionSeen,
+		// Token: 0x040072AC RID: 29356
+		DannigExplainsExchangingAlternateSeen,
+		// Token: 0x040072AD RID: 29357
+		DannigGossipOriginSeen,
+		// Token: 0x040072AE RID: 29358
+		DannigGossipRunesSeen,
+		// Token: 0x040072AF RID: 29359
+		DannigGossipTriskelionFlameSeen,
+		// Token: 0x040072B0 RID: 29360
+		DannigGossipGemsSeen,
+		// Token: 0x040072B1 RID: 29361
+		DannigGossipGodsSeen,
+		// Token: 0x040072B2 RID: 29362
+		DannigGossipTheKingSeen,
+		// Token: 0x040072B3 RID: 29363
+		DannigSagaBeforeArrivalSeen,
+		// Token: 0x040072B4 RID: 29364
+		DannigSagaTheJourneyISeen,
+		// Token: 0x040072B5 RID: 29365
+		DannigSagaTheJourneyIISeen,
+		// Token: 0x040072B6 RID: 29366
+		DannigSagaArrivalISeen,
+		// Token: 0x040072B7 RID: 29367
+		DannigSagaArrivalIISeen,
+		// Token: 0x040072B8 RID: 29368
+		DannigSagaArrivalIIISeen,
+		// Token: 0x040072B9 RID: 29369
+		DannigSagaArrivalIVSeen,
+		// Token: 0x040072BA RID: 29370
+		DannigSagaArrivalVSeen,
+		// Token: 0x040072BB RID: 29371
+		DannigSagaColonisationISeen,
+		// Token: 0x040072BC RID: 29372
+		DannigSagaColonisationIISeen,
+		// Token: 0x040072BD RID: 29373
+		DannigSagaColonisationIIISeen,
+		// Token: 0x040072BE RID: 29374
+		DannigSagaColonisationIVSeen,
+		// Token: 0x040072BF RID: 29375
+		DannigSagaDarknessDescendsISeen,
+		// Token: 0x040072C0 RID: 29376
+		DannigSagaDarknessDescendsIISeen,
+		// Token: 0x040072C1 RID: 29377
+		DannigSagaDarknessDescendsIIISeen,
+		// Token: 0x040072C2 RID: 29378
+		DannigSagaDarknessDescendsIVSeen,
+		// Token: 0x040072C3 RID: 29379
+		DannigSagaDarknessDescendsVSeen,
+		// Token: 0x040072C4 RID: 29380
+		DannigSagaOlrothsJournalISeen,
+		// Token: 0x040072C5 RID: 29381
+		DannigSagaOlrothsJournalIISeen,
+		// Token: 0x040072C6 RID: 29382
+		DannigSagaOlrothsJournalIIISeen,
+		// Token: 0x040072C7 RID: 29383
+		DannigSagaOlrothsJournalIVSeen,
+		// Token: 0x040072C8 RID: 29384
+		DannigSagaOlrothsJournalVSeen,
+		// Token: 0x040072C9 RID: 29385
+		DannigSagaTheBrokenCircleISeen,
+		// Token: 0x040072CA RID: 29386
+		DannigSagaTheBrokenCircleIISeen,
+		// Token: 0x040072CB RID: 29387
+		DannigSagaTheBrokenCircleIIISeen,
+		// Token: 0x040072CC RID: 29388
+		DannigSagaTheBrokenCircleIVSeen,
+		// Token: 0x040072CD RID: 29389
+		DannigSagaThePriesthoodISeen,
+		// Token: 0x040072CE RID: 29390
+		DannigSagaThePriesthoodIISeen,
+		// Token: 0x040072CF RID: 29391
+		DannigSagaThePriesthoodIIISeen,
+		// Token: 0x040072D0 RID: 29392
+		DannigSagaThePriesthoodIVSeen,
+		// Token: 0x040072D1 RID: 29393
+		DannigSagaTheLastToFallISeen,
+		// Token: 0x040072D2 RID: 29394
+		DannigSagaTheLastToFallIISeen,
+		// Token: 0x040072D3 RID: 29395
+		DannigSagaTheLastToFallIIISeen,
+		// Token: 0x040072D4 RID: 29396
+		DannigSagaTheLastToFallIVSeen,
+		// Token: 0x040072D5 RID: 29397
+		DannigSagaTheLastToFallVSeen,
+		// Token: 0x040072D6 RID: 29398
+		OlrothDefeated,
+		// Token: 0x040072D7 RID: 29399
+		VoranaDefeated,
+		// Token: 0x040072D8 RID: 29400
+		UhtredDefeated,
+		// Token: 0x040072D9 RID: 29401
+		MedvedDefeated,
+		// Token: 0x040072DA RID: 29402
+		GwennenGossipTujenSeen,
+		// Token: 0x040072DB RID: 29403
+		GwennenGossipRogSeen,
+		// Token: 0x040072DC RID: 29404
+		GwennenGossipDannigSeen,
+		// Token: 0x040072DD RID: 29405
+		GwennenGossipLuckOneSeen,
+		// Token: 0x040072DE RID: 29406
+		GwennenGossipFailedRebellionSeen,
+		// Token: 0x040072DF RID: 29407
+		GwennenGossipTheKingSeen,
+		// Token: 0x040072E0 RID: 29408
+		GwennenGossipGodsSeen,
+		// Token: 0x040072E1 RID: 29409
+		GwennenGossipDruidsOfTheBrokenCircleSeen,
+		// Token: 0x040072E2 RID: 29410
+		GwennenGossipMedvedSeen,
+		// Token: 0x040072E3 RID: 29411
+		GwennenGossipMedvedStoryFoundSeen,
+		// Token: 0x040072E4 RID: 29412
+		GwennenGossipMedvedDefeatedStoryNotCompleteSeen,
+		// Token: 0x040072E5 RID: 29413
+		GwennenGossipMedvedDefeatedStoryCompleteSeen,
+		// Token: 0x040072E6 RID: 29414
+		ExpeditionTutorialRemnantExplosivePlaced,
+		// Token: 0x040072E7 RID: 29415
+		ExpeditionTutorialRemnantExploded,
+		// Token: 0x040072E8 RID: 29416
+		ExpeditionEncounterComplete2,
+		// Token: 0x040072E9 RID: 29417
+		ExpeditionTutorialCongrats2,
+		// Token: 0x040072EA RID: 29418
+		TujenIntroductionSeen,
+		// Token: 0x040072EB RID: 29419
+		TujenGossipRogSeen,
+		// Token: 0x040072EC RID: 29420
+		TujenGossipGwennenSeen,
+		// Token: 0x040072ED RID: 29421
+		TujenGossipDannigSeen,
+		// Token: 0x040072EE RID: 29422
+		TujenGossipTheKalguurSeen,
+		// Token: 0x040072EF RID: 29423
+		TujenGossipTheKingOneSeen,
+		// Token: 0x040072F0 RID: 29424
+		TujenGossipTheKingTwoSeen,
+		// Token: 0x040072F1 RID: 29425
+		TujenGossipTheKingThreeSeen,
+		// Token: 0x040072F2 RID: 29426
+		TujenGossipBlackScytheMercenariesSeen,
+		// Token: 0x040072F3 RID: 29427
+		TujenGossipVoranaSeen,
+		// Token: 0x040072F4 RID: 29428
+		TujenGossipVoranaStoryFoundSeen,
+		// Token: 0x040072F5 RID: 29429
+		TujenGossipVoranaDefeatedStoryNotCompleteSeen,
+		// Token: 0x040072F6 RID: 29430
+		TujenGossipVoranaDefeatedStoryCompleteSeen,
+		// Token: 0x040072F7 RID: 29431
+		TujenGossipVoranaAndUhtredDefeatedStoryCompleteSeen,
+		// Token: 0x040072F8 RID: 29432
+		ExpeditionTutorialCompletedInThisArea,
+		// Token: 0x040072F9 RID: 29433
+		RogIntroductionSeen,
+		// Token: 0x040072FA RID: 29434
+		RogGossipTheOrderOfTheChaliceSeen,
+		// Token: 0x040072FB RID: 29435
+		RogGossipUhtredSeen,
+		// Token: 0x040072FC RID: 29436
+		RogGossipUhtredAndStorySeen,
+		// Token: 0x040072FD RID: 29437
+		RogGossipUhtredDefeatedStoryIncompleteSeen,
+		// Token: 0x040072FE RID: 29438
+		RogGossipUhtredDefeatedStoryCompleteSeen,
+		// Token: 0x040072FF RID: 29439
+		RogGossipOlrothAndUhtredDefeatedStoryCompleteSeen,
+		// Token: 0x04007300 RID: 29440
+		RogGossipTujenSeen,
+		// Token: 0x04007301 RID: 29441
+		RogGossipGwennenSeen,
+		// Token: 0x04007302 RID: 29442
+		RogGossipDannigSeen,
+		// Token: 0x04007303 RID: 29443
+		RogGossipTheKingSeen,
+		// Token: 0x04007304 RID: 29444
+		SagaBeforeArrivalFound,
+		// Token: 0x04007305 RID: 29445
+		SagaTheJourneyIFound,
+		// Token: 0x04007306 RID: 29446
+		SagaTheJourneyIIFound,
+		// Token: 0x04007307 RID: 29447
+		SagaArrivalIFound,
+		// Token: 0x04007308 RID: 29448
+		SagaArrivalIIFound,
+		// Token: 0x04007309 RID: 29449
+		SagaArrivalIIIFound,
+		// Token: 0x0400730A RID: 29450
+		SagaArrivalIVFound,
+		// Token: 0x0400730B RID: 29451
+		SagaArrivalVFound,
+		// Token: 0x0400730C RID: 29452
+		SagaColonisationIFound,
+		// Token: 0x0400730D RID: 29453
+		SagaColonisationIIFound,
+		// Token: 0x0400730E RID: 29454
+		SagaColonisationIIIFound,
+		// Token: 0x0400730F RID: 29455
+		SagaColonisationIVFound,
+		// Token: 0x04007310 RID: 29456
+		SagaDarknessDescendsIFound,
+		// Token: 0x04007311 RID: 29457
+		SagaDarknessDescendsIIFound,
+		// Token: 0x04007312 RID: 29458
+		SagaDarknessDescendsIIIFound,
+		// Token: 0x04007313 RID: 29459
+		SagaDarknessDescendsIVFound,
+		// Token: 0x04007314 RID: 29460
+		SagaDarknessDescendsVFound,
+		// Token: 0x04007315 RID: 29461
+		SagaOlrothsJournalIFound,
+		// Token: 0x04007316 RID: 29462
+		SagaOlrothsJournalIIFound,
+		// Token: 0x04007317 RID: 29463
+		SagaOlrothsJournalIIIFound,
+		// Token: 0x04007318 RID: 29464
+		SagaOlrothsJournalIVFound,
+		// Token: 0x04007319 RID: 29465
+		SagaOlrothsJournalVFound,
+		// Token: 0x0400731A RID: 29466
+		SagaTheBrokenCircleIFound,
+		// Token: 0x0400731B RID: 29467
+		SagaTheBrokenCircleIIFound,
+		// Token: 0x0400731C RID: 29468
+		SagaTheBrokenCircleIIIFound,
+		// Token: 0x0400731D RID: 29469
+		SagaTheBrokenCircleIVFound,
+		// Token: 0x0400731E RID: 29470
+		SagaThePriesthoodIFound,
+		// Token: 0x0400731F RID: 29471
+		SagaThePriesthoodIIFound,
+		// Token: 0x04007320 RID: 29472
+		SagaThePriesthoodIIIFound,
+		// Token: 0x04007321 RID: 29473
+		SagaThePriesthoodIVFound,
+		// Token: 0x04007322 RID: 29474
+		SagaTheLastToFallIFound,
+		// Token: 0x04007323 RID: 29475
+		SagaTheLastToFallIIFound,
+		// Token: 0x04007324 RID: 29476
+		SagaTheLastToFallIIIFound,
+		// Token: 0x04007325 RID: 29477
+		SagaTheLastToFallIVFound,
+		// Token: 0x04007326 RID: 29478
+		SagaTheLastToFallVFound,
+		// Token: 0x04007327 RID: 29479
+		ExpeditionNearAncientLore,
+		// Token: 0x04007328 RID: 29480
+		MetSinAbberath,
+		// Token: 0x04007329 RID: 29481
+		MetSinRyslatha,
+		// Token: 0x0400732A RID: 29482
+		DannigOlrothDefeatedGossipSeen,
+		// Token: 0x0400732B RID: 29483
+		TriskelionFlameSeen,
+		// Token: 0x0400732C RID: 29484
+		OlrothAwoken,
+		// Token: 0x0400732D RID: 29485
+		ExpeditionPickedUpAncientLore,
+		// Token: 0x0400732E RID: 29486
+		GwennenIntroductionSeen,
+		// Token: 0x0400732F RID: 29487
+		TencentTutorialA1Q2CRewardSeen,
+		// Token: 0x04007330 RID: 29488
+		TencentTutorialA1Q2CRewardTaken,
+		// Token: 0x04007331 RID: 29489
+		TencentTutorialA1Q2DRewardSeen,
+		// Token: 0x04007332 RID: 29490
+		TencentTutorialA1Q2DRewardTaken,
+		// Token: 0x04007333 RID: 29491
+		TencentTutorialA2Q9BTencentRewardSeen,
+		// Token: 0x04007334 RID: 29492
+		TencentTutorialA2Q9BTencentRewardTaken,
+		// Token: 0x04007335 RID: 29493
+		TencentTutorialA2Q9CTencentRewardSeen,
+		// Token: 0x04007336 RID: 29494
+		TencentTutorialA2Q9CTencentRewardTaken,
+		// Token: 0x04007337 RID: 29495
+		TencentTutorialA2Q9DTencentRewardSeen,
+		// Token: 0x04007338 RID: 29496
+		TencentTutorialA2Q9DTencentRewardTaken,
+		// Token: 0x04007339 RID: 29497
+		TencentTutorialA4Q6BTencentRewardSeen,
+		// Token: 0x0400733A RID: 29498
+		TencentTutorialA4Q6BTencentRewardTaken,
+		// Token: 0x0400733B RID: 29499
+		TencentTutorialA4Q6CTencentRewardSeen,
+		// Token: 0x0400733C RID: 29500
+		TencentTutorialA4Q6CTencentRewardTaken,
+		// Token: 0x0400733D RID: 29501
+		TencentTutorialA4Q6DTencentRewardSeen,
+		// Token: 0x0400733E RID: 29502
+		TencentTutorialA4Q6DTencentRewardTaken,
+		// Token: 0x0400733F RID: 29503
+		TencentTutorialA4Q6ETencentRewardSeen,
+		// Token: 0x04007340 RID: 29504
+		TencentTutorialA4Q6ETencentRewardTaken,
+		// Token: 0x04007341 RID: 29505
+		TencentTutorialA4Q6FTencentRewardSeen,
+		// Token: 0x04007342 RID: 29506
+		TencentTutorialA4Q6FTencentRewardTaken,
+		// Token: 0x04007343 RID: 29507
+		NormalLabyrinthCompletedPrison,
+		// Token: 0x04007344 RID: 29508
+		NormalLabyrinthCompletedSins,
+		// Token: 0x04007345 RID: 29509
+		NormalLabyrinthCompletedCrypt,
+		// Token: 0x04007346 RID: 29510
+		NormalLabyrinthCompletedCrematorium,
+		// Token: 0x04007347 RID: 29511
+		NormalLabyrinthCompletedHedgeMaze,
+		// Token: 0x04007348 RID: 29512
+		NormalLabyrinthCompletedCatacombs,
+		// Token: 0x04007349 RID: 29513
+		CruelLabyrinthCompletedPrison,
+		// Token: 0x0400734A RID: 29514
+		CruelLabyrinthCompletedSins,
+		// Token: 0x0400734B RID: 29515
+		CruelLabyrinthCompletedCrypt,
+		// Token: 0x0400734C RID: 29516
+		MercilessLabyrinthCompletedBathHouse,
+		// Token: 0x0400734D RID: 29517
+		MercilessLabyrinthCompletedTunnel,
+		// Token: 0x0400734E RID: 29518
+		MercilessLabyrinthCompletedOssuary,
+		// Token: 0x0400734F RID: 29519
+		MapLabyrinthCompletedPrison,
+		// Token: 0x04007350 RID: 29520
+		MapLabyrinthCompletedSins,
+		// Token: 0x04007351 RID: 29521
+		MapLabyrinthCompletedCrypt,
+		// Token: 0x04007352 RID: 29522
+		MapLabyrinthCompletedCrematorium,
+		// Token: 0x04007353 RID: 29523
+		MapLabyrinthCompletedHedgeMaze,
+		// Token: 0x04007354 RID: 29524
+		MapLabyrinthCompletedCatacombs,
+		// Token: 0x04007355 RID: 29525
+		MapDeviceActive,
+		// Token: 0x04007356 RID: 29526
+		HellscapeLeagueItemHeld,
+		// Token: 0x04007357 RID: 29527
+		HellscapeUpgradeItemHeld,
+		// Token: 0x04007358 RID: 29528
+		HellscapeNPCIntro,
+		// Token: 0x04007359 RID: 29529
+		HellscapeLeagueItemSeen,
+		// Token: 0x0400735A RID: 29530
+		HellscapeUpgradeItemFound,
+		// Token: 0x0400735B RID: 29531
+		HellscapeNPCSeen,
+		// Token: 0x0400735C RID: 29532
+		HellscapeTimeshiftReady,
+		// Token: 0x0400735D RID: 29533
+		HellscapeTimeshifted,
+		// Token: 0x0400735E RID: 29534
+		HellscapeItemSocketed,
+		// Token: 0x0400735F RID: 29535
+		HellscapeItemCharged,
+		// Token: 0x04007360 RID: 29536
+		CanEditHideout,
+		// Token: 0x04007361 RID: 29537
+		HellscapeUpgradeItem2Held,
+		// Token: 0x04007362 RID: 29538
+		HellscapeNPCDemonFactionSeen,
+		// Token: 0x04007363 RID: 29539
+		HellscapeNPCFleshFactionSeen,
+		// Token: 0x04007364 RID: 29540
+		HellscapeNPCPaleFactionSeen,
+		// Token: 0x04007365 RID: 29541
+		HellscapeNPCBloodCrucibleGossipSeen,
+		// Token: 0x04007366 RID: 29542
+		HellscapeNPCChaosSeen,
+		// Token: 0x04007367 RID: 29543
+		HellscapeNPCOtherWraeclastsSeen,
+		// Token: 0x04007368 RID: 29544
+		HellscapeUpgradeItem2Found,
+		// Token: 0x04007369 RID: 29545
+		HellscapeNPCMoreInformationSeen,
+		// Token: 0x0400736A RID: 29546
+		EndlessHeistPassiveRewardsStart,
+		// Token: 0x0400736B RID: 29547
+		EndlessHeistPassiveRewards1,
+		// Token: 0x0400736C RID: 29548
+		EndlessHeistPassiveRewards2,
+		// Token: 0x0400736D RID: 29549
+		EndlessHeistPassiveRewards3,
+		// Token: 0x0400736E RID: 29550
+		EndlessHeistPassiveRewards4,
+		// Token: 0x0400736F RID: 29551
+		EndlessHeistPassiveRewards5,
+		// Token: 0x04007370 RID: 29552
+		EndlessHeistPassiveRewards6,
+		// Token: 0x04007371 RID: 29553
+		EndlessHeistPassiveRewards7,
+		// Token: 0x04007372 RID: 29554
+		CleansingBossDefeated,
+		// Token: 0x04007373 RID: 29555
+		ConsumeBossDefeated,
+		// Token: 0x04007374 RID: 29556
+		ArchnemesisBossKillEventComplete,
+		// Token: 0x04007375 RID: 29557
+		SentinelUnlockedDrone1,
+		// Token: 0x04007376 RID: 29558
+		SentinelUnlockedDrone2,
+		// Token: 0x04007377 RID: 29559
+		SentinelUnlockedDrone3,
+		// Token: 0x04007378 RID: 29560
+		UberUberBossKillEventComplete,
+		// Token: 0x04007379 RID: 29561
+		UberEaterDefeated,
+		// Token: 0x0400737A RID: 29562
+		UberExarchDefeated,
+		// Token: 0x0400737B RID: 29563
+		UberMavenDefeated,
+		// Token: 0x0400737C RID: 29564
+		UberSirusDefeated,
+		// Token: 0x0400737D RID: 29565
+		UberVenariusDefeated,
+		// Token: 0x0400737E RID: 29566
+		UberUberElderDefeated,
+		// Token: 0x0400737F RID: 29567
+		UberShaperDefeated,
+		// Token: 0x04007380 RID: 29568
+		MapDeviceCurrentlyInteractedWith,
+		// Token: 0x04007381 RID: 29569
+		IsLakeOwner,
+		// Token: 0x04007382 RID: 29570
+		ReadKalandraGlyph01,
+		// Token: 0x04007383 RID: 29571
+		ReadKalandraGlyph02,
+		// Token: 0x04007384 RID: 29572
+		ReadKalandraGlyph03,
+		// Token: 0x04007385 RID: 29573
+		ReadKalandraGlyph04,
+		// Token: 0x04007386 RID: 29574
+		ReadKalandraGlyph05,
+		// Token: 0x04007387 RID: 29575
+		ReadKalandraGlyph06,
+		// Token: 0x04007388 RID: 29576
+		ReadKalandraGlyph07,
+		// Token: 0x04007389 RID: 29577
+		KiracOnGroupsOfRogueExilesSeen,
+		// Token: 0x0400738A RID: 29578
+		KiracOnPantheonShrinesSeen,
+		// Token: 0x0400738B RID: 29579
+		KiracOnEssencesContainingMultipleMonstersSeen,
+		// Token: 0x0400738C RID: 29580
+		KiracOnManyHarbingerPortalsSeen,
+		// Token: 0x0400738D RID: 29581
+		KiracOnHarbingerDreamSeen,
+		// Token: 0x0400738E RID: 29582
+		KiracOnTormentedSpiritsSeen,
+		// Token: 0x0400738F RID: 29583
+		KiracOnAlvaSeen,
+		// Token: 0x04007390 RID: 29584
+		KiracOnTaneSeen,
+		// Token: 0x04007391 RID: 29585
+		KalandraReachedLakeDepth4,
+		// Token: 0x04007392 RID: 29586
+		KalandraReachedLakeDepth8,
+		// Token: 0x04007393 RID: 29587
+		KalandraReachedLakeDepth12,
+		// Token: 0x04007394 RID: 29588
+		KalandraFirstEncounter,
+		// Token: 0x04007395 RID: 29589
+		KalandraFirstFullCompletion,
+		// Token: 0x04007396 RID: 29590
+		SanctumOwner,
+		// Token: 0x04007397 RID: 29591
+		SanctumExploreEntered,
+		// Token: 0x04007398 RID: 29592
+		SanctumExploreCompleted,
+		// Token: 0x04007399 RID: 29593
+		SanctumPuzzleEntered,
+		// Token: 0x0400739A RID: 29594
+		SanctumPuzzleCompleted,
+		// Token: 0x0400739B RID: 29595
+		SanctumKillMonstersEntered,
+		// Token: 0x0400739C RID: 29596
+		SanctumKillMonstersCompleted,
+		// Token: 0x0400739D RID: 29597
+		SanctumKillBossEntered,
+		// Token: 0x0400739E RID: 29598
+		SanctumKillBossCompleted,
+		// Token: 0x0400739F RID: 29599
+		SanctumIntroAtFellshrineRuins,
+		// Token: 0x040073A0 RID: 29600
+		SanctumKillFloorBossEntered,
+		// Token: 0x040073A1 RID: 29601
+		SanctumKillFloorBossCompleted,
+		// Token: 0x040073A2 RID: 29602
+		SanctumInProgress,
+		// Token: 0x040073A3 RID: 29603
+		ReadLyciaGlyph01,
+		// Token: 0x040073A4 RID: 29604
+		ReadLyciaGlyph02,
+		// Token: 0x040073A5 RID: 29605
+		ReadLyciaGlyph03,
+		// Token: 0x040073A6 RID: 29606
+		ReadLyciaGlyph04,
+		// Token: 0x040073A7 RID: 29607
+		ReadLyciaGlyph05,
+		// Token: 0x040073A8 RID: 29608
+		ReadLyciaGlyph06,
+		// Token: 0x040073A9 RID: 29609
+		ReadLyciaGlyph07,
+		// Token: 0x040073AA RID: 29610
+		ReadLyciaGlyph08,
+		// Token: 0x040073AB RID: 29611
+		ReadLyciaGlyph09,
+		// Token: 0x040073AC RID: 29612
+		DiviniaProximityTownA7,
+		// Token: 0x040073AD RID: 29613
+		SanctumLyciaRewardUnlock,
+		// Token: 0x040073AE RID: 29614
+		ThreeLevel90PlayersInInstance,
+		// Token: 0x040073AF RID: 29615
+		UsedPortalNearBoss,
+		// Token: 0x040073B0 RID: 29616
+		CleansingBossAndConsumeBossDefeated,
+		// Token: 0x040073B1 RID: 29617
+		DefeatedBoss,
+		// Token: 0x040073B2 RID: 29618
+		DefectorQuestGiveSeen,
+		// Token: 0x040073B3 RID: 29619
+		LeitisOnSeedSeen,
+		// Token: 0x040073B4 RID: 29620
+		LeitisOnFeedingTheBeastSeen,
+		// Token: 0x040073B5 RID: 29621
+		LeitisOnDiggingSeen,
+		// Token: 0x040073B6 RID: 29622
+		LeitisOnManorSeen,
+		// Token: 0x040073B7 RID: 29623
+		LeitisOnCountessSeen,
+		// Token: 0x040073B8 RID: 29624
+		LeitisIntroductionTownSeen,
+		// Token: 0x040073B9 RID: 29625
+		LeitisIronCountQuestGivenSeen,
+		// Token: 0x040073BA RID: 29626
+		LeitisIronCountQuestCompleteSeen,
+		// Token: 0x040073BB RID: 29627
+		AsalaResponseAboutBurialSpiresSeen,
+		// Token: 0x040073BC RID: 29628
+		AsalaA2HornOfVastiriQuestGiveSeen,
+		// Token: 0x040073BD RID: 29629
+		HoodedOneVaalLanguageGossipSeen,
+		// Token: 0x040073BE RID: 29630
+		AlvaSanctumDoryaniGossipSeen,
+		// Token: 0x040073BF RID: 29631
+		EnterMapForge,
+		// Token: 0x040073C0 RID: 29632
+		EnterMapMire,
+		// Token: 0x040073C1 RID: 29633
+		EnterMapAugury,
+		// Token: 0x040073C2 RID: 29634
+		EnterMapHive,
+		// Token: 0x040073C3 RID: 29635
+		AscendancyPoints1,
+		// Token: 0x040073C4 RID: 29636
+		AscendancyPoints2,
+		// Token: 0x040073C5 RID: 29637
+		AscendancyPoints3,
+		// Token: 0x040073C6 RID: 29638
+		AscendancyPoints4,
+		// Token: 0x040073C7 RID: 29639
+		HaveAtlasSkillBookGeneric1,
+		// Token: 0x040073C8 RID: 29640
+		HaveAtlasSkillBookGeneric2,
+		// Token: 0x040073C9 RID: 29641
+		HaveAtlasSkillBookGeneric3,
+		// Token: 0x040073CA RID: 29642
+		HaveAtlasSkillBookGeneric4,
+		// Token: 0x040073CB RID: 29643
+		HaveAtlasSkillBookGeneric5,
+		// Token: 0x040073CC RID: 29644
+		HaveAtlasSkillBookBreach1,
+		// Token: 0x040073CD RID: 29645
+		HaveAtlasSkillBookBreach2,
+		// Token: 0x040073CE RID: 29646
+		HaveAtlasSkillBookBreach3,
+		// Token: 0x040073CF RID: 29647
+		HaveAtlasSkillBookBreach4,
+		// Token: 0x040073D0 RID: 29648
+		HaveAtlasSkillBookRitual1,
+		// Token: 0x040073D1 RID: 29649
+		HaveAtlasSkillBookRitual2,
+		// Token: 0x040073D2 RID: 29650
+		HaveAtlasSkillBookRitual3,
+		// Token: 0x040073D3 RID: 29651
+		HaveAtlasSkillBookRitual4,
+		// Token: 0x040073D4 RID: 29652
+		HaveAtlasSkillBookExpedition1,
+		// Token: 0x040073D5 RID: 29653
+		HaveAtlasSkillBookExpedition2,
+		// Token: 0x040073D6 RID: 29654
+		HaveAtlasSkillBookExpedition3,
+		// Token: 0x040073D7 RID: 29655
+		HaveAtlasSkillBookExpedition4,
+		// Token: 0x040073D8 RID: 29656
+		HaveAtlasSkillBookDelirium1,
+		// Token: 0x040073D9 RID: 29657
+		HaveAtlasSkillBookDelirium2,
+		// Token: 0x040073DA RID: 29658
+		HaveAtlasSkillBookDelirium3,
+		// Token: 0x040073DB RID: 29659
+		HaveAtlasSkillBookDelirium4,
+		// Token: 0x040073DC RID: 29660
+		UtlimatumApproachModifier,
+		// Token: 0x040073DD RID: 29661
+		UtlimatumModifierChosen,
+		// Token: 0x040073DE RID: 29662
+		UtlimatumMonstersSpawned,
+		// Token: 0x040073DF RID: 29663
+		UtlimatumRoomComplete,
+		// Token: 0x040073E0 RID: 29664
+		UtlimatumTrialComplete,
+		// Token: 0x040073E1 RID: 29665
+		UltimatumBossSpawned,
+		// Token: 0x040073E2 RID: 29666
+		AscendancyDevice2Used,
+		// Token: 0x040073E3 RID: 29667
+		AscendancyDevice3Used,
+		// Token: 0x040073E4 RID: 29668
+		AscendancyDevice4Used,
+		// Token: 0x040073E5 RID: 29669
+		AscendancyDevices1And2Used,
+		// Token: 0x040073E6 RID: 29670
+		SanctumDeleteQuestKey,
+		// Token: 0x040073E7 RID: 29671
+		HaveAtlasSkillBookBoss1,
+		// Token: 0x040073E8 RID: 29672
+		HaveAtlasSkillBookBoss2,
+		// Token: 0x040073E9 RID: 29673
+		HaveAtlasSkillBookBoss3,
+		// Token: 0x040073EA RID: 29674
+		HaveAtlasSkillBookBoss4,
+		// Token: 0x040073EB RID: 29675
+		EnterMapHeadland,
+		// Token: 0x040073EC RID: 29676
+		EnterMapSump,
+		// Token: 0x040073ED RID: 29677
+		EnterMapSeepage,
+		// Token: 0x040073EE RID: 29678
+		EnterMapBloodwood,
+		// Token: 0x040073EF RID: 29679
+		EnterMapRiverside,
+		// Token: 0x040073F0 RID: 29680
+		EnterMapSulphuricCaverns,
+		// Token: 0x040073F1 RID: 29681
+		MastodonBossesKilled,
+		// Token: 0x040073F2 RID: 29682
+		FrostCoreHeld1,
+		// Token: 0x040073F3 RID: 29683
+		FrostCoreUsed1,
+		// Token: 0x040073F4 RID: 29684
+		FrostCoreHeld2,
+		// Token: 0x040073F5 RID: 29685
+		FrostCoreUsed2,
+		// Token: 0x040073F6 RID: 29686
+		ForgeLandmarkOpened,
+		// Token: 0x040073F7 RID: 29687
+		HoodedOneA2OnWife,
+		// Token: 0x040073F8 RID: 29688
+		HoodedOneA2OnDaughter,
+		// Token: 0x040073F9 RID: 29689
+		UltimatumEncounterSurvive,
+		// Token: 0x040073FA RID: 29690
+		UltimatumEncounterCollect,
+		// Token: 0x040073FB RID: 29691
+		UltimatumEncounterEscort,
+		// Token: 0x040073FC RID: 29692
+		UltimatumEncounterSacrifice,
+		// Token: 0x040073FD RID: 29693
+		UltimatumEncounterDestroy,
+		// Token: 0x040073FE RID: 29694
+		UltimatumQuestTrialsEntered,
+		// Token: 0x040073FF RID: 29695
+		SanctumQuestTrialsEntered,
+		// Token: 0x04007400 RID: 29696
+		UltimatumTrialmasterNPCSeen,
+		// Token: 0x04007401 RID: 29697
+		TrialmasterIntroductionSeen,
+		// Token: 0x04007402 RID: 29698
+		TrialmasterGossipThisPlaceSeen,
+		// Token: 0x04007403 RID: 29699
+		TrialmasterGossipChaosSeen,
+		// Token: 0x04007404 RID: 29700
+		UltimatumFailedFromRuin,
+		// Token: 0x04007405 RID: 29701
+		VastiriOutskirtsEntranceDialogueHeard,
+		// Token: 0x04007406 RID: 29702
+		PastTownVaalEncounterStart,
+		// Token: 0x04007407 RID: 29703
+		PastTownVaalEncounterSeen,
+		// Token: 0x04007408 RID: 29704
+		UtzaalVaalEncounterSeen,
+		// Token: 0x04007409 RID: 29705
+		QuarryMinerCurrencyAllNormal,
+		// Token: 0x0400740A RID: 29706
+		QuarryMinerCurrencyAllCruel,
+		// Token: 0x0400740B RID: 29707
+		TitanGrottoTitanAugmentAllNormal,
+		// Token: 0x0400740C RID: 29708
+		TitanGrottoTitanAugmentAllCruel,
+		// Token: 0x0400740D RID: 29709
+		MudBurrowLandmarkEggsOpened,
+		// Token: 0x0400740E RID: 29710
+		AsalaA2FateFaridunGossipSeen,
+		// Token: 0x0400740F RID: 29711
+		AsalaA2TravelToSandstormSeen,
+		// Token: 0x04007410 RID: 29712
+		FinnCanopyFreythornGossipSeen,
+		// Token: 0x04007411 RID: 29713
+		FinnCanopyKingInTheMistsDefeatedSeen,
+		// Token: 0x04007412 RID: 29714
+		AlvaZigguratSunGossipSeen,
+		// Token: 0x04007413 RID: 29715
+		AlvaZigguratVaalGossipSeen,
+		// Token: 0x04007414 RID: 29716
+		RustKingSocketedBodyArmourPickedUp,
+		// Token: 0x04007415 RID: 29717
+		OghamVillageSoulCorePickedUp,
+		// Token: 0x04007416 RID: 29718
+		EndgameCataclysmExploded,
+		// Token: 0x04007417 RID: 29719
+		PastTownEntered,
+		// Token: 0x04007418 RID: 29720
+		SanctumRelicAltarSeen,
+		// Token: 0x04007419 RID: 29721
+		AscendancySanctumTrialsComplete,
+		// Token: 0x0400741A RID: 29722
+		SanctumAscendancyTrialBegun,
+		// Token: 0x0400741B RID: 29723
+		UltimatumQuestRewardsTaken,
+		// Token: 0x0400741C RID: 29724
+		SanctumQuestRewardsTaken,
+		// Token: 0x0400741D RID: 29725
+		Act3TownAlvaPortalRising,
+		// Token: 0x0400741E RID: 29726
+		HoodedMentorHuntedGossipSeen,
+		// Token: 0x0400741F RID: 29727
+		HoodedOneJamanraGossipSeen,
+		// Token: 0x04007420 RID: 29728
+		DoryaniSanctumConvoOneSeen,
+		// Token: 0x04007421 RID: 29729
+		DoryaniSanctumConvoTwoSeen,
+		// Token: 0x04007422 RID: 29730
+		AlvaSanctumConvoOneSeen,
+		// Token: 0x04007423 RID: 29731
+		AlvaSanctumConvoTwoSeen,
+		// Token: 0x04007424 RID: 29732
+		SamuelZombieAttackSeen,
+		// Token: 0x04007425 RID: 29733
+		UltimatumQuestBossVaalOrbTaken,
+		// Token: 0x04007426 RID: 29734
+		AlvaEndgameOnDoryaniSeen,
+		// Token: 0x04007427 RID: 29735
+		AlvaEndgameOnCurrentTaskSeen,
+		// Token: 0x04007428 RID: 29736
+		AlvaEndgameOnPillarOfFlameSeen,
+		// Token: 0x04007429 RID: 29737
+		AlvaEndgameOnPinnacleRoomOneSeen,
+		// Token: 0x0400742A RID: 29738
+		DoryaniEndgameTier1Task,
+		// Token: 0x0400742B RID: 29739
+		DoryaniEndgameGiveTasksOneSeen,
+		// Token: 0x0400742C RID: 29740
+		DoryaniEndgameGiveTasksTwoSeen,
+		// Token: 0x0400742D RID: 29741
+		DoryaniEndgameGiveTasksThreeSeen,
+		// Token: 0x0400742E RID: 29742
+		DoryaniEndgameGiveTasksFourSeen,
+		// Token: 0x0400742F RID: 29743
+		DoryaniEndgameDefeatBreachBossSeen,
+		// Token: 0x04007430 RID: 29744
+		CompletedFirstNPCTutorial,
+		// Token: 0x04007431 RID: 29745
+		UltimatumAllPlayersTakenRewardsEarly,
+		// Token: 0x04007432 RID: 29746
+		SamuelDyingWords,
+		// Token: 0x04007433 RID: 29747
+		SacredFlameMonolithOpened,
+		// Token: 0x04007434 RID: 29748
+		ReadSacredFlameMonolithGrlyph,
+		// Token: 0x04007435 RID: 29749
+		HaveAtlasSkillBookBoss5,
+		// Token: 0x04007436 RID: 29750
+		SnakeLadyPotionHeld4,
+		// Token: 0x04007437 RID: 29751
+		SnakeLadyPotionHeld5,
+		// Token: 0x04007438 RID: 29752
+		SnakeLadyPotionHeld6,
+		// Token: 0x04007439 RID: 29753
+		SnakeLadyPotionUsed4,
+		// Token: 0x0400743A RID: 29754
+		SnakeLadyPotionUsed5,
+		// Token: 0x0400743B RID: 29755
+		SnakeLadyPotionUsed6,
+		// Token: 0x0400743C RID: 29756
+		FlameSeedInvestigate,
+		// Token: 0x0400743D RID: 29757
+		FlameSeedInvestigateDone,
+		// Token: 0x0400743E RID: 29758
+		SanctumIntroSeenRelicDevice,
+		// Token: 0x0400743F RID: 29759
+		SnakeLadyPotionUsedMaster,
+		// Token: 0x04007440 RID: 29760
+		EndgameCataclysmExplodedSecond,
+		// Token: 0x04007441 RID: 29761
+		EndOfA2GoingWrongWay,
+		// Token: 0x04007442 RID: 29762
+		RogEndgameWhyHeIsHereGossipSeen,
+		// Token: 0x04007443 RID: 29763
+		RogEndgameIntroFirstSeen,
+		// Token: 0x04007444 RID: 29764
+		ReadJungleExpeditionGlyph02,
+		// Token: 0x04007445 RID: 29765
+		AsalaBalbalaQuestGiveSeen,
+		// Token: 0x04007446 RID: 29766
+		AsalaBalbalaGossipSeen,
+		// Token: 0x04007447 RID: 29767
+		AsalaBalbalaDefeatedGossipSeen,
+		// Token: 0x04007448 RID: 29768
+		AsalaOnTrialsGossipSeen,
+		// Token: 0x04007449 RID: 29769
+		JamanraQuarryGlyphRead,
+		// Token: 0x0400744A RID: 29770
+		ShambrinAsalaSpeechSeen,
+		// Token: 0x0400744B RID: 29771
+		ShambrinJamanraKilledSeen,
+		// Token: 0x0400744C RID: 29772
+		ShambrinSandstormGossipSeen,
+		// Token: 0x0400744D RID: 29773
+		ShambrinRisenGossipSeen,
+		// Token: 0x0400744E RID: 29774
+		SekhemaTrialGlyph1Read,
+		// Token: 0x0400744F RID: 29775
+		SekhemaTrialGlyph2Read,
+		// Token: 0x04007450 RID: 29776
+		SekhemaTrialGlyph3Read,
+		// Token: 0x04007451 RID: 29777
+		SekhemaTrialGlyph4Read,
+		// Token: 0x04007452 RID: 29778
+		SekhemaTrialGlyph5Read,
+		// Token: 0x04007453 RID: 29779
+		LostDaughterGlyphRead,
+		// Token: 0x04007454 RID: 29780
+		LostSonGlyphRead,
+		// Token: 0x04007455 RID: 29781
+		WifeEntranceGlyphRead,
+		// Token: 0x04007456 RID: 29782
+		HusbandEntranceGlyphRead,
+		// Token: 0x04007457 RID: 29783
+		VillageGlyph1Read,
+		// Token: 0x04007458 RID: 29784
+		ManorJournalGlyph1Read,
+		// Token: 0x04007459 RID: 29785
+		ManorJournalGlyph2Read,
+		// Token: 0x0400745A RID: 29786
+		DannigEGOlrothGossipSeen,
+		// Token: 0x0400745B RID: 29787
+		DannigEGTriskelionSeen,
+		// Token: 0x0400745C RID: 29788
+		DannigEGWhyWeAreHereSeen,
+		// Token: 0x0400745D RID: 29789
+		DannigEGIntroFirstTimeSeen,
+		// Token: 0x0400745E RID: 29790
+		ZarkaOnDesharGossipSeen,
+		// Token: 0x0400745F RID: 29791
+		ZarkaOnJamanraGossipSeen,
+		// Token: 0x04007460 RID: 29792
+		ZarkaOnJamanraPostRisuGossipSeen,
+		// Token: 0x04007461 RID: 29793
+		ServiSonGraveGossipSeen,
+		// Token: 0x04007462 RID: 29794
+		BalbalaOnCoinsSeen,
+		// Token: 0x04007463 RID: 29795
+		AtaluiChaosGossipSeen,
+		// Token: 0x04007464 RID: 29796
+		AtaluiAlvaGossipSeen,
+		// Token: 0x04007465 RID: 29797
+		AtaluiWorthyGossipSeen,
+		// Token: 0x04007466 RID: 29798
+		AtaluiMarakethGossipSeen,
+		// Token: 0x04007467 RID: 29799
+		AtaluiKaruiGossipSeen,
+		// Token: 0x04007468 RID: 29800
+		AtaluiEzomyteGossipSeen,
+		// Token: 0x04007469 RID: 29801
+		AtaluiTrarthusGossipSeen,
+		// Token: 0x0400746A RID: 29802
+		AtaluiAzmeriGossipSeen,
+		// Token: 0x0400746B RID: 29803
+		AtaluiOriathGossipSeen,
+		// Token: 0x0400746C RID: 29804
+		AtaluiPrimevalsGossipSeen,
+		// Token: 0x0400746D RID: 29805
+		AtaluiPrecursorsGossipSeen,
+		// Token: 0x0400746E RID: 29806
+		KetzuliGossipOnFateSeen,
+		// Token: 0x0400746F RID: 29807
+		KetzuliGossipOnFreeWillSeen,
+		// Token: 0x04007470 RID: 29808
+		KetzuliGossipOnPatternedSeen,
+		// Token: 0x04007471 RID: 29809
+		KetzuliGossipOnAtaluiSeen,
+		// Token: 0x04007472 RID: 29810
+		KetzuliGossipOnDoryaniSeen,
+		// Token: 0x04007473 RID: 29811
+		TujenEGCataclysmGossipSeen,
+		// Token: 0x04007474 RID: 29812
+		TujenEGUpgradesGossipSeen,
+		// Token: 0x04007475 RID: 29813
+		TujenEGIntroductionSeen,
+		// Token: 0x04007476 RID: 29814
+		GwennenEGThisEraSeen,
+		// Token: 0x04007477 RID: 29815
+		GwennenEGIntroductionSeen,
+		// Token: 0x04007478 RID: 29816
+		GwennenEGZigguratGossipSeen,
+		// Token: 0x04007479 RID: 29817
+		HaveAtlasSkillBookPinnacle1,
+		// Token: 0x0400747A RID: 29818
+		HaveAtlasSkillBookPinnacle2,
+		// Token: 0x0400747B RID: 29819
+		HaveAtlasSkillBookPinnacle3,
+		// Token: 0x0400747C RID: 29820
+		HaveAtlasSkillBookPinnacle4,
+		// Token: 0x0400747D RID: 29821
+		AlvaIntroAfterOswaldSeen,
+		// Token: 0x0400747E RID: 29822
+		AlvaSpillwaysGossipSeen,
+		// Token: 0x0400747F RID: 29823
+		AlvaInTownLargeSoulCoreHeld,
+		// Token: 0x04007480 RID: 29824
+		AlvaPostIntroSeen,
+		// Token: 0x04007481 RID: 29825
+		OswaldQueenOfFilthGossipSeen,
+		// Token: 0x04007482 RID: 29826
+		ForgottenTempleKnockingHeard,
+		// Token: 0x04007483 RID: 29827
+		AlvaWildAtStairsHeard,
+		// Token: 0x04007484 RID: 29828
+		ZigguratEncampmentStairsDrainedComment,
+		// Token: 0x04007485 RID: 29829
+		UnaErvigAliveGossipSeen,
+		// Token: 0x04007486 RID: 29830
+		UnaErvigDeadGossipSeen,
+		// Token: 0x04007487 RID: 29831
+		UnaGrimTangleSpiritsGossipSeen,
+		// Token: 0x04007488 RID: 29832
+		UnaGrimTangleGossipSeen,
+		// Token: 0x04007489 RID: 29833
+		Is400Character,
+		// Token: 0x0400748A RID: 29834
+		VisitedG1_1,
+		// Token: 0x0400748B RID: 29835
+		VisitedG1Town,
+		// Token: 0x0400748C RID: 29836
+		VisitedG1_2,
+		// Token: 0x0400748D RID: 29837
+		VisitedG1_3,
+		// Token: 0x0400748E RID: 29838
+		VisitedG1_4,
+		// Token: 0x0400748F RID: 29839
+		VisitedG1_5,
+		// Token: 0x04007490 RID: 29840
+		VisitedG1_6,
+		// Token: 0x04007491 RID: 29841
+		VisitedG1_7,
+		// Token: 0x04007492 RID: 29842
+		VisitedG1_8,
+		// Token: 0x04007493 RID: 29843
+		VisitedG1_9,
+		// Token: 0x04007494 RID: 29844
+		VisitedG1_10,
+		// Token: 0x04007495 RID: 29845
+		VisitedG1_11,
+		// Token: 0x04007496 RID: 29846
+		VisitedG1_12,
+		// Token: 0x04007497 RID: 29847
+		VisitedG1_13_1,
+		// Token: 0x04007498 RID: 29848
+		VisitedG1_13_2,
+		// Token: 0x04007499 RID: 29849
+		VisitedG1_14,
+		// Token: 0x0400749A RID: 29850
+		VisitedG1_15,
+		// Token: 0x0400749B RID: 29851
+		VisitedG2_1,
+		// Token: 0x0400749C RID: 29852
+		VisitedG2Town,
+		// Token: 0x0400749D RID: 29853
+		VisitedG2_2,
+		// Token: 0x0400749E RID: 29854
+		VisitedG2_3,
+		// Token: 0x0400749F RID: 29855
+		VisitedG2_4,
+		// Token: 0x040074A0 RID: 29856
+		VisitedG2_5_1,
+		// Token: 0x040074A1 RID: 29857
+		VisitedG2_5_2,
+		// Token: 0x040074A2 RID: 29858
+		VisitedG2_6,
+		// Token: 0x040074A3 RID: 29859
+		VisitedG2_7,
+		// Token: 0x040074A4 RID: 29860
+		VisitedG2_8,
+		// Token: 0x040074A5 RID: 29861
+		VisitedG2_9_1,
+		// Token: 0x040074A6 RID: 29862
+		VisitedG2_10,
+		// Token: 0x040074A7 RID: 29863
+		VisitedG2_10_2,
+		// Token: 0x040074A8 RID: 29864
+		VisitedG2_11,
+		// Token: 0x040074A9 RID: 29865
+		VisitedG2_12,
+		// Token: 0x040074AA RID: 29866
+		VisitedG2_13,
+		// Token: 0x040074AB RID: 29867
+		VisitedG2_9_2,
+		// Token: 0x040074AC RID: 29868
+		VisitedG2_12_2,
+		// Token: 0x040074AD RID: 29869
+		RenlyIntroduced,
+		// Token: 0x040074AE RID: 29870
+		MudBurrowerQuestReceived,
+		// Token: 0x040074AF RID: 29871
+		MudBurrowerQuestCompleted,
+		// Token: 0x040074B0 RID: 29872
+		MudBurrowerQuestRewardSeen,
+		// Token: 0x040074B1 RID: 29873
+		MudBurrowerQuestReward2Seen,
+		// Token: 0x040074B2 RID: 29874
+		MudBurrowerQuestRewardTaken,
+		// Token: 0x040074B3 RID: 29875
+		MudBurrowerQuestReward2Taken,
+		// Token: 0x040074B4 RID: 29876
+		MudBurrowerQuestDefeatedMudBurrower,
+		// Token: 0x040074B5 RID: 29877
+		MudBurrowerQuestSeenMudBurrower,
+		// Token: 0x040074B6 RID: 29878
+		MillerSeen,
+		// Token: 0x040074B7 RID: 29879
+		MillerDefeated,
+		// Token: 0x040074B8 RID: 29880
+		MillerRewardSeen,
+		// Token: 0x040074B9 RID: 29881
+		MillerRewardTaken,
+		// Token: 0x040074BA RID: 29882
+		MentorQuestHaveSpikes,
+		// Token: 0x040074BB RID: 29883
+		MentorQuestDeliveredSpikes,
+		// Token: 0x040074BC RID: 29884
+		UnaLuteQuestHaveLute,
+		// Token: 0x040074BD RID: 29885
+		UnaLuteQuestDeliveredLute,
+		// Token: 0x040074BE RID: 29886
+		TreeOfSoulsQuestReceived,
+		// Token: 0x040074BF RID: 29887
+		TreeOfSoulsTreeSeen,
+		// Token: 0x040074C0 RID: 29888
+		TreeOfSoulsRedValeReceived,
+		// Token: 0x040074C1 RID: 29889
+		TreeOfSoulsRedValeBossSlain,
+		// Token: 0x040074C2 RID: 29890
+		TreeOfSoulsRedValeRunesSeen,
+		// Token: 0x040074C3 RID: 29891
+		TreeOfSoulsRedValeFightActive,
+		// Token: 0x040074C4 RID: 29892
+		TreeOfSoulsRedValeRunesPickedUp,
+		// Token: 0x040074C5 RID: 29893
+		TreeOfSoulsRedValeRunesForged,
+		// Token: 0x040074C6 RID: 29894
+		TreeOfSoulsRunesTakenFromRenly,
+		// Token: 0x040074C7 RID: 29895
+		TreeOfSoulsRedValeObeliskSeen,
+		// Token: 0x040074C8 RID: 29896
+		TreeOfSoulsRedValeObeliskSeenTwo,
+		// Token: 0x040074C9 RID: 29897
+		TreeOfSoulsRedValeObeliskSeenThree,
+		// Token: 0x040074CA RID: 29898
+		TreeOfSoulsRuneSpiked,
+		// Token: 0x040074CB RID: 29899
+		TreeOfSoulsRuneOneSpiked,
+		// Token: 0x040074CC RID: 29900
+		TreeOfSoulsRuneTwoSpiked,
+		// Token: 0x040074CD RID: 29901
+		TreeOfSoulsRuneThreeSpiked,
+		// Token: 0x040074CE RID: 29902
+		TreeOfSoulsMentorReleased,
+		// Token: 0x040074CF RID: 29903
+		TreeOfSoulsMentorReleasedAndSpokenTo,
+		// Token: 0x040074D0 RID: 29904
+		TreeOfSoulsGemRewardTaken,
+		// Token: 0x040074D1 RID: 29905
+		TreeOfSoulsGemRewardSeen,
+		// Token: 0x040074D2 RID: 29906
+		UnaLuteQuestReceived,
+		// Token: 0x040074D3 RID: 29907
+		CanopyQuestRewardSeen,
+		// Token: 0x040074D4 RID: 29908
+		UnaLuteSeenLute,
+		// Token: 0x040074D5 RID: 29909
+		BitterGuyQuestReceived,
+		// Token: 0x040074D6 RID: 29910
+		BitterGuyChildOneSeen,
+		// Token: 0x040074D7 RID: 29911
+		BitterGuyChildOneDestroyed,
+		// Token: 0x040074D8 RID: 29912
+		BitterGuyChildTwoSeen,
+		// Token: 0x040074D9 RID: 29913
+		BitterGuyChildTwoDestroyed,
+		// Token: 0x040074DA RID: 29914
+		BitterGuyChildrenDestroyed,
+		// Token: 0x040074DB RID: 29915
+		BitterGuyChildrenDestroyedPortalOpen,
+		// Token: 0x040074DC RID: 29916
+		BitterGuyWifeSeen,
+		// Token: 0x040074DD RID: 29917
+		BitterGuyWifeDefeated,
+		// Token: 0x040074DE RID: 29918
+		BitterGuyWifeDestroyable,
+		// Token: 0x040074DF RID: 29919
+		BitterGuyWifeDestroyed,
+		// Token: 0x040074E0 RID: 29920
+		BitterGuyWifeDestroyedOpenPortal,
+		// Token: 0x040074E1 RID: 29921
+		BitterGuyHusbandSeen,
+		// Token: 0x040074E2 RID: 29922
+		BitterGuyHusbandDefeated,
+		// Token: 0x040074E3 RID: 29923
+		BitterGuyHusbandDestroyable,
+		// Token: 0x040074E4 RID: 29924
+		BitterGuyReadyToTransform,
+		// Token: 0x040074E5 RID: 29925
+		BitterGuyDestroyed,
+		// Token: 0x040074E6 RID: 29926
+		BitterGuyQuestRewardTaken,
+		// Token: 0x040074E7 RID: 29927
+		BitterGuyQuestComplete,
+		// Token: 0x040074E8 RID: 29928
+		EinharSeen,
+		// Token: 0x040074E9 RID: 29929
+		EinharSpokenTo,
+		// Token: 0x040074EA RID: 29930
+		EinharCrowbellSlain,
+		// Token: 0x040074EB RID: 29931
+		EinharQuestComplete,
+		// Token: 0x040074EC RID: 29932
+		CanopyQuestReceived,
+		// Token: 0x040074ED RID: 29933
+		CanopyQuestItemPickedUp,
+		// Token: 0x040074EE RID: 29934
+		CanopyQuestMindVoiceSpoke,
+		// Token: 0x040074EF RID: 29935
+		CanopyQuestBossAltarSeen,
+		// Token: 0x040074F0 RID: 29936
+		CanopyQuestBossDefeated,
+		// Token: 0x040074F1 RID: 29937
+		FinnPotionUsed,
+		// Token: 0x040074F2 RID: 29938
+		CanopyQuestComplete,
+		// Token: 0x040074F3 RID: 29939
+		TheExecutionerRewardTaken,
+		// Token: 0x040074F4 RID: 29940
+		IronCountQuestReceived,
+		// Token: 0x040074F5 RID: 29941
+		IronCountManorEntered,
+		// Token: 0x040074F6 RID: 29942
+		IronCountManor2Entered,
+		// Token: 0x040074F7 RID: 29943
+		IronCountSeen,
+		// Token: 0x040074F8 RID: 29944
+		IronCountArenaEntered,
+		// Token: 0x040074F9 RID: 29945
+		IronCountKilled,
+		// Token: 0x040074FA RID: 29946
+		IronCountHoodedOneEndOfActCommentary,
+		// Token: 0x040074FB RID: 29947
+		TravelledToPlainsOfVastiri,
+		// Token: 0x040074FC RID: 29948
+		IronCountQuestComplete,
+		// Token: 0x040074FD RID: 29949
+		FinnIntroduced,
+		// Token: 0x040074FE RID: 29950
+		UnaIntroduced,
+		// Token: 0x040074FF RID: 29951
+		HoodedOneIntroduced,
+		// Token: 0x04007500 RID: 29952
+		TreeOfSoulsRedValeRunesPickedUp1,
+		// Token: 0x04007501 RID: 29953
+		TreeOfSoulsRedValeRunesPickedUp2,
+		// Token: 0x04007502 RID: 29954
+		TreeOfSoulsRedValeRunesPickedUp3,
+		// Token: 0x04007503 RID: 29955
+		FinnOnFinnGossipSeen,
+		// Token: 0x04007504 RID: 29956
+		FinnUnaGossipSeen,
+		// Token: 0x04007505 RID: 29957
+		FinnClearfellGossipSeen,
+		// Token: 0x04007506 RID: 29958
+		FinnClearfellAfterDevourerGossipSeen,
+		// Token: 0x04007507 RID: 29959
+		FinnTheHoodedOneGossipSeen,
+		// Token: 0x04007508 RID: 29960
+		FinnCanopyGossipSeen,
+		// Token: 0x04007509 RID: 29961
+		FinnTheCountPreManorGossipSeen,
+		// Token: 0x0400750A RID: 29962
+		FinnRedValeAdviceSeen,
+		// Token: 0x0400750B RID: 29963
+		FinnDevourerDeadGossipSeen,
+		// Token: 0x0400750C RID: 29964
+		FinnBitterGuyPostFightGossipSeen,
+		// Token: 0x0400750D RID: 29965
+		FinnBurningVillageGossipSeen,
+		// Token: 0x0400750E RID: 29966
+		FinnEndOfActGossipSeen,
+		// Token: 0x0400750F RID: 29967
+		UnaDevourerGossipSeen,
+		// Token: 0x04007510 RID: 29968
+		UnaFinnGossipSeen,
+		// Token: 0x04007511 RID: 29969
+		UnaRenlyGossipSeen,
+		// Token: 0x04007512 RID: 29970
+		UnaTheHoodedOneGossipSeen,
+		// Token: 0x04007513 RID: 29971
+		UnaClearfell1GossipSeen,
+		// Token: 0x04007514 RID: 29972
+		UnaClearfell2GossipSeen,
+		// Token: 0x04007515 RID: 29973
+		UnaClearfell3GossipSeen,
+		// Token: 0x04007516 RID: 29974
+		UnaGraveyardGossipSeen,
+		// Token: 0x04007517 RID: 29975
+		UnaCountGossipSeen,
+		// Token: 0x04007518 RID: 29976
+		UnaEndOfActGossipSeen,
+		// Token: 0x04007519 RID: 29977
+		RenlyClearfell1GossipSeen,
+		// Token: 0x0400751A RID: 29978
+		RenlyClearfell2GossipSeen,
+		// Token: 0x0400751B RID: 29979
+		RenlyLeitisGossipSeen,
+		// Token: 0x0400751C RID: 29980
+		RenlyUnaGossipSeen,
+		// Token: 0x0400751D RID: 29981
+		RenlyFinnGossipSeen,
+		// Token: 0x0400751E RID: 29982
+		RenlyOghamGossipSeen,
+		// Token: 0x0400751F RID: 29983
+		RenlyDevourerGossipSeen,
+		// Token: 0x04007520 RID: 29984
+		RenlyFatherhoodGossipSeen,
+		// Token: 0x04007521 RID: 29985
+		RenlyCount2GossipSeen,
+		// Token: 0x04007522 RID: 29986
+		RenlyCount3GossipSeen,
+		// Token: 0x04007523 RID: 29987
+		RenlyOldForestGossipSeen,
+		// Token: 0x04007524 RID: 29988
+		RenlyGraveyardGossipSeen,
+		// Token: 0x04007525 RID: 29989
+		RenlyHoodedOneGossipSeen,
+		// Token: 0x04007526 RID: 29990
+		RenlyTwistedAnimalsGossipSeen,
+		// Token: 0x04007527 RID: 29991
+		RenlyVillage1GossipSeen,
+		// Token: 0x04007528 RID: 29992
+		RenlyVillage2GossipSeen,
+		// Token: 0x04007529 RID: 29993
+		RenlyBitterGuyGossipSeen,
+		// Token: 0x0400752A RID: 29994
+		RenlyEndOfActGossipSeen,
+		// Token: 0x0400752B RID: 29995
+		MetFinn,
+		// Token: 0x0400752C RID: 29996
+		MetRenly,
+		// Token: 0x0400752D RID: 29997
+		MetUna,
+		// Token: 0x0400752E RID: 29998
+		MetHoodedOne,
+		// Token: 0x0400752F RID: 29999
+		MetLachlann,
+		// Token: 0x04007530 RID: 30000
+		ReadClearfellPosting1,
+		// Token: 0x04007531 RID: 30001
+		ReadClearfellPosting2,
+		// Token: 0x04007532 RID: 30002
+		ReadClearfellPosting3,
+		// Token: 0x04007533 RID: 30003
+		ReadOldForestGlyph1,
+		// Token: 0x04007534 RID: 30004
+		ReadRedValeGlyph1,
+		// Token: 0x04007535 RID: 30005
+		ReadGrimTangleGlyph1,
+		// Token: 0x04007536 RID: 30006
+		ReadGrimTangleGlyph2,
+		// Token: 0x04007537 RID: 30007
+		ReadGrimTangleGlyph3,
+		// Token: 0x04007538 RID: 30008
+		ReadLachlannDroppedLetter1,
+		// Token: 0x04007539 RID: 30009
+		ReadCanopyGlyph1,
+		// Token: 0x0400753A RID: 30010
+		ReadBurningVillageGlyph1,
+		// Token: 0x0400753B RID: 30011
+		ReadManorGlyph1,
+		// Token: 0x0400753C RID: 30012
+		ReadManorGlyph2,
+		// Token: 0x0400753D RID: 30013
+		ReadManorGlyph3,
+		// Token: 0x0400753E RID: 30014
+		LachlannIntroduced,
+		// Token: 0x0400753F RID: 30015
+		LachlannSeenAndHaventVisitedG1_10,
+		// Token: 0x04007540 RID: 30016
+		LachlannEnteringCryptAudio,
+		// Token: 0x04007541 RID: 30017
+		LachlannOghamGossipSeen,
+		// Token: 0x04007542 RID: 30018
+		LachlannPraetorGossipSeen,
+		// Token: 0x04007543 RID: 30019
+		LachlannUprisingGossipSeen,
+		// Token: 0x04007544 RID: 30020
+		LachlannFamilyGossipSeen,
+		// Token: 0x04007545 RID: 30021
+		LachlannClearfellGossipSeen,
+		// Token: 0x04007546 RID: 30022
+		ExecutionerSeen,
+		// Token: 0x04007547 RID: 30023
+		UnaTreeOfSoulsEndCommentSeen,
+		// Token: 0x04007548 RID: 30024
+		HoodedOneIntroSeen,
+		// Token: 0x04007549 RID: 30025
+		HoodedOneLachlannGossipSeen,
+		// Token: 0x0400754A RID: 30026
+		HoodedOneVillageGossipSeen,
+		// Token: 0x0400754B RID: 30027
+		HoodedOneCountGossipSeen,
+		// Token: 0x0400754C RID: 30028
+		HoodedOneEndOfActGossipSeen,
+		// Token: 0x0400754D RID: 30029
+		HoodedOneInTreeIntroSeen,
+		// Token: 0x0400754E RID: 30030
+		TreeOfSoulsRedValeBossActive,
+		// Token: 0x0400754F RID: 30031
+		HoodedOneRedValeGoFindRenlySeen,
+		// Token: 0x04007550 RID: 30032
+		HoodedOneRedValeHaveSpikesSeen,
+		// Token: 0x04007551 RID: 30033
+		RenlyTreeOfSoulsRunesForgedSeen,
+		// Token: 0x04007552 RID: 30034
+		VisitedG1_7_2,
+		// Token: 0x04007553 RID: 30035
+		PoemVisitedMapTrial1_1,
+		// Token: 0x04007554 RID: 30036
+		PoemVisitedMapTrial1_2,
+		// Token: 0x04007555 RID: 30037
+		PoemVisitedMapTrial1_3,
+		// Token: 0x04007556 RID: 30038
+		PoemVisitedMapTrial1_4,
+		// Token: 0x04007557 RID: 30039
+		PoemVisitedMapTrial1_5,
+		// Token: 0x04007558 RID: 30040
+		PoemVisitedMapTrial1_6,
+		// Token: 0x04007559 RID: 30041
+		PoemVisitedMapTrial2_1,
+		// Token: 0x0400755A RID: 30042
+		PoemVisitedMapTrial2_2,
+		// Token: 0x0400755B RID: 30043
+		PoemVisitedMapTrial2_3,
+		// Token: 0x0400755C RID: 30044
+		PoemVisitedMapTrial3_1,
+		// Token: 0x0400755D RID: 30045
+		PoemVisitedMapTrial3_2,
+		// Token: 0x0400755E RID: 30046
+		PoemVisitedMapTrial3_3,
+		// Token: 0x0400755F RID: 30047
+		A3Q12SeenPages,
+		// Token: 0x04007560 RID: 30048
+		BitterGuyGraveyardGateOpened,
+		// Token: 0x04007561 RID: 30049
+		TreeOfSoulsRewardSeen,
+		// Token: 0x04007562 RID: 30050
+		TreeOfSoulsRewardTaken,
+		// Token: 0x04007563 RID: 30051
+		BitterGuyChildrenSoulsFreed,
+		// Token: 0x04007564 RID: 30052
+		BitterGuyDeadWifeConversationHad,
+		// Token: 0x04007565 RID: 30053
+		BitterGuyDeadYoungerSonConversationHad,
+		// Token: 0x04007566 RID: 30054
+		BitterGuyDeadElderSonConversationHad,
+		// Token: 0x04007567 RID: 30055
+		BitterGuyTransformationConversationHad,
+		// Token: 0x04007568 RID: 30056
+		BitterGuyFollowingInGraveyard,
+		// Token: 0x04007569 RID: 30057
+		MillerRewardSeenFinn,
+		// Token: 0x0400756A RID: 30058
+		MillerRewardTakenFinn,
+		// Token: 0x0400756B RID: 30059
+		HoodedOneSeedOfCorruptionGossipSeen,
+		// Token: 0x0400756C RID: 30060
+		HoodedOneClearfellGossipSeen,
+		// Token: 0x0400756D RID: 30061
+		HoodedOneIronCountOneGossipSeen,
+		// Token: 0x0400756E RID: 30062
+		HoodedOneIronCountTwoGossipSeen,
+		// Token: 0x0400756F RID: 30063
+		HoodedOneFirstOnesGossipSeen,
+		// Token: 0x04007570 RID: 30064
+		DevourerSlainUsedRewardBook,
+		// Token: 0x04007571 RID: 30065
+		DevourerSlainHaveRewardBook,
+		// Token: 0x04007572 RID: 30066
+		UnasLuteUsedRewardBook,
+		// Token: 0x04007573 RID: 30067
+		UnasLuteHaveRewardBook,
+		// Token: 0x04007574 RID: 30068
+		UnasLuteRewardSeen,
+		// Token: 0x04007575 RID: 30069
+		GraveyardFightRewardSeen,
+		// Token: 0x04007576 RID: 30070
+		StupidBeastsRewardSeen,
+		// Token: 0x04007577 RID: 30071
+		TheOutcastRewardSeen,
+		// Token: 0x04007578 RID: 30072
+		TheIronCountRewardSeen,
+		// Token: 0x04007579 RID: 30073
+		UnaLuteQuestRewardTaken,
+		// Token: 0x0400757A RID: 30074
+		GraveyardFightRewardTaken,
+		// Token: 0x0400757B RID: 30075
+		StupidBeastsRewardTaken,
+		// Token: 0x0400757C RID: 30076
+		TheOutcastRewardTaken,
+		// Token: 0x0400757D RID: 30077
+		TheIronCountRewardTaken,
+		// Token: 0x0400757E RID: 30078
+		EinharFourVillageGossipSeen,
+		// Token: 0x0400757F RID: 30079
+		EinharFourCountGossipSeen,
+		// Token: 0x04007580 RID: 30080
+		EinharFourLocalsGossipSeen,
+		// Token: 0x04007581 RID: 30081
+		StupidBeastsQuestReceived,
+		// Token: 0x04007582 RID: 30082
+		StupidBeastsHuntStarted,
+		// Token: 0x04007583 RID: 30083
+		StupidBeastsPhase1,
+		// Token: 0x04007584 RID: 30084
+		StupidBeastsPhase2,
+		// Token: 0x04007585 RID: 30085
+		StupidBeastsPhase3,
+		// Token: 0x04007586 RID: 30086
+		StupidBeastsHuntComplete,
+		// Token: 0x04007587 RID: 30087
+		StupidBeastsPhase4,
+		// Token: 0x04007588 RID: 30088
+		StupidBeastsPhase5,
+		// Token: 0x04007589 RID: 30089
+		FinishedTalkingToHoodedOneOldForest,
+		// Token: 0x0400758A RID: 30090
+		HoodedOneOldForestChestOpened,
+		// Token: 0x0400758B RID: 30091
+		UnaOldForestGossipSeen,
+		// Token: 0x0400758C RID: 30092
+		UnaHomeGossipSeen,
+		// Token: 0x0400758D RID: 30093
+		ExecutionerSlain,
+		// Token: 0x0400758E RID: 30094
+		ExecutionerFemaleNPCFreed,
+		// Token: 0x0400758F RID: 30095
+		ExecutionerFemaleNPCIntroduction,
+		// Token: 0x04007590 RID: 30096
+		ExecutionerFemaleNPCReturnToClearfell,
+		// Token: 0x04007591 RID: 30097
+		ExecutionerFemaleNPCIntroductionTown,
+		// Token: 0x04007592 RID: 30098
+		BitterGuyCryptNearby,
+		// Token: 0x04007593 RID: 30099
+		BitterGuyMausoleumNearby,
+		// Token: 0x04007594 RID: 30100
+		BitterGuyTombNearby,
+		// Token: 0x04007595 RID: 30101
+		FinnOnLeitisGossipSeen,
+		// Token: 0x04007596 RID: 30102
+		TreasureHunterCaravanSeen,
+		// Token: 0x04007597 RID: 30103
+		TreasureHunterCaravanIntroduced,
+		// Token: 0x04007598 RID: 30104
+		MatriarchGrantedAreaG2_4,
+		// Token: 0x04007599 RID: 30105
+		MatriarchGrantedAreaG2_5,
+		// Token: 0x0400759A RID: 30106
+		MatriarchGrantedAreaG2_6,
+		// Token: 0x0400759B RID: 30107
+		MatriarchGrantedAreaG2_8,
+		// Token: 0x0400759C RID: 30108
+		CaravanMatriarchSeen,
+		// Token: 0x0400759D RID: 30109
+		MysticGrantedG2_2,
+		// Token: 0x0400759E RID: 30110
+		MatriarchGrantedG2_10,
+		// Token: 0x0400759F RID: 30111
+		MatriarchGrantedG2_12,
+		// Token: 0x040075A0 RID: 30112
+		MysticGrantedG2_13,
+		// Token: 0x040075A1 RID: 30113
+		MysticSeen,
+		// Token: 0x040075A2 RID: 30114
+		HoodedOneDockA2Intro,
+		// Token: 0x040075A3 RID: 30115
+		CaravanRescueFoundIt,
+		// Token: 0x040075A4 RID: 30116
+		CaravanRescueKilledMinions,
+		// Token: 0x040075A5 RID: 30117
+		CaravanRescueBoardedIt,
+		// Token: 0x040075A6 RID: 30118
+		OpenTheDesertGatesSeenBoss,
+		// Token: 0x040075A7 RID: 30119
+		OpenTheDesertGatesKilledBoss,
+		// Token: 0x040075A8 RID: 30120
+		G2_2QuestGiven,
+		// Token: 0x040075A9 RID: 30121
+		G2_2QuestCompleted,
+		// Token: 0x040075AA RID: 30122
+		DungeonQuestCompletedByExile,
+		// Token: 0x040075AB RID: 30123
+		DungeonQuestTakenByPerennialKing,
+		// Token: 0x040075AC RID: 30124
+		MastodonQuestCompletedByExile,
+		// Token: 0x040075AD RID: 30125
+		MastodonQuestTakenByPerennialKing,
+		// Token: 0x040075AE RID: 30126
+		PillarsQuestCompletedByExile,
+		// Token: 0x040075AF RID: 30127
+		PillarsQuestTakenByPerennialKing,
+		// Token: 0x040075B0 RID: 30128
+		TitanQuestCompletedByExile,
+		// Token: 0x040075B1 RID: 30129
+		TitanQuestTakenByPerennialKing,
+		// Token: 0x040075B2 RID: 30130
+		TalkedToGatesMatriarch,
+		// Token: 0x040075B3 RID: 30131
+		DefectorTalkedToAtGates,
+		// Token: 0x040075B4 RID: 30132
+		MastodonTusksHeld,
+		// Token: 0x040075B5 RID: 30133
+		MastodonTusksUnavailable,
+		// Token: 0x040075B6 RID: 30134
+		FlameRubyHeld,
+		// Token: 0x040075B7 RID: 30135
+		FlameRubyUnavailable,
+		// Token: 0x040075B8 RID: 30136
+		AsalasBetrayalStart,
+		// Token: 0x040075B9 RID: 30137
+		AsalasBetrayalRedHerringSeen,
+		// Token: 0x040075BA RID: 30138
+		AsalasBetrayalRedHerringActivated,
+		// Token: 0x040075BB RID: 30139
+		AsalasBetrayalBossAppear,
+		// Token: 0x040075BC RID: 30140
+		AsalasBetrayalBossKilled,
+		// Token: 0x040075BD RID: 30141
+		AsalasBetrayalAmbushClear,
+		// Token: 0x040075BE RID: 30142
+		AsalasBetrayalCompleted,
+		// Token: 0x040075BF RID: 30143
+		DefectorSeenAtGates,
+		// Token: 0x040075C0 RID: 30144
+		LockedGateSeen,
+		// Token: 0x040075C1 RID: 30145
+		MatriarchReturnToCaravanTalk,
+		// Token: 0x040075C2 RID: 30146
+		HoodedMentorCityOfSixWatersGossipSeen,
+		// Token: 0x040075C3 RID: 30147
+		MarakethMysticCityOfSixWatersGossipSeen,
+		// Token: 0x040075C4 RID: 30148
+		HoodedMentorMarakethGossipSeen,
+		// Token: 0x040075C5 RID: 30149
+		CaravanRescueKilledBoss,
+		// Token: 0x040075C6 RID: 30150
+		G2_2SeenTraitor,
+		// Token: 0x040075C7 RID: 30151
+		G2_2KilledTraitor,
+		// Token: 0x040075C8 RID: 30152
+		DjinnHunterFlaskReceived,
+		// Token: 0x040075C9 RID: 30153
+		DjinnHunterBossSeen,
+		// Token: 0x040075CA RID: 30154
+		DjinnHunterBossKilled,
+		// Token: 0x040075CB RID: 30155
+		DjinnHunterFlaskFilled,
+		// Token: 0x040075CC RID: 30156
+		DjinnHunterFlaskDelivered,
+		// Token: 0x040075CD RID: 30157
+		VisitedG2_4_1,
+		// Token: 0x040075CE RID: 30158
+		VisitedG2_4_2,
+		// Token: 0x040075CF RID: 30159
+		ForsakenSonSeen,
+		// Token: 0x040075D0 RID: 30160
+		ForsakenSonKilled,
+		// Token: 0x040075D1 RID: 30161
+		WaterGoddessSeen,
+		// Token: 0x040075D2 RID: 30162
+		WaterGoddessBurned,
+		// Token: 0x040075D3 RID: 30163
+		SpokeToAsalaAboutBurnedWaterGoddess,
+		// Token: 0x040075D4 RID: 30164
+		WaterGoddessForsakenSonGossipSeen,
+		// Token: 0x040075D5 RID: 30165
+		WaterGoddessIntroSeen,
+		// Token: 0x040075D6 RID: 30166
+		DjinnHunterStarted,
+		// Token: 0x040075D7 RID: 30167
+		DjinnHunterFlaskEmptyUnavailable,
+		// Token: 0x040075D8 RID: 30168
+		DjinnHunterFlaskFullUnavailable,
+		// Token: 0x040075D9 RID: 30169
+		MastodonTusksBossSeen,
+		// Token: 0x040075DA RID: 30170
+		MastodonTusksBossKilled,
+		// Token: 0x040075DB RID: 30171
+		WaterCartEscortRecieved,
+		// Token: 0x040075DC RID: 30172
+		WaterCartEscortSeen,
+		// Token: 0x040075DD RID: 30173
+		WaterCartEscortEscorting,
+		// Token: 0x040075DE RID: 30174
+		WaterCartEscortOutOfRange,
+		// Token: 0x040075DF RID: 30175
+		WaterCartEscortStopped,
+		// Token: 0x040075E0 RID: 30176
+		WaterCartEscortStopped2,
+		// Token: 0x040075E1 RID: 30177
+		WaterCartEscortDestroyed,
+		// Token: 0x040075E2 RID: 30178
+		WaterCartEscortDelivered,
+		// Token: 0x040075E3 RID: 30179
+		WaterCartEscortComplete,
+		// Token: 0x040075E4 RID: 30180
+		OuterRuinsDjinnSeen,
+		// Token: 0x040075E5 RID: 30181
+		MysticMastodonGossipSeen,
+		// Token: 0x040075E6 RID: 30182
+		MatriarchMastodonGossipSeen,
+		// Token: 0x040075E7 RID: 30183
+		OuterRuinsDjinnDefeated,
+		// Token: 0x040075E8 RID: 30184
+		G2_2TraitorRoomEntered,
+		// Token: 0x040075E9 RID: 30185
+		MysticWaterGoddessGossipSeen,
+		// Token: 0x040075EA RID: 30186
+		SuicideNoteQuestGiven,
+		// Token: 0x040075EB RID: 30187
+		SuicideNoteHeld,
+		// Token: 0x040075EC RID: 30188
+		SuicideNoteUnavailable,
+		// Token: 0x040075ED RID: 30189
+		SuicideNoteDelivered,
+		// Token: 0x040075EE RID: 30190
+		PoEMSearchedLab,
+		// Token: 0x040075EF RID: 30191
+		PoEMFoundChildZana,
+		// Token: 0x040075F0 RID: 30192
+		PoEMReportChildZana,
+		// Token: 0x040075F1 RID: 30193
+		PoEMA1Q1HaveCosArcPlans,
+		// Token: 0x040075F2 RID: 30194
+		PoEMA1Q1UsedCosArcPlans,
+		// Token: 0x040075F3 RID: 30195
+		PoEMA1Q2HaveBrokenParts,
+		// Token: 0x040075F4 RID: 30196
+		PoEMA1Q2UsedBrokenParts,
+		// Token: 0x040075F5 RID: 30197
+		PoEMA1Q3WitnessValdo,
+		// Token: 0x040075F6 RID: 30198
+		PoEMA1Q3ReportValdo,
+		// Token: 0x040075F7 RID: 30199
+		PoEMA1Q4HaveCosArcParts,
+		// Token: 0x040075F8 RID: 30200
+		PoEMA1Q4UsedCosArcParts,
+		// Token: 0x040075F9 RID: 30201
+		PoEMA1Q5FoundHideout,
+		// Token: 0x040075FA RID: 30202
+		PoEMA1Q5ReportedHideout,
+		// Token: 0x040075FB RID: 30203
+		PoEMA1Q6HaveElderNotes,
+		// Token: 0x040075FC RID: 30204
+		PoEMA1Q6UsedElderNotes,
+		// Token: 0x040075FD RID: 30205
+		PoEMA1Q7FoundValdo,
+		// Token: 0x040075FE RID: 30206
+		PoEMA1Q7FollowValdo,
+		// Token: 0x040075FF RID: 30207
+		PoEMA1Q8FindElderMap,
+		// Token: 0x04007600 RID: 30208
+		PoEMA1Q8FoundElderMap,
+		// Token: 0x04007601 RID: 30209
+		PoEMA1Q9FindElderTomb,
+		// Token: 0x04007602 RID: 30210
+		PoEMA1Q9FoundElderTomb,
+		// Token: 0x04007603 RID: 30211
+		PoEMDominusExit,
+		// Token: 0x04007604 RID: 30212
+		PoEMValdoEscape,
+		// Token: 0x04007605 RID: 30213
+		PoEMACT1Complete,
+		// Token: 0x04007606 RID: 30214
+		PoEMA2Q1HarvestCAResource,
+		// Token: 0x04007607 RID: 30215
+		PoEMA2Q1CompletedCAResource,
+		// Token: 0x04007608 RID: 30216
+		PoEMA2Q2HarvestShapingSource,
+		// Token: 0x04007609 RID: 30217
+		PoEMA2Q2CompletedShapingSource,
+		// Token: 0x0400760A RID: 30218
+		PoEMA2Q3FindAtlasNexus,
+		// Token: 0x0400760B RID: 30219
+		PoEMA2Q3FoundAtlasNexus,
+		// Token: 0x0400760C RID: 30220
+		PoEMA2Q4DeliverCosmicArcana,
+		// Token: 0x0400760D RID: 30221
+		PoEMA2Q4TriggerCosmicArcana,
+		// Token: 0x0400760E RID: 30222
+		PoEMShaperOriginComplete,
+		// Token: 0x0400760F RID: 30223
+		PoEMACT2Complete,
+		// Token: 0x04007610 RID: 30224
+		PoEMZanaRecognized,
+		// Token: 0x04007611 RID: 30225
+		BuriedInTheSkyBossSeen,
+		// Token: 0x04007612 RID: 30226
+		BuriedInTheSkyBossKilled,
+		// Token: 0x04007613 RID: 30227
+		BuriedInTheSkyCorpsesDecomposed,
+		// Token: 0x04007614 RID: 30228
+		G2_10BridgeLowered,
+		// Token: 0x04007615 RID: 30229
+		HoodedOneCaravanAssessmentGossipSeen,
+		// Token: 0x04007616 RID: 30230
+		PoEMDominusOnZana,
+		// Token: 0x04007617 RID: 30231
+		PoEMDominusOnHighTemplar,
+		// Token: 0x04007618 RID: 30232
+		PoEMDominusOnValdo,
+		// Token: 0x04007619 RID: 30233
+		PoEMDominusOnElderShade,
+		// Token: 0x0400761A RID: 30234
+		PoEMDominusMap1Rewarded,
+		// Token: 0x0400761B RID: 30235
+		PoEMDominusMap2Rewarded,
+		// Token: 0x0400761C RID: 30236
+		MysticBalbalaPreQuestGossipSeen,
+		// Token: 0x0400761D RID: 30237
+		MysticBalbalaPostQuestGossipSeen,
+		// Token: 0x0400761E RID: 30238
+		MarakethTraderIntroSeen,
+		// Token: 0x0400761F RID: 30239
+		MarakethTraderRoleSeen,
+		// Token: 0x04007620 RID: 30240
+		PoEMDominusMap3Rewarded,
+		// Token: 0x04007621 RID: 30241
+		PoEMDominusMap4Rewarded,
+		// Token: 0x04007622 RID: 30242
+		PoEMDominusMap5Rewarded,
+		// Token: 0x04007623 RID: 30243
+		PoEMDominusMap6Rewarded,
+		// Token: 0x04007624 RID: 30244
+		PoEMDominusMap7Rewarded,
+		// Token: 0x04007625 RID: 30245
+		PoEMDominusMap8Rewarded,
+		// Token: 0x04007626 RID: 30246
+		MarakethMysticKethGossipSeen,
+		// Token: 0x04007627 RID: 30247
+		MarakethMatriarchKethGossipSeen,
+		// Token: 0x04007628 RID: 30248
+		MarakethMysticDoomOfTheDesertSeen,
+		// Token: 0x04007629 RID: 30249
+		MarakethMysticWalked,
+		// Token: 0x0400762A RID: 30250
+		PoEMValdoExit1,
+		// Token: 0x0400762B RID: 30251
+		PoEMValdoExit2,
+		// Token: 0x0400762C RID: 30252
+		PoEMValdoExit3,
+		// Token: 0x0400762D RID: 30253
+		PoEMValdoOnZana,
+		// Token: 0x0400762E RID: 30254
+		PoEMValdoOnDominus,
+		// Token: 0x0400762F RID: 30255
+		PoEMValdoOnAtlas,
+		// Token: 0x04007630 RID: 30256
+		PoEMValdoOnShaper,
+		// Token: 0x04007631 RID: 30257
+		PoEMVisitedM1_1,
+		// Token: 0x04007632 RID: 30258
+		PoEMLabVisited,
+		// Token: 0x04007633 RID: 30259
+		PoEMVisitedM1_2,
+		// Token: 0x04007634 RID: 30260
+		PoEMVisitedM1_3,
+		// Token: 0x04007635 RID: 30261
+		PoEMVisitedM1_4,
+		// Token: 0x04007636 RID: 30262
+		PoEMVisitedM1_5,
+		// Token: 0x04007637 RID: 30263
+		PoEMVisitedM1_6,
+		// Token: 0x04007638 RID: 30264
+		PoEMVisitedM1_7,
+		// Token: 0x04007639 RID: 30265
+		PoEMVisitedM1_8,
+		// Token: 0x0400763A RID: 30266
+		PoEMVisitedM1_9,
+		// Token: 0x0400763B RID: 30267
+		PoEMVisitedM1_10_1,
+		// Token: 0x0400763C RID: 30268
+		PoEMVisitedM1_10_2,
+		// Token: 0x0400763D RID: 30269
+		PoEMVisitedM1_11,
+		// Token: 0x0400763E RID: 30270
+		PoEMVisitedM2Town,
+		// Token: 0x0400763F RID: 30271
+		PoEMVisitedM2_1,
+		// Token: 0x04007640 RID: 30272
+		PoEMVisitedM2_2,
+		// Token: 0x04007641 RID: 30273
+		PoEMVisitedM2_3,
+		// Token: 0x04007642 RID: 30274
+		PoEMVisitedM2_4,
+		// Token: 0x04007643 RID: 30275
+		PoEMVisitedM2_5,
+		// Token: 0x04007644 RID: 30276
+		PoEMVisitedM2_6,
+		// Token: 0x04007645 RID: 30277
+		PoEMVisitedM2_7,
+		// Token: 0x04007646 RID: 30278
+		PoEMVisitedM3Town,
+		// Token: 0x04007647 RID: 30279
+		HoodedOneA2OurNextMoveOneSeen,
+		// Token: 0x04007648 RID: 30280
+		HoodedOneA2SeedGossipPostG2_3Seen,
+		// Token: 0x04007649 RID: 30281
+		HoodedOneA2SeedGossipPostG2_10Seen,
+		// Token: 0x0400764A RID: 30282
+		HoodedOneA2SeedGossipPostG2_11Seen,
+		// Token: 0x0400764B RID: 30283
+		HoodedOneA2SeedGossipPostG2_13Seen,
+		// Token: 0x0400764C RID: 30284
+		HoodedOneTheFaridunGossipSeen,
+		// Token: 0x0400764D RID: 30285
+		G2_4Early,
+		// Token: 0x0400764E RID: 30286
+		G2_4Late,
+		// Token: 0x0400764F RID: 30287
+		G2_5Early,
+		// Token: 0x04007650 RID: 30288
+		G2_5Late,
+		// Token: 0x04007651 RID: 30289
+		G2_7Early,
+		// Token: 0x04007652 RID: 30290
+		G2_7Late,
+		// Token: 0x04007653 RID: 30291
+		G2_9Early,
+		// Token: 0x04007654 RID: 30292
+		G2_9Late,
+		// Token: 0x04007655 RID: 30293
+		MarakethMatriarchRankAndStatusGossipSeen,
+		// Token: 0x04007656 RID: 30294
+		MarakethTraderOnBlindnessSeen,
+		// Token: 0x04007657 RID: 30295
+		MarakethTraderOnDefectorSeen,
+		// Token: 0x04007658 RID: 30296
+		MaggotHuskHeld,
+		// Token: 0x04007659 RID: 30297
+		RenlyOnwardsGossipSeen,
+		// Token: 0x0400765A RID: 30298
+		MetLeitis,
+		// Token: 0x0400765B RID: 30299
+		KethQuestBegun,
+		// Token: 0x0400765C RID: 30300
+		FinnOnRenlyGossipSeen,
+		// Token: 0x0400765D RID: 30301
+		DefectorGossipHoodedOneSeen,
+		// Token: 0x0400765E RID: 30302
+		DefectorGossipDefectionSeen,
+		// Token: 0x0400765F RID: 30303
+		DefectorGossipMarakethSeen,
+		// Token: 0x04007660 RID: 30304
+		DefectorGossipArduraSeen,
+		// Token: 0x04007661 RID: 30305
+		DefectorGossipDreadnoughtSeen,
+		// Token: 0x04007662 RID: 30306
+		PoEMTUTGate1Done,
+		// Token: 0x04007663 RID: 30307
+		PoEMTUTGate2Done,
+		// Token: 0x04007664 RID: 30308
+		PoEMTUTGate3Done,
+		// Token: 0x04007665 RID: 30309
+		PoEMTUTCollectGemDone,
+		// Token: 0x04007666 RID: 30310
+		PoEMTUTCollectWeaponDone,
+		// Token: 0x04007667 RID: 30311
+		PoEMTUTRewardGemDone,
+		// Token: 0x04007668 RID: 30312
+		PoEMTUTSeenGemDone,
+		// Token: 0x04007669 RID: 30313
+		PoEMTUTUseGemDPadDone,
+		// Token: 0x0400766A RID: 30314
+		PoEMTUTFlaskBeltDragDone,
+		// Token: 0x0400766B RID: 30315
+		PoEMTUTFlaskBeltTutorialStarted,
+		// Token: 0x0400766C RID: 30316
+		PoEMTUTUseLifeFlaskDone,
+		// Token: 0x0400766D RID: 30317
+		PoEMTUTUseManaFlaskDone,
+		// Token: 0x0400766E RID: 30318
+		PoEMTUTCollectSupportDone,
+		// Token: 0x0400766F RID: 30319
+		PoEMTUTSeenSupportDone,
+		// Token: 0x04007670 RID: 30320
+		PoEMTUTRewardSupportDone,
+		// Token: 0x04007671 RID: 30321
+		PoEMTUTSeenWeaponDone,
+		// Token: 0x04007672 RID: 30322
+		PoEMTUTAttackDone,
+		// Token: 0x04007673 RID: 30323
+		PoEMTUTReadyWeaponDone,
+		// Token: 0x04007674 RID: 30324
+		PoEMTUTMapButtonDone,
+		// Token: 0x04007675 RID: 30325
+		PoEMTUTKillAllDone,
+		// Token: 0x04007676 RID: 30326
+		PoEMTUTSeenFlaskDone,
+		// Token: 0x04007677 RID: 30327
+		ReadTraitorsPassageGlyph,
+		// Token: 0x04007678 RID: 30328
+		MarakethMysticOnNasimaSeen,
+		// Token: 0x04007679 RID: 30329
+		PoEMValdoMap1Rewarded,
+		// Token: 0x0400767A RID: 30330
+		PoEMValdoMap2Rewarded,
+		// Token: 0x0400767B RID: 30331
+		PoEMValdoMap3Rewarded,
+		// Token: 0x0400767C RID: 30332
+		PoEMValdoMap4Rewarded,
+		// Token: 0x0400767D RID: 30333
+		PoEMTUTSkillPointSpentDone,
+		// Token: 0x0400767E RID: 30334
+		PoEMTUTStashIntroDone,
+		// Token: 0x0400767F RID: 30335
+		PoEMTUTMapDeviceTutorialDone,
+		// Token: 0x04007680 RID: 30336
+		PoEMTUTPortalScrollButtonDone,
+		// Token: 0x04007681 RID: 30337
+		PoEMTUTDPadSkillDone,
+		// Token: 0x04007682 RID: 30338
+		PoEMTUTWatchstonesDone,
+		// Token: 0x04007683 RID: 30339
+		PoEMLvl1SkillgemRewarded,
+		// Token: 0x04007684 RID: 30340
+		PoEMLvl4SkillgemRewarded,
+		// Token: 0x04007685 RID: 30341
+		PoEMLvl4SupportgemRewarded,
+		// Token: 0x04007686 RID: 30342
+		PoEMLvl8SkillgemRewarded,
+		// Token: 0x04007687 RID: 30343
+		PoEMLvl12SkillgemRewarded,
+		// Token: 0x04007688 RID: 30344
+		PoEMLvl16SkillgemRewarded,
+		// Token: 0x04007689 RID: 30345
+		PoEMLvl18SupportgemRewarded,
+		// Token: 0x0400768A RID: 30346
+		PoEMBookofRegret1Rewarded,
+		// Token: 0x0400768B RID: 30347
+		PoEMBookofRegret2Rewarded,
+		// Token: 0x0400768C RID: 30348
+		PoEMBookofSkill1Rewarded,
+		// Token: 0x0400768D RID: 30349
+		PoEMBookofSkill2Rewarded,
+		// Token: 0x0400768E RID: 30350
+		PoEMBookofSkill3Rewarded,
+		// Token: 0x0400768F RID: 30351
+		CrimsonShoresGlyphRead,
+		// Token: 0x04007690 RID: 30352
+		DryRuinsGlyphRead,
+		// Token: 0x04007691 RID: 30353
+		TowersRhoaGlyphChecked,
+		// Token: 0x04007692 RID: 30354
+		SpiresGlyphRead,
+		// Token: 0x04007693 RID: 30355
+		TitanGrottoGlyphRead,
+		// Token: 0x04007694 RID: 30356
+		MastodonBadlandsGlyphRead,
+		// Token: 0x04007695 RID: 30357
+		PoEMTUTVirtualJoyDone,
+		// Token: 0x04007696 RID: 30358
+		PoEMTUTTapHoldDone,
+		// Token: 0x04007697 RID: 30359
+		WaterGoddessPleaMade,
+		// Token: 0x04007698 RID: 30360
+		CaravanStopping,
+		// Token: 0x04007699 RID: 30361
+		TitanQuestBossKilled,
+		// Token: 0x0400769A RID: 30362
+		PoEMDominusMap1Seen,
+		// Token: 0x0400769B RID: 30363
+		PoEMDominusMap2Seen,
+		// Token: 0x0400769C RID: 30364
+		PoEMDominusMap3Seen,
+		// Token: 0x0400769D RID: 30365
+		PoEMDominusMap4Seen,
+		// Token: 0x0400769E RID: 30366
+		PoEMDominusMap5Seen,
+		// Token: 0x0400769F RID: 30367
+		PoEMDominusMap6Seen,
+		// Token: 0x040076A0 RID: 30368
+		PoEMDominusMap7Seen,
+		// Token: 0x040076A1 RID: 30369
+		PoEMDominusMap8Seen,
+		// Token: 0x040076A2 RID: 30370
+		PoEMValdoMap1Seen,
+		// Token: 0x040076A3 RID: 30371
+		PoEMValdoMap2Seen,
+		// Token: 0x040076A4 RID: 30372
+		PoEMValdoMap3Seen,
+		// Token: 0x040076A5 RID: 30373
+		PoEMValdoMap4Seen,
+		// Token: 0x040076A6 RID: 30374
+		PoEMLvl1SkillgemSeen,
+		// Token: 0x040076A7 RID: 30375
+		PoEMLvl4SkillgemSeen,
+		// Token: 0x040076A8 RID: 30376
+		PoEMLvl4SupportgemSeen,
+		// Token: 0x040076A9 RID: 30377
+		PoEMLvl8SkillgemSeen,
+		// Token: 0x040076AA RID: 30378
+		PoEMLvl12SkillgemSeen,
+		// Token: 0x040076AB RID: 30379
+		PoEMLvl16SkillgemSeen,
+		// Token: 0x040076AC RID: 30380
+		PoEMLvl18SupportgemSeen,
+		// Token: 0x040076AD RID: 30381
+		PoEMBookofRegret1Seen,
+		// Token: 0x040076AE RID: 30382
+		PoEMBookofRegret2Seen,
+		// Token: 0x040076AF RID: 30383
+		PoEMBookofSkill1Seen,
+		// Token: 0x040076B0 RID: 30384
+		PoEMBookofSkill2Seen,
+		// Token: 0x040076B1 RID: 30385
+		PoEMBookofSkill3Seen,
+		// Token: 0x040076B2 RID: 30386
+		PoEMBookofRegret1Used,
+		// Token: 0x040076B3 RID: 30387
+		PoEMBookofRegret2Used,
+		// Token: 0x040076B4 RID: 30388
+		PoEMBookofSkill1Used,
+		// Token: 0x040076B5 RID: 30389
+		PoEMBookofSkill2Used,
+		// Token: 0x040076B6 RID: 30390
+		PoEMBookofSkill3Used,
+		// Token: 0x040076B7 RID: 30391
+		DefectorOnCorruptionGossipSeen,
+		// Token: 0x040076B8 RID: 30392
+		FinnHuntingGroundsQuestSummonIfHaveQuestSeen,
+		// Token: 0x040076B9 RID: 30393
+		DefectorOnTheMaraketh2GossipSeen,
+		// Token: 0x040076BA RID: 30394
+		HoodedOneA1GiveInitialQuestSeen,
+		// Token: 0x040076BB RID: 30395
+		UnaAfterSpikesMeetMeSeen,
+		// Token: 0x040076BC RID: 30396
+		DefectorOnTheFaridunGossipSeen,
+		// Token: 0x040076BD RID: 30397
+		UnaTreeOutLoudReturningWithSpikesSeen,
+		// Token: 0x040076BE RID: 30398
+		UnaLeitisGossipSeen,
+		// Token: 0x040076BF RID: 30399
+		DefectorOnAsalaGossipSeen,
+		// Token: 0x040076C0 RID: 30400
+		UnaTreeIntroSeen,
+		// Token: 0x040076C1 RID: 30401
+		UnaTreeQuestGiveSeen,
+		// Token: 0x040076C2 RID: 30402
+		UnaTreeOldForestGossipSeen,
+		// Token: 0x040076C3 RID: 30403
+		UnaTreeTheRedValeGossipSeen,
+		// Token: 0x040076C4 RID: 30404
+		DefectorOnShambrinGossipSeen,
+		// Token: 0x040076C5 RID: 30405
+		DefectorOnShambrin2GossipSeen,
+		// Token: 0x040076C6 RID: 30406
+		AsalaA2PursuingTheBeastSeen,
+		// Token: 0x040076C7 RID: 30407
+		DefectorOnZarkaGossipSeen,
+		// Token: 0x040076C8 RID: 30408
+		DefectorOnZarka2GossipSeen,
+		// Token: 0x040076C9 RID: 30409
+		AsalaA2TheCountessGossipSeen,
+		// Token: 0x040076CA RID: 30410
+		A2FourChoicesDone,
+		// Token: 0x040076CB RID: 30411
+		AsalaDivine,
+		// Token: 0x040076CC RID: 30412
+		AsalaGone,
+		// Token: 0x040076CD RID: 30413
+		AsalaDead,
+		// Token: 0x040076CE RID: 30414
+		MatriarchSpiresGossipSeen,
+		// Token: 0x040076CF RID: 30415
+		MatriarchRisuWhileHelpingGossipSeen,
+		// Token: 0x040076D0 RID: 30416
+		MatriarchRisuAfterHelpingGossipSeen,
+		// Token: 0x040076D1 RID: 30417
+		MatriarchRisuAsalaDivineGossipSeen,
+		// Token: 0x040076D2 RID: 30418
+		MarakethTraderRisu2GossipSeen,
+		// Token: 0x040076D3 RID: 30419
+		MarakethTraderRisu3GossipSeen,
+		// Token: 0x040076D4 RID: 30420
+		MarakethTraderZarkaGossipSeen,
+		// Token: 0x040076D5 RID: 30421
+		MarakethTraderAsala1GossipSeen,
+		// Token: 0x040076D6 RID: 30422
+		MarakethTraderAsala2GossipSeen,
+		// Token: 0x040076D7 RID: 30423
+		MarakethTraderAsala3GossipSeen,
+		// Token: 0x040076D8 RID: 30424
+		PoEMDominusElderRunStart,
+		// Token: 0x040076D9 RID: 30425
+		MysticOnValleyOfTitansGossipSeen,
+		// Token: 0x040076DA RID: 30426
+		MysticOnTitanGrottoGossipSeen,
+		// Token: 0x040076DB RID: 30427
+		MysticOnMaggotHuskSeen,
+		// Token: 0x040076DC RID: 30428
+		MysticOnSpiresGossipSeen,
+		// Token: 0x040076DD RID: 30429
+		PoEMFollowChildZana,
+		// Token: 0x040076DE RID: 30430
+		PoEMRescueChildZana,
+		// Token: 0x040076DF RID: 30431
+		A2VisitedAnyChoice,
+		// Token: 0x040076E0 RID: 30432
+		A2TwoChoicesDone,
+		// Token: 0x040076E1 RID: 30433
+		A2ThreeChoicesDone,
+		// Token: 0x040076E2 RID: 30434
+		PoEMCompletedM1_2,
+		// Token: 0x040076E3 RID: 30435
+		PoEMCompletedM1_3,
+		// Token: 0x040076E4 RID: 30436
+		PoEMCompletedM1_4,
+		// Token: 0x040076E5 RID: 30437
+		PoEMCompletedM1_5,
+		// Token: 0x040076E6 RID: 30438
+		PoEMCompletedM1_6,
+		// Token: 0x040076E7 RID: 30439
+		PoEMCompletedM1_7,
+		// Token: 0x040076E8 RID: 30440
+		PoEMCompletedM1_8,
+		// Token: 0x040076E9 RID: 30441
+		PoEMCompletedM1_9,
+		// Token: 0x040076EA RID: 30442
+		PoEMCompletedM1_10,
+		// Token: 0x040076EB RID: 30443
+		PoEMCompletedM2_1,
+		// Token: 0x040076EC RID: 30444
+		PoEMCompletedM2_2,
+		// Token: 0x040076ED RID: 30445
+		PoEMCompletedM2_3,
+		// Token: 0x040076EE RID: 30446
+		PoEMCompletedM2_4,
+		// Token: 0x040076EF RID: 30447
+		PoEMCompletedM2_5,
+		// Token: 0x040076F0 RID: 30448
+		PoEMCompletedM2_6,
+		// Token: 0x040076F1 RID: 30449
+		PoEMCompletedM2_7,
+		// Token: 0x040076F2 RID: 30450
+		PoEMBonusCompletedM1_2,
+		// Token: 0x040076F3 RID: 30451
+		PoEMBonusCompletedM1_3,
+		// Token: 0x040076F4 RID: 30452
+		PoEMBonusCompletedM1_4,
+		// Token: 0x040076F5 RID: 30453
+		PoEMBonusCompletedM1_5,
+		// Token: 0x040076F6 RID: 30454
+		PoEMBonusCompletedM1_6,
+		// Token: 0x040076F7 RID: 30455
+		PoEMBonusCompletedM1_7,
+		// Token: 0x040076F8 RID: 30456
+		PoEMBonusCompletedM1_8,
+		// Token: 0x040076F9 RID: 30457
+		PoEMBonusCompletedM1_9,
+		// Token: 0x040076FA RID: 30458
+		PoEMBonusCompletedM1_10,
+		// Token: 0x040076FB RID: 30459
+		PoEMBonusCompletedM2_1,
+		// Token: 0x040076FC RID: 30460
+		PoEMBonusCompletedM2_2,
+		// Token: 0x040076FD RID: 30461
+		PoEMBonusCompletedM2_3,
+		// Token: 0x040076FE RID: 30462
+		PoEMBonusCompletedM2_4,
+		// Token: 0x040076FF RID: 30463
+		PoEMBonusCompletedM2_5,
+		// Token: 0x04007700 RID: 30464
+		PoEMBonusCompletedM2_6,
+		// Token: 0x04007701 RID: 30465
+		PoEMBonusCompletedM2_7,
+		// Token: 0x04007702 RID: 30466
+		PoEMElderInfluenceM1_2,
+		// Token: 0x04007703 RID: 30467
+		PoEMElderInfluenceM1_3,
+		// Token: 0x04007704 RID: 30468
+		PoEMElderInfluenceM1_4,
+		// Token: 0x04007705 RID: 30469
+		PoEMElderInfluenceM1_5,
+		// Token: 0x04007706 RID: 30470
+		PoEMElderInfluenceM1_6,
+		// Token: 0x04007707 RID: 30471
+		PoEMElderInfluenceM1_7,
+		// Token: 0x04007708 RID: 30472
+		PoEMElderInfluenceM1_8,
+		// Token: 0x04007709 RID: 30473
+		PoEMElderInfluenceM1_9,
+		// Token: 0x0400770A RID: 30474
+		PoEMElderInfluenceM1_10,
+		// Token: 0x0400770B RID: 30475
+		PoEMElderInfluenceM2_1,
+		// Token: 0x0400770C RID: 30476
+		PoEMElderInfluenceM2_2,
+		// Token: 0x0400770D RID: 30477
+		PoEMElderInfluenceM2_3,
+		// Token: 0x0400770E RID: 30478
+		PoEMElderInfluenceM2_4,
+		// Token: 0x0400770F RID: 30479
+		PoEMElderInfluenceM2_5,
+		// Token: 0x04007710 RID: 30480
+		PoEMElderInfluenceM2_6,
+		// Token: 0x04007711 RID: 30481
+		PoEMElderInfluenceM2_7,
+		// Token: 0x04007712 RID: 30482
+		PoEMElderInfluencePhase1Complete,
+		// Token: 0x04007713 RID: 30483
+		PoEMActivateEngineer1,
+		// Token: 0x04007714 RID: 30484
+		PoEMActivateEngineer2,
+		// Token: 0x04007715 RID: 30485
+		PoEMActivateEngineer3,
+		// Token: 0x04007716 RID: 30486
+		PoEMActivateEngineer4,
+		// Token: 0x04007717 RID: 30487
+		PoEMActivateEngineer5,
+		// Token: 0x04007718 RID: 30488
+		PoEMActivateEngineer6,
+		// Token: 0x04007719 RID: 30489
+		PoEMActivateEngineer7,
+		// Token: 0x0400771A RID: 30490
+		PoEMActivateEngineer8,
+		// Token: 0x0400771B RID: 30491
+		PoEMDominusMap9Rewarded,
+		// Token: 0x0400771C RID: 30492
+		PoEMDominusMap9Seen,
+		// Token: 0x0400771D RID: 30493
+		PoEMActivateEngineer9,
+		// Token: 0x0400771E RID: 30494
+		PoEMActivateMapDevice,
+		// Token: 0x0400771F RID: 30495
+		PoEMCartographerStrongBoxStart,
+		// Token: 0x04007720 RID: 30496
+		PoEMCartographerStrongBoxFound,
+		// Token: 0x04007721 RID: 30497
+		PoEMCartographerStrongBoxReport,
+		// Token: 0x04007722 RID: 30498
+		PoEMElderMemoryActive1,
+		// Token: 0x04007723 RID: 30499
+		PoEMElderMemoryActive2,
+		// Token: 0x04007724 RID: 30500
+		PoEMElderMemoryActive3,
+		// Token: 0x04007725 RID: 30501
+		PoEMElderMemoryActive4,
+		// Token: 0x04007726 RID: 30502
+		PoEMElderMemoryActive5,
+		// Token: 0x04007727 RID: 30503
+		PoEMElderMemoryActive6,
+		// Token: 0x04007728 RID: 30504
+		PoEMElderMemoryCollected1,
+		// Token: 0x04007729 RID: 30505
+		PoEMElderMemoryCollected2,
+		// Token: 0x0400772A RID: 30506
+		PoEMElderMemoryCollected3,
+		// Token: 0x0400772B RID: 30507
+		PoEMElderMemoryCollected4,
+		// Token: 0x0400772C RID: 30508
+		PoEMElderMemoryCollected5,
+		// Token: 0x0400772D RID: 30509
+		PoEMElderMemoryCollected6,
+		// Token: 0x0400772E RID: 30510
+		PoEMElderMemoryQuest6,
+		// Token: 0x0400772F RID: 30511
+		PoEMElderMemoryQuest5,
+		// Token: 0x04007730 RID: 30512
+		PoEMElderMemoryQuest4,
+		// Token: 0x04007731 RID: 30513
+		PoEMElderMemoryQuest3,
+		// Token: 0x04007732 RID: 30514
+		PoEMElderMemoryQuest2,
+		// Token: 0x04007733 RID: 30515
+		PoEMElderMemoryQuest1,
+		// Token: 0x04007734 RID: 30516
+		PoEMQuestChestOpenM1_3,
+		// Token: 0x04007735 RID: 30517
+		PoEMQuestChestOpenM1_4,
+		// Token: 0x04007736 RID: 30518
+		PoEMQuestChestOpenM1_5,
+		// Token: 0x04007737 RID: 30519
+		PoEMQuestChestOpenM1_6,
+		// Token: 0x04007738 RID: 30520
+		PoEMQuestChestOpenM1_7,
+		// Token: 0x04007739 RID: 30521
+		PoEMQuestChestOpenM1_8,
+		// Token: 0x0400773A RID: 30522
+		PoEMQuestChestOpenM1_9,
+		// Token: 0x0400773B RID: 30523
+		PoEMQuestChestOpenM1_10,
+		// Token: 0x0400773C RID: 30524
+		VillageRoadQuestGiven,
+		// Token: 0x0400773D RID: 30525
+		VillageRoadEntered,
+		// Token: 0x0400773E RID: 30526
+		VillageRoadSavedVillagersOne,
+		// Token: 0x0400773F RID: 30527
+		VillageRoadSavedVillagersTwo,
+		// Token: 0x04007740 RID: 30528
+		VillageRoadSavedVillagersThree,
+		// Token: 0x04007741 RID: 30529
+		VillageRoadSavedAllVillagers,
+		// Token: 0x04007742 RID: 30530
+		VillageRoadSavedVillagersRewarded,
+		// Token: 0x04007743 RID: 30531
+		VisitedG2_4_3,
+		// Token: 0x04007744 RID: 30532
+		CountsStudySecretGlyphSeen,
+		// Token: 0x04007745 RID: 30533
+		CountsTortureLogSecretGlyphSeen,
+		// Token: 0x04007746 RID: 30534
+		MarakethMatriarchQuestionDefectorSeen,
+		// Token: 0x04007747 RID: 30535
+		G2_4EarlyBossKillComment,
+		// Token: 0x04007748 RID: 30536
+		G2_4LateBossKillComment,
+		// Token: 0x04007749 RID: 30537
+		G2_5EarlyBossKillComment,
+		// Token: 0x0400774A RID: 30538
+		G2_5LateBossKillComment,
+		// Token: 0x0400774B RID: 30539
+		G2_6EarlyBossKillComment,
+		// Token: 0x0400774C RID: 30540
+		G2_6LateBossKillComment,
+		// Token: 0x0400774D RID: 30541
+		G2_8EarlyBossKillComment,
+		// Token: 0x0400774E RID: 30542
+		G2_8LateBossKillComment,
+		// Token: 0x0400774F RID: 30543
+		MysticOnHistoryOfTheVastiriTold,
+		// Token: 0x04007750 RID: 30544
+		MysticOnOrbalasEightAdventuresTold,
+		// Token: 0x04007751 RID: 30545
+		MysticOnKalandraTold,
+		// Token: 0x04007752 RID: 30546
+		MysticOnKalandraLaterTold,
+		// Token: 0x04007753 RID: 30547
+		MarakethMysticNasmaPostAsalaDivineSeen,
+		// Token: 0x04007754 RID: 30548
+		G2TownFrontOfCaravanSeen,
+		// Token: 0x04007755 RID: 30549
+		PoEMBossDefeatedM1_2,
+		// Token: 0x04007756 RID: 30550
+		PoEMBossDefeatedM1_3,
+		// Token: 0x04007757 RID: 30551
+		PoEMBossDefeatedM1_4,
+		// Token: 0x04007758 RID: 30552
+		PoEMBossDefeatedM1_5,
+		// Token: 0x04007759 RID: 30553
+		PoEMBossDefeatedM1_6,
+		// Token: 0x0400775A RID: 30554
+		PoEMBossDefeatedM1_7,
+		// Token: 0x0400775B RID: 30555
+		PoEMBossDefeatedM1_8,
+		// Token: 0x0400775C RID: 30556
+		PoEMBossDefeatedM1_9,
+		// Token: 0x0400775D RID: 30557
+		KalandraGlyphSeen,
+		// Token: 0x0400775E RID: 30558
+		DreadnoughtsWakeZarkaGossipSeen,
+		// Token: 0x0400775F RID: 30559
+		PoEMAct3StrongBoxFound,
+		// Token: 0x04007760 RID: 30560
+		PoEMElderMemoryReward6,
+		// Token: 0x04007761 RID: 30561
+		PoEMElderMemoryReward5,
+		// Token: 0x04007762 RID: 30562
+		PoEMElderMemoryReward4,
+		// Token: 0x04007763 RID: 30563
+		PoEMElderMemoryReward3,
+		// Token: 0x04007764 RID: 30564
+		PoEMElderMemoryReward2,
+		// Token: 0x04007765 RID: 30565
+		PoEMElderMemoryReward1,
+		// Token: 0x04007766 RID: 30566
+		PoEMElderMemoryRewardSeen6,
+		// Token: 0x04007767 RID: 30567
+		PoEMElderMemoryRewardSeen5,
+		// Token: 0x04007768 RID: 30568
+		PoEMElderMemoryRewardSeen4,
+		// Token: 0x04007769 RID: 30569
+		PoEMElderMemoryRewardSeen3,
+		// Token: 0x0400776A RID: 30570
+		PoEMElderMemoryRewardSeen2,
+		// Token: 0x0400776B RID: 30571
+		PoEMElderMemoryRewardSeen1,
+		// Token: 0x0400776C RID: 30572
+		MysticOnAsalaDivineSeen,
+		// Token: 0x0400776D RID: 30573
+		MysticOnAsalaDyingSeen,
+		// Token: 0x0400776E RID: 30574
+		MysticGaveSpiresReward,
+		// Token: 0x0400776F RID: 30575
+		MysticOnRisuWhileHelpingSeen,
+		// Token: 0x04007770 RID: 30576
+		MysticOnRisuAfterHelpingSeen,
+		// Token: 0x04007771 RID: 30577
+		MysticOnRisuAsalaDivineSeen,
+		// Token: 0x04007772 RID: 30578
+		MysticOnShambrinGossipSeen,
+		// Token: 0x04007773 RID: 30579
+		MysticOnShambrinGossip2Seen,
+		// Token: 0x04007774 RID: 30580
+		MetShambrin,
+		// Token: 0x04007775 RID: 30581
+		MetZarka,
+		// Token: 0x04007776 RID: 30582
+		MetAsala,
+		// Token: 0x04007777 RID: 30583
+		MysticOnAsalaGossipSeen,
+		// Token: 0x04007778 RID: 30584
+		MysticGoodbyeSeen,
+		// Token: 0x04007779 RID: 30585
+		VisitedG3_1,
+		// Token: 0x0400777A RID: 30586
+		VisitedG3Town,
+		// Token: 0x0400777B RID: 30587
+		VisitedG3_2_1,
+		// Token: 0x0400777C RID: 30588
+		MetHoodedOneSandsweptMarsh,
+		// Token: 0x0400777D RID: 30589
+		MatriarchTitanPlanGossipSeen,
+		// Token: 0x0400777E RID: 30590
+		AsalaA2QuestionRisuSeen,
+		// Token: 0x0400777F RID: 30591
+		MatriarchSpiresRewardSeen,
+		// Token: 0x04007780 RID: 30592
+		MatriarchFirstVictoryGossipSeen,
+		// Token: 0x04007781 RID: 30593
+		MatriarchSecondVictoryGossipSeen,
+		// Token: 0x04007782 RID: 30594
+		MatriarchThirdVictoryGossipSeen,
+		// Token: 0x04007783 RID: 30595
+		FlameRubyBossSeen,
+		// Token: 0x04007784 RID: 30596
+		KethHalaniGlyphSeen,
+		// Token: 0x04007785 RID: 30597
+		HoodedOneAsalaGossipOneSeen,
+		// Token: 0x04007786 RID: 30598
+		HoodedOneAsalaGossipTwoSeen,
+		// Token: 0x04007787 RID: 30599
+		HoodedOneAsalaGossipThreeSeen,
+		// Token: 0x04007788 RID: 30600
+		HoodedOneAsalaGossipFourSeen,
+		// Token: 0x04007789 RID: 30601
+		HoodedOneAsalaGossipFiveSeen,
+		// Token: 0x0400778A RID: 30602
+		HoodedOneShambrinGossipSeen,
+		// Token: 0x0400778B RID: 30603
+		HoodedOneRisuGossipSeen,
+		// Token: 0x0400778C RID: 30604
+		HoodedOneZarkaGossipSeen,
+		// Token: 0x0400778D RID: 30605
+		HoodedOneBalbalaGossipSeen,
+		// Token: 0x0400778E RID: 30606
+		HoodedOneBalbalaPostFightGossipSeen,
+		// Token: 0x0400778F RID: 30607
+		HoodedOneNextMoveTwoSeen,
+		// Token: 0x04007790 RID: 30608
+		HoodedOneNextMoveThreeSeen,
+		// Token: 0x04007791 RID: 30609
+		HoodedOneNextMoveFourSeen,
+		// Token: 0x04007792 RID: 30610
+		HoodedOneNextMoveFiveSeen,
+		// Token: 0x04007793 RID: 30611
+		HoodedOneNextMoveSixSeen,
+		// Token: 0x04007794 RID: 30612
+		HoodedOneNextMoveSevenSeen,
+		// Token: 0x04007795 RID: 30613
+		PerennialKingFightBegunG2_11_2,
+		// Token: 0x04007796 RID: 30614
+		HoodedOneTwilightOrderGossipSeen,
+		// Token: 0x04007797 RID: 30615
+		HoodedOneSlaveryGossipSeen,
+		// Token: 0x04007798 RID: 30616
+		HoodedOneMastodonBadlandsGossipSeen,
+		// Token: 0x04007799 RID: 30617
+		HoodedOneValleyGossipSeen,
+		// Token: 0x0400779A RID: 30618
+		HoodedOneTowersGossipSeen,
+		// Token: 0x0400779B RID: 30619
+		HoodedOneAgeGossipSeen,
+		// Token: 0x0400779C RID: 30620
+		HoodedOneGarukhanGossipSeen,
+		// Token: 0x0400779D RID: 30621
+		HoodedOneDaughterGossipSeen,
+		// Token: 0x0400779E RID: 30622
+		HoodedOneTooLateToKethGossipSeen,
+		// Token: 0x0400779F RID: 30623
+		HoodedOneTooLateToBadlandsGossipSeen,
+		// Token: 0x040077A0 RID: 30624
+		HoodedOneTooLateToValleyGossipSeen,
+		// Token: 0x040077A1 RID: 30625
+		HoodedOneTooLateToTowersGossipSeen,
+		// Token: 0x040077A2 RID: 30626
+		HoodedOneReckoningRevealSeen,
+		// Token: 0x040077A3 RID: 30627
+		HoodedOneReckoningSeedSeen,
+		// Token: 0x040077A4 RID: 30628
+		HoodedOneHyenaGossipSeen,
+		// Token: 0x040077A5 RID: 30629
+		MysticBrokenGateGossipSeen,
+		// Token: 0x040077A6 RID: 30630
+		MysticThiefOfVirtueGossipSeen,
+		// Token: 0x040077A7 RID: 30631
+		MysticHallsOfTheDeadGossipSeen,
+		// Token: 0x040077A8 RID: 30632
+		MysticEzomyteGossipSeen,
+		// Token: 0x040077A9 RID: 30633
+		MarakethTraderOnHoodedOneGossipSeen,
+		// Token: 0x040077AA RID: 30634
+		MarakethTraderOnHoodedOneAsalaDeadSeen,
+		// Token: 0x040077AB RID: 30635
+		MarakethTraderOnAsalaTwoChoicesSeen,
+		// Token: 0x040077AC RID: 30636
+		MarakethTraderOnAsalaFourChoicesSeen,
+		// Token: 0x040077AD RID: 30637
+		MarakethTraderOnSwampsSeen,
+		// Token: 0x040077AE RID: 30638
+		G2_3MatriarchSeen,
+		// Token: 0x040077AF RID: 30639
+		MysticHalaniGossipSeen,
+		// Token: 0x040077B0 RID: 30640
+		AscentToPowerQuestBegun,
+		// Token: 0x040077B1 RID: 30641
+		MysticToJungleGossipSeen,
+		// Token: 0x040077B2 RID: 30642
+		G2_3FirstGateOpened,
+		// Token: 0x040077B3 RID: 30643
+		G2_3SecondGateOpened,
+		// Token: 0x040077B4 RID: 30644
+		PoEMACT3CutsceneComplete,
+		// Token: 0x040077B5 RID: 30645
+		G2_3ThirdGateBrokenSeen,
+		// Token: 0x040077B6 RID: 30646
+		PoEMM1_1_2CutsceneComplete,
+		// Token: 0x040077B7 RID: 30647
+		DefectorIntroAtGates,
+		// Token: 0x040077B8 RID: 30648
+		MatriarchGaveGatesReward,
+		// Token: 0x040077B9 RID: 30649
+		MatriarchGatesRewardTaken,
+		// Token: 0x040077BA RID: 30650
+		PoEMDominusCommonIntroSeen,
+		// Token: 0x040077BB RID: 30651
+		PoEMDominusInitialChallengeSeen,
+		// Token: 0x040077BC RID: 30652
+		PoEMDominusCommonMissionSeen,
+		// Token: 0x040077BD RID: 30653
+		PoEMDominusStartOrdersSeen,
+		// Token: 0x040077BE RID: 30654
+		PoEMYoungZanaVenariusGossipSeen,
+		// Token: 0x040077BF RID: 30655
+		PoEMYoungZanaFatherGossipSeen,
+		// Token: 0x040077C0 RID: 30656
+		PoEMYoungZanaMapDeviceGossipSeen,
+		// Token: 0x040077C1 RID: 30657
+		PoEMBossDefeatedM1_1_1,
+		// Token: 0x040077C2 RID: 30658
+		PoEMBossDefeatedM1_1_2,
+		// Token: 0x040077C3 RID: 30659
+		PoEMHaveValdosKey,
+		// Token: 0x040077C4 RID: 30660
+		PoEMUsedValdosKey,
+		// Token: 0x040077C5 RID: 30661
+		PoEMA1ScraperVendorIntroDone,
+		// Token: 0x040077C6 RID: 30662
+		PoEMA1SkillgemVendorIntroDone,
+		// Token: 0x040077C7 RID: 30663
+		PoEMA1FlaskRefillIntroDone,
+		// Token: 0x040077C8 RID: 30664
+		PoEMTUTFlaskRefill,
+		// Token: 0x040077C9 RID: 30665
+		PoEMCharMeetDominus,
+		// Token: 0x040077CA RID: 30666
+		RudjaFoundrySeen,
+		// Token: 0x040077CB RID: 30667
+		RudjaFoundryDefeated,
+		// Token: 0x040077CC RID: 30668
+		A2QuarryFoundryCompleted,
+		// Token: 0x040077CD RID: 30669
+		A2DreadnoughtsWakeCompleted,
+		// Token: 0x040077CE RID: 30670
+		A2PerennialKingSlain,
+		// Token: 0x040077CF RID: 30671
+		PoEMA2ChimeraPillarsDestroyed,
+		// Token: 0x040077D0 RID: 30672
+		PoEMHaveStarForgeBlade,
+		// Token: 0x040077D1 RID: 30673
+		A2MysticTraveledToTraitorsPassage,
+		// Token: 0x040077D2 RID: 30674
+		Act2CaravanRescueRewardTaken,
+		// Token: 0x040077D3 RID: 30675
+		Act2CaravanRescueRewardSeen,
+		// Token: 0x040077D4 RID: 30676
+		G2_2TraitorQuestRewardSeen,
+		// Token: 0x040077D5 RID: 30677
+		G2_2TraitorQuestRewardTaken,
+		// Token: 0x040077D6 RID: 30678
+		CroneDropUsed,
+		// Token: 0x040077D7 RID: 30679
+		CroneDropHeld,
+		// Token: 0x040077D8 RID: 30680
+		ManorGargoyleUsed,
+		// Token: 0x040077D9 RID: 30681
+		ManorGargoyleHeld,
+		// Token: 0x040077DA RID: 30682
+		FinnPotionHeld,
+		// Token: 0x040077DB RID: 30683
+		CrowbellSkillBookUsed,
+		// Token: 0x040077DC RID: 30684
+		CrowbellSkillBookHeld,
+		// Token: 0x040077DD RID: 30685
+		UnaSkillBookHeld,
+		// Token: 0x040077DE RID: 30686
+		UnaSkillBookUsed,
+		// Token: 0x040077DF RID: 30687
+		ScarecrowDropUsed,
+		// Token: 0x040077E0 RID: 30688
+		ScarecrowDropHeld,
+		// Token: 0x040077E1 RID: 30689
+		GuillotineExecutionerDropUsed,
+		// Token: 0x040077E2 RID: 30690
+		GuillotineExecutionerDropHeld,
+		// Token: 0x040077E3 RID: 30691
+		GargoyleGolemDropUsed,
+		// Token: 0x040077E4 RID: 30692
+		GargoyleGolemDropHeld,
+		// Token: 0x040077E5 RID: 30693
+		PoEMLvl1AoESkillgemRewarded,
+		// Token: 0x040077E6 RID: 30694
+		PoEMLvl1AoESkillgemSeen,
+		// Token: 0x040077E7 RID: 30695
+		VisitedG3_3,
+		// Token: 0x040077E8 RID: 30696
+		VisitedG3_4,
+		// Token: 0x040077E9 RID: 30697
+		VisitedG3_5,
+		// Token: 0x040077EA RID: 30698
+		VisitedG3_6_1,
+		// Token: 0x040077EB RID: 30699
+		VisitedG3_6_2,
+		// Token: 0x040077EC RID: 30700
+		G3TownAlvaSpokenTo,
+		// Token: 0x040077ED RID: 30701
+		G3TownAlvaSpokenToTwice,
+		// Token: 0x040077EE RID: 30702
+		WaterLevelDeviceSeenNoCrystal,
+		// Token: 0x040077EF RID: 30703
+		WaterLevelDeviceSeenWithCrystal,
+		// Token: 0x040077F0 RID: 30704
+		WaterLevelLoweringFailed,
+		// Token: 0x040077F1 RID: 30705
+		ChimeralWetlandBossSeen,
+		// Token: 0x040077F2 RID: 30706
+		ChimeralWetlandBossDefeated,
+		// Token: 0x040077F3 RID: 30707
+		MachinariumBossSeen,
+		// Token: 0x040077F4 RID: 30708
+		MachinariumBossDefeated,
+		// Token: 0x040077F5 RID: 30709
+		VaalCrystalHeld,
+		// Token: 0x040077F6 RID: 30710
+		WaterLevelLowered,
+		// Token: 0x040077F7 RID: 30711
+		MachinariumDoorOpenAttempted,
+		// Token: 0x040077F8 RID: 30712
+		VisitedG3_7,
+		// Token: 0x040077F9 RID: 30713
+		VisitedG3_8,
+		// Token: 0x040077FA RID: 30714
+		VisitedG3_9,
+		// Token: 0x040077FB RID: 30715
+		VisitedG3_10,
+		// Token: 0x040077FC RID: 30716
+		G3TownAlvaIntroduction,
+		// Token: 0x040077FD RID: 30717
+		G3AlvaDoorExplanation,
+		// Token: 0x040077FE RID: 30718
+		ServiG3_7SummonServiSeen,
+		// Token: 0x040077FF RID: 30719
+		KillTheBogWitchQuestReceived,
+		// Token: 0x04007800 RID: 30720
+		BogWitchSeen,
+		// Token: 0x04007801 RID: 30721
+		BogWitchKilled,
+		// Token: 0x04007802 RID: 30722
+		KillTheBogWitchRewardSeen,
+		// Token: 0x04007803 RID: 30723
+		KillTheBogWitchRewardTaken,
+		// Token: 0x04007804 RID: 30724
+		ReadLowerMachinariumGlyph01,
+		// Token: 0x04007805 RID: 30725
+		ReadJungleExpeditionGlyph01,
+		// Token: 0x04007806 RID: 30726
+		MetOswald,
+		// Token: 0x04007807 RID: 30727
+		SnakeLadyPotionHeld,
+		// Token: 0x04007808 RID: 30728
+		SnakeLadyPotionUsed1,
+		// Token: 0x04007809 RID: 30729
+		SoulCoreConsumableHeld,
+		// Token: 0x0400780A RID: 30730
+		SoulCoreConsumableUsed,
+		// Token: 0x0400780B RID: 30731
+		BogWitchBroomHeld,
+		// Token: 0x0400780C RID: 30732
+		BogWitchBroomGiven,
+		// Token: 0x0400780D RID: 30733
+		EelMonsterBossDropHeld,
+		// Token: 0x0400780E RID: 30734
+		EelMonsterBossDropUsed,
+		// Token: 0x0400780F RID: 30735
+		VaalSunWorshipperBossDropHeld,
+		// Token: 0x04007810 RID: 30736
+		VaalSunWorshipperBossDropUsed,
+		// Token: 0x04007811 RID: 30737
+		ViperNapuatziDropHeld,
+		// Token: 0x04007812 RID: 30738
+		ViperNapuatziDropUsed,
+		// Token: 0x04007813 RID: 30739
+		VaalBloodPriestessBossDropHeld,
+		// Token: 0x04007814 RID: 30740
+		VaalBloodPriestessBossDropUsed,
+		// Token: 0x04007815 RID: 30741
+		PrecursorCoreHeld,
+		// Token: 0x04007816 RID: 30742
+		PrecursorCoreUsed,
+		// Token: 0x04007817 RID: 30743
+		PrecursorStaffHeld,
+		// Token: 0x04007818 RID: 30744
+		PrecursorStaffUsed,
+		// Token: 0x04007819 RID: 30745
+		PrecursorBladeHeld,
+		// Token: 0x0400781A RID: 30746
+		PrecursorBladeUsed,
+		// Token: 0x0400781B RID: 30747
+		BlindBeastSkillBookHeld,
+		// Token: 0x0400781C RID: 30748
+		UsedBlindBeastSkillBook,
+		// Token: 0x0400781D RID: 30749
+		VisitedG3_2_2,
+		// Token: 0x0400781E RID: 30750
+		TimeGateUsed,
+		// Token: 0x0400781F RID: 30751
+		VisitedG3_11,
+		// Token: 0x04007820 RID: 30752
+		VisitedG3_12,
+		// Token: 0x04007821 RID: 30753
+		VisitedGEndgameTown,
+		// Token: 0x04007822 RID: 30754
+		VisitedG3_14,
+		// Token: 0x04007823 RID: 30755
+		VisitedG3_15,
+		// Token: 0x04007824 RID: 30756
+		VisitedG3_16,
+		// Token: 0x04007825 RID: 30757
+		VisitedG3_17,
+		// Token: 0x04007826 RID: 30758
+		ReadSnakePitGlyph01,
+		// Token: 0x04007827 RID: 30759
+		G3InThePast,
+		// Token: 0x04007828 RID: 30760
+		ReadUpperMachinariumGlyph01,
+		// Token: 0x04007829 RID: 30761
+		G3_12KilledBoss,
+		// Token: 0x0400782A RID: 30762
+		AlvaG3IntroSeen,
+		// Token: 0x0400782B RID: 30763
+		OswaldG3IntroSeen,
+		// Token: 0x0400782C RID: 30764
+		OswaldG3AzakhKulSeen,
+		// Token: 0x0400782D RID: 30765
+		OswaldG3ZigguratSeen,
+		// Token: 0x0400782E RID: 30766
+		OswaldG3HuntersSeen,
+		// Token: 0x0400782F RID: 30767
+		OswaldG3KingsmarchSeen,
+		// Token: 0x04007830 RID: 30768
+		MentorG3WaterLevelSeen,
+		// Token: 0x04007831 RID: 30769
+		ServiG3IntroSeen,
+		// Token: 0x04007832 RID: 30770
+		ServiG3DangersSeen,
+		// Token: 0x04007833 RID: 30771
+		ServiG3WaterwaysSeen,
+		// Token: 0x04007834 RID: 30772
+		ServiG3JungleDepthsSeen,
+		// Token: 0x04007835 RID: 30773
+		ServiG3ChimeralWetlandsSeen,
+		// Token: 0x04007836 RID: 30774
+		ServiG3SnakePitSeen,
+		// Token: 0x04007837 RID: 30775
+		ServiG3CarverBogSeen,
+		// Token: 0x04007838 RID: 30776
+		ServiG3SunkenCitySeen,
+		// Token: 0x04007839 RID: 30777
+		ServiG3AzakhKulSeen,
+		// Token: 0x0400783A RID: 30778
+		G3ProximityPowerMechanism,
+		// Token: 0x0400783B RID: 30779
+		AlvaG3TheSearchSeen,
+		// Token: 0x0400783C RID: 30780
+		G3FoundAnimaStone,
+		// Token: 0x0400783D RID: 30781
+		AlvaG3AnimaStonesSeen,
+		// Token: 0x0400783E RID: 30782
+		ServiG3TheSearchSeen,
+		// Token: 0x0400783F RID: 30783
+		ServiG3SnakePitBossDefeatedSeen,
+		// Token: 0x04007840 RID: 30784
+		AlvaG3_6_2SummonAlvaSeen,
+		// Token: 0x04007841 RID: 30785
+		AlvaG3MachinariumSeen,
+		// Token: 0x04007842 RID: 30786
+		AlvaG3MachinariumSummonAllySeen,
+		// Token: 0x04007843 RID: 30787
+		AlvaG3MachinariumSummonAllySummoned,
+		// Token: 0x04007844 RID: 30788
+		AlvaG3GeneratorsSeen,
+		// Token: 0x04007845 RID: 30789
+		MentorG3OurNextMove2Seen,
+		// Token: 0x04007846 RID: 30790
+		ServiG3TheCrazakhSeen,
+		// Token: 0x04007847 RID: 30791
+		ServiG3MoragQuestSeen,
+		// Token: 0x04007848 RID: 30792
+		OswaldG3CityDrainedSeen,
+		// Token: 0x04007849 RID: 30793
+		AlvaG3BarrierQuestSeen,
+		// Token: 0x0400784A RID: 30794
+		UnaSummonAllySummoned,
+		// Token: 0x0400784B RID: 30795
+		UnaSummonAllySeen,
+		// Token: 0x0400784C RID: 30796
+		ReadZigguratEncampmentGlyph01,
+		// Token: 0x0400784D RID: 30797
+		ReadChimeralWetlandsGlyph01,
+		// Token: 0x0400784E RID: 30798
+		G3_12EntranceOpened,
+		// Token: 0x0400784F RID: 30799
+		G3_2_2EntranceOpened,
+		// Token: 0x04007850 RID: 30800
+		G3_2_2EntranceSeenNoCrystal,
+		// Token: 0x04007851 RID: 30801
+		G3_2_2EntranceOpeningFailed,
+		// Token: 0x04007852 RID: 30802
+		G3TownWaterSeen,
+		// Token: 0x04007853 RID: 30803
+		MetServi,
+		// Token: 0x04007854 RID: 30804
+		MetAlva,
+		// Token: 0x04007855 RID: 30805
+		ReadAggoratPastGlyph01,
+		// Token: 0x04007856 RID: 30806
+		VisitedG4Town,
+		// Token: 0x04007857 RID: 30807
+		VisitedG4_1_1,
+		// Token: 0x04007858 RID: 30808
+		VisitedG4_1_2,
+		// Token: 0x04007859 RID: 30809
+		VisitedG4_2_1,
+		// Token: 0x0400785A RID: 30810
+		VisitedG4_2_2,
+		// Token: 0x0400785B RID: 30811
+		VisitedG4_3_1,
+		// Token: 0x0400785C RID: 30812
+		VisitedG4_3_2,
+		// Token: 0x0400785D RID: 30813
+		VisitedG4_4_1,
+		// Token: 0x0400785E RID: 30814
+		VisitedG4_4_2,
+		// Token: 0x0400785F RID: 30815
+		VisitedG4_5_1,
+		// Token: 0x04007860 RID: 30816
+		VisitedG4_5_2,
+		// Token: 0x04007861 RID: 30817
+		VisitedG4_6,
+		// Token: 0x04007862 RID: 30818
+		VisitedG4_7,
+		// Token: 0x04007863 RID: 30819
+		VisitedG4_8B,
+		// Token: 0x04007864 RID: 30820
+		VisitedG4_9,
+		// Token: 0x04007865 RID: 30821
+		VisitedG4_10_1,
+		// Token: 0x04007866 RID: 30822
+		VisitedG4_12,
+		// Token: 0x04007867 RID: 30823
+		G4AscendancyIslandRevealed,
+		// Token: 0x04007868 RID: 30824
+		G4PrecursorIslandRevealed,
+		// Token: 0x04007869 RID: 30825
+		ReadM1TownGlyph1,
+		// Token: 0x0400786A RID: 30826
+		ReadM1TownGlyph2,
+		// Token: 0x0400786B RID: 30827
+		ReadM1TownGlyph3,
+		// Token: 0x0400786C RID: 30828
+		PoemA1Q0FollowDominus,
+		// Token: 0x0400786D RID: 30829
+		PoemNULL,
+		// Token: 0x0400786E RID: 30830
+		VisitedG4_8A,
+		// Token: 0x0400786F RID: 30831
+		VisitedG4_11_1A,
+		// Token: 0x04007870 RID: 30832
+		VisitedG4_11_1B,
+		// Token: 0x04007871 RID: 30833
+		VisitedG4_11_2,
+		// Token: 0x04007872 RID: 30834
+		G4KaruiVillageCorrupted,
+		// Token: 0x04007873 RID: 30835
+		G4TwilightOrderHostile,
+		// Token: 0x04007874 RID: 30836
+		ReadKedgeBayGlyph01,
+		// Token: 0x04007875 RID: 30837
+		ReadJourneysEndGlyph01,
+		// Token: 0x04007876 RID: 30838
+		ReadJourneysEndGlyph02,
+		// Token: 0x04007877 RID: 30839
+		ReadGoddessOfJusticeGlyph,
+		// Token: 0x04007878 RID: 30840
+		ReadChapelPrisonGlyph,
+		// Token: 0x04007879 RID: 30841
+		ZigguratDoorKeyHeld,
+		// Token: 0x0400787A RID: 30842
+		ReadKuamGlyph,
+		// Token: 0x0400787B RID: 30843
+		CrazySnakeLadySeen,
+		// Token: 0x0400787C RID: 30844
+		CrazySnakeLadySlain,
+		// Token: 0x0400787D RID: 30845
+		CrazySnakeLadyChestOpened,
+		// Token: 0x0400787E RID: 30846
+		CrazySnakeLadyPotionAcquired,
+		// Token: 0x0400787F RID: 30847
+		CrazySnakeLadyPotionConsumableAcquired,
+		// Token: 0x04007880 RID: 30848
+		CrazySnakeLadyPotionUsed,
+		// Token: 0x04007881 RID: 30849
+		CrazySnakeLadyPotionRewardSeen,
+		// Token: 0x04007882 RID: 30850
+		CrazySnakeLadyPotionDelivered,
+		// Token: 0x04007883 RID: 30851
+		DoryaniSeen,
+		// Token: 0x04007884 RID: 30852
+		DoryaniDefeated,
+		// Token: 0x04007885 RID: 30853
+		MentorOnDoryaniDefeatedSeen,
+		// Token: 0x04007886 RID: 30854
+		ReadAggoratPresentGlyph01,
+		// Token: 0x04007887 RID: 30855
+		ReadAggoratPresentGlyph02,
+		// Token: 0x04007888 RID: 30856
+		ReadAggoratPresentGlyph03,
+		// Token: 0x04007889 RID: 30857
+		ReadAggoratPresentGlyph04,
+		// Token: 0x0400788A RID: 30858
+		SmallSoulCoreHeld,
+		// Token: 0x0400788B RID: 30859
+		MediumSoulCoreHeld,
+		// Token: 0x0400788C RID: 30860
+		MachinariumAll3GeneratorsActive,
+		// Token: 0x0400788D RID: 30861
+		UpperMachinariumDoorOpen,
+		// Token: 0x0400788E RID: 30862
+		VisitedG4_4_3,
+		// Token: 0x0400788F RID: 30863
+		ReadTropicalIslandGlyph1,
+		// Token: 0x04007890 RID: 30864
+		ReadTropicalIslandGlyph2,
+		// Token: 0x04007891 RID: 30865
+		ReadTropicalIslandGlyph3,
+		// Token: 0x04007892 RID: 30866
+		UnlockedDomination,
+		// Token: 0x04007893 RID: 30867
+		UnlockedBreach,
+		// Token: 0x04007894 RID: 30868
+		UnlockedAbyss,
+		// Token: 0x04007895 RID: 30869
+		UnlockedAmbush,
+		// Token: 0x04007896 RID: 30870
+		UnlockedTorment,
+		// Token: 0x04007897 RID: 30871
+		UnlockedEssence,
+		// Token: 0x04007898 RID: 30872
+		UnlockedLegion,
+		// Token: 0x04007899 RID: 30873
+		UnlockedDelirium,
+		// Token: 0x0400789A RID: 30874
+		UnlockedRitual,
+		// Token: 0x0400789B RID: 30875
+		UnlockedBestiary,
+		// Token: 0x0400789C RID: 30876
+		UnlockedIncursion,
+		// Token: 0x0400789D RID: 30877
+		UnlockedDelve,
+		// Token: 0x0400789E RID: 30878
+		UnlockedBetrayal,
+		// Token: 0x0400789F RID: 30879
+		UnlockedBlight,
+		// Token: 0x040078A0 RID: 30880
+		UnlockedHeist,
+		// Token: 0x040078A1 RID: 30881
+		UnlockedExpedition,
+		// Token: 0x040078A2 RID: 30882
+		UnlockedHarvest,
+		// Token: 0x040078A3 RID: 30883
+		UnlockedMetamorph,
+		// Token: 0x040078A4 RID: 30884
+		UnlockedVaalSideAreas,
+		// Token: 0x040078A5 RID: 30885
+		UnlockedRogueExiles,
+		// Token: 0x040078A6 RID: 30886
+		ReadIsleOfKinGlyph01,
+		// Token: 0x040078A7 RID: 30887
+		TwilightOrderPreacherInterruptSeen,
+		// Token: 0x040078A8 RID: 30888
+		TwilightOrderPreacherNameSeen,
+		// Token: 0x040078A9 RID: 30889
+		TwilightOrderPreacherOnTwilightOrderSeen,
+		// Token: 0x040078AA RID: 30890
+		TwilightOrderPreacherNewsSeen,
+		// Token: 0x040078AB RID: 30891
+		TwilightOrderPreacherFightBackSeen,
+		// Token: 0x040078AC RID: 30892
+		TwilightOrderUtopiaSeen,
+		// Token: 0x040078AD RID: 30893
+		TwilightOrderLiberatorSeen,
+		// Token: 0x040078AE RID: 30894
+		TwilightOrderGoSeen,
+		// Token: 0x040078AF RID: 30895
+		TwilightOrderKalguuransSeen,
+		// Token: 0x040078B0 RID: 30896
+		ReadSirenCaveGlyph01,
+		// Token: 0x040078B1 RID: 30897
+		ReadSirenCaveGlyph02,
+		// Token: 0x040078B2 RID: 30898
+		SettingSail,
+		// Token: 0x040078B3 RID: 30899
+		KingsmarchRogIntroductionSeen,
+		// Token: 0x040078B4 RID: 30900
+		KingsmarchRogOnKingsmarchSeen,
+		// Token: 0x040078B5 RID: 30901
+		KingsmarchRogOnTheKingSeen,
+		// Token: 0x040078B6 RID: 30902
+		KingsmarchRogOnKalguuransSeen,
+		// Token: 0x040078B7 RID: 30903
+		KingsmarchRogOnShopSeen,
+		// Token: 0x040078B8 RID: 30904
+		KingsmarchRogOnGrandQuestSeen,
+		// Token: 0x040078B9 RID: 30905
+		KingsmarchRogOnGrandQuestAgainSeen,
+		// Token: 0x040078BA RID: 30906
+		KingsmarchRogOnWifeSeen,
+		// Token: 0x040078BB RID: 30907
+		KingsmarchRogOnShipAndIntroSeen,
+		// Token: 0x040078BC RID: 30908
+		KingsmarchRogOnHiringAShip,
+		// Token: 0x040078BD RID: 30909
+		KingsmarchRogOnPreacher,
+		// Token: 0x040078BE RID: 30910
+		AlvaKingsmarchFarewellSeen,
+		// Token: 0x040078BF RID: 30911
+		AlvaKingsmarchGone,
+		// Token: 0x040078C0 RID: 30912
+		Act4BoatLocation0,
+		// Token: 0x040078C1 RID: 30913
+		Act4BoatLocation1,
+		// Token: 0x040078C2 RID: 30914
+		Act4BoatLocation2,
+		// Token: 0x040078C3 RID: 30915
+		Act4BoatLocation3,
+		// Token: 0x040078C4 RID: 30916
+		VisitedG5_1,
+		// Token: 0x040078C5 RID: 30917
+		VisitedG5Town,
+		// Token: 0x040078C6 RID: 30918
+		VisitedG5_2,
+		// Token: 0x040078C7 RID: 30919
+		VisitedG5_3_1,
+		// Token: 0x040078C8 RID: 30920
+		VisitedG5_3_2,
+		// Token: 0x040078C9 RID: 30921
+		VisitedG5_4,
+		// Token: 0x040078CA RID: 30922
+		VisitedG5_5,
+		// Token: 0x040078CB RID: 30923
+		VisitedG5_6,
+		// Token: 0x040078CC RID: 30924
+		VisitedG5_7,
+		// Token: 0x040078CD RID: 30925
+		VisitedG5_8_1,
+		// Token: 0x040078CE RID: 30926
+		VisitedG5_8_2,
+		// Token: 0x040078CF RID: 30927
+		VisitedG5_9,
+		// Token: 0x040078D0 RID: 30928
+		VisitedG5_10,
+		// Token: 0x040078D1 RID: 30929
+		VisitedG5_11,
+		// Token: 0x040078D2 RID: 30930
+		VisitedG5_12,
+		// Token: 0x040078D3 RID: 30931
+		VisitedG5_13,
+		// Token: 0x040078D4 RID: 30932
+		VisitedG5_14,
+		// Token: 0x040078D5 RID: 30933
+		VisitedG5_15,
+		// Token: 0x040078D6 RID: 30934
+		VisitedG5_16,
+		// Token: 0x040078D7 RID: 30935
+		Act5RampartsAccessUnlocked,
+		// Token: 0x040078D8 RID: 30936
+		Act5BlightedBlockageSeen,
+		// Token: 0x040078D9 RID: 30937
+		Act5BlightedBlockageIntroduction,
+		// Token: 0x040078DA RID: 30938
+		Act5BlightedCoreSeen,
+		// Token: 0x040078DB RID: 30939
+		Act5BlightedCoreKilled,
+		// Token: 0x040078DC RID: 30940
+		Act5BombComponentHeld,
+		// Token: 0x040078DD RID: 30941
+		BlightedCoreBombRewardSeen,
+		// Token: 0x040078DE RID: 30942
+		Act5BombAcquired,
+		// Token: 0x040078DF RID: 30943
+		Act5BlightedBlockageSeenWithBomb,
+		// Token: 0x040078E0 RID: 30944
+		Act5BlightedBlockageDestroyed,
+		// Token: 0x040078E1 RID: 30945
+		KingsmarchDoryaniOnKingsmarchSeen,
+		// Token: 0x040078E2 RID: 30946
+		KingsmarchDoryaniTheSearchSeen,
+		// Token: 0x040078E3 RID: 30947
+		KingsmarchDoryaniKalguuransSeen,
+		// Token: 0x040078E4 RID: 30948
+		KingsmarchDoryaniTheirKingSeen,
+		// Token: 0x040078E5 RID: 30949
+		Act4BoatGone,
+		// Token: 0x040078E6 RID: 30950
+		PoEMAct1BossDefeated,
+		// Token: 0x040078E7 RID: 30951
+		PoEMMapDeviceDeniedSeen,
+		// Token: 0x040078E8 RID: 30952
+		PoEMTUTFlaskTownintro,
+		// Token: 0x040078E9 RID: 30953
+		POEMZanaLabReturn,
+		// Token: 0x040078EA RID: 30954
+		POEMZanaFleeScene,
+		// Token: 0x040078EB RID: 30955
+		PoEMTUTTalktoShop,
+		// Token: 0x040078EC RID: 30956
+		PoEMTUTUsedShop,
+		// Token: 0x040078ED RID: 30957
+		PoEMVisitedM1_1_2,
+		// Token: 0x040078EE RID: 30958
+		PoEMGossipQuartermasterSeen,
+		// Token: 0x040078EF RID: 30959
+		PoEMGossipArmourerSeen,
+		// Token: 0x040078F0 RID: 30960
+		PoEMGossipOriathSeen,
+		// Token: 0x040078F1 RID: 30961
+		PoEMSearchBegins,
+		// Token: 0x040078F2 RID: 30962
+		PoEMEscortDone,
+		// Token: 0x040078F3 RID: 30963
+		WaterLevelLoweredSeen,
+		// Token: 0x040078F4 RID: 30964
+		OswaldSummonBloodCrucibleSeen,
+		// Token: 0x040078F5 RID: 30965
+		PoEMTUTAtlasTouchControls,
+		// Token: 0x040078F6 RID: 30966
+		PoEMTUTPassiveTreeTouchControls,
+		// Token: 0x040078F7 RID: 30967
+		PoEMCharTunnel1,
+		// Token: 0x040078F8 RID: 30968
+		PoEMCharTunnel2,
+		// Token: 0x040078F9 RID: 30969
+		PoEMCharTunnel3,
+		// Token: 0x040078FA RID: 30970
+		PoEMCharKillExiles,
+		// Token: 0x040078FB RID: 30971
+		PoEMCaptainInsults,
+		// Token: 0x040078FC RID: 30972
+		AlvaGrandDeviceDirectionSeen,
+		// Token: 0x040078FD RID: 30973
+		AlvaTheBeastSeen,
+		// Token: 0x040078FE RID: 30974
+		AlvaZigguratEncampmentSeen,
+		// Token: 0x040078FF RID: 30975
+		AlvaOswaldSeen,
+		// Token: 0x04007900 RID: 30976
+		AlvaServiSeen,
+		// Token: 0x04007901 RID: 30977
+		AlvaHoodedOneSeen,
+		// Token: 0x04007902 RID: 30978
+		AlvaPoweringTheMechanismSeen,
+		// Token: 0x04007903 RID: 30979
+		AlvaSoulCoresSeen,
+		// Token: 0x04007904 RID: 30980
+		AlvaWaterwaysSeen,
+		// Token: 0x04007905 RID: 30981
+		AlvaOnGolemsSeen,
+		// Token: 0x04007906 RID: 30982
+		AlvaOnSmallSoulCoreSeen,
+		// Token: 0x04007907 RID: 30983
+		AlvaOnXyclucianSeen,
+		// Token: 0x04007908 RID: 30984
+		PoEMInterogation1,
+		// Token: 0x04007909 RID: 30985
+		PoEMInterogation2,
+		// Token: 0x0400790A RID: 30986
+		PoEMInterogation3,
+		// Token: 0x0400790B RID: 30987
+		PoEMM1_2BlackguardSeen,
+		// Token: 0x0400790C RID: 30988
+		PoEMM1_2BlackguardKilled,
+		// Token: 0x0400790D RID: 30989
+		PoEMM1_2BlackguardSaved,
+		// Token: 0x0400790E RID: 30990
+		PoEMTUTMinimapDone,
+		// Token: 0x0400790F RID: 30991
+		PoEMDominusMissionIntro,
+		// Token: 0x04007910 RID: 30992
+		PoEMM1_2BlackguardPortalSeen,
+		// Token: 0x04007911 RID: 30993
+		PoEMM1_2BlackguardPortalRewarded,
+		// Token: 0x04007912 RID: 30994
+		PoEMM1_2AmbushTileFound,
+		// Token: 0x04007913 RID: 30995
+		PoEMM1_2AmbushComplete,
+		// Token: 0x04007914 RID: 30996
+		PoEMM1_1_1QuestComplete,
+		// Token: 0x04007915 RID: 30997
+		PoEMM1_11FoundVenarius,
+		// Token: 0x04007916 RID: 30998
+		PoEMM1_11KilledVenarius,
+		// Token: 0x04007917 RID: 30999
+		PoEMM1_11FailedVenarius,
+		// Token: 0x04007918 RID: 31000
+		PoEMM1_3TracksSeen,
+		// Token: 0x04007919 RID: 31001
+		PoEMM1_3BridgeSeen,
+		// Token: 0x0400791A RID: 31002
+		PoEMInterogation4,
+		// Token: 0x0400791B RID: 31003
+		PoEMLabSecretDoorUnlocked,
+		// Token: 0x0400791C RID: 31004
+		ServiOnApusSeen,
+		// Token: 0x0400791D RID: 31005
+		G4_1_1GoblinBeastSeen,
+		// Token: 0x0400791E RID: 31006
+		G4_1_1GoblinBeastKilled,
+		// Token: 0x0400791F RID: 31007
+		G4_1_1GoblinGiantSulphiteRog,
+		// Token: 0x04007920 RID: 31008
+		G4_1_1GoblinGiantSulphiteRogGiven,
+		// Token: 0x04007921 RID: 31009
+		G4_1_1GoblinGiantSulphiteRogRewardSeen,
+		// Token: 0x04007922 RID: 31010
+		G4_1_1DigestedSulphitePotionHeld,
+		// Token: 0x04007923 RID: 31011
+		G4_1_1DigestedSulphitePotionUsed,
+		// Token: 0x04007924 RID: 31012
+		G4_7ScourgeSkiesTrophyReceivedQuest,
+		// Token: 0x04007925 RID: 31013
+		G4_7ScourgeSkiesTrophySeen,
+		// Token: 0x04007926 RID: 31014
+		G4_7ScourgeSkiesTrophyKilled,
+		// Token: 0x04007927 RID: 31015
+		G4_7ScourgeSkiesTrophyPickedUp,
+		// Token: 0x04007928 RID: 31016
+		G4_7ScourgeSkiesTrophyGiven,
+		// Token: 0x04007929 RID: 31017
+		G4_7ScourgeSkiesTrophyRewardSeen,
+		// Token: 0x0400792A RID: 31018
+		G4_7ScourgeSkiesTrophyQuestFinished,
+		// Token: 0x0400792B RID: 31019
+		G4_7ScourgeSkiesMedicineReceivedQuest,
+		// Token: 0x0400792C RID: 31020
+		G4_7ScourgeSkiesMedicineSeen,
+		// Token: 0x0400792D RID: 31021
+		G4_7ScourgeSkiesMedicineKilled,
+		// Token: 0x0400792E RID: 31022
+		G4_7ScourgeSkiesMedicinePickedUp,
+		// Token: 0x0400792F RID: 31023
+		G4_7ScourgeSkiesMedicineGiven,
+		// Token: 0x04007930 RID: 31024
+		G4_7ScourgeSkiesMedicineRewardSeen,
+		// Token: 0x04007931 RID: 31025
+		G4_7ScourgeSkiesMedicineQuestFinished,
+		// Token: 0x04007932 RID: 31026
+		G4_7ScourgeSkiesSpearMainReceivedQuest,
+		// Token: 0x04007933 RID: 31027
+		G4_7ScourgeSkiesSpearMainSeen,
+		// Token: 0x04007934 RID: 31028
+		G4_7ScourgeSkiesSpearMainKilled,
+		// Token: 0x04007935 RID: 31029
+		G4_7ScourgeSkiesSpearMainPickedUp,
+		// Token: 0x04007936 RID: 31030
+		G4_7ScourgeSkiesSpearMainGiven,
+		// Token: 0x04007937 RID: 31031
+		G4_7ScourgeSkiesSpearMainRewardSeen,
+		// Token: 0x04007938 RID: 31032
+		G4_7ScourgeSkiesSpearMainQuestFinished,
+		// Token: 0x04007939 RID: 31033
+		G4_2_2DeliriumEncounterQuestReceived,
+		// Token: 0x0400793A RID: 31034
+		G4_2_2DeliriumEncounterRothEncountered,
+		// Token: 0x0400793B RID: 31035
+		G4_2_2DeliriumEncounterRothKilled,
+		// Token: 0x0400793C RID: 31036
+		G4_2_2DeliriumEncounterMetalPickupUp,
+		// Token: 0x0400793D RID: 31037
+		G4_2_2DeliriumEncounterMetalPickupUpNoQustReceived,
+		// Token: 0x0400793E RID: 31038
+		G4_2_2DeliriumEncounterMetalGivenDannig,
+		// Token: 0x0400793F RID: 31039
+		G4_2_2DeliriumEncounterReceivedRunePlates,
+		// Token: 0x04007940 RID: 31040
+		G4_2_2DeliriumEncounterPlatesOnTotems1,
+		// Token: 0x04007941 RID: 31041
+		G4_2_2DeliriumEncounterPlatesOnTotems2,
+		// Token: 0x04007942 RID: 31042
+		G4_2_2DeliriumEncounterPlatesOnTotems3,
+		// Token: 0x04007943 RID: 31043
+		G4_2_2DeliriumEncounterDefeatDelusions,
+		// Token: 0x04007944 RID: 31044
+		G4_2_2DeliriumEncounterQuestComplete,
+		// Token: 0x04007945 RID: 31045
+		G4_2_2DeliriumEncounterPrisonerFreed,
+		// Token: 0x04007946 RID: 31046
+		VisitedG6Town,
+		// Token: 0x04007947 RID: 31047
+		VisitedG6_1,
+		// Token: 0x04007948 RID: 31048
+		VisitedG6_2,
+		// Token: 0x04007949 RID: 31049
+		VisitedG6_3,
+		// Token: 0x0400794A RID: 31050
+		VisitedG6_4,
+		// Token: 0x0400794B RID: 31051
+		VisitedG6_5,
+		// Token: 0x0400794C RID: 31052
+		VisitedG6_6_1,
+		// Token: 0x0400794D RID: 31053
+		VisitedG6_6_2,
+		// Token: 0x0400794E RID: 31054
+		PoEMTUTSkillGemCraftingCompleted,
+		// Token: 0x0400794F RID: 31055
+		G4_1_2GoblinGiantSpearMainRecievedQuest,
+		// Token: 0x04007950 RID: 31056
+		G4_1_2GoblinGiantSpearMainSeen,
+		// Token: 0x04007951 RID: 31057
+		G4_1_2GoblinGiantSpearMainKilled,
+		// Token: 0x04007952 RID: 31058
+		G4_1_2GoblinGiantSpearMainPickedUp,
+		// Token: 0x04007953 RID: 31059
+		G4_1_2GoblinGiantSpearMainRewardSeen,
+		// Token: 0x04007954 RID: 31060
+		G4_1_2GoblinGiantSpearMainQuestFinished,
+		// Token: 0x04007955 RID: 31061
+		Act4SirenSeen,
+		// Token: 0x04007956 RID: 31062
+		Act4SirenKilled,
+		// Token: 0x04007957 RID: 31063
+		Act4SirenDroppedVocalCords,
+		// Token: 0x04007958 RID: 31064
+		Act4SirenDroppedSirenHead,
+		// Token: 0x04007959 RID: 31065
+		Act4SirenVocalCordsHeld,
+		// Token: 0x0400795A RID: 31066
+		Act4SirenSirenHeadHeld,
+		// Token: 0x0400795B RID: 31067
+		Act4SirenVocalCordsGiven,
+		// Token: 0x0400795C RID: 31068
+		Act4SirenSirenHeadGiven,
+		// Token: 0x0400795D RID: 31069
+		Act4SirenRewardSeen,
+		// Token: 0x0400795E RID: 31070
+		Act4KillSirenRewardTaken,
+		// Token: 0x0400795F RID: 31071
+		Act4PrisonerSeen,
+		// Token: 0x04007960 RID: 31072
+		Act4PrisonerKilled,
+		// Token: 0x04007961 RID: 31073
+		Act4RegeneratingLiverHeld,
+		// Token: 0x04007962 RID: 31074
+		Act4RegeneratingLiverGiven,
+		// Token: 0x04007963 RID: 31075
+		Act4PrisonerRewardSeen,
+		// Token: 0x04007964 RID: 31076
+		Act4PrisonerRewardTaken,
+		// Token: 0x04007965 RID: 31077
+		ShipwreckBossDropHeld,
+		// Token: 0x04007966 RID: 31078
+		ShipwreckBossDropUsed,
+		// Token: 0x04007967 RID: 31079
+		GreatWhiteOneDropHeld,
+		// Token: 0x04007968 RID: 31080
+		GreatWhiteOneDropUsed,
+		// Token: 0x04007969 RID: 31081
+		PoEMTUTWeaponSets,
+		// Token: 0x0400796A RID: 31082
+		PoEMOriathGatekeeperSeen,
+		// Token: 0x0400796B RID: 31083
+		PoEMOriathGatekeeperBluff,
+		// Token: 0x0400796C RID: 31084
+		PoEMOriathGatekeeperKill,
+		// Token: 0x0400796D RID: 31085
+		PoEMOriathWatchPass,
+		// Token: 0x0400796E RID: 31086
+		PoEMEngineersWarningSeen,
+		// Token: 0x0400796F RID: 31087
+		PoEMM1_2FirstArrival,
+		// Token: 0x04007970 RID: 31088
+		PoEMM1_2EncounterScout,
+		// Token: 0x04007971 RID: 31089
+		PoEMM1_2BossCorpse,
+		// Token: 0x04007972 RID: 31090
+		TwilightOrderOnThisIslandSeen,
+		// Token: 0x04007973 RID: 31091
+		TwilightOrderOnTukohamaSeen,
+		// Token: 0x04007974 RID: 31092
+		TwilightOrderOnYokeOfAmbitionSeen,
+		// Token: 0x04007975 RID: 31093
+		TwilightOrderOnCivilisationSeen,
+		// Token: 0x04007976 RID: 31094
+		TwilightOrderIslandWelcomeSeen,
+		// Token: 0x04007977 RID: 31095
+		DannigA4IntroSeen,
+		// Token: 0x04007978 RID: 31096
+		DannigA4OnKingsmarchSeen,
+		// Token: 0x04007979 RID: 31097
+		DannigA4OnTheKingSeen,
+		// Token: 0x0400797A RID: 31098
+		DannigA4OnColonisationSeen,
+		// Token: 0x0400797B RID: 31099
+		DannigA4OnTriskelionFlameSeen,
+		// Token: 0x0400797C RID: 31100
+		DannigA4OnRunesSeen,
+		// Token: 0x0400797D RID: 31101
+		DannigA4OnVirtueGemsSeen,
+		// Token: 0x0400797E RID: 31102
+		DannigA4OnGodsSeen,
+		// Token: 0x0400797F RID: 31103
+		DannigA4QuestForgeSeen,
+		// Token: 0x04007980 RID: 31104
+		PoEMGotoLabFoyer,
+		// Token: 0x04007981 RID: 31105
+		PoEMKnecklaceTaken,
+		// Token: 0x04007982 RID: 31106
+		PoEMKnecklaceReturned,
+		// Token: 0x04007983 RID: 31107
+		PoEMZanaPromise,
+		// Token: 0x04007984 RID: 31108
+		PoEMM1_3IcyTunnel,
+		// Token: 0x04007985 RID: 31109
+		PoEMM1_3RefoundTrail,
+		// Token: 0x04007986 RID: 31110
+		PoEMM1_3IcyTemple,
+		// Token: 0x04007987 RID: 31111
+		PoEMM1_4WatcherSpoken,
+		// Token: 0x04007988 RID: 31112
+		PoEMM1_4FirstArrival,
+		// Token: 0x04007989 RID: 31113
+		PoEMM1_4GoblinBoss,
+		// Token: 0x0400798A RID: 31114
+		PoEMM1_5BoneYardGateSeen,
+		// Token: 0x0400798B RID: 31115
+		PoEMM1_5ValdoFleeSeen,
+		// Token: 0x0400798C RID: 31116
+		PoEMAct1DominusAway,
+		// Token: 0x0400798D RID: 31117
+		PoEMAct1DominusReturns,
+		// Token: 0x0400798E RID: 31118
+		PoEMM1_5BoneCirclesSeen,
+		// Token: 0x0400798F RID: 31119
+		TujenA4IntroductionSeen,
+		// Token: 0x04007990 RID: 31120
+		TujenA4AltIntroductionSeen,
+		// Token: 0x04007991 RID: 31121
+		TujenA4LookingForABoatSeen,
+		// Token: 0x04007992 RID: 31122
+		TujenA4OnKingsmarchSeen,
+		// Token: 0x04007993 RID: 31123
+		TujenA4OnMakoruSeen,
+		// Token: 0x04007994 RID: 31124
+		TujenA4OnRogSeen,
+		// Token: 0x04007995 RID: 31125
+		TujenA4OnGwennenSeen,
+		// Token: 0x04007996 RID: 31126
+		TujenA4OnDannigSeen,
+		// Token: 0x04007997 RID: 31127
+		TujenA4OnTheKalguurSeen,
+		// Token: 0x04007998 RID: 31128
+		TujenA4OnTheKingSeen,
+		// Token: 0x04007999 RID: 31129
+		TujenA4OnExpeditionSeen,
+		// Token: 0x0400799A RID: 31130
+		TujenA4OnThePreacherSeen,
+		// Token: 0x0400799B RID: 31131
+		MetMakoru,
+		// Token: 0x0400799C RID: 31132
+		MakoruSetSail,
+		// Token: 0x0400799D RID: 31133
+		MakoruHaveSetSail,
+		// Token: 0x0400799E RID: 31134
+		G4CaptainIntroductionContractAccountNotCreated,
+		// Token: 0x0400799F RID: 31135
+		G4CaptainContractAccountCreated,
+		// Token: 0x040079A0 RID: 31136
+		PoEMAct1Finale1,
+		// Token: 0x040079A1 RID: 31137
+		PoEMAct1Finale2,
+		// Token: 0x040079A2 RID: 31138
+		PoEMAct1Finale3,
+		// Token: 0x040079A3 RID: 31139
+		PoEMAct1Finale4,
+		// Token: 0x040079A4 RID: 31140
+		PoEMAct1Finale5,
+		// Token: 0x040079A5 RID: 31141
+		PoEMAct1Finale6,
+		// Token: 0x040079A6 RID: 31142
+		PoEMAct1Finale7,
+		// Token: 0x040079A7 RID: 31143
+		PoEMAct1Finale8,
+		// Token: 0x040079A8 RID: 31144
+		PoEMAct1Finale9,
+		// Token: 0x040079A9 RID: 31145
+		PoEMAct1HaveGraveyardKey,
+		// Token: 0x040079AA RID: 31146
+		PoEMAct1UsedGraveyardKey,
+		// Token: 0x040079AB RID: 31147
+		PoEMM1_6BossEncounter1,
+		// Token: 0x040079AC RID: 31148
+		PoEMM1_6BossEncounter2,
+		// Token: 0x040079AD RID: 31149
+		PoEMM1_6BossEncounter3,
+		// Token: 0x040079AE RID: 31150
+		PoEMM1_6EntranceGate,
+		// Token: 0x040079AF RID: 31151
+		PoEMM1_6ArrivalKaruiWelcome,
+		// Token: 0x040079B0 RID: 31152
+		PoEMM1_6BossKill1,
+		// Token: 0x040079B1 RID: 31153
+		PoEMM1_6BossKill2,
+		// Token: 0x040079B2 RID: 31154
+		PoEMM1_7FindKey,
+		// Token: 0x040079B3 RID: 31155
+		PoEMM1_7SpiritSettled,
+		// Token: 0x040079B4 RID: 31156
+		PoEMM1_7ValdoMapDropped,
+		// Token: 0x040079B5 RID: 31157
+		PoEMM1_7SpiritSettledEnd,
+		// Token: 0x040079B6 RID: 31158
+		ImposterWomanIntroductionSeen,
+		// Token: 0x040079B7 RID: 31159
+		ImposterWomanTotemsSeen,
+		// Token: 0x040079B8 RID: 31160
+		ImposterWomanVerisiumSeen,
+		// Token: 0x040079B9 RID: 31161
+		ImposterWomanRunesSeen,
+		// Token: 0x040079BA RID: 31162
+		ImposterWomanKedgeBaySeen,
+		// Token: 0x040079BB RID: 31163
+		ImposterWomanTroveSeen,
+		// Token: 0x040079BC RID: 31164
+		ImposterWomanPlayerReturnsWithVerisiumSeen,
+		// Token: 0x040079BD RID: 31165
+		ImposterWomanPlayerReturnsWithSpikesSeen,
+		// Token: 0x040079BE RID: 31166
+		ImposterWomanOnBlacksmithSeen,
+		// Token: 0x040079BF RID: 31167
+		ImposterWomanOnDannigSeen,
+		// Token: 0x040079C0 RID: 31168
+		ImposterWomanShoutAboutSpikesSeen,
+		// Token: 0x040079C1 RID: 31169
+		PoEMM1_9HavenSealed,
+		// Token: 0x040079C2 RID: 31170
+		PoEMM1_9SealGuardian1,
+		// Token: 0x040079C3 RID: 31171
+		PoEMM1_9SealGuardian1Dead,
+		// Token: 0x040079C4 RID: 31172
+		PoEMM1_9Seal1Disabled,
+		// Token: 0x040079C5 RID: 31173
+		PoEMM1_9SealGuardian2,
+		// Token: 0x040079C6 RID: 31174
+		PoEMM1_9SealGuardian2Dead,
+		// Token: 0x040079C7 RID: 31175
+		PoEMM1_9Seal2Disabled,
+		// Token: 0x040079C8 RID: 31176
+		PoEMM1_9SealGuardian3,
+		// Token: 0x040079C9 RID: 31177
+		PoEMM1_9SealGuardian3Dead,
+		// Token: 0x040079CA RID: 31178
+		PoEMM1_9Seal3Disabled,
+		// Token: 0x040079CB RID: 31179
+		PoEMM1_9GatewayOpened,
+		// Token: 0x040079CC RID: 31180
+		PoEMM1_9ValdoIntro,
+		// Token: 0x040079CD RID: 31181
+		PoEMM1_9ValdoSeen,
+		// Token: 0x040079CE RID: 31182
+		PoEMM1_11ValdoSeen,
+		// Token: 0x040079CF RID: 31183
+		PoEMM1_9ValdoIntroMapSeen,
+		// Token: 0x040079D0 RID: 31184
+		PoEMM1_9ValdoIntroMapRewarded,
+		// Token: 0x040079D1 RID: 31185
+		PoEMM1_9ValdoIntroComplete,
+		// Token: 0x040079D2 RID: 31186
+		PoEMM1_9ValdoTrustSeen,
+		// Token: 0x040079D3 RID: 31187
+		PoEMM1_9ValdoTemplarSeen,
+		// Token: 0x040079D4 RID: 31188
+		PoEMM1_9ValdoIntroMapUsed,
+		// Token: 0x040079D5 RID: 31189
+		PoEMM1_9ValdoMissionFail,
+		// Token: 0x040079D6 RID: 31190
+		PoEMM1_9DominusDeceived,
+		// Token: 0x040079D7 RID: 31191
+		PoEMM1_10_1FindSecretDoor,
+		// Token: 0x040079D8 RID: 31192
+		PoEMM1_10_1HaveSeal,
+		// Token: 0x040079D9 RID: 31193
+		PoEMM1_10_1ReturnedSeal,
+		// Token: 0x040079DA RID: 31194
+		PoEMM1_10_1KillCaptain,
+		// Token: 0x040079DB RID: 31195
+		PoEMM1_10_1GateAccessGranted,
+		// Token: 0x040079DC RID: 31196
+		PoEMM1_10_2LowerPrisonEntered,
+		// Token: 0x040079DD RID: 31197
+		PoEMM1_10_2ZanaSpotted,
+		// Token: 0x040079DE RID: 31198
+		PoEMM1_10_2BossEncountered,
+		// Token: 0x040079DF RID: 31199
+		PoEMM1_10_2DominusCaught,
+		// Token: 0x040079E0 RID: 31200
+		PoEMM1_10_2FamilyReunion,
+		// Token: 0x040079E1 RID: 31201
+		PoEMM1_10_2ReturntoValdo,
+		// Token: 0x040079E2 RID: 31202
+		PoEMM1_3IcyTunnelExit,
+		// Token: 0x040079E3 RID: 31203
+		PoEMM1_10_2BossDefeated,
+		// Token: 0x040079E4 RID: 31204
+		PoEMM1_11EscortDominus,
+		// Token: 0x040079E5 RID: 31205
+		PoEMM1_11CitadelArrival,
+		// Token: 0x040079E6 RID: 31206
+		PoEMM1_11CitadelArena1,
+		// Token: 0x040079E7 RID: 31207
+		PoEMM1_11CitadelArena2,
+		// Token: 0x040079E8 RID: 31208
+		PoEMM1_11CitadelArena3,
+		// Token: 0x040079E9 RID: 31209
+		SummonedAlvaWaterways,
+		// Token: 0x040079EA RID: 31210
+		PoEMLabGlyphEntry1,
+		// Token: 0x040079EB RID: 31211
+		PoEMLabGlyphEntry2,
+		// Token: 0x040079EC RID: 31212
+		PoEMLabGlyphEntry3,
+		// Token: 0x040079ED RID: 31213
+		PoEMLabGlyphEntry4,
+		// Token: 0x040079EE RID: 31214
+		PoEMLabGlyphEntry5,
+		// Token: 0x040079EF RID: 31215
+		PoEMLabGlyphEntry6,
+		// Token: 0x040079F0 RID: 31216
+		PoEMLabGlyphEntry7,
+		// Token: 0x040079F1 RID: 31217
+		SummonedAlvaMachinariumLower,
+		// Token: 0x040079F2 RID: 31218
+		SummonedServiCarverBog,
+		// Token: 0x040079F3 RID: 31219
+		PoEMM1_7ArrivalGraveyardChill,
+		// Token: 0x040079F4 RID: 31220
+		PoEMM1_7HelpSpirit,
+		// Token: 0x040079F5 RID: 31221
+		PoEMM1_7KillKeyHolder,
+		// Token: 0x040079F6 RID: 31222
+		PoEMM1_7RoyalTreasures,
+		// Token: 0x040079F7 RID: 31223
+		PoEMM1_8ArrivalFissures,
+		// Token: 0x040079F8 RID: 31224
+		PoEMM1_8BossEncountered,
+		// Token: 0x040079F9 RID: 31225
+		PoEMM1_8BossKilled,
+		// Token: 0x040079FA RID: 31226
+		Act4DeliriumEncounterComplete,
+		// Token: 0x040079FB RID: 31227
+		Act4DeliriumEncounterStarted,
+		// Token: 0x040079FC RID: 31228
+		Act4FreyaSpokenToWithRuneSpikes,
+		// Token: 0x040079FD RID: 31229
+		Act4DannigRuneSpikesHeld,
+		// Token: 0x040079FE RID: 31230
+		Act4KalguuranVerisiumGiven,
+		// Token: 0x040079FF RID: 31231
+		Act4KalguuranVerisiumHeld,
+		// Token: 0x04007A00 RID: 31232
+		Act4CaptainHartlinKilled,
+		// Token: 0x04007A01 RID: 31233
+		Act4CaptainHartlinSeen,
+		// Token: 0x04007A02 RID: 31234
+		Act4RuneSpikesRewardSeen,
+		// Token: 0x04007A03 RID: 31235
+		SudokuBossDropHeld,
+		// Token: 0x04007A04 RID: 31236
+		SudokuBossDropUsed,
+		// Token: 0x04007A05 RID: 31237
+		YamaBossDropHeld,
+		// Token: 0x04007A06 RID: 31238
+		YamaBossDropUsed,
+		// Token: 0x04007A07 RID: 31239
+		ChattersawDropHeld,
+		// Token: 0x04007A08 RID: 31240
+		ChattersawDropUsed,
+		// Token: 0x04007A09 RID: 31241
+		TwilightOrderGuardBossHeld,
+		// Token: 0x04007A0A RID: 31242
+		TwilightOrderGuardBossUsed,
+		// Token: 0x04007A0B RID: 31243
+		FountainStatueBossDropHeld,
+		// Token: 0x04007A0C RID: 31244
+		FountainStatueBossDropUsed,
+		// Token: 0x04007A0D RID: 31245
+		FallenGodMinibossDropHeld,
+		// Token: 0x04007A0E RID: 31246
+		FallenGodMinibossDropUsed,
+		// Token: 0x04007A0F RID: 31247
+		ImperialGraveyardKnightDropHeld,
+		// Token: 0x04007A10 RID: 31248
+		ImperialGraveyardKnightDropUsed,
+		// Token: 0x04007A11 RID: 31249
+		BlightedCoreBombComponentHeld,
+		// Token: 0x04007A12 RID: 31250
+		BlightedCoreBombComponentUsed,
+		// Token: 0x04007A13 RID: 31251
+		BlightedCoreBombHeld,
+		// Token: 0x04007A14 RID: 31252
+		BlackMarketWineHeld,
+		// Token: 0x04007A15 RID: 31253
+		BlackMarketWineGiven,
+		// Token: 0x04007A16 RID: 31254
+		RhodriHaventMetRogIntroductionSeen,
+		// Token: 0x04007A17 RID: 31255
+		RhodriHaventMetRogOrMakoruIntroductionSeen,
+		// Token: 0x04007A18 RID: 31256
+		RhodriIntroductionSeen,
+		// Token: 0x04007A19 RID: 31257
+		RhodriOnTheKingSeen,
+		// Token: 0x04007A1A RID: 31258
+		RhodriOnTradeGuildSeen,
+		// Token: 0x04007A1B RID: 31259
+		RhodriOnMakoruSeen,
+		// Token: 0x04007A1C RID: 31260
+		RhodriOnFirstMateSeen,
+		// Token: 0x04007A1D RID: 31261
+		Act4GenericGemRewardSeen,
+		// Token: 0x04007A1E RID: 31262
+		Act4GenericGemRewardTaken,
+		// Token: 0x04007A1F RID: 31263
+		Act3LegacyOfTheVaalGemRewardSeen,
+		// Token: 0x04007A20 RID: 31264
+		Act3LegacyOfTheVaalGemRewardTaken,
+		// Token: 0x04007A21 RID: 31265
+		MarakethMysticVastiriOutskirtsIntroHeard,
+		// Token: 0x04007A22 RID: 31266
+		RathbreakerSeen,
+		// Token: 0x04007A23 RID: 31267
+		RathbreakerDefeated,
+		// Token: 0x04007A24 RID: 31268
+		RathbreakerAndHyenasDefeated,
+		// Token: 0x04007A25 RID: 31269
+		MarakethMysticVastiriOutskirtsArduraCaravanUnlocked,
+		// Token: 0x04007A26 RID: 31270
+		PoEMTUTIdentify,
+		// Token: 0x04007A27 RID: 31271
+		PoEMTUTUsedFlaskWell,
+		// Token: 0x04007A28 RID: 31272
+		BalbalaCoinHeld,
+		// Token: 0x04007A29 RID: 31273
+		BalbalaCoinUsed,
+		// Token: 0x04007A2A RID: 31274
+		BurningHeartHeld,
+		// Token: 0x04007A2B RID: 31275
+		BurningHeartUsed,
+		// Token: 0x04007A2C RID: 31276
+		FinalLetterRewardSeen,
+		// Token: 0x04007A2D RID: 31277
+		FinalLetterSkillBookHeld,
+		// Token: 0x04007A2E RID: 31278
+		FinalLetterSkillBookUsed,
+		// Token: 0x04007A2F RID: 31279
+		EyeOfTheTitanHeld,
+		// Token: 0x04007A30 RID: 31280
+		EyeOfTheTitanUsed,
+		// Token: 0x04007A31 RID: 31281
+		EssenceOfTheWaterGodHeld,
+		// Token: 0x04007A32 RID: 31282
+		EssenceOfTheWaterGodUsed,
+		// Token: 0x04007A33 RID: 31283
+		MedallionSerpentClanHeld,
+		// Token: 0x04007A34 RID: 31284
+		MedallionSerpentClanUsed,
+		// Token: 0x04007A35 RID: 31285
+		MedallionHyenaClanHeld,
+		// Token: 0x04007A36 RID: 31286
+		MedallionHyenaClanUsed,
+		// Token: 0x04007A37 RID: 31287
+		MedallionCombinedHeld,
+		// Token: 0x04007A38 RID: 31288
+		MedallionCombinedUsed,
+		// Token: 0x04007A39 RID: 31289
+		AncientGateKeyHeld,
+		// Token: 0x04007A3A RID: 31290
+		AncientGateKeyUsed,
+		// Token: 0x04007A3B RID: 31291
+		SerpentClanCasterBossDropHeld,
+		// Token: 0x04007A3C RID: 31292
+		SerpentClanCasterBossDropUsed,
+		// Token: 0x04007A3D RID: 31293
+		BoneCultistShieldBossDropHeld,
+		// Token: 0x04007A3E RID: 31294
+		BoneCultistShieldBossDropUsed,
+		// Token: 0x04007A3F RID: 31295
+		DredgeFiendShamanBossDropHeld,
+		// Token: 0x04007A40 RID: 31296
+		DredgeFiendShamanBossDropUsed,
+		// Token: 0x04007A41 RID: 31297
+		QuadrillaBossDropHeld,
+		// Token: 0x04007A42 RID: 31298
+		QuadrillaBossDropUsed,
+		// Token: 0x04007A43 RID: 31299
+		PoEMWhatOnOfferSeen,
+		// Token: 0x04007A44 RID: 31300
+		PoEMArmourSupplySeen,
+		// Token: 0x04007A45 RID: 31301
+		G4CaptainCareerSeen,
+		// Token: 0x04007A46 RID: 31302
+		G4CaptainKalguurSeen,
+		// Token: 0x04007A47 RID: 31303
+		G4CaptainTheKingSeen,
+		// Token: 0x04007A48 RID: 31304
+		G4CaptainTheFirstMateSeen,
+		// Token: 0x04007A49 RID: 31305
+		G4CaptainTheWaySeen,
+		// Token: 0x04007A4A RID: 31306
+		G4CaptainTheChallengeSeen,
+		// Token: 0x04007A4B RID: 31307
+		MetRhodri,
+		// Token: 0x04007A4C RID: 31308
+		MentorG3AncientDeviceSeen,
+		// Token: 0x04007A4D RID: 31309
+		MentorG3UtzaalSeen,
+		// Token: 0x04007A4E RID: 31310
+		MentorG3OnWaterwaysSeen,
+		// Token: 0x04007A4F RID: 31311
+		MentorG3VaalSeen,
+		// Token: 0x04007A50 RID: 31312
+		A4HoodedOneIntroductionSeen,
+		// Token: 0x04007A51 RID: 31313
+		A4HoodedOneKalguuransSeen,
+		// Token: 0x04007A52 RID: 31314
+		A4HoodedOneKaruiSeen,
+		// Token: 0x04007A53 RID: 31315
+		EngineerPoEMOnChiefArkhonSeen,
+		// Token: 0x04007A54 RID: 31316
+		EngineerPoEMOnZanaSeen,
+		// Token: 0x04007A55 RID: 31317
+		EngineerPoEMOnZanasMotherSeen,
+		// Token: 0x04007A56 RID: 31318
+		EngineerPoEMOnDominusSeen,
+		// Token: 0x04007A57 RID: 31319
+		EngineerPoEMOnMapDeviceSeen,
+		// Token: 0x04007A58 RID: 31320
+		ServiOnJungleOutskirtsSeen,
+		// Token: 0x04007A59 RID: 31321
+		ServiOnDoorInTheJungleSeen,
+		// Token: 0x04007A5A RID: 31322
+		ServiOnTheCarverBogSeen,
+		// Token: 0x04007A5B RID: 31323
+		ServiOnTheLakeSeen,
+		// Token: 0x04007A5C RID: 31324
+		ServiOnTheMachinariumSeen,
+		// Token: 0x04007A5D RID: 31325
+		ServiOnTheSnakePitSeen,
+		// Token: 0x04007A5E RID: 31326
+		VastiriOutskirtsVisitedAudioEvent,
+		// Token: 0x04007A5F RID: 31327
+		AlvaUpperMachinariumKeyPedestalAudioHeard,
+		// Token: 0x04007A60 RID: 31328
+		PickedUpTutorialSkillGem,
+		// Token: 0x04007A61 RID: 31329
+		UsedTutorialActiveSkill,
+		// Token: 0x04007A62 RID: 31330
+		TraitorsPassageWaypointAudioEvent,
+		// Token: 0x04007A63 RID: 31331
+		TraitorsPassageStatuesAudioEvent,
+		// Token: 0x04007A64 RID: 31332
+		PerrenialKingSummonTotemAudio,
+		// Token: 0x04007A65 RID: 31333
+		ReturnedToG2TownAudio,
+		// Token: 0x04007A66 RID: 31334
+		AsalaSpokenToToSeeTravelOptions,
+		// Token: 0x04007A67 RID: 31335
+		BroodguardReplicatorBossSeen,
+		// Token: 0x04007A68 RID: 31336
+		BroodguardReplicatorBossMinionsSpawned,
+		// Token: 0x04007A69 RID: 31337
+		ConstrictorBossSeen,
+		// Token: 0x04007A6A RID: 31338
+		ConstrictorBossSummonSnakesAudio,
+		// Token: 0x04007A6B RID: 31339
+		ConstrictorBossKilled,
+		// Token: 0x04007A6C RID: 31340
+		TerracottaAmbushAudio,
+		// Token: 0x04007A6D RID: 31341
+		BadlandsRitualSpawned,
+		// Token: 0x04007A6E RID: 31342
+		BadlandsKilledRitualSummonedMonster,
+		// Token: 0x04007A6F RID: 31343
+		BonePitsKilledElephantFirst,
+		// Token: 0x04007A70 RID: 31344
+		BonePitsKilledNecromancerFirst,
+		// Token: 0x04007A71 RID: 31345
+		BonePitsNecromancerBossKilled,
+		// Token: 0x04007A72 RID: 31346
+		BonePitsKilledElephantAndNecromancer,
+		// Token: 0x04007A73 RID: 31347
+		SandsweptDialogueAudio,
+		// Token: 0x04007A74 RID: 31348
+		RootEdgeBossKilled,
+		// Token: 0x04007A75 RID: 31349
+		DredgeFiendSummonMonstersAudio,
+		// Token: 0x04007A76 RID: 31350
+		DredgeFiendBossSummonMonstersAudio,
+		// Token: 0x04007A77 RID: 31351
+		QuadrillaBossSeen,
+		// Token: 0x04007A78 RID: 31352
+		QuadrillaBossKilled,
+		// Token: 0x04007A79 RID: 31353
+		QuadrillaBossSlamSkillAudio,
+		// Token: 0x04007A7A RID: 31354
+		JungleOutskirtsAlvaSummonAudio,
+		// Token: 0x04007A7B RID: 31355
+		MachinariumGolemKilledNoAlvaSummonAudio,
+		// Token: 0x04007A7C RID: 31356
+		SmallSoulCorePickedUp1,
+		// Token: 0x04007A7D RID: 31357
+		SmallSoulCorePickedUp2,
+		// Token: 0x04007A7E RID: 31358
+		SmallSoulCorePickedUp3,
+		// Token: 0x04007A7F RID: 31359
+		UpperMachinariumBossDoorOpen,
+		// Token: 0x04007A80 RID: 31360
+		UpperMachinariumBossPedestalSeen,
+		// Token: 0x04007A81 RID: 31361
+		UpperMachinariumBossPedestalSeenNoSoulCore,
+		// Token: 0x04007A82 RID: 31362
+		BlackjawKilled,
+		// Token: 0x04007A83 RID: 31363
+		MachinariumGeneratorSeen,
+		// Token: 0x04007A84 RID: 31364
+		MachinariumGeneratorSeenNoSoulCore,
+		// Token: 0x04007A85 RID: 31365
+		MachinariumGeneratorWithSoulCore,
+		// Token: 0x04007A86 RID: 31366
+		SoulCoreHeldWithoutGeneratorSeen,
+		// Token: 0x04007A87 RID: 31367
+		MachinariumLowerPowerFirstGenerator,
+		// Token: 0x04007A88 RID: 31368
+		MachinariumLowerPowerSecondGenerator,
+		// Token: 0x04007A89 RID: 31369
+		UsedWaterwaysLever,
+		// Token: 0x04007A8A RID: 31370
+		BogWitchMovingAudio,
+		// Token: 0x04007A8B RID: 31371
+		KingsmarchAudio,
+		// Token: 0x04007A8C RID: 31372
+		VisitedShrikeIslandAudio,
+		// Token: 0x04007A8D RID: 31373
+		ShrikeIslandCaveEnteredAudio,
+		// Token: 0x04007A8E RID: 31374
+		ScourgeOfTheSkiesSummonDogAudio,
+		// Token: 0x04007A8F RID: 31375
+		ScourgeOfTheSkiesReturnDogAudio,
+		// Token: 0x04007A90 RID: 31376
+		VisitedKedgeBayAudio,
+		// Token: 0x04007A91 RID: 31377
+		IsleOfKinGoblinMinersSeen,
+		// Token: 0x04007A92 RID: 31378
+		VolcanicWarrensCheckpointAudio,
+		// Token: 0x04007A93 RID: 31379
+		VisitedNgatotoIslandAudio,
+		// Token: 0x04007A94 RID: 31380
+		VisitedIzarosPrisonAudio,
+		// Token: 0x04007A95 RID: 31381
+		IzarosPrisonLockedDoorSeenAudio,
+		// Token: 0x04007A96 RID: 31382
+		IzarosPrisonLeverUsed,
+		// Token: 0x04007A97 RID: 31383
+		SolitaryConfinementFirstAirlockAudio,
+		// Token: 0x04007A98 RID: 31384
+		PrisonerBossKneelFirstAudio,
+		// Token: 0x04007A99 RID: 31385
+		PrisonerBossKneelSecondAudio,
+		// Token: 0x04007A9A RID: 31386
+		PrisonerBossKneelThirdAudio,
+		// Token: 0x04007A9B RID: 31387
+		NgatotoIslandSettlementCampAudio,
+		// Token: 0x04007A9C RID: 31388
+		NgatotoIslandSettlementCampAudio1,
+		// Token: 0x04007A9D RID: 31389
+		NgatotoIslandSettlementCampAudio2,
+		// Token: 0x04007A9E RID: 31390
+		NgatotoIslandSettlementCampAudio3,
+		// Token: 0x04007A9F RID: 31391
+		FreyaHartlinIntroHeardAudio,
+		// Token: 0x04007AA0 RID: 31392
+		NgatotoIslandSettlementCampAudioOneCamp,
+		// Token: 0x04007AA1 RID: 31393
+		NgatotoIslandSettlementCampAudioTwoCamp,
+		// Token: 0x04007AA2 RID: 31394
+		CedrusSeen,
+		// Token: 0x04007AA3 RID: 31395
+		CedrusIntroductionSeen,
+		// Token: 0x04007AA4 RID: 31396
+		CedrusIntroductionTownSeen,
+		// Token: 0x04007AA5 RID: 31397
+		TwilightOrderBossBruteSeen,
+		// Token: 0x04007AA6 RID: 31398
+		TwilightOrderBossBruteKilled,
+		// Token: 0x04007AA7 RID: 31399
+		CedrusTownIntroductionSeen,
+		// Token: 0x04007AA8 RID: 31400
+		Act5IceCisternRewardTaken,
+		// Token: 0x04007AA9 RID: 31401
+		Act5IceCisternRewardSeen,
+		// Token: 0x04007AAA RID: 31402
+		Act5IceCisternIceWendigoKilled,
+		// Token: 0x04007AAB RID: 31403
+		Act5IceCisternIceWendigoSeen,
+		// Token: 0x04007AAC RID: 31404
+		Act5IceCisternQuestStarted,
+		// Token: 0x04007AAD RID: 31405
+		Act5GetToDominusEstateQuestIntroduction,
+		// Token: 0x04007AAE RID: 31406
+		MetElwynian,
+		// Token: 0x04007AAF RID: 31407
+		Act5GladiatorArenaQuestIntroduction,
+		// Token: 0x04007AB0 RID: 31408
+		Act5GladiatorArenaBossSeen,
+		// Token: 0x04007AB1 RID: 31409
+		Act5GladiatorArenaBossKilled,
+		// Token: 0x04007AB2 RID: 31410
+		Act5GladiatorArenaRewardSeen,
+		// Token: 0x04007AB3 RID: 31411
+		Act5GladiatorArenaRewardTaken,
+		// Token: 0x04007AB4 RID: 31412
+		Act5EstatesTullinaSeen,
+		// Token: 0x04007AB5 RID: 31413
+		Act5EstatesTullinaIntroductionSeen,
+		// Token: 0x04007AB6 RID: 31414
+		Act5EstatesSniperSeen,
+		// Token: 0x04007AB7 RID: 31415
+		Act5EstatesSniperKilled,
+		// Token: 0x04007AB8 RID: 31416
+		Act5EstatesTibbsIntroduction,
+		// Token: 0x04007AB9 RID: 31417
+		Act5EstatesTibbsSniperKilled,
+		// Token: 0x04007ABA RID: 31418
+		Act5EstatesTibbsGetWine,
+		// Token: 0x04007ABB RID: 31419
+		Act5EstatesTibbsA5IntroInTown,
+		// Token: 0x04007ABC RID: 31420
+		Act5EstatesRescueTibbsAndTullinaRewardSeen,
+		// Token: 0x04007ABD RID: 31421
+		Act5EstatesRescueTibbsAndTullinaRewardTaken,
+		// Token: 0x04007ABE RID: 31422
+		Act5DenOfPleasureQuestComplete,
+		// Token: 0x04007ABF RID: 31423
+		Act5DenOfPleasureRewardTaken,
+		// Token: 0x04007AC0 RID: 31424
+		Act5DenOfPleasureRewardSeen,
+		// Token: 0x04007AC1 RID: 31425
+		Act5DenOfPleasureBlackMarketWineHeld,
+		// Token: 0x04007AC2 RID: 31426
+		Act5DenOfPleasureBossKilled,
+		// Token: 0x04007AC3 RID: 31427
+		PoEMShrine1Found,
+		// Token: 0x04007AC4 RID: 31428
+		PoEMShrine2Found,
+		// Token: 0x04007AC5 RID: 31429
+		PoEMShrine3Found,
+		// Token: 0x04007AC6 RID: 31430
+		PoEMBreachFound,
+		// Token: 0x04007AC7 RID: 31431
+		PoEMShroudedShrineFound,
+		// Token: 0x04007AC8 RID: 31432
+		PoEMSkeletalShrineFound,
+		// Token: 0x04007AC9 RID: 31433
+		PoEMAbyssFound,
+		// Token: 0x04007ACA RID: 31434
+		PoEMMajorShrineFound,
+		// Token: 0x04007ACB RID: 31435
+		PoEMMapModShrineFound,
+		// Token: 0x04007ACC RID: 31436
+		PoEMQuestShrineFound,
+		// Token: 0x04007ACD RID: 31437
+		PoEMBreachLordFound,
+		// Token: 0x04007ACE RID: 31438
+		PoEMAbyssLichFound,
+		// Token: 0x04007ACF RID: 31439
+		PoEMShrineQuestSeen,
+		// Token: 0x04007AD0 RID: 31440
+		PoEMShrineRewardSeen,
+		// Token: 0x04007AD1 RID: 31441
+		PoEMShrineRewardCollected,
+		// Token: 0x04007AD2 RID: 31442
+		PoEMBreachQuestSeen,
+		// Token: 0x04007AD3 RID: 31443
+		PoEMBreachRewardSeen,
+		// Token: 0x04007AD4 RID: 31444
+		PoEMBreachRewardCollected,
+		// Token: 0x04007AD5 RID: 31445
+		PoEMAbyssQuestSeen,
+		// Token: 0x04007AD6 RID: 31446
+		PoEMAbyssRewardSeen,
+		// Token: 0x04007AD7 RID: 31447
+		PoEMAbyssRewardCollected,
+		// Token: 0x04007AD8 RID: 31448
+		PoEMShrineMinorGossipseen,
+		// Token: 0x04007AD9 RID: 31449
+		PoEMShrineMajorGossipseen,
+		// Token: 0x04007ADA RID: 31450
+		PoEMShrineMapModGossipseen,
+		// Token: 0x04007ADB RID: 31451
+		PoEMShrineQuestGossipseen,
+		// Token: 0x04007ADC RID: 31452
+		PoEMBreachGossipseen,
+		// Token: 0x04007ADD RID: 31453
+		PoEMBreachLordGossipseen,
+		// Token: 0x04007ADE RID: 31454
+		PoEMAbyssGossipseen,
+		// Token: 0x04007ADF RID: 31455
+		PoEMAbyssLichGossipseen,
+		// Token: 0x04007AE0 RID: 31456
+		PoEMLvl4ExtraSkillgemSeen,
+		// Token: 0x04007AE1 RID: 31457
+		PoEMLvl4ExtraSkillgemRewarded,
+		// Token: 0x04007AE2 RID: 31458
+		PoEMA1Q11ValdosDominusComplete,
+		// Token: 0x04007AE3 RID: 31459
+		CrossingAntZoneAreaChange,
+		// Token: 0x04007AE4 RID: 31460
+		SeeCarverWaterways,
+		// Token: 0x04007AE5 RID: 31461
+		MachinariumGolemActivate,
+		// Token: 0x04007AE6 RID: 31462
+		MachinariumGolemInertSeenFirst,
+		// Token: 0x04007AE7 RID: 31463
+		TemplesBrownRugAudioMarker,
+		// Token: 0x04007AE8 RID: 31464
+		TemplesBlueRugAudioMarker,
+		// Token: 0x04007AE9 RID: 31465
+		TemplesGoldFloorAudioMarker,
+		// Token: 0x04007AEA RID: 31466
+		TemplesRiverOfBloodAudioMarker,
+		// Token: 0x04007AEB RID: 31467
+		TemplesMuralFloorAudioMarker,
+		// Token: 0x04007AEC RID: 31468
+		TemplesBossSeen,
+		// Token: 0x04007AED RID: 31469
+		TemplesBossKilled,
+		// Token: 0x04007AEE RID: 31470
+		EinharIntroduction,
+		// Token: 0x04007AEF RID: 31471
+		LimTheImpalerKilled,
+		// Token: 0x04007AF0 RID: 31472
+		BonePitsBossRitualSeen,
+		// Token: 0x04007AF1 RID: 31473
+		SplitPointsTestFlag,
+		// Token: 0x04007AF2 RID: 31474
+		CompletedFirstWeaponTutorial,
+		// Token: 0x04007AF3 RID: 31475
+		FirstCheckpointTutorialReached,
+		// Token: 0x04007AF4 RID: 31476
+		VisitedG2_3A,
+		// Token: 0x04007AF5 RID: 31477
+		VisitedG2_8A,
+		// Token: 0x04007AF6 RID: 31478
+		CompletedDodgeRollTutorial,
+		// Token: 0x04007AF7 RID: 31479
+		VisitedG2TownFinal,
+		// Token: 0x04007AF8 RID: 31480
+		FinnHuntingGroundIntroduced,
+		// Token: 0x04007AF9 RID: 31481
+		ReadIronManorGargoyleGlyph,
+		// Token: 0x04007AFA RID: 31482
+		SummonedFinnHuntingGround,
+		// Token: 0x04007AFB RID: 31483
+		BalbalaSanctumIntroSeen,
+		// Token: 0x04007AFC RID: 31484
+		A2AscendancyQuestBegun,
+		// Token: 0x04007AFD RID: 31485
+		A2AscendancyQuestComplete,
+		// Token: 0x04007AFE RID: 31486
+		BalbalaSanctumCompletionSeen,
+		// Token: 0x04007AFF RID: 31487
+		A2SanctumCompleted,
+		// Token: 0x04007B00 RID: 31488
+		BalbalaOnSanctumSeen,
+		// Token: 0x04007B01 RID: 31489
+		BalbalaOnTraitorSeen,
+		// Token: 0x04007B02 RID: 31490
+		BalbalaOnImprisonmentSeen,
+		// Token: 0x04007B03 RID: 31491
+		BalbalaOnAidSeen,
+		// Token: 0x04007B04 RID: 31492
+		BalbalaOnVastiriSeen,
+		// Token: 0x04007B05 RID: 31493
+		LachlannOnBeforePhaarylSeen,
+		// Token: 0x04007B06 RID: 31494
+		LachlannOnIsabelFoundSeen,
+		// Token: 0x04007B07 RID: 31495
+		LachlannOnBoysFoundSeen,
+		// Token: 0x04007B08 RID: 31496
+		SummonedAsalaHuntingGrounds,
+		// Token: 0x04007B09 RID: 31497
+		MatriarchSandstormBanishedSeen,
+		// Token: 0x04007B0A RID: 31498
+		A2SandstormBanished,
+		// Token: 0x04007B0B RID: 31499
+		CompletedFirstOffhandTutorial,
+		// Token: 0x04007B0C RID: 31500
+		CompletedFirstSkillGemCraftedTutorial,
+		// Token: 0x04007B0D RID: 31501
+		FirstSkillGemTutorialStarted,
+		// Token: 0x04007B0E RID: 31502
+		DefectorGossipCountessSeen,
+		// Token: 0x04007B0F RID: 31503
+		DefectorGossipBeastSeen,
+		// Token: 0x04007B10 RID: 31504
+		DefectorGossipBattleSeen,
+		// Token: 0x04007B11 RID: 31505
+		DefectorIdentitySeen,
+		// Token: 0x04007B12 RID: 31506
+		CompletedGamepadAimTutorial,
+		// Token: 0x04007B13 RID: 31507
+		DesertSandstormSeen,
+		// Token: 0x04007B14 RID: 31508
+		TitanValleySealActivated,
+		// Token: 0x04007B15 RID: 31509
+		TitanGrottoEntranceOpen,
+		// Token: 0x04007B16 RID: 31510
+		SandstormHornUsed,
+		// Token: 0x04007B17 RID: 31511
+		InSandstormTown,
+		// Token: 0x04007B18 RID: 31512
+		InQuarry,
+		// Token: 0x04007B19 RID: 31513
+		EyeOfTheTitanRewardTaken,
+		// Token: 0x04007B1A RID: 31514
+		EyeOfTheTitanRewardSeen,
+		// Token: 0x04007B1B RID: 31515
+		EssenceOfTheWaterGodRewardSeen,
+		// Token: 0x04007B1C RID: 31516
+		EssenceOfTheWaterGodRewardTaken,
+		// Token: 0x04007B1D RID: 31517
+		MastodonTusksRewardSeen,
+		// Token: 0x04007B1E RID: 31518
+		MastodonTusksRewardTaken,
+		// Token: 0x04007B1F RID: 31519
+		HornOfTheVastiriSeen,
+		// Token: 0x04007B20 RID: 31520
+		HornOfTheVastiriTaken,
+		// Token: 0x04007B21 RID: 31521
+		LostCityOfKethWaypointUnlocked,
+		// Token: 0x04007B22 RID: 31522
+		MastodonBadlandsWaypointUnlocked,
+		// Token: 0x04007B23 RID: 31523
+		ValleyOfTitansWaypointUnlocked,
+		// Token: 0x04007B24 RID: 31524
+		BurialTowersWaypointUnlocked,
+		// Token: 0x04007B25 RID: 31525
+		PerennialKingFleeSeen,
+		// Token: 0x04007B26 RID: 31526
+		GiantSkeletonSnakeBossSeen,
+		// Token: 0x04007B27 RID: 31527
+		GiantSkeletonSnakeBossDefeated,
+		// Token: 0x04007B28 RID: 31528
+		MatriarchGrantedAreaG2_12_1,
+		// Token: 0x04007B29 RID: 31529
+		PerennialKingFinalSeen,
+		// Token: 0x04007B2A RID: 31530
+		PerennialKingFinalDefeated,
+		// Token: 0x04007B2B RID: 31531
+		TravelledToAct3,
+		// Token: 0x04007B2C RID: 31532
+		HoodedOneRevealIntroduction,
+		// Token: 0x04007B2D RID: 31533
+		HoodedOneRevealConfession,
+		// Token: 0x04007B2E RID: 31534
+		HoodedOneRevealConfessionContinued,
+		// Token: 0x04007B2F RID: 31535
+		SandsweptMarshWaypointUnlocked,
+		// Token: 0x04007B30 RID: 31536
+		G1_11CrowbellBossKilled,
+		// Token: 0x04007B31 RID: 31537
+		G1_13_2ExecutionerBossKilled,
+		// Token: 0x04007B32 RID: 31538
+		G1_15BaronBossKilled,
+		// Token: 0x04007B33 RID: 31539
+		G1_15ManorGargoyleBossKilled,
+		// Token: 0x04007B34 RID: 31540
+		G1_2UrchinHagBossKilled,
+		// Token: 0x04007B35 RID: 31541
+		G1_3MudBurrowerHeadBossKilled,
+		// Token: 0x04007B36 RID: 31542
+		G1_5TheRustKingBossKilled,
+		// Token: 0x04007B37 RID: 31543
+		G1_7_1StatueWretchBossKilled,
+		// Token: 0x04007B38 RID: 31544
+		G1_7_2BitterGuyBossKilled,
+		// Token: 0x04007B39 RID: 31545
+		G1_8HusbandMonsterKilled,
+		// Token: 0x04007B3A RID: 31546
+		G1_9WifeMonsterKilled,
+		// Token: 0x04007B3B RID: 31547
+		G2_10_2RudjaBossKilled,
+		// Token: 0x04007B3C RID: 31548
+		G2_12_2PerennialKingBossKilled,
+		// Token: 0x04007B3D RID: 31549
+		G2_1RathbreakerBossKilled,
+		// Token: 0x04007B3E RID: 31550
+		G2_2BalbalaKilled,
+		// Token: 0x04007B3F RID: 31551
+		G2_2SaltGolemBossKilled,
+		// Token: 0x04007B40 RID: 31552
+		G2_3MutewindWomanSpearCorrodedBossKilled,
+		// Token: 0x04007B41 RID: 31553
+		G2_3PerennialKingHumanBossKilled,
+		// Token: 0x04007B42 RID: 31554
+		G2_4_1SerpentClanCasterBossKilled,
+		// Token: 0x04007B43 RID: 31555
+		G2_4_2LargeEtchedBeetleBossKilled,
+		// Token: 0x04007B44 RID: 31556
+		G2_4_3ForsakenSonKilled,
+		// Token: 0x04007B45 RID: 31557
+		G2_5_2BoneCultistShieldBossKilled,
+		// Token: 0x04007B46 RID: 31558
+		G2_5_2MastodonBossKilled,
+		// Token: 0x04007B47 RID: 31559
+		G2_9_2SkeletonSnakeBossKilled,
+		// Token: 0x04007B48 RID: 31560
+		G3_1DredgeFiendShamanBossKilled,
+		// Token: 0x04007B49 RID: 31561
+		G3_3QuadrillaBossKilled,
+		// Token: 0x04007B4A RID: 31562
+		G3_6_1BlackJawKilled,
+		// Token: 0x04007B4B RID: 31563
+		G3_6_2VaalStatueBossKilled,
+		// Token: 0x04007B4C RID: 31564
+		G3_7IgnagdukBogWitchKilled,
+		// Token: 0x04007B4D RID: 31565
+		G4_1_1ArenaBeastBossKilled,
+		// Token: 0x04007B4E RID: 31566
+		CruelDifficultyUnlocked,
+		// Token: 0x04007B4F RID: 31567
+		G4_1_2GoblinGiantBossKilled,
+		// Token: 0x04007B50 RID: 31568
+		G4_2_2CaptainRothBossKilled,
+		// Token: 0x04007B51 RID: 31569
+		OminousAltarsFinalSeen,
+		// Token: 0x04007B52 RID: 31570
+		G4_3_2SirenBossKilled,
+		// Token: 0x04007B53 RID: 31571
+		MetFishMaster,
+		// Token: 0x04007B54 RID: 31572
+		G4_5_2PrisonerBossKilled,
+		// Token: 0x04007B55 RID: 31573
+		G4_7MutantBird2Killed,
+		// Token: 0x04007B56 RID: 31574
+		SummonedAlvaSunkenCityPast,
+		// Token: 0x04007B57 RID: 31575
+		HuntingGroundsRitualSeen,
+		// Token: 0x04007B58 RID: 31576
+		HuntingGroundsCrowbellSeen,
+		// Token: 0x04007B59 RID: 31577
+		CanopyFirstRitualComplete,
+		// Token: 0x04007B5A RID: 31578
+		CanopyBossRitualSeen,
+		// Token: 0x04007B5B RID: 31579
+		G2_4_2BossKilled,
+		// Token: 0x04007B5C RID: 31580
+		EnterClearfellSeeRenly,
+		// Token: 0x04007B5D RID: 31581
+		G2_6BossKilled,
+		// Token: 0x04007B5E RID: 31582
+		MedallionSerpentActive,
+		// Token: 0x04007B5F RID: 31583
+		MedallionHyenaActive,
+		// Token: 0x04007B60 RID: 31584
+		ClearfellCampsiteCleared,
+		// Token: 0x04007B61 RID: 31585
+		AlvaG3_6_2SummonAlvaSummoned,
+		// Token: 0x04007B62 RID: 31586
+		TreeOfSoulsRedValeObeliskSeenAudio,
+		// Token: 0x04007B63 RID: 31587
+		AggoratEntranceSeen,
+		// Token: 0x04007B64 RID: 31588
+		QueenOfFilthSeen,
+		// Token: 0x04007B65 RID: 31589
+		QueenOfFilthDefeated,
+		// Token: 0x04007B66 RID: 31590
+		SunWorshipperBossSeen,
+		// Token: 0x04007B67 RID: 31591
+		TimePortalSeen,
+		// Token: 0x04007B68 RID: 31592
+		TimePortalEntered,
+		// Token: 0x04007B69 RID: 31593
+		AggoratEntranceSeenPast,
+		// Token: 0x04007B6A RID: 31594
+		AlvaA3GoToAct4Unlock,
+		// Token: 0x04007B6B RID: 31595
+		Act4Unlocked,
+		// Token: 0x04007B6C RID: 31596
+		MetDoryani,
+		// Token: 0x04007B6D RID: 31597
+		AlvaDoryaniPresentGossipSeen,
+		// Token: 0x04007B6E RID: 31598
+		AlvaDoryaniPastGossipSeen,
+		// Token: 0x04007B6F RID: 31599
+		AlvaAtziriGossipSeen,
+		// Token: 0x04007B70 RID: 31600
+		OswaldG3TimeTravelSeen,
+		// Token: 0x04007B71 RID: 31601
+		OswaldOnDoryaniDefeated,
+		// Token: 0x04007B72 RID: 31602
+		ServiOnTheLakeDrainedSeen,
+		// Token: 0x04007B73 RID: 31603
+		ServiOnTimePortalSeen,
+		// Token: 0x04007B74 RID: 31604
+		ServiOnDoryaniSeen,
+		// Token: 0x04007B75 RID: 31605
+		AlvaGrandDeviceGossipSeen,
+		// Token: 0x04007B76 RID: 31606
+		BitterGuyUncutSupportGemAcquired,
+		// Token: 0x04007B77 RID: 31607
+		ClearfellCampsiteGemAcquired,
+		// Token: 0x04007B78 RID: 31608
+		GrimTangleBossKilled,
+		// Token: 0x04007B79 RID: 31609
+		GrimTangleBossSupportGemAcquired,
+		// Token: 0x04007B7A RID: 31610
+		SplitPassiveTestFlagOne,
+		// Token: 0x04007B7B RID: 31611
+		OldForestBossSupportGemAcquired,
+		// Token: 0x04007B7C RID: 31612
+		G1_4PlantBossKilled,
+		// Token: 0x04007B7D RID: 31613
+		G1_6FungusBehemothKilled,
+		// Token: 0x04007B7E RID: 31614
+		G1_1AudioStandUp,
+		// Token: 0x04007B7F RID: 31615
+		G3_9VaalForgeMasterKilled,
+		// Token: 0x04007B80 RID: 31616
+		RaidTheTreasureVaultQuestStarted,
+		// Token: 0x04007B81 RID: 31617
+		TreasureVaultSummonedOswald,
+		// Token: 0x04007B82 RID: 31618
+		TreasureVaultOswaldLoreHeard,
+		// Token: 0x04007B83 RID: 31619
+		TreasureVaultBossSeen,
+		// Token: 0x04007B84 RID: 31620
+		TreasureVaultBossDefeated,
+		// Token: 0x04007B85 RID: 31621
+		TreasureVaultHamerHeld,
+		// Token: 0x04007B86 RID: 31622
+		TreasureVaultHamerDelivered,
+		// Token: 0x04007B87 RID: 31623
+		WitchCauldronLifeFlaskAcquired,
+		// Token: 0x04007B88 RID: 31624
+		WitchCauldronManaFlaskAcquired,
+		// Token: 0x04007B89 RID: 31625
+		MakeTimePortalVisible,
+		// Token: 0x04007B8A RID: 31626
+		QuadrillaBossSkillBookHeld,
+		// Token: 0x04007B8B RID: 31627
+		QuadrillaBossSkillBookUsed,
+		// Token: 0x04007B8C RID: 31628
+		BogWitchSkillBookHeld,
+		// Token: 0x04007B8D RID: 31629
+		BogWitchSkillBookUsed,
+		// Token: 0x04007B8E RID: 31630
+		SnakeLadyPotionHeld2,
+		// Token: 0x04007B8F RID: 31631
+		SnakeLadyPotionUsed2,
+		// Token: 0x04007B90 RID: 31632
+		SnakeLadyPotionHeld3,
+		// Token: 0x04007B91 RID: 31633
+		SnakeLadyPotionUsed3,
+		// Token: 0x04007B92 RID: 31634
+		SnakeLadyPotionUsedLock,
+		// Token: 0x04007B93 RID: 31635
+		CompletedGamepadBindPortalTutorial,
+		// Token: 0x04007B94 RID: 31636
+		SandstormHornBeingUsed,
+		// Token: 0x04007B95 RID: 31637
+		ReadTreasureVaultGlyph,
+		// Token: 0x04007B96 RID: 31638
+		UnaTreePlayerHasSomeRunes,
+		// Token: 0x04007B97 RID: 31639
+		TreeOfSoulsRedValeAllRunesPickedUp,
+		// Token: 0x04007B98 RID: 31640
+		UnaTreePlayerHasAllRunes,
+		// Token: 0x04007B99 RID: 31641
+		TreeOfSoulsReturnToUnaInClearfell,
+		// Token: 0x04007B9A RID: 31642
+		TreeOfSoulsUnaHoodedMentorInjuredComplete,
+		// Token: 0x04007B9B RID: 31643
+		TreeOfSoulsUnaHoodedMentorReturnedToTownIntroduction,
+		// Token: 0x04007B9C RID: 31644
+		UnaRingOfTheCountUsed,
+		// Token: 0x04007B9D RID: 31645
+		UnaGoToTheVillage,
+		// Token: 0x04007B9E RID: 31646
+		UnaHoodedOneInjuredGoToGrimTangle,
+		// Token: 0x04007B9F RID: 31647
+		GrimTangleEntranceSeen,
+		// Token: 0x04007BA0 RID: 31648
+		GraveyardKey1Held,
+		// Token: 0x04007BA1 RID: 31649
+		GraveyardKey2Held,
+		// Token: 0x04007BA2 RID: 31650
+		GraveyardKeysUsed,
+		// Token: 0x04007BA3 RID: 31651
+		RingOfTheCountHeld,
+		// Token: 0x04007BA4 RID: 31652
+		RingOfTheCountUsed,
+		// Token: 0x04007BA5 RID: 31653
+		HoodedMentorInjuredWokenUp,
+		// Token: 0x04007BA6 RID: 31654
+		UnaGrimTangleSummonAllySummoned,
+		// Token: 0x04007BA7 RID: 31655
+		UnaFindTheSeedSeen,
+		// Token: 0x04007BA8 RID: 31656
+		HoodedMentorWakeIntroduction,
+		// Token: 0x04007BA9 RID: 31657
+		HoodedMentorWakeFindTheSeed,
+		// Token: 0x04007BAA RID: 31658
+		UnaTheSeedSeen,
+		// Token: 0x04007BAB RID: 31659
+		UnaGrimTangleOpenRoots,
+		// Token: 0x04007BAC RID: 31660
+		OneMedallionHeld,
+		// Token: 0x04007BAD RID: 31661
+		MedallionUISeen,
+		// Token: 0x04007BAE RID: 31662
+		OneMedallionUsed,
+		// Token: 0x04007BAF RID: 31663
+		UnaRingAnimationPlayed,
+		// Token: 0x04007BB0 RID: 31664
+		GrimTangleRootsSeen,
+		// Token: 0x04007BB1 RID: 31665
+		RustKingUncutSkillGemAcquired,
+		// Token: 0x04007BB2 RID: 31666
+		UnaFamilyTreeGossipSeen,
+		// Token: 0x04007BB3 RID: 31667
+		GrimTangleBossSeen,
+		// Token: 0x04007BB4 RID: 31668
+		BrambleBossSeen,
+		// Token: 0x04007BB5 RID: 31669
+		BrambleBossKilled,
+		// Token: 0x04007BB6 RID: 31670
+		WitchHutFound,
+		// Token: 0x04007BB7 RID: 31671
+		WitchBossKilled,
+		// Token: 0x04007BB8 RID: 31672
+		AsalaKingsmarchNewsSeen,
+		// Token: 0x04007BB9 RID: 31673
+		AsalaOnJourneySeen,
+		// Token: 0x04007BBA RID: 31674
+		AsalaOnAssaultSeen,
+		// Token: 0x04007BBB RID: 31675
+		AsalaOnKingsmarchSeen,
+		// Token: 0x04007BBC RID: 31676
+		WaterGoddessEssenceDropped,
+		// Token: 0x04007BBD RID: 31677
+		DoryaniPresentRuinedUtzaalSeen,
+		// Token: 0x04007BBE RID: 31678
+		DoryaniPresentOnUtzaalSeen,
+		// Token: 0x04007BBF RID: 31679
+		DoryaniPresentOnBeastSeen,
+		// Token: 0x04007BC0 RID: 31680
+		A4OnePieceFound,
+		// Token: 0x04007BC1 RID: 31681
+		A4TwoPiecesFound,
+		// Token: 0x04007BC2 RID: 31682
+		A4ThreePiecesFound,
+		// Token: 0x04007BC3 RID: 31683
+		KingsmarchDoryaniOnSacrificesSeen,
+		// Token: 0x04007BC4 RID: 31684
+		KingsmarchDoryaniOnHokoSeen,
+		// Token: 0x04007BC5 RID: 31685
+		KingsmarchDoryaniEndOfActSeen,
+		// Token: 0x04007BC6 RID: 31686
+		KingsmarchDoryaniPrecursorIslandSeen,
+		// Token: 0x04007BC7 RID: 31687
+		KingsmarchDoryaniOnePieceSeen,
+		// Token: 0x04007BC8 RID: 31688
+		KingsmarchDoryaniTwoPiecesSeen,
+		// Token: 0x04007BC9 RID: 31689
+		KingsmarchDoryaniThreePiecesSeen,
+		// Token: 0x04007BCA RID: 31690
+		KingsmarchDoryaniOnePieceMapSeen,
+		// Token: 0x04007BCB RID: 31691
+		KingsmarchDoryaniTwoPiecesMapSeen,
+		// Token: 0x04007BCC RID: 31692
+		KingsmarchDoryaniThreePiecesMapSeen,
+		// Token: 0x04007BCD RID: 31693
+		KingsmarchDoryaniEmptyHandedSeen,
+		// Token: 0x04007BCE RID: 31694
+		ReadGrottoGlyph,
+		// Token: 0x04007BCF RID: 31695
+		GrimTangleRootsUnblocked,
+		// Token: 0x04007BD0 RID: 31696
+		CompletedHealingWellTutorial,
+		// Token: 0x04007BD1 RID: 31697
+		SpiritDraught1Held,
+		// Token: 0x04007BD2 RID: 31698
+		SpiritDraught1Used,
+		// Token: 0x04007BD3 RID: 31699
+		SpiritDraught2Held,
+		// Token: 0x04007BD4 RID: 31700
+		SpiritDraught2Used,
+		// Token: 0x04007BD5 RID: 31701
+		SpiritDraught3Held,
+		// Token: 0x04007BD6 RID: 31702
+		SpiritDraught3Used,
+		// Token: 0x04007BD7 RID: 31703
+		SpiresBossMortarFromChestUsed,
+		// Token: 0x04007BD8 RID: 31704
+		SpiresBossEmergeFinished,
+		// Token: 0x04007BD9 RID: 31705
+		MetHoodedOneA2,
+		// Token: 0x04007BDA RID: 31706
+		ReadGraveyardGlyph,
+		// Token: 0x04007BDB RID: 31707
+		Act2CaravanLocation0,
+		// Token: 0x04007BDC RID: 31708
+		Act2CaravanLocation1,
+		// Token: 0x04007BDD RID: 31709
+		Act2CaravanLocation2,
+		// Token: 0x04007BDE RID: 31710
+		Act2CaravanLocation3,
+		// Token: 0x04007BDF RID: 31711
+		CompletedCheckpointTutorial,
+		// Token: 0x04007BE0 RID: 31712
+		CompletedUncutGemTutorial,
+		// Token: 0x04007BE1 RID: 31713
+		MapTableIntroductionSeen,
+		// Token: 0x04007BE2 RID: 31714
+		A2FoundryEntranceSeen,
+		// Token: 0x04007BE3 RID: 31715
+		A2HoodedMentorMove,
+		// Token: 0x04007BE4 RID: 31716
+		FarmlandsSupportGemAcquired,
+		// Token: 0x04007BE5 RID: 31717
+		WitchCauldronUncutSupportGemAcquired,
+		// Token: 0x04007BE6 RID: 31718
+		WitchRareMonsterUncutSupportGemAcquired,
+		// Token: 0x04007BE7 RID: 31719
+		MausoleumSecretRoomEntered,
+		// Token: 0x04007BE8 RID: 31720
+		GraveyardSarcophagusRingPickedUp,
+		// Token: 0x04007BE9 RID: 31721
+		GiantSkeletonSnakeBossGemPickedUp,
+		// Token: 0x04007BEA RID: 31722
+		AncientGatesImpalerRareGemPickedUp,
+		// Token: 0x04007BEB RID: 31723
+		OpenTheDesertGatesRewardTaken,
+		// Token: 0x04007BEC RID: 31724
+		OpenTheDesertGatesRewardSeen,
+		// Token: 0x04007BED RID: 31725
+		LowerTempleDistrictRareBeetleGemPickedUp,
+		// Token: 0x04007BEE RID: 31726
+		KethSanctumGemPickedUp,
+		// Token: 0x04007BEF RID: 31727
+		FoundryBossGemPickedUp,
+		// Token: 0x04007BF0 RID: 31728
+		MournersPathGemAcquired,
+		// Token: 0x04007BF1 RID: 31729
+		StoneHengeGemAcquired,
+		// Token: 0x04007BF2 RID: 31730
+		CanopySecondRitualComplete,
+		// Token: 0x04007BF3 RID: 31731
+		CanopyThirdRitualComplete,
+		// Token: 0x04007BF4 RID: 31732
+		GallowsHangingBodyDropped,
+		// Token: 0x04007BF5 RID: 31733
+		TombGemAcquired,
+		// Token: 0x04007BF6 RID: 31734
+		DevourerSkillGemPickedUp,
+		// Token: 0x04007BF7 RID: 31735
+		HuntingGroundsSkillGemPickedUp,
+		// Token: 0x04007BF8 RID: 31736
+		OminousAltarsQuestRewardTaken,
+		// Token: 0x04007BF9 RID: 31737
+		BalbalaSkillGemPickedUp,
+		// Token: 0x04007BFA RID: 31738
+		MastodonRewardRoomGemPickedUp,
+		// Token: 0x04007BFB RID: 31739
+		KethSanctumOfferingMade,
+		// Token: 0x04007BFC RID: 31740
+		KethSanctumRingPickedUp,
+		// Token: 0x04007BFD RID: 31741
+		ClearSandstormTriggerSeen,
+		// Token: 0x04007BFE RID: 31742
+		LowerTempleDistrictGemPickedUp,
+		// Token: 0x04007BFF RID: 31743
+		LowerTempleDistrictBeetleRewardPickedUp,
+		// Token: 0x04007C00 RID: 31744
+		G2_7TitanBossKilled,
+		// Token: 0x04007C01 RID: 31745
+		HoodedMentorAudioParameter,
+		// Token: 0x04007C02 RID: 31746
+		UnaWalkUnblock,
+		// Token: 0x04007C03 RID: 31747
+		G3_11QueenOfFilthKilled,
+		// Token: 0x04007C04 RID: 31748
+		ZigguratDoorKeyHeldBefore,
+		// Token: 0x04007C05 RID: 31749
+		MediumSoulCoreHeld2,
+		// Token: 0x04007C06 RID: 31750
+		MediumSoulCoreUsed1,
+		// Token: 0x04007C07 RID: 31751
+		MediumSoulCoreUsed2,
+		// Token: 0x04007C08 RID: 31752
+		SmallSoulCoreHeld2,
+		// Token: 0x04007C09 RID: 31753
+		SmallSoulCoreHeld3,
+		// Token: 0x04007C0A RID: 31754
+		SmallSoulCoreUsed1,
+		// Token: 0x04007C0B RID: 31755
+		SmallSoulCoreUsed2,
+		// Token: 0x04007C0C RID: 31756
+		SmallSoulCoreUsed3,
+		// Token: 0x04007C0D RID: 31757
+		OswaldG3TreasureVaultSeen,
+		// Token: 0x04007C0E RID: 31758
+		TreasureVaultOswaldKamasaGossipSeen,
+		// Token: 0x04007C0F RID: 31759
+		TreasureVaultOswaldKamasaGossipSeen2,
+		// Token: 0x04007C10 RID: 31760
+		TreasureVaultOswaldSummonAllySeen,
+		// Token: 0x04007C11 RID: 31761
+		ZigguratSummonedAlva,
+		// Token: 0x04007C12 RID: 31762
+		ZigguratEntranceUnlocked,
+		// Token: 0x04007C13 RID: 31763
+		ViperNapuatziSeen,
+		// Token: 0x04007C14 RID: 31764
+		ViperNapuatziKilled,
+		// Token: 0x04007C15 RID: 31765
+		MentorG3OurNextMove3Seen,
+		// Token: 0x04007C16 RID: 31766
+		SacrificialHeartHeld,
+		// Token: 0x04007C17 RID: 31767
+		SacrificialHeartUsed,
+		// Token: 0x04007C18 RID: 31768
+		SacrificialHeartPlaced,
+		// Token: 0x04007C19 RID: 31769
+		RootEdgeBossGemAcquired,
+		// Token: 0x04007C1A RID: 31770
+		ChimeralWetlandsBossDefeated,
+		// Token: 0x04007C1B RID: 31771
+		ChimeralWetlandsBossGemAcquired,
+		// Token: 0x04007C1C RID: 31772
+		MachinariumBossGemAcquired,
+		// Token: 0x04007C1D RID: 31773
+		AlvaG3ZigguratDoorKeySeen,
+		// Token: 0x04007C1E RID: 31774
+		ViperNapuatziGemAcquired,
+		// Token: 0x04007C1F RID: 31775
+		KaazuliGemAcquired,
+		// Token: 0x04007C20 RID: 31776
+		SacrificialHeartDestroyed,
+		// Token: 0x04007C21 RID: 31777
+		AggoratDaggerHeld,
+		// Token: 0x04007C22 RID: 31778
+		AggoratDaggerUsed,
+		// Token: 0x04007C23 RID: 31779
+		SandsweptMarshLandmarkRewardPickedUp,
+		// Token: 0x04007C24 RID: 31780
+		CanopyLandmarkRewardPickedUp,
+		// Token: 0x04007C25 RID: 31781
+		G3_12VaalSunWorshipperBossKilled,
+		// Token: 0x04007C26 RID: 31782
+		AsalaA2HonorBoundGossipSeen,
+		// Token: 0x04007C27 RID: 31783
+		AsalaA2RecentEventsGossipSeen,
+		// Token: 0x04007C28 RID: 31784
+		ZarkaA2RubyReceived,
+		// Token: 0x04007C29 RID: 31785
+		ZarkaA2TusksReceived,
+		// Token: 0x04007C2A RID: 31786
+		ZarkaA2EssenceReceived,
+		// Token: 0x04007C2B RID: 31787
+		ZarkaA2HornTaken,
+		// Token: 0x04007C2C RID: 31788
+		ShambrinLailumaDisappearanceSeen,
+		// Token: 0x04007C2D RID: 31789
+		AlvaGoToZigguratEndgameSeen,
+		// Token: 0x04007C2E RID: 31790
+		DoryaniGoToZigguratEndgameSeen,
+		// Token: 0x04007C2F RID: 31791
+		SanctumTimerArenaEntered,
+		// Token: 0x04007C30 RID: 31792
+		SanctumTimerArenaCompleted,
+		// Token: 0x04007C31 RID: 31793
+		EndgameMapRewardSeen,
+		// Token: 0x04007C32 RID: 31794
+		EndgameMapRewardTaken,
+		// Token: 0x04007C33 RID: 31795
+		ManorGargoyleHeldCruel,
+		// Token: 0x04007C34 RID: 31796
+		ManorGargoyleUsedCruel,
+		// Token: 0x04007C35 RID: 31797
+		VisitedG4_14,
+		// Token: 0x04007C36 RID: 31798
+		SanctumPortalArenaEntered,
+		// Token: 0x04007C37 RID: 31799
+		SanctumPortalArenaCompleted,
+		// Token: 0x04007C38 RID: 31800
+		G3_14ViperNapuatziKilled,
+		// Token: 0x04007C39 RID: 31801
+		SanctumRareLairEntered,
+		// Token: 0x04007C3A RID: 31802
+		SanctumRareLairCompleted,
+		// Token: 0x04007C3B RID: 31803
+		CompletedYellowMap,
+		// Token: 0x04007C3C RID: 31804
+		CompletedRedMap,
+		// Token: 0x04007C3D RID: 31805
+		CompletedWhiteMap,
+		// Token: 0x04007C3E RID: 31806
+		UnaAgnarGossipSeen,
+		// Token: 0x04007C3F RID: 31807
+		SunOrbDamageTakenSecondFloor,
+		// Token: 0x04007C40 RID: 31808
+		SunOrbDamageTaken,
+		// Token: 0x04007C41 RID: 31809
+		RaidTheTreasureVaultRewardTaken,
+		// Token: 0x04007C42 RID: 31810
+		RaidTheTreasureVaultRewardSeen,
+		// Token: 0x04007C43 RID: 31811
+		CarverBogLandmarkBuffReceived,
+		// Token: 0x04007C44 RID: 31812
+		SummonedServiJungleDepths,
+		// Token: 0x04007C45 RID: 31813
+		ServiJungleDepthsRewardSeen,
+		// Token: 0x04007C46 RID: 31814
+		ServiJungleDepthsRewardTaken,
+		// Token: 0x04007C47 RID: 31815
+		ServiOnMySonSeen1,
+		// Token: 0x04007C48 RID: 31816
+		ServiOnMySonSeen2,
+		// Token: 0x04007C49 RID: 31817
+		CannibalEncounterItemTaken,
+		// Token: 0x04007C4A RID: 31818
+		LowerMachinariumCorruptionDeviceUsed,
+		// Token: 0x04007C4B RID: 31819
+		GoldIdolHeld1,
+		// Token: 0x04007C4C RID: 31820
+		GoldIdolUsed1,
+		// Token: 0x04007C4D RID: 31821
+		GoldIdolHeld2,
+		// Token: 0x04007C4E RID: 31822
+		GoldIdolUsed2,
+		// Token: 0x04007C4F RID: 31823
+		GoldIdolHeld3,
+		// Token: 0x04007C50 RID: 31824
+		GoldIdolUsed3,
+		// Token: 0x04007C51 RID: 31825
+		SmallSoulCoreHeld4,
+		// Token: 0x04007C52 RID: 31826
+		SmallSoulCoreUsed4,
+		// Token: 0x04007C53 RID: 31827
+		SanctumIntroZarkaAncientTrialSeen,
+		// Token: 0x04007C54 RID: 31828
+		SanctumRelicAltarUsed,
+		// Token: 0x04007C55 RID: 31829
+		SanctumKeyHeldBefore,
+		// Token: 0x04007C56 RID: 31830
+		SanctumFreeRelicTaken,
+		// Token: 0x04007C57 RID: 31831
+		SanctumFreeRelicSeen,
+		// Token: 0x04007C58 RID: 31832
+		SanctumIntroNewQuestComplete,
+		// Token: 0x04007C59 RID: 31833
+		UpperMachinariumLandmarkOpened,
+		// Token: 0x04007C5A RID: 31834
+		JungleOutskirtsLandmarkComplete,
+		// Token: 0x04007C5B RID: 31835
+		JungleDepthsLandmarkComplete,
+		// Token: 0x04007C5C RID: 31836
+		JungleOutskirtsMaggotAmbushLandmarkComplete,
+		// Token: 0x04007C5D RID: 31837
+		JungleDepthsLandmarkRewardPickedUp,
+		// Token: 0x04007C5E RID: 31838
+		JungleOutskirtsLandmarkRewardPickedUp,
+		// Token: 0x04007C5F RID: 31839
+		ChimeralWetlandsLandmarkRewardPickedUp,
+		// Token: 0x04007C60 RID: 31840
+		AlvaCaptured,
+		// Token: 0x04007C61 RID: 31841
+		VastiriOutskirtsLandmarkRewardOpened,
+		// Token: 0x04007C62 RID: 31842
+		WaterwaysLandmarkRewardPickedUp,
+		// Token: 0x04007C63 RID: 31843
+		KinarhaShrineActivated,
+		// Token: 0x04007C64 RID: 31844
+		FungulMenaceRewardRewardPickedUp,
+		// Token: 0x04007C65 RID: 31845
+		KethCityUndergroundChestRewardPickedUp,
+		// Token: 0x04007C66 RID: 31846
+		AsalaPostFightSeen,
+		// Token: 0x04007C67 RID: 31847
+		LimRareWeaponPickedUp,
+		// Token: 0x04007C68 RID: 31848
+		QuarryMinerWhetstone1,
+		// Token: 0x04007C69 RID: 31849
+		QuarryMinerWhetstone2,
+		// Token: 0x04007C6A RID: 31850
+		QuarryMinerWhetstone3,
+		// Token: 0x04007C6B RID: 31851
+		QuarryMinerWhetstone4,
+		// Token: 0x04007C6C RID: 31852
+		QuarryMinerWhetstone5,
+		// Token: 0x04007C6D RID: 31853
+		QuarryMinerWhetstone6,
+		// Token: 0x04007C6E RID: 31854
+		QuarryMinerScrap1,
+		// Token: 0x04007C6F RID: 31855
+		QuarryMinerScrap2,
+		// Token: 0x04007C70 RID: 31856
+		QuarryMinerScrap3,
+		// Token: 0x04007C71 RID: 31857
+		QuarryMinerScrap4,
+		// Token: 0x04007C72 RID: 31858
+		QuarryMinerScrap5,
+		// Token: 0x04007C73 RID: 31859
+		QuarryMinerScrap6,
+		// Token: 0x04007C74 RID: 31860
+		TitanGrottoTitanAugment1,
+		// Token: 0x04007C75 RID: 31861
+		TitanGrottoTitanAugment2,
+		// Token: 0x04007C76 RID: 31862
+		TitanGrottoTitanAugment3,
+		// Token: 0x04007C77 RID: 31863
+		TitanGrottoTitanAugment4,
+		// Token: 0x04007C78 RID: 31864
+		AggoratCrystalThrowerSoulCore,
+		// Token: 0x04007C79 RID: 31865
+		RootDredgeCasterRewardPickedUp,
+		// Token: 0x04007C7A RID: 31866
+		SanctumReplacementQuestKeySeen,
+		// Token: 0x04007C7B RID: 31867
+		QuestSanctumInProgress,
+		// Token: 0x04007C7C RID: 31868
+		UltimatumHasBeenCompleted,
+		// Token: 0x04007C7D RID: 31869
+		UltimatumDeleteQuestKey,
+		// Token: 0x04007C7E RID: 31870
+		UnaShadowedDreamsGossipSeen,
+		// Token: 0x04007C7F RID: 31871
+		LachlannAsiniaGossipSeen,
+		// Token: 0x04007C80 RID: 31872
+		LachlannBothKeysHeldSeen,
+		// Token: 0x04007C81 RID: 31873
+		LachlannAsiniaDefeatedGossipSeen,
+		// Token: 0x04007C82 RID: 31874
+		LachlannDravenDefeatedGossipSeen,
+		// Token: 0x04007C83 RID: 31875
+		UltimatumElevatorFirstSeen,
+		// Token: 0x04007C84 RID: 31876
+		MushroomRedHeld,
+		// Token: 0x04007C85 RID: 31877
+		MushroomRedUsed,
+		// Token: 0x04007C86 RID: 31878
+		MushroomGreenHeld,
+		// Token: 0x04007C87 RID: 31879
+		MushroomGreenUsed,
+		// Token: 0x04007C88 RID: 31880
+		MushroomBlueHeld,
+		// Token: 0x04007C89 RID: 31881
+		MushroomBlueUsed,
+		// Token: 0x04007C8A RID: 31882
+		AggoratLandmarkMushroomsUsed,
+		// Token: 0x04007C8B RID: 31883
+		HaveAscendancy,
+		// Token: 0x04007C8C RID: 31884
+		AscendancyDevice1Used,
+		// Token: 0x04007C8D RID: 31885
+		AggoratLandmarkLifeFlaskPickedUp,
+		// Token: 0x04007C8E RID: 31886
+		AggoratLandmarkManaFlaskPickedUp,
+		// Token: 0x04007C8F RID: 31887
+		CraftingBenchToolsHeld,
+		// Token: 0x04007C90 RID: 31888
+		RenlyToolsIntroductionSeen,
+		// Token: 0x04007C91 RID: 31889
+		EndgameCataclysmStart,
+		// Token: 0x04007C92 RID: 31890
+		SunkenCityAmbushLandmarkComplete,
+		// Token: 0x04007C93 RID: 31891
+		CompletedSummonMinionTutorial,
+		// Token: 0x04007C94 RID: 31892
+		PlayerWakingUp,
+		// Token: 0x04007C95 RID: 31893
+		PlayerWokenUpEndGame,
+		// Token: 0x04007C96 RID: 31894
+		PlayerWokeUpEndGameAlvaSeen,
+		// Token: 0x04007C97 RID: 31895
+		SnakePitLandmarkChestOpened,
+		// Token: 0x04007C98 RID: 31896
+		RenlyBranocGossipSeen,
+		// Token: 0x04007C99 RID: 31897
+		SunkenRuinsSubareaLandmarkActivated,
+		// Token: 0x04007C9A RID: 31898
+		SunkenRuinsSubareaLandmarkActivated2,
+		// Token: 0x04007C9B RID: 31899
+		SunkenRuinsSubareaLandmarkActivated3,
+		// Token: 0x04007C9C RID: 31900
+		DoryaniOnTheCataclysm,
+		// Token: 0x04007C9D RID: 31901
+		DoryaniEndgameOnWhatNow,
+		// Token: 0x04007C9E RID: 31902
+		DoryaniEndgameOnOurWork,
+		// Token: 0x04007C9F RID: 31903
+		HaveAtlasSkillBookGeneric6,
+		// Token: 0x04007CA0 RID: 31904
+		HaveAtlasSkillBookGeneric7,
+		// Token: 0x04007CA1 RID: 31905
+		HaveAtlasSkillBookGeneric8,
+		// Token: 0x04007CA2 RID: 31906
+		HaveAtlasSkillBookGeneric9,
+		// Token: 0x04007CA3 RID: 31907
+		HaveAtlasSkillBookGeneric10,
+		// Token: 0x04007CA4 RID: 31908
+		HaveAtlasSkillBookGeneric11,
+		// Token: 0x04007CA5 RID: 31909
+		HaveAtlasSkillBookGeneric12,
+		// Token: 0x04007CA6 RID: 31910
+		HaveAtlasSkillBookGeneric13,
+		// Token: 0x04007CA7 RID: 31911
+		HaveAtlasSkillBookGeneric14,
+		// Token: 0x04007CA8 RID: 31912
+		HaveAtlasSkillBookGeneric15,
+		// Token: 0x04007CA9 RID: 31913
+		DoryaniGodVoice1Heard,
+		// Token: 0x04007CAA RID: 31914
+		DoryaniGodVoice2Heard,
+		// Token: 0x04007CAB RID: 31915
+		DoryaniGodVoice3Heard,
+		// Token: 0x04007CAC RID: 31916
+		GoldIdolHeld4,
+		// Token: 0x04007CAD RID: 31917
+		GoldIdolUsed4,
+		// Token: 0x04007CAE RID: 31918
+		GoldIdolHeld5,
+		// Token: 0x04007CAF RID: 31919
+		GoldIdolUsed5,
+		// Token: 0x04007CB0 RID: 31920
+		GoldIdolHeld6,
+		// Token: 0x04007CB1 RID: 31921
+		GoldIdolUsed6,
+		// Token: 0x04007CB2 RID: 31922
+		BurialSpiresLandmarkSanctumKeyPickedUp,
+		// Token: 0x04007CB3 RID: 31923
+		UltimatumKeyHeldBefore,
+		// Token: 0x04007CB4 RID: 31924
+		UtzaalLandmarkUltimatumKeyPickedUp,
+		// Token: 0x04007CB5 RID: 31925
+		UltimatumTempleOfferingSeen,
+		// Token: 0x04007CB6 RID: 31926
+		TraitorsPassageBalbalaSanctumKeyPickedUp,
+		// Token: 0x04007CB7 RID: 31927
+		WaterGoddessWisdomSeen,
+		// Token: 0x04007CB8 RID: 31928
+		WaterGoddessEssenceOfWaterSeen,
+		// Token: 0x04007CB9 RID: 31929
+		SanctumCompletedFirstFloor,
+		// Token: 0x04007CBA RID: 31930
+		ZarkaHornStorySeen,
+		// Token: 0x04007CBB RID: 31931
+		OghamVillageExecutionerSupportGemPickedUp,
+		// Token: 0x04007CBC RID: 31932
+		SanctumFirstAreaEntered,
+		// Token: 0x04007CBD RID: 31933
+		G2_2SaltGolemBossSeen,
+		// Token: 0x04007CBE RID: 31934
+		AscendancyChoicesSeen,
+		// Token: 0x04007CBF RID: 31935
+		AscendancyShakariBossSeen,
+		// Token: 0x04007CC0 RID: 31936
+		AscendancyShakariBossDefeated,
+		// Token: 0x04007CC1 RID: 31937
+		UtzaalLargeAtziriStatueSeen,
+		// Token: 0x04007CC2 RID: 31938
+		AggoratPastSacrificeTableSeen,
+		// Token: 0x04007CC3 RID: 31939
+		BlackChambersStatueSeen,
+		// Token: 0x04007CC4 RID: 31940
+		CompletedDirectMinionTutorial,
+		// Token: 0x04007CC5 RID: 31941
+		UltimatumOwlBossSeen,
+		// Token: 0x04007CC6 RID: 31942
+		UltimatumOwlBossDefeated,
+		// Token: 0x04007CC7 RID: 31943
+		UltimatumBirdBossSeen,
+		// Token: 0x04007CC8 RID: 31944
+		UltimatumBirdBossDefeated,
+		// Token: 0x04007CC9 RID: 31945
+		UltimatumChimeraBossSeen,
+		// Token: 0x04007CCA RID: 31946
+		UltimatumChimeraBossDefeated,
+		// Token: 0x04007CCB RID: 31947
+		UltimatumTrialmasterBossSeen,
+		// Token: 0x04007CCC RID: 31948
+		UltimatumTrialmasterBossDefeated,
+		// Token: 0x04007CCD RID: 31949
+		SandsweptMarshShamanGiantSeen,
+		// Token: 0x04007CCE RID: 31950
+		JungleDepthsSeeServiSonGrave,
+		// Token: 0x04007CCF RID: 31951
+		OutskirtsCampSeeExplorers,
+		// Token: 0x04007CD0 RID: 31952
+		JungleOutskirtsVendorMet,
+		// Token: 0x04007CD1 RID: 31953
+		JungleDepthsVendorMet,
+		// Token: 0x04007CD2 RID: 31954
+		JungleDepthsCampSeeExplorers,
+		// Token: 0x04007CD3 RID: 31955
+		WetlandsCampSeen,
+		// Token: 0x04007CD4 RID: 31956
+		JungleOutskirtsMaggotSwarmComment,
+		// Token: 0x04007CD5 RID: 31957
+		WetlandsToxicPlantRoom,
+		// Token: 0x04007CD6 RID: 31958
+		WetlandsKillFungus,
+		// Token: 0x04007CD7 RID: 31959
+		CarverBogSeeEffigy,
+		// Token: 0x04007CD8 RID: 31960
+		AggoratMushroomsHeld1,
+		// Token: 0x04007CD9 RID: 31961
+		AggoratMushroomsHeld2,
+		// Token: 0x04007CDA RID: 31962
+		AggoratMushroomsHeld3,
+		// Token: 0x04007CDB RID: 31963
+		AggoratCroneNoMushrooms,
+		// Token: 0x04007CDC RID: 31964
+		AggoratCroneInteractNoMushrooms,
+		// Token: 0x04007CDD RID: 31965
+		AggoratCroneInteractNeedMoreMushrooms,
+		// Token: 0x04007CDE RID: 31966
+		AggoratCroneGiveAllMushrooms,
+		// Token: 0x04007CDF RID: 31967
+		MushroomRedHeldBefore,
+		// Token: 0x04007CE0 RID: 31968
+		MushroomGreenHeldBefore,
+		// Token: 0x04007CE1 RID: 31969
+		MushroomBlueHeldBefore,
+		// Token: 0x04007CE2 RID: 31970
+		AggoratCroneGetFlask,
+		// Token: 0x04007CE3 RID: 31971
+		GoldIdolHeldBefore1,
+		// Token: 0x04007CE4 RID: 31972
+		GoldIdolHeldBefore2,
+		// Token: 0x04007CE5 RID: 31973
+		GoldIdolHeldBefore3,
+		// Token: 0x04007CE6 RID: 31974
+		GoldIdolsHeldTotal1,
+		// Token: 0x04007CE7 RID: 31975
+		GoldIdolsHeldTotal3,
+		// Token: 0x04007CE8 RID: 31976
+		HoodedOneA2OnThisPlace,
+		// Token: 0x04007CE9 RID: 31977
+		TreasureHunterSebastianOutHereSeen,
+		// Token: 0x04007CEA RID: 31978
+		TreasureHunterSebastianOswaldSeen,
+		// Token: 0x04007CEB RID: 31979
+		TreasureHunterSebastianTheExpeditionSeen,
+		// Token: 0x04007CEC RID: 31980
+		TreasureHunterSebastianWarringTribesSeen,
+		// Token: 0x04007CED RID: 31981
+		TreasureHunterGwendolynJungleRuinsSeen,
+		// Token: 0x04007CEE RID: 31982
+		TreasureHunterGwendolynOswaldAndAlvaSeen,
+		// Token: 0x04007CEF RID: 31983
+		TreasureHunterGwendolynQuadrillasSeen,
+		// Token: 0x04007CF0 RID: 31984
+		TreasureHunterGwendolynMightySilverfistSeen,
+		// Token: 0x04007CF1 RID: 31985
+		TreasureHunterGwendolynMightySilverfistSlain,
+		// Token: 0x04007CF2 RID: 31986
+		TreasureHunterGwendolynTreasureHuntersSeen,
+		// Token: 0x04007CF3 RID: 31987
+		UnaOutLoudTreeHeard,
+		// Token: 0x04007CF4 RID: 31988
+		CompletedPersistentBuffTutorial,
+		// Token: 0x04007CF5 RID: 31989
+		CedrusIntroduction2Seen,
+		// Token: 0x04007CF6 RID: 31990
+		CedrusIntroduction3Seen,
+		// Token: 0x04007CF7 RID: 31991
+		CedrusOnFleeingSeen,
+		// Token: 0x04007CF8 RID: 31992
+		CedrusOnOriathSeen,
+		// Token: 0x04007CF9 RID: 31993
+		CedrusOnTheMoveSeen,
+		// Token: 0x04007CFA RID: 31994
+		CedrusOnElwynianSeen,
+		// Token: 0x04007CFB RID: 31995
+		CedrusOnElwynian2Seen,
+		// Token: 0x04007CFC RID: 31996
+		CedrusLore1Seen,
+		// Token: 0x04007CFD RID: 31997
+		CedrusLore2Seen,
+		// Token: 0x04007CFE RID: 31998
+		CedrusLore3Seen,
+		// Token: 0x04007CFF RID: 31999
+		CedrusLore4Seen,
+		// Token: 0x04007D00 RID: 32000
+		CedrusLore5Seen,
+		// Token: 0x04007D01 RID: 32001
+		CedrusLore6Seen,
+		// Token: 0x04007D02 RID: 32002
+		CedrusLore7Seen,
+		// Token: 0x04007D03 RID: 32003
+		CedrusLore8Seen,
+		// Token: 0x04007D04 RID: 32004
+		CedrusOnCompanionsSeen,
+		// Token: 0x04007D05 RID: 32005
+		CedrusInfiltratingTwilightOrderSeen,
+		// Token: 0x04007D06 RID: 32006
+		ElwynianIntroSeen,
+		// Token: 0x04007D07 RID: 32007
+		ElwynianAnotherWayInSeen,
+		// Token: 0x04007D08 RID: 32008
+		ElwynianAnotherWayIn2Seen,
+		// Token: 0x04007D09 RID: 32009
+		ElwynianOnCedrusPlanSeen,
+		// Token: 0x04007D0A RID: 32010
+		ElwynianOnCedrusSeen,
+		// Token: 0x04007D0B RID: 32011
+		ElwynianOnOriathSeen,
+		// Token: 0x04007D0C RID: 32012
+		ElwynianOnCisternsSeen,
+		// Token: 0x04007D0D RID: 32013
+		ElwynianOnGemlingsSeen,
+		// Token: 0x04007D0E RID: 32014
+		ElwynianOnSurvivalSeen,
+		// Token: 0x04007D0F RID: 32015
+		ElwynianOnTwilightOrderSeen,
+		// Token: 0x04007D10 RID: 32016
+		ElwynianOnImprisonmentSeen,
+		// Token: 0x04007D11 RID: 32017
+		ElwynianOnEscapeSeen,
+		// Token: 0x04007D12 RID: 32018
+		CedrusColdAndWetSeen,
+		// Token: 0x04007D13 RID: 32019
+		VisitedG4_13,
+		// Token: 0x04007D14 RID: 32020
+		SummonedElwynianDominus,
+		// Token: 0x04007D15 RID: 32021
+		ElwynianDominusSummonSeen,
+		// Token: 0x04007D16 RID: 32022
+		ElwynianOnSecretPassageSeen,
+		// Token: 0x04007D17 RID: 32023
+		A4CountessGlyphRead,
+		// Token: 0x04007D18 RID: 32024
+		TimePortalQuickMode,
+		// Token: 0x04007D19 RID: 32025
+		TwilightOrderPreacherClassCommentHeard,
+		// Token: 0x04007D1A RID: 32026
+		TreasureDeedHeld,
+		// Token: 0x04007D1B RID: 32027
+		TreasureDeedUsed,
+		// Token: 0x04007D1C RID: 32028
+		BoatCharterHeld,
+		// Token: 0x04007D1D RID: 32029
+		BoatCharterUsed,
+		// Token: 0x04007D1E RID: 32030
+		Act4TreasureDeedSeen,
+		// Token: 0x04007D1F RID: 32031
+		KingsmarchBoatCharterSeen,
+		// Token: 0x04007D20 RID: 32032
+		Act4BossDefeatedBoatReturnShow,
+		// Token: 0x04007D21 RID: 32033
+		BalbalaKillZarokhSeen,
+		// Token: 0x04007D22 RID: 32034
+		Act4MedicineWomanRewardHeldBefore,
+		// Token: 0x04007D23 RID: 32035
+		Act4MedicineWomanMetInKingsmarch,
+		// Token: 0x04007D24 RID: 32036
+		Act4MedicineWomanMet,
+		// Token: 0x04007D25 RID: 32037
+		Act4MedicineWomanRescueable,
+		// Token: 0x04007D26 RID: 32038
+		Act4MedicineWomanSeen,
+		// Token: 0x04007D27 RID: 32039
+		Act4MedicineWomanRewardHeld,
+		// Token: 0x04007D28 RID: 32040
+		Act4MedicineWomanRewardUsed,
+		// Token: 0x04007D29 RID: 32041
+		WaterGoddessGlyphSeen,
+		// Token: 0x04007D2A RID: 32042
+		Act4GreatWhiteOneDefeated,
+		// Token: 0x04007D2B RID: 32043
+		Act4GreatWhiteOneSeen,
+		// Token: 0x04007D2C RID: 32044
+		Act4MedicineWomanSharkFinRequired,
+		// Token: 0x04007D2D RID: 32045
+		Act4MedicineWomanRewardSeen,
+		// Token: 0x04007D2E RID: 32046
+		Act4MedicineWomanSharkFinTurnedIn,
+		// Token: 0x04007D2F RID: 32047
+		Act4SingingCavernsEntranceSeen,
+		// Token: 0x04007D30 RID: 32048
+		Act4HoodedMentorSummonedSingingCaverns,
+		// Token: 0x04007D31 RID: 32049
+		SirenWeaponPartAcquired,
+		// Token: 0x04007D32 RID: 32050
+		Act4HoodedMentorSummonedShrikeIsland,
+		// Token: 0x04007D33 RID: 32051
+		MutantBirdWeaponPartAcquired,
+		// Token: 0x04007D34 RID: 32052
+		Act4SolitaryConfinementEntranceSeen,
+		// Token: 0x04007D35 RID: 32053
+		TwilightExaltedBellUsed,
+		// Token: 0x04007D36 RID: 32054
+		TwilightRegalBellUsed,
+		// Token: 0x04007D37 RID: 32055
+		TormentNPCChaseFailed,
+		// Token: 0x04007D38 RID: 32056
+		TormentNPCChaseSucceeded,
+		// Token: 0x04007D39 RID: 32057
+		MetDelwyn,
+		// Token: 0x04007D3A RID: 32058
+		DelwynIntroSeen,
+		// Token: 0x04007D3B RID: 32059
+		DelwynMapsIntroHeard,
+		// Token: 0x04007D3C RID: 32060
+		DelwynFirstSuccessHeard,
+		// Token: 0x04007D3D RID: 32061
+		DelwynSpiritsSeen,
+		// Token: 0x04007D3E RID: 32062
+		DelwynFirstSuccessTalkSeen,
+		// Token: 0x04007D3F RID: 32063
+		DelwynTypeOfWispGossipSeen,
+		// Token: 0x04007D40 RID: 32064
+		DelwynWispEffectGossipSeen,
+		// Token: 0x04007D41 RID: 32065
+		DelwynPurposeGossipSeen,
+		// Token: 0x04007D42 RID: 32066
+		DelwynMissingGossipSeen,
+		// Token: 0x04007D43 RID: 32067
+		DelwynAzmeriGossipSeen,
+		// Token: 0x04007D44 RID: 32068
+		DelwynOnSpiritGossipSeen,
+		// Token: 0x04007D45 RID: 32069
+		CompleteSacredFoxHunt,
+		// Token: 0x04007D46 RID: 32070
+		CompleteSacredHareHunt,
+		// Token: 0x04007D47 RID: 32071
+		DelwynSacredWispsGossipSeen,
+		// Token: 0x04007D48 RID: 32072
+		DelwynFoxGossipSeen,
+		// Token: 0x04007D49 RID: 32073
+		DelwynHareGossipSeen,
+		// Token: 0x04007D4A RID: 32074
+		DelwynInMaps,
+		// Token: 0x04007D4B RID: 32075
+		DelwynInMapIntroSeen,
+		// Token: 0x04007D4C RID: 32076
+		DelwynHuntingGossipSeen,
+		// Token: 0x04007D4D RID: 32077
+		DelwynForestGossipSeen,
+		// Token: 0x04007D4E RID: 32078
+		DelwynIntroAfterHuntSeen,
+		// Token: 0x04007D4F RID: 32079
+		DelwynSpiritsAfterHuntSeen,
+		// Token: 0x04007D50 RID: 32080
+		DelwynChaseFailedSeen,
+		// Token: 0x04007D51 RID: 32081
+		KalandraFirstHeard,
+		// Token: 0x04007D52 RID: 32082
+		KalandraSecondHeard,
+		// Token: 0x04007D53 RID: 32083
+		KalandraThirdHeard,
+		// Token: 0x04007D54 RID: 32084
+		CompletedBossCheckpointTutorial,
+		// Token: 0x04007D55 RID: 32085
+		DoryaniFirstCorruptHeard,
+		// Token: 0x04007D56 RID: 32086
+		DelwynSpiritsAfterHunt2Seen
+	}
+}

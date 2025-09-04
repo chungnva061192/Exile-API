@@ -1,0 +1,10 @@
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Release\net8.0\GameOffsets2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Release\net8.0\GameOffsets2.csproj.CoreCompileInputs.cache
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Release\net8.0\GameOffsets2.sourcelink.json
+C:\Phan Mem Setup\Exile-API\GameOffsets2\bin\Release\net8.0\GameOffsets2.deps.json
+C:\Phan Mem Setup\Exile-API\GameOffsets2\bin\Release\net8.0\GameOffsets2.dll
+C:\Phan Mem Setup\Exile-API\GameOffsets2\bin\Release\net8.0\GameOffsets2.pdb
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Release\net8.0\GameOffsets2.dll
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Release\net8.0\refint\GameOffsets2.dll
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Release\net8.0\GameOffsets2.pdb
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Release\net8.0\ref\GameOffsets2.dll

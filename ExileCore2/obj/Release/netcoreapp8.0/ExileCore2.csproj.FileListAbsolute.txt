@@ -1,0 +1,3 @@
+C:\Phan Mem Setup\Exile-API\ExileCore2\obj\Release\netcoreapp8.0\ExileCore2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Phan Mem Setup\Exile-API\ExileCore2\obj\Release\netcoreapp8.0\ExileCore2.csproj.CoreCompileInputs.cache
+C:\Phan Mem Setup\Exile-API\ExileCore2\obj\Release\netcoreapp8.0\ExileCore2.sourcelink.json

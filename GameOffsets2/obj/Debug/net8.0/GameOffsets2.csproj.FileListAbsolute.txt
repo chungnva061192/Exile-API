@@ -1,0 +1,3 @@
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Debug\net8.0\GameOffsets2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Debug\net8.0\GameOffsets2.csproj.CoreCompileInputs.cache
+C:\Phan Mem Setup\Exile-API\GameOffsets2\obj\Debug\net8.0\GameOffsets2.sourcelink.json

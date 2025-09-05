@@ -1,50 +1,21 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-  <PropertyGroup>
-    <AssemblyName>Loader</AssemblyName>
-    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-    <OutputType>WinExe</OutputType>
-    <UseWindowsForms>True</UseWindowsForms>
-    <TargetFramework>netcoreapp8.0-windows</TargetFramework>
-    <PlatformTarget>x64</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup>
-    <LangVersion>12.0</LangVersion>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup>
-	<ApplicationIcon>Loader.ico</ApplicationIcon>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-  </PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
-		<PlatformTarget>x64</PlatformTarget>
-		<DebugSymbols>true</DebugSymbols>
-		<DebugType>full</DebugType>
-		<Optimize>false</Optimize>
-		<OutputPath>bin\Debug\</OutputPath>
-		<DefineConstants>DEBUG;TRACE</DefineConstants>
-		<ErrorReport>prompt</ErrorReport>
-		<WarningLevel>4</WarningLevel>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<OutputType>WinExe</OutputType>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<!--Don't bother setting anything to do with the output path, HUD will do it for you if you put the source code inside Plugins/Source-->
 	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
-		<PlatformTarget>x64</PlatformTarget>
-		<DebugType>pdbonly</DebugType>
-		<Optimize>true</Optimize>
-		<OutputPath>bin\Release\</OutputPath>
-		<DefineConstants>TRACE</DefineConstants>
-		<ErrorReport>prompt</ErrorReport>
-		<WarningLevel>4</WarningLevel>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	<PropertyGroup>
+		<ApplicationIcon>Loader.ico</ApplicationIcon>
 	</PropertyGroup>
-  <ItemGroup>
-	<None Include="Base\**">
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	</None>
-    <Reference Include="Serilog">
-      <HintPath>..\Serilog.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Build.Locator">
-      <HintPath>..\Microsoft.Build.Locator.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="Microsoft.Build.Locator">
+			<HintPath>lib\Microsoft.Build.Locator.dll</HintPath>
+		</Reference>
+		<Reference Include="Serilog">
+			<HintPath>lib\Serilog.dll</HintPath>
+		</Reference>
+	</ItemGroup>
 </Project>

@@ -3,40 +3,48 @@
 using System.Diagnostics;
 using System.Windows.Forms;
 
-internal static class Program
+namespace Loader
 {
-    public static void Main(string[] args)
+    // Token: 0x02000006 RID: 6
+    internal static class Program
     {
-        try
+        // Token: 0x06000021 RID: 33 RVA: 0x00002CAC File Offset: 0x00000EAC
+        public static void Main(string[] args)
         {
-            CheckOtherLoaderInstances();
-        }
-        catch
-        {
-        }
-        new Loader().Load(args);
-    }
-
-    private static void CheckOtherLoaderInstances()
-    {
-        Process currentProcess = Process.GetCurrentProcess();
-        bool flag = true;
-        while (flag)
-        {
-            Process[] processesByName = Process.GetProcessesByName(currentProcess.ProcessName);
-            flag = false;
-            if (processesByName.Length > 1)
+            try
             {
-                switch (MessageBox.Show("There are other ExileCore2 instances running already", "ExileCore2 is already running", MessageBoxButtons.AbortRetryIgnore))
+                Program.CheckOtherLoaderInstances();
+            }
+            catch
+            {
+            }
+            new Loader().Load(args);
+        }
+
+        // Token: 0x06000022 RID: 34 RVA: 0x00002CE0 File Offset: 0x00000EE0
+        private static void CheckOtherLoaderInstances()
+        {
+            Process currentProcess = Process.GetCurrentProcess();
+            bool flag = true;
+            while (flag)
+            {
+                Process[] processesByName = Process.GetProcessesByName(currentProcess.ProcessName);
+                flag = false;
+                if (processesByName.Length > 1)
                 {
-                    case DialogResult.Abort:
-                        currentProcess.Kill();
-                        break;
-                    case DialogResult.Retry:
-                        flag = true;
-                        break;
-                    case DialogResult.Ignore:
-                        return;
+                    string text = "There are other ExileCore2 instances running already";
+                    string text2 = "ExileCore2 is already running";
+                    switch (MessageBox.Show(text, text2, MessageBoxButtons.AbortRetryIgnore))
+                    {
+                        case DialogResult.Abort:
+                            currentProcess.Kill();
+                            break;
+                        case DialogResult.Retry:
+                            flag = true;
+                            break;
+                        case DialogResult.Ignore:
+                            return;
+                    }
                 }
             }
         }

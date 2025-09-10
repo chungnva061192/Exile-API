@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "i46X01fYBOs=",
+  "dgSpecHash": "+wUw7awgLp4=",
   "success": true,
-  "projectFilePath": "C:\\Phan Mem Setup\\Exile-API\\Exile-API-2\\Loader.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Exile-API\\Exile-API-2\\Loader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.build.locator\\1.9.1\\microsoft.build.locator.1.9.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

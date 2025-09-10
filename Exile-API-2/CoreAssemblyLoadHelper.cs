@@ -5,43 +5,52 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.Loader;
 
-internal class CoreAssemblyLoadHelper : AssemblyLoadContext
+namespace Loader
 {
-    private readonly string _coreAssemblyLocation;
-
-    private readonly AssemblyDependencyResolver _resolver;
-
-    public CoreAssemblyLoadHelper(string coreAssemblyLocation)
+    // Token: 0x02000003 RID: 3
+    internal class CoreAssemblyLoadHelper : AssemblyLoadContext
     {
-        _coreAssemblyLocation = coreAssemblyLocation;
-        _resolver = new AssemblyDependencyResolver(coreAssemblyLocation);
-    }
-
-    public Assembly ResolvingCallback(AssemblyLoadContext context, AssemblyName assemblyName)
-    {
-        string assemblyPath = _resolver.ResolveAssemblyToPath(assemblyName);
-        if (assemblyPath == null)
+        // Token: 0x06000006 RID: 6 RVA: 0x00002134 File Offset: 0x00000334
+        public CoreAssemblyLoadHelper(string coreAssemblyLocation)
         {
-            string path = Path.Join(Path.GetDirectoryName(_coreAssemblyLocation), assemblyName.Name + ".dll");
-            if (File.Exists(path))
+            this._coreAssemblyLocation = coreAssemblyLocation;
+            this._resolver = new AssemblyDependencyResolver(coreAssemblyLocation);
+        }
+
+        // Token: 0x06000007 RID: 7 RVA: 0x00002150 File Offset: 0x00000350
+        public Assembly ResolvingCallback(AssemblyLoadContext context, AssemblyName assemblyName)
+        {
+            string text = this._resolver.ResolveAssemblyToPath(assemblyName);
+            if (text == null)
             {
-                assemblyPath = path;
+                string text2 = Path.Join(Path.GetDirectoryName(this._coreAssemblyLocation), assemblyName.Name + ".dll");
+                if (File.Exists(text2))
+                {
+                    text = text2;
+                }
             }
+            if (text == null)
+            {
+                return null;
+            }
+            return context.LoadFromAssemblyPath(text);
         }
-        if (assemblyPath != null)
-        {
-            return context.LoadFromAssemblyPath(assemblyPath);
-        }
-        return null;
-    }
 
-    public nint ResolvingUnmanagedDllCallback(Assembly assembly, string dllName)
-    {
-        string path = _resolver.ResolveUnmanagedDllToPath(dllName);
-        if (path != null)
+        // Token: 0x06000008 RID: 8 RVA: 0x000021A4 File Offset: 0x000003A4
+        public IntPtr ResolvingUnmanagedDllCallback(Assembly assembly, string dllName)
         {
-            return LoadUnmanagedDllFromPath(path);
+            string text = this._resolver.ResolveUnmanagedDllToPath(dllName);
+            if (text == null)
+            {
+                return IntPtr.Zero;
+            }
+            return base.LoadUnmanagedDllFromPath(text);
         }
-        return IntPtr.Zero;
+
+        // Token: 0x04000003 RID: 3
+        private readonly string _coreAssemblyLocation;
+
+        // Token: 0x04000004 RID: 4
+        private readonly AssemblyDependencyResolver _resolver;
     }
 }
